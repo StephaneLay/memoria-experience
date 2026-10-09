@@ -1,24 +1,38 @@
-# Brief projet — expérience immersive d’horreur
+# Brief projet — Memoria
 
 ## Objectif
 
-Créer un site vitrine statique pour une expérience d’horreur immersive dont l’ouverture est prochaine. Le projet démarre sans contenu client confirmé ni identifiants d’intégration ; le site actuel est donc volontairement une base temporaire et éditable.
+Site vitrine statique et bilingue (FR / EN) pour **Memoria**, une expérience immersive d’horreur qui ouvre prochainement à Lyon : le pensionnat Sainte-Lucie, abandonné en 1953. Durée 1h30, 200 m², comédiens, 3 niveaux d’intensité, de 3 à 6 joueurs.
+
+## Références de design
+
+- **Maquette Figma** (référence principale, fichier dupliqué dans le compte Figma de l’agence) : page d’accueil desktop + version mobile. Exports locaux dans `maquette/` (hors git).
+- **panikroom.fr** — inspiration majeure, que le client veut voir suivie de près : univers très sombre, bandeaux photo en pleine largeur avec effet de **parallaxe** au défilement et titres en capitales très espacées.
+- **deepinsideparis.fr** — inspiration pour le **header** (transparent en haut de page, puis barre noire compacte avec filet doré au défilement) et surtout la **section hero** (grand titre centré, surtitre réparti, pastille ovale de la ville).
+
+## Choix de design retenus
+
+- Polices de la maquette, auto-hébergées : Metamorphous (titres) et Gemunu Libre (texte).
+- Palette : noir texturé (fond grunge + grain de film), rouge sang `#8a1316`, rouge vif `#c31c20`, or `#f0c05e` / filet `#a9851a`, titres argentés texturés.
+- Page d’accueil : hero (photo du hall, logotype doré, poussière en suspension, léger vacillement de la lumière) → bande-annonce → l’expérience (4 pictos) → bandeau parallaxe → tarifs → réservation (papier déchiré) → bandeau parallaxe → histoire (photos d’archives éparpillées) → infos pratiques.
+- Onglet vertical « Réserver » fixé à droite (repris de la maquette mobile), masqué sur le hero et la section réservation.
+- Accessibilité : contrastes des textes rouges relevés (`#e0383c`), navigation clavier, animations coupées si l’utilisateur le demande.
 
 ## Principes techniques
 
-- HTML, CSS et JavaScript minimal ; aucune dépendance d’exécution côté serveur.
-- Sources modifiables dans `src/`, site généré dans `dist/`.
-- `node build.js` assemble les pages et injecte les fragments partagés de navigation et de pied de page.
-- `src/data/site.json` centralise le nom et l’URL publique. Tant que l’URL n’est pas renseignée, aucun sitemap avec domaine fictif n’est généré.
-- Le build tourne localement ou dans l’intégration continue ; l’hébergement reçoit uniquement des fichiers statiques.
+- HTML, CSS et JavaScript sans dépendance ; aucune exécution côté serveur.
+- Sources dans `src/`, site généré dans `dist/` par `node build.js` (partials, traductions, `robots.txt`, `sitemap.xml` multilingue).
+- Une seule source par page, textes dans `src/i18n/*.json`, build bloquant si une traduction manque.
+- Préversion sur GitHub Pages (non indexée) ; hébergeur définitif à confirmer.
 
-## Éléments à confirmer plus tard
+## Intégrations prévues
 
-- Nom définitif de l’expérience et identité visuelle
-- Ville, adresse, dates et horaires d’ouverture
-- Public cible, âge minimum, accessibilité et avertissements de contenu
-- Durée, déroulé, capacité, tarifs, réservation et coordonnées
-- Réseaux sociaux, photos/vidéos, mentions légales et politique de confidentialité
-- Hébergeur, domaine, méthode de déploiement, analytics ou autres intégrations
+- **Réservation : 4escape**. Le client n’a pas encore les accès : la section réservation est un aperçu visuel fidèle à la maquette (non connecté), à remplacer par le widget 4escape.
+- **Bande-annonce YouTube** : fenêtre vidéo prête, identifiant de la vidéo à fournir.
+
+## Pages
+
+- Page d’accueil : faite (FR / EN).
+- À créer au fil de l’eau : Team building, FAQ, mentions légales, CGV, politique de confidentialité, cookies. Les liens existent déjà dans le menu et le pied de page et mènent pour l’instant à la page 404 thématique.
 
 Ne pas ajouter de vraies clés, mots de passe ou jetons au dépôt ; utiliser les secrets de l’hébergeur/CI lorsqu’une intégration sera décidée.

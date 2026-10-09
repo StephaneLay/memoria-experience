@@ -1,31 +1,59 @@
-# Site vitrine — expérience immersive
+# Site vitrine — Memoria, expérience immersive d’horreur
 
-Site 100 % statique, inspiré de l’architecture de `le-dome` : seules les sources de `src/` sont éditées ; `dist/` est généré par le build et ne doit jamais être modifié à la main.
+Site 100 % statique et bilingue (français / anglais), sur l’architecture de `le-dome`. Le contexte projet complet est dans [PROJECT_BRIEF.md](PROJECT_BRIEF.md), les points en attente côté client dans [QUESTIONS_CLIENT.md](QUESTIONS_CLIENT.md).
 
-## Prérequis
+## Principe
 
-Node.js 18 ou plus récent. Aucune dépendance npm n’est nécessaire.
+```
+src/  = les sources (ce qu'on édite)        ← jamais déployé
+dist/ = le site généré (ce qu'on déploie)   ← jamais édité à la main
+```
 
-## Développement
+`node build.js` lit `src/`, assemble chaque page dans chaque langue et écrit le résultat dans `dist/`. **`dist/` est entièrement effacé et régénéré à chaque build.**
 
-1. Modifier les pages dans `src/pages/`, les éléments communs dans `src/partials/`, et le style/comportement dans `src/css/` et `src/js/`.
-2. Lancer `node build.js` à la racine du projet.
-3. Prévisualiser `dist/index.html` dans un navigateur, ou lancer `npx serve dist` pour une prévisualisation via HTTP.
+Prérequis : Node.js 18 ou plus récent, aucune dépendance npm.
 
-Le build efface et recrée entièrement `dist/`. Les pages HTML reçoivent automatiquement les fragments communs `{{HEADER}}` et `{{FOOTER}}`. Les fichiers placés dans `src/racine/` sont copiés à la racine de `dist/` (configuration d’hébergement, page 404, etc.).
+## Workflow quotidien
+
+1. Modifier les fichiers dans `src/`
+2. `node build.js`
+3. Vérifier en local avec `npx serve dist` (ou `python3 -m http.server --directory dist`) : les polices ne se chargent pas toujours en ouvrant le fichier directement
+4. `git add -A && git commit`, le push sur `main` déploie la préversion GitHub Pages (non indexée)
+
+## Bilingue : comment ça marche
+
+- Une page = un seul gabarit HTML dans `src/pages/`. Les textes n’y sont jamais écrits en dur : on écrit `{{t:histoire.titre}}`.
+- Les textes sont dans `src/i18n/fr.json` et `src/i18n/en.json` (mêmes clés, HTML simple autorisé : `<br>`, `<sup>`…).
+- Le français est généré à la racine (`index.html`), l’anglais dans `en/` (`en/index.html`).
+- **Le build s’arrête** si une clé existe dans une langue et pas dans l’autre, ou si un jeton `{{…}}` n’est pas remplacé : impossible de publier une page à moitié traduite.
+- Jetons système disponibles dans les pages et les partials :
+  - `{{ROOT}}` : chemin vers la racine du site, à utiliser pour les fichiers (`{{ROOT}}images/…`, `{{ROOT}}css/…`)
+  - `{{LANG}}` : code de la langue
+  - `{{HREF_FR}}` / `{{HREF_EN}}` : la même page dans l’autre langue (sélecteur de drapeaux)
+  - `{{HEAD_LINKS}}` : canonical, `og:url` et `hreflang`, générés seulement quand `siteUrl` est renseigné
+- Les liens entre pages d’une même langue restent relatifs (`index.html#tarifs`, `faq.html`).
+- Ajouter une langue : l’ajouter dans `src/data/site.json` (`languages`) et créer `src/i18n/<code>.json`.
 
 ## Structure
 
-- `src/pages/` : pages HTML source
-- `src/partials/` : en-tête et pied de page partagés
-- `src/css/`, `src/js/` : styles et JavaScript léger
-- `src/images/`, `src/fonts/` : médias et polices auto-hébergés
-- `src/data/site.json` : identité et URL publique (à renseigner)
-- `src/racine/` : fichiers à publier à la racine du site
-- `build.js` : assemblage et génération de `robots.txt` / `sitemap.xml`
+- `src/pages/` : gabarits de pages (`index.html`, `404.html`)
+- `src/partials/` : en-tête (navigation, réseaux, langues) et pied de page (+ onglet « Réserver »)
+- `src/i18n/` : textes FR / EN
+- `src/css/style.css`, `src/js/main.js` : style et comportements (sans dépendance)
+- `src/images/`, `src/fonts/` : médias et polices auto-hébergées (Metamorphous, Gemunu Libre)
+- `src/data/site.json` : nom, URL publique, langues
+- `src/racine/` : fichiers copiés à la racine (`.htaccess`…)
+- `maquette/` : exports de la maquette Figma (captures, éléments sources) — **ignoré par git**, référence de travail uniquement
+
+## Où brancher les éléments attendus
+
+- **Réservation 4escape** : tout le contenu du `<form class="reservation__widget">` dans `src/pages/index.html` est un aperçu visuel (calendrier mercredi → dimanche, créneaux d’exemple). Le remplacer par le code d’intégration 4escape quand les accès seront disponibles, puis retirer la partie « réservation » de `src/js/main.js`.
+- **Bande-annonce** : renseigner l’identifiant YouTube dans `data-youtube=""` (balise `<dialog>` en bas de `src/pages/index.html`). Sans identifiant, la fenêtre affiche « La bande-annonce sera dévoilée très bientôt ».
+- **Réseaux sociaux** : liens `href="#"` dans `src/partials/header.html` et dans la colonne Contact de `src/pages/index.html`.
+- **Parallaxe** : tout élément portant `data-parallax="0.22"` se déplace plus lentement que la page (valeur = vitesse relative). Pour un bandeau, remplacer simplement l’image dans `.bandeau__media`. Désactivé automatiquement si le visiteur a demandé à réduire les animations.
 
 ## Mise en ligne
 
-Le workflow GitHub Pages construit le site à chaque push sur `main`. La préversion est configurée pour ne pas être indexée. Pour un autre hébergeur statique, publier le contenu de `dist/`.
+Le workflow GitHub Pages construit le site à chaque push sur `main` (préversion non indexée). Pour l’hébergement définitif, publier le contenu de `dist/` et, avant cela, renseigner `siteUrl` dans `src/data/site.json` (active canonical, `hreflang` et `sitemap.xml`).
 
-Avant la mise en ligne, renseigner l’URL réelle dans `src/data/site.json`, vérifier les réglages d’hébergement et remplacer les textes provisoires. Aucun identifiant, secret ou formulaire connecté n’est requis ou inclus à ce stade.
+Le code source ne contient volontairement aucun commentaire : le suivi du projet se fait dans ce fichier, `PROJECT_BRIEF.md` et `QUESTIONS_CLIENT.md`.

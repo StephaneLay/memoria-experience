@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "title": "Memoria — Immersive horror experience in Lyon",
+    "description": "Sainte-Lucie boarding school, 1953. Step into Memoria, a 90-minute immersive horror experience with live actors, 200 m² to explore and 3 levels of intensity.",
+    "ogTitle": "Memoria — Dare you cross the boarding school’s gates?",
+    "ogLocale": "en_GB",
+    "langName": "English"
+  },
+  "nav": {
+    "skip": "Skip to content",
+    "home": "Memoria — home",
+    "label": "Main navigation",
+    "open": "Open menu",
+    "close": "Close menu",
+    "histoire": "Our story",
+    "services": "Our services",
+    "servicesExperience": "The experience",
+    "servicesTarifs": "Prices",
+    "servicesReservation": "Booking",
+    "teamBuilding": "Team building",
+    "faq": "FAQ",
+    "contact": "Contact us",
+    "langues": "Language",
+    "reseaux": "Social media",
+    "reserver": "Book",
+    "reserverSession": "Book a session"
+  },
+  "hero": {
+    "surtitreGauche": "Immersive",
+    "surtitreDroite": "experience",
+    "titre": "Memoria",
+    "lieu": "Lyon",
+    "accroche": "Sainte-Lucie boarding school, 1953. No one has ever come out.",
+    "reserver": "Book now",
+    "bandeAnnonce": "Watch the trailer",
+    "defiler": "Enter if you dare"
+  },
+  "bandeAnnonce": {
+    "titre": "Discover the Memoria trailer",
+    "accroche": "Dare you cross the boarding school’s gates?",
+    "lire": "Play the Memoria trailer",
+    "fermer": "Close video",
+    "dialogue": "Memoria trailer",
+    "indisponible": "The trailer will be revealed very soon. Stay in the shadows…"
+  },
+  "experience": {
+    "titre": "Your Memoria experience",
+    "dureeValeur": "1h30",
+    "dureeLabel": "of adventure",
+    "surfaceValeur": "200 m²",
+    "surfaceLabel": "to explore",
+    "immersionValeur": "immersion",
+    "immersionLabel": "into horror",
+    "niveauxValeur": "3 levels",
+    "niveauxLabel": "of intensity"
+  },
+  "bandeaux": {
+    "seuil": "Dare to cross the threshold",
+    "memoire": "Sainte-Lucie · 1953"
+  },
+  "tarifs": {
+    "titre": "Prices",
+    "joueurs3": "3 players",
+    "joueurs4": "4 players",
+    "joueurs5": "5 players",
+    "joueurs6": "6 players",
+    "prix3": "€49",
+    "prix4": "€43",
+    "prix5": "€39",
+    "prix6": "€35",
+    "parPersonne": "per person"
+  },
+  "reservation": {
+    "titre": "Book your session",
+    "date": "Date",
+    "moisPrecedent": "Previous month",
+    "moisSuivant": "Next month",
+    "ferme": "closed",
+    "horaires": "Available times",
+    "joueurs": "Number of players",
+    "joueursOption3": "3 players",
+    "joueursOption4": "4 players",
+    "joueursOption5": "5 players",
+    "joueursOption6": "6 players",
+    "bouton": "Book",
+    "note": "Online booking will open very soon.",
+    "message": "Thank you! Online booking opens very soon."
+  },
+  "histoire": {
+    "titre": "Story",
+    "p1": "Built in the early 20<sup>th</sup> century, the Sainte-Lucie boarding school welcomed young ladies from high society.",
+    "p2": "Then, without warning, one day in 1953, the corridors emptied. The doors closed. And Sainte-Lucie was abandoned, taking with it the secrets of those who had lived there.",
+    "p3": "Since then, time has stood still within its walls.",
+    "p4": "And you are the ones who have been chosen:<br>tonight, you will enter Sainte-Lucie.<br>And perhaps even understand why no one has ever come out.",
+    "question": "Will you uncover the truth?"
+  },
+  "infos": {
+    "titre": "Practical information",
+    "adresse": "45 cours de la Liberté<br>69000 Lyon, France",
+    "carteAlt": "Map of the area around cours de la Liberté, Lyon",
+    "voirCarte": "View on the map",
+    "acces": "Getting here",
+    "accesMetro": "Metro: to be confirmed",
+    "accesBus": "Bus: to be confirmed",
+    "accesParking": "Parking: to be confirmed",
+    "accesVelo": "Vélo’v bikes: to be confirmed",
+    "horaires": "Opening hours",
+    "horairesTexte": "Wednesday to Sunday<br>10:00 am to 11:00 pm",
+    "contact": "Contact",
+    "telephone": "+33 0 00 00 00 00",
+    "telephoneLabel": "Phone",
+    "emailLabel": "Email"
+  },
+  "footer": {
+    "mentions": "Legal notice",
+    "cgv": "Terms of sale",
+    "confidentialite": "Privacy policy",
+    "cookies": "Cookies",
+    "liens": "Legal information",
+    "droits": "All rights reserved"
+  },
+  "notFound": {
+    "title": "Page not found — Memoria",
+    "surtitre": "Error 404",
+    "titre": "You have lost your way…",
+    "texte": "This door leads nowhere. Or perhaps it no longer exists.",
+    "bouton": "Find the way out"
+  }
+}

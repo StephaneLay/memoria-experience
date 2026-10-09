@@ -5,3 +5,9 @@ node_modules/
 .env
 .env.*
 !.env.example
+
+# Exports de la maquette Figma (confidentiels, hors git)
+maquette/
+
+# Métadonnées Windows/WSL (fichiers créés lors de copies depuis Windows)
+*Zone.Identifier

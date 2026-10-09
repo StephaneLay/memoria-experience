@@ -1,19 +1,22 @@
 <!doctype html>
-<html lang="fr">
+<html lang="{{LANG}}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex">
-  <title>Page introuvable — MÉMOIRE</title>
-  <link rel="stylesheet" href="css/style.css">
+  <meta name="theme-color" content="#000000">
+  <title>{{t:notFound.title}}</title>
+  <link rel="icon" href="{{ROOT}}images/favicon.png" type="image/png">
+  <link rel="stylesheet" href="{{ROOT}}css/style.css">
 </head>
 <body>
 {{HEADER}}
-<main id="contenu" class="not-found container">
-  <p class="eyebrow">Erreur 404</p>
-  <h1>Vous vous êtes<br>égaré<span class="accent">.</span></h1>
-  <p>Cette page n’existe pas — ou n’est peut-être plus là.</p>
-  <a class="button" href="index.html">Retourner à l’accueil</a>
+<main id="contenu" class="egare">
+  <img class="egare__embleme" src="{{ROOT}}images/embleme-or.webp" alt="" width="340" height="488">
+  <p class="egare__surtitre">{{t:notFound.surtitre}}</p>
+  <h1 class="titre-section">{{t:notFound.titre}}</h1>
+  <p class="egare__texte">{{t:notFound.texte}}</p>
+  <a class="bouton bouton--rouge" href="index.html">{{t:notFound.bouton}}</a>
 </main>
 {{FOOTER}}
 </body>

@@ -1,4 +1,6 @@
 {
-  "name": "Expérience immersive",
-  "siteUrl": ""
+  "name": "Memoria",
+  "siteUrl": "",
+  "defaultLanguage": "fr",
+  "languages": ["fr", "en"]
 }

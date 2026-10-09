@@ -24,13 +24,22 @@ function copyDirectory(source, destination) {
 
 function loadSiteConfig() {
   const configPath = path.join(SRC, 'data', 'site.json');
-  if (!fs.existsSync(configPath)) return { name: 'Expérience immersive', siteUrl: '' };
+  const defaults = { name: 'Memoria', siteUrl: '', defaultLanguage: 'fr', languages: ['fr'] };
+  if (!fs.existsSync(configPath)) return defaults;
 
   let config;
   try {
-    config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
+    config = { ...defaults, ...JSON.parse(fs.readFileSync(configPath, 'utf8')) };
   } catch (error) {
     throw new Error(`Configuration invalide dans src/data/site.json : ${error.message}`);
+  }
+
+  if (!Array.isArray(config.languages) || config.languages.length === 0
+    || !config.languages.every((language) => /^[a-z]{2}$/.test(language))) {
+    throw new Error('languages doit être une liste de codes de langue, par exemple ["fr", "en"].');
+  }
+  if (!config.languages.includes(config.defaultLanguage)) {
+    throw new Error('defaultLanguage doit faire partie de languages.');
   }
 
   if (config.siteUrl) {
@@ -49,6 +58,120 @@ function loadSiteConfig() {
   return config;
 }
 
+function flatten(object, prefix = '') {
+  return Object.entries(object).reduce((result, [key, value]) => {
+    const fullKey = prefix ? `${prefix}.${key}` : key;
+    if (value && typeof value === 'object' && !Array.isArray(value)) {
+      Object.assign(result, flatten(value, fullKey));
+    } else {
+      result[fullKey] = String(value);
+    }
+    return result;
+  }, {});
+}
+
+function loadTranslations(languages) {
+  const translations = {};
+  for (const language of languages) {
+    const file = path.join(SRC, 'i18n', `${language}.json`);
+    if (!fs.existsSync(file)) throw new Error(`Traductions introuvables : src/i18n/${language}.json`);
+    try {
+      translations[language] = flatten(JSON.parse(fs.readFileSync(file, 'utf8')));
+    } catch (error) {
+      throw new Error(`Traductions invalides dans src/i18n/${language}.json : ${error.message}`);
+    }
+  }
+
+  const [reference, ...others] = languages;
+  const referenceKeys = Object.keys(translations[reference]);
+  for (const language of others) {
+    const keys = Object.keys(translations[language]);
+    const missing = referenceKeys.filter((key) => !keys.includes(key));
+    const extra = keys.filter((key) => !referenceKeys.includes(key));
+    if (missing.length || extra.length) {
+      const details = [
+        missing.length ? `absentes de ${language}.json : ${missing.join(', ')}` : '',
+        extra.length ? `absentes de ${reference}.json : ${extra.join(', ')}` : '',
+      ].filter(Boolean).join(' ; ');
+      throw new Error(`Clés de traduction désynchronisées (${details}).`);
+    }
+  }
+
+  return translations;
+}
+
+function outputPath(language, config, name) {
+  return language === config.defaultLanguage ? name : `${language}/${name}`;
+}
+
+function publicUrl(config, relativePath) {
+  return `${config.siteUrl}/${relativePath.replace(/(^|\/)index\.html$/, '$1')}`;
+}
+
+function headLinks(config, language, name) {
+  if (!config.siteUrl) return '';
+  const lines = [
+    `<link rel="canonical" href="${publicUrl(config, outputPath(language, config, name))}">`,
+    `<meta property="og:url" content="${publicUrl(config, outputPath(language, config, name))}">`,
+  ];
+  if (config.languages.length > 1) {
+    for (const alternate of config.languages) {
+      lines.push(`<link rel="alternate" hreflang="${alternate}" href="${publicUrl(config, outputPath(alternate, config, name))}">`);
+    }
+    lines.push(`<link rel="alternate" hreflang="x-default" href="${publicUrl(config, outputPath(config.defaultLanguage, config, name))}">`);
+  }
+  return lines.join('\n  ');
+}
+
+function renderPage(template, { name, language, config, partials, strings }) {
+  const root = language === config.defaultLanguage ? '' : '../';
+  let html = template;
+  for (const [token, partial] of Object.entries(partials)) {
+    html = html.replaceAll(token, () => partial);
+  }
+
+  html = html.replace(/\{\{t:([a-zA-Z0-9_.-]+)\}\}/g, (token, key) => {
+    if (!(key in strings)) throw new Error(`Traduction manquante « ${key} » (${language}) dans src/pages/${name}.`);
+    return strings[key];
+  });
+
+  const systemTokens = {
+    '{{ROOT}}': root,
+    '{{LANG}}': language,
+    '{{HEAD_LINKS}}': headLinks(config, language, name),
+  };
+  for (const alternate of config.languages) {
+    systemTokens[`{{HREF_${alternate.toUpperCase()}}}`] = root + outputPath(alternate, config, name);
+  }
+  for (const [token, value] of Object.entries(systemTokens)) {
+    html = html.replaceAll(token, () => value);
+  }
+
+  const unresolved = html.match(/\{\{[^{}]+\}\}/);
+  if (unresolved) throw new Error(`Jeton non remplacé (${unresolved[0]}) dans src/pages/${name} (${language}).`);
+  return html;
+}
+
+function buildSitemap(config, renderedPages) {
+  const indexable = renderedPages.filter(({ html }) => !/name=["']robots["']\s+content=["']noindex["']/i.test(html));
+  const names = [...new Set(indexable.map(({ name }) => name))];
+  const multilingual = config.languages.length > 1;
+  const entries = [];
+  for (const name of names) {
+    for (const language of config.languages) {
+      if (!indexable.some((page) => page.name === name && page.language === language)) continue;
+      const alternates = multilingual
+        ? config.languages.map((alternate) => `\n    <xhtml:link rel="alternate" hreflang="${alternate}" href="${publicUrl(config, outputPath(alternate, config, name))}"/>`).join('')
+        : '';
+      entries.push(`  <url>\n    <loc>${publicUrl(config, outputPath(language, config, name))}</loc>${alternates}\n  </url>`);
+    }
+  }
+  const namespaces = multilingual
+    ? 'xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"'
+    : 'xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"';
+  return ['<?xml version="1.0" encoding="UTF-8"?>', `<urlset ${namespaces}>`, ...entries, '</urlset>', ''].join('\n');
+}
+
 function build() {
   const pagesDirectory = path.join(SRC, 'pages');
   if (!fs.existsSync(pagesDirectory)) throw new Error('Répertoire src/pages introuvable.');
@@ -59,25 +182,27 @@ function build() {
   if (pageNames.length === 0) throw new Error('Aucune page HTML trouvée dans src/pages.');
 
   const config = loadSiteConfig();
-  const replacements = {
+  const translations = loadTranslations(config.languages);
+  const partials = {
     '{{HEADER}}': readSource('partials/header.html'),
     '{{FOOTER}}': readSource('partials/footer.html'),
   };
-  const renderedPages = pageNames.map((name) => {
-    let html = fs.readFileSync(path.join(pagesDirectory, name), 'utf8');
-    for (const [token, replacement] of Object.entries(replacements)) {
-      html = html.replaceAll(token, () => replacement);
+
+  const renderedPages = [];
+  for (const name of pageNames) {
+    const template = fs.readFileSync(path.join(pagesDirectory, name), 'utf8');
+    for (const language of config.languages) {
+      const html = renderPage(template, { name, language, config, partials, strings: translations[language] });
+      renderedPages.push({ name, language, file: outputPath(language, config, name), html });
     }
-    const unresolved = html.match(/\{\{[A-Z_]+\}\}/);
-    if (unresolved) throw new Error(`Jeton non remplacé (${unresolved[0]}) dans src/pages/${name}.`);
-    return { name, html };
-  });
+  }
 
   fs.rmSync(DIST, { recursive: true, force: true });
   fs.mkdirSync(DIST, { recursive: true });
-  for (const { name, html } of renderedPages) {
-    fs.writeFileSync(path.join(DIST, name), html);
-    console.log(`  ✓ ${name}`);
+  for (const { file, html } of renderedPages) {
+    fs.mkdirSync(path.dirname(path.join(DIST, file)), { recursive: true });
+    fs.writeFileSync(path.join(DIST, file), html);
+    console.log(`  ✓ ${file}`);
   }
 
   for (const directory of ['css', 'js', 'images', 'fonts', 'scripts']) {
@@ -92,17 +217,7 @@ function build() {
 
   const robotsLines = ['User-agent: *', 'Allow: /'];
   if (config.siteUrl) {
-    const sitemapUrls = renderedPages
-      .filter(({ html }) => !/name=["']robots["']\s+content=["']noindex["']/i.test(html))
-      .map(({ name }) => `${config.siteUrl}/${name === 'index.html' ? '' : name}`);
-    const sitemap = [
-      '<?xml version="1.0" encoding="UTF-8"?>',
-      '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
-      ...sitemapUrls.map((url) => `  <url><loc>${url}</loc></url>`),
-      '</urlset>',
-      '',
-    ].join('\n');
-    fs.writeFileSync(path.join(DIST, 'sitemap.xml'), sitemap);
+    fs.writeFileSync(path.join(DIST, 'sitemap.xml'), buildSitemap(config, renderedPages));
     robotsLines.push('', `Sitemap: ${config.siteUrl}/sitemap.xml`);
   }
   fs.writeFileSync(path.join(DIST, 'robots.txt'), `${robotsLines.join('\n')}\n`);

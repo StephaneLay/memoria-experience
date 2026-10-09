@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "title": "Memoria — Expérience immersive d’horreur à Lyon",
+    "description": "Pensionnat Sainte-Lucie, 1953. Entrez dans Memoria, une expérience immersive d’horreur de 1h30 avec comédiens, sur 200 m² et 3 niveaux d’intensité.",
+    "ogTitle": "Memoria — Oserez-vous franchir les portes du pensionnat ?",
+    "ogLocale": "fr_FR",
+    "langName": "Français"
+  },
+  "nav": {
+    "skip": "Aller au contenu",
+    "home": "Memoria — accueil",
+    "label": "Navigation principale",
+    "open": "Ouvrir le menu",
+    "close": "Fermer le menu",
+    "histoire": "Notre histoire",
+    "services": "Nos services",
+    "servicesExperience": "L’expérience",
+    "servicesTarifs": "Tarifs",
+    "servicesReservation": "Réservation",
+    "teamBuilding": "Team building",
+    "faq": "FAQ",
+    "contact": "Nous contacter",
+    "langues": "Choix de la langue",
+    "reseaux": "Réseaux sociaux",
+    "reserver": "Réserver",
+    "reserverSession": "Réserver une session"
+  },
+  "hero": {
+    "surtitreGauche": "Expérience",
+    "surtitreDroite": "immersive",
+    "titre": "Memoria",
+    "lieu": "Lyon",
+    "accroche": "Pensionnat Sainte-Lucie, 1953. Personne n’en est jamais ressorti.",
+    "reserver": "Réserver",
+    "bandeAnnonce": "Voir la bande-annonce",
+    "defiler": "Entrez si vous l’osez"
+  },
+  "bandeAnnonce": {
+    "titre": "Découvrez la bande-annonce de Memoria",
+    "accroche": "Oserez-vous franchir les portes du pensionnat ?",
+    "lire": "Lire la bande-annonce de Memoria",
+    "fermer": "Fermer la vidéo",
+    "dialogue": "Bande-annonce de Memoria",
+    "indisponible": "La bande-annonce sera dévoilée très bientôt. Restez dans l’ombre…"
+  },
+  "experience": {
+    "titre": "Votre expérience Memoria",
+    "dureeValeur": "1h30",
+    "dureeLabel": "d’aventure",
+    "surfaceValeur": "200 m²",
+    "surfaceLabel": "à explorer",
+    "immersionValeur": "immersion",
+    "immersionLabel": "horrifique",
+    "niveauxValeur": "3 niveaux",
+    "niveauxLabel": "d’intensité"
+  },
+  "bandeaux": {
+    "seuil": "Osez franchir le seuil",
+    "memoire": "Sainte-Lucie · 1953"
+  },
+  "tarifs": {
+    "titre": "Tarifs",
+    "joueurs3": "3 joueurs",
+    "joueurs4": "4 joueurs",
+    "joueurs5": "5 joueurs",
+    "joueurs6": "6 joueurs",
+    "prix3": "49&#8239;€",
+    "prix4": "43&#8239;€",
+    "prix5": "39&#8239;€",
+    "prix6": "35&#8239;€",
+    "parPersonne": "par personne"
+  },
+  "reservation": {
+    "titre": "Réservez votre session",
+    "date": "Date",
+    "moisPrecedent": "Mois précédent",
+    "moisSuivant": "Mois suivant",
+    "ferme": "fermé",
+    "horaires": "Horaires disponibles",
+    "joueurs": "Nombre de joueurs",
+    "joueursOption3": "3 joueurs",
+    "joueursOption4": "4 joueurs",
+    "joueursOption5": "5 joueurs",
+    "joueursOption6": "6 joueurs",
+    "bouton": "Réserver",
+    "note": "La réservation en ligne ouvrira très prochainement.",
+    "message": "Merci ! La réservation en ligne ouvre très bientôt."
+  },
+  "histoire": {
+    "titre": "Histoire",
+    "p1": "Érigé au début du XX<sup>e</sup> siècle, le pensionnat Sainte-Lucie accueillait les jeunes filles de la haute société.",
+    "p2": "Puis, sans crier gare, un jour de 1953, les couloirs se vidèrent. Les portes se refermèrent. Et Sainte-Lucie fut abandonné, emportant avec lui les secrets de celles qui y avaient vécu.",
+    "p3": "Depuis, le temps s’est arrêté entre ses murs.",
+    "p4": "Et c’est vous qui avez été choisis&nbsp;:<br>ce soir, vous allez entrer à Sainte-Lucie.<br>Et peut-être même comprendre pourquoi personne n’en est jamais ressorti.",
+    "question": "Pourrez-vous découvrir la vérité ?"
+  },
+  "infos": {
+    "titre": "Infos pratiques",
+    "adresse": "45 cours de la Liberté<br>69000 Lyon",
+    "carteAlt": "Plan du quartier autour du cours de la Liberté, à Lyon",
+    "voirCarte": "Voir sur la carte",
+    "acces": "Accès",
+    "accesMetro": "Métro : à préciser",
+    "accesBus": "Bus : à préciser",
+    "accesParking": "Parking : à préciser",
+    "accesVelo": "Vélo’v : à préciser",
+    "horaires": "Horaires",
+    "horairesTexte": "Du mercredi au dimanche<br>de 10h00 à 23h00",
+    "contact": "Contact",
+    "telephone": "00 00 00 00 00",
+    "telephoneLabel": "Téléphone",
+    "emailLabel": "E-mail"
+  },
+  "footer": {
+    "mentions": "Mentions légales",
+    "cgv": "CGV",
+    "confidentialite": "Politique de confidentialité",
+    "cookies": "Cookies",
+    "liens": "Informations légales",
+    "droits": "Tous droits réservés"
+  },
+  "notFound": {
+    "title": "Page introuvable — Memoria",
+    "surtitre": "Erreur 404",
+    "titre": "Vous vous êtes égaré…",
+    "texte": "Cette porte ne mène nulle part. Ou peut-être n’existe-t-elle plus.",
+    "bouton": "Retrouver la sortie"
+  }
+}

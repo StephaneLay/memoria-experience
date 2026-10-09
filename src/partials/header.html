@@ -1,15 +1,70 @@
-<a class="skip-link" href="#contenu">Aller au contenu</a>
-<header class="site-header">
-  <div class="container site-header__inner">
-    <a class="site-header__brand" href="index.html" aria-label="Expérience immersive — accueil">MÉMOIRE<span aria-hidden="true">.</span></a>
-    <button class="site-header__toggle" type="button" aria-expanded="false" aria-controls="site-nav">
-      <span class="visually-hidden">Ouvrir le menu</span>
-      <span aria-hidden="true">☰</span>
+<a class="skip-link" href="#contenu">{{t:nav.skip}}</a>
+<header class="site-header" data-header>
+  <div class="site-header__inner">
+    <a class="site-header__agenda" href="index.html#reservation" aria-label="{{t:nav.reserverSession}}">
+      <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4M7 14h2M11 14h2M15 14h2M7 17.5h2M11 17.5h2"/></svg>
+    </a>
+    <a class="site-header__brand" href="index.html" aria-label="{{t:nav.home}}">
+      <img src="{{ROOT}}images/embleme-rouge.webp" alt="" width="260" height="312">
+    </a>
+    <button class="site-header__burger" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-toggle>
+      <span class="site-header__burger-barres" aria-hidden="true"></span>
+      <span class="visually-hidden" data-label-open="{{t:nav.open}}" data-label-close="{{t:nav.close}}">{{t:nav.open}}</span>
     </button>
-    <nav class="site-nav" id="site-nav" aria-label="Navigation principale">
-      <a href="index.html#experience">L’expérience</a>
-      <a href="index.html#infos">Informations</a>
-      <a class="site-nav__cta" href="index.html#ouverture">Ouverture prochaine</a>
+    <nav class="site-nav" id="site-nav" aria-label="{{t:nav.label}}">
+      <ul class="site-nav__liste">
+        <li><a class="site-nav__lien" href="index.html#histoire">{{t:nav.histoire}}</a></li>
+        <li class="site-nav__groupe" data-sous-menu>
+          <button class="site-nav__lien site-nav__deroulant" type="button" aria-expanded="false" aria-controls="sous-menu-services">
+            {{t:nav.services}}
+            <svg viewBox="0 0 12 8" width="12" height="8" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M1 1.5l5 5 5-5"/></svg>
+          </button>
+          <ul class="site-nav__sous-menu" id="sous-menu-services">
+            <li><a href="index.html#experience">{{t:nav.servicesExperience}}</a></li>
+            <li><a href="index.html#tarifs">{{t:nav.servicesTarifs}}</a></li>
+            <li><a href="index.html#reservation">{{t:nav.servicesReservation}}</a></li>
+          </ul>
+        </li>
+        <li><a class="site-nav__lien" href="team-building.html">{{t:nav.teamBuilding}}</a></li>
+        <li><a class="site-nav__lien" href="faq.html">{{t:nav.faq}}</a></li>
+        <li><a class="site-nav__lien" href="index.html#infos">{{t:nav.contact}}</a></li>
+      </ul>
+      <ul class="reseaux" aria-label="{{t:nav.reseaux}}">
+        <li>
+          <a class="reseaux__lien" href="#" aria-label="Instagram">
+            <svg viewBox="-9.39 -8.43 44.14 42.57" aria-hidden="true"><path fill="currentColor" d="M19.42 4.73c-.85 0-1.49.65-1.49 1.51s.64 1.5 1.49 1.5 1.49-.64 1.49-1.5-.64-1.51-1.49-1.51ZM12.73 6.67c-3.5 0-6.26 2.9-6.26 6.34s2.87 6.35 6.26 6.35 6.26-2.9 6.26-6.35-2.76-6.34-6.26-6.34Zm0 10.43a4.06 4.06 0 0 1-4.03-4.09 4.06 4.06 0 0 1 4.03-4.09 4.06 4.06 0 0 1 4.04 4.09 4.06 4.06 0 0 1-4.04 4.09ZM17.83 0H7.75C3.4 0 0 3.44 0 7.74v10.22c0 4.3 3.4 7.74 7.64 7.74h10.08c4.25 0 7.64-3.44 7.64-7.74V7.74C25.47 3.44 22.07 0 17.83 0Zm5.2 18.07c0 2.9-2.34 5.37-5.31 5.37H7.64c-2.86 0-5.3-2.36-5.3-5.37V7.85c0-2.9 2.33-5.38 5.3-5.38h10.08c2.87 0 5.31 2.37 5.31 5.38v10.22Z"/></svg>
+          </a>
+        </li>
+        <li>
+          <a class="reseaux__lien" href="#" aria-label="YouTube">
+            <svg viewBox="0 0 44.14 42.57" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="2.57" stroke-linecap="round" stroke-linejoin="round"><path d="M29.77 30.79c3.13.11 5.76-2.33 5.89-5.46v-8.1c-.13-3.13-2.76-5.57-5.89-5.45h-15.4c-3.13-.12-5.76 2.32-5.88 5.45v8.1c.12 3.13 2.75 5.57 5.88 5.46h15.4Z"/><path d="m21.4 17.45 4.3 2.91c.28.17.45.47.45.79s-.17.62-.45.78l-4.3 3.19c-.81.55-2.05.08-2.05-.78v-6.11c0-.86 1.24-1.33 2.05-.78Z"/></g></svg>
+          </a>
+        </li>
+        <li>
+          <a class="reseaux__lien" href="#" aria-label="TikTok">
+            <svg viewBox="0 0 44.14 42.57" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2.39" stroke-linejoin="round" d="M18.76 17.79c-4.44.1-8.03 3.8-8.03 8.34 0 2.2.84 4.2 2.21 5.69a8.15 8.15 0 0 0 6.02 2.67c4.54 0 8.23-3.75 8.23-8.36V16.9a10.9 10.9 0 0 0 6.22 2.03v-4.54c-.45 0-.89-.05-1.3-.14a6.2 6.2 0 0 1-3.39-2.04 6.4 6.4 0 0 1-1.53-4.14H26m2.72 4.14-.07-.05m-12.73 16.18a3.85 3.85 0 0 1-.71-2.23c0-2.1 1.69-3.81 3.76-3.81.38 0 .76.07 1.11.18v-4.64c-.36-.05-.73-.08-1.11-.08-.07 0-.6.04-.67.04M26 8.08h-3.28l-.01 18.19a3.77 3.77 0 0 1-3.75 3.67 3.75 3.75 0 0 1-3.05-1.59"/></svg>
+          </a>
+        </li>
+        <li>
+          <a class="reseaux__lien" href="#" aria-label="Facebook">
+            <svg viewBox="0 0 44.14 42.57" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2.52" stroke-linejoin="round" d="M22.07 9.07c-6.74 0-12.26 5.51-12.26 12.29 0 6.13 4.49 11.22 10.35 12.14v-8.59h-3.12v-3.55h3.12v-2.71c0-3.08 1.83-4.77 4.63-4.77 1.34 0 2.74.23 2.74.23v3.03h-1.55c-1.52 0-2 .94-2 1.91v2.31h3.41l-.55 3.55h-2.86v8.59a12.3 12.3 0 0 0 10.35-12.14c0-6.78-5.52-12.29-12.26-12.29Z"/></svg>
+          </a>
+        </li>
+      </ul>
+      <ul class="langues" aria-label="{{t:nav.langues}}">
+        <li>
+          <a class="langues__lien" href="{{HREF_FR}}" hreflang="fr" lang="fr" data-langue="fr">
+            <svg viewBox="0 0 3 2" aria-hidden="true"><path fill="#002654" d="M0 0h1v2H0z"/><path fill="#fff" d="M1 0h1v2H1z"/><path fill="#ce1126" d="M2 0h1v2H2z"/></svg>
+            <span class="visually-hidden">Français</span>
+          </a>
+        </li>
+        <li>
+          <a class="langues__lien" href="{{HREF_EN}}" hreflang="en" lang="en" data-langue="en">
+            <svg viewBox="0 0 60 30" aria-hidden="true"><clipPath id="drapeau-uk-diagonales"><path d="M30 15h30v15zv15H0zH0V0zV0h30z"/></clipPath><path fill="#012169" d="M0 0h60v30H0z"/><path stroke="#fff" stroke-width="6" d="m0 0 60 30m0-30L0 30"/><path stroke="#c8102e" stroke-width="4" clip-path="url(#drapeau-uk-diagonales)" d="m0 0 60 30m0-30L0 30"/><path stroke="#fff" stroke-width="10" d="M30 0v30M0 15h60"/><path stroke="#c8102e" stroke-width="6" d="M30 0v30M0 15h60"/></svg>
+            <span class="visually-hidden">English</span>
+          </a>
+        </li>
+      </ul>
     </nav>
   </div>
 </header>
