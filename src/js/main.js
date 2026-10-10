@@ -335,7 +335,7 @@
       });
       if (!choisie) return;
       var montant = choisie.getAttribute('data-montant');
-      if (!montant) montant = formatEuros.format(Math.max(20, Number(montantLibre.value) || 20));
+      if (!montant) montant = formatEuros.format(Math.max(10, Number(montantLibre.value) || 10));
       apercu('formule').textContent = choisie.getAttribute('data-libelle');
       apercu('montant').textContent = montant;
     };

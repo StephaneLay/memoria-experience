@@ -45,6 +45,15 @@ Prérequis : Node.js 18 ou plus récent, aucune dépendance npm.
 - `src/racine/` : fichiers copiés à la racine (`.htaccess`…)
 - `maquette/` : exports de la maquette Figma (captures, éléments sources) — **ignoré par git**, référence de travail uniquement
 
+## Tarifs
+
+Les prix par personne font foi et ne se modifient qu’à **un seul endroit** : `tarifs` dans `src/data/site.json` (nombre de joueurs → prix par personne). Le build les injecte partout, formatés selon la langue (« 49 € » / « €49 ») :
+
+- `{{PRIX_3}}` … `{{PRIX_6}}` : prix par personne (grille tarifaire de l’accueil, formules du pack cadeau)
+- `{{TOTAL_3}}` … `{{TOTAL_6}}` : prix de la session complète (prix × nombre de joueurs), utilisé pour la valeur des bons cadeaux
+
+Ne jamais écrire un prix en dur dans une page ou un fichier de traduction.
+
 ## Où brancher les éléments attendus
 
 - **Réservation 4escape** : tout le contenu du `<form class="reservation__widget">` dans `src/pages/index.html` est un aperçu visuel (calendrier mercredi → dimanche, créneaux d’exemple). Le remplacer par le code d’intégration 4escape quand les accès seront disponibles, puis retirer la partie « réservation » de `src/js/main.js`.

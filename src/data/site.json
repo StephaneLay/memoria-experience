@@ -2,5 +2,14 @@
   "name": "Memoria",
   "siteUrl": "",
   "defaultLanguage": "fr",
-  "languages": ["fr", "en"]
+  "languages": [
+    "fr",
+    "en"
+  ],
+  "tarifs": {
+    "3": 49,
+    "4": 43,
+    "5": 39,
+    "6": 35
+  }
 }

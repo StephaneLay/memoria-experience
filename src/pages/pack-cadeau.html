@@ -47,42 +47,40 @@
         <fieldset class="formules">
           <legend class="visually-hidden">{{t:packCadeau.formules.titre}}</legend>
           <label class="formule" data-reveal>
-            <input type="radio" name="formule" value="place" data-libelle="{{t:packCadeau.formules.nom1}}" data-montant="{{t:packCadeau.formules.prix1}}">
-            <span class="formule__nom">{{t:packCadeau.formules.nom1}}</span>
-            <span class="formule__prix">{{t:packCadeau.formules.prix1}}</span>
-            <span class="formule__detail">{{t:packCadeau.formules.detail1}}</span>
+            <input type="radio" name="formule" value="3-joueurs" data-libelle="{{t:packCadeau.formules.session3}}" data-montant="{{TOTAL_3}}">
+            <span class="formule__nom">{{t:packCadeau.formules.session3}}</span>
+            <span class="formule__prix">{{PRIX_3}}</span>
+            <span class="formule__unite">{{t:tarifs.parPersonne}}</span>
+            <span class="formule__detail">{{t:packCadeau.formules.soit}} {{TOTAL_3}} {{t:packCadeau.formules.laSession}}</span>
           </label>
           <label class="formule" data-reveal>
-            <input type="radio" name="formule" value="3-joueurs" data-libelle="{{t:packCadeau.formules.nom2}}" data-montant="{{t:packCadeau.formules.prix2}}">
-            <span class="formule__nom">{{t:packCadeau.formules.nom2}}</span>
-            <span class="formule__prix">{{t:packCadeau.formules.prix2}}</span>
-            <span class="formule__detail">{{t:packCadeau.formules.detail2}}</span>
+            <input type="radio" name="formule" value="4-joueurs" data-libelle="{{t:packCadeau.formules.session4}}" data-montant="{{TOTAL_4}}" checked>
+            <span class="formule__nom">{{t:packCadeau.formules.session4}}</span>
+            <span class="formule__prix">{{PRIX_4}}</span>
+            <span class="formule__unite">{{t:tarifs.parPersonne}}</span>
+            <span class="formule__detail">{{t:packCadeau.formules.soit}} {{TOTAL_4}} {{t:packCadeau.formules.laSession}}</span>
           </label>
           <label class="formule" data-reveal>
-            <input type="radio" name="formule" value="4-joueurs" data-libelle="{{t:packCadeau.formules.nom3}}" data-montant="{{t:packCadeau.formules.prix3}}" checked>
-            <span class="formule__nom">{{t:packCadeau.formules.nom3}}</span>
-            <span class="formule__prix">{{t:packCadeau.formules.prix3}}</span>
-            <span class="formule__detail">{{t:packCadeau.formules.detail3}}</span>
+            <input type="radio" name="formule" value="5-joueurs" data-libelle="{{t:packCadeau.formules.session5}}" data-montant="{{TOTAL_5}}">
+            <span class="formule__nom">{{t:packCadeau.formules.session5}}</span>
+            <span class="formule__prix">{{PRIX_5}}</span>
+            <span class="formule__unite">{{t:tarifs.parPersonne}}</span>
+            <span class="formule__detail">{{t:packCadeau.formules.soit}} {{TOTAL_5}} {{t:packCadeau.formules.laSession}}</span>
           </label>
           <label class="formule" data-reveal>
-            <input type="radio" name="formule" value="5-joueurs" data-libelle="{{t:packCadeau.formules.nom4}}" data-montant="{{t:packCadeau.formules.prix4}}">
-            <span class="formule__nom">{{t:packCadeau.formules.nom4}}</span>
-            <span class="formule__prix">{{t:packCadeau.formules.prix4}}</span>
-            <span class="formule__detail">{{t:packCadeau.formules.detail4}}</span>
-          </label>
-          <label class="formule" data-reveal>
-            <input type="radio" name="formule" value="6-joueurs" data-libelle="{{t:packCadeau.formules.nom5}}" data-montant="{{t:packCadeau.formules.prix5}}">
-            <span class="formule__nom">{{t:packCadeau.formules.nom5}}</span>
-            <span class="formule__prix">{{t:packCadeau.formules.prix5}}</span>
-            <span class="formule__detail">{{t:packCadeau.formules.detail5}}</span>
+            <input type="radio" name="formule" value="6-joueurs" data-libelle="{{t:packCadeau.formules.session6}}" data-montant="{{TOTAL_6}}">
+            <span class="formule__nom">{{t:packCadeau.formules.session6}}</span>
+            <span class="formule__prix">{{PRIX_6}}</span>
+            <span class="formule__unite">{{t:tarifs.parPersonne}}</span>
+            <span class="formule__detail">{{t:packCadeau.formules.soit}} {{TOTAL_6}} {{t:packCadeau.formules.laSession}}</span>
           </label>
           <label class="formule formule--libre" data-reveal>
-            <input type="radio" name="formule" value="libre" data-libelle="{{t:packCadeau.formules.nom6}}" data-montant="">
-            <span class="formule__nom">{{t:packCadeau.formules.nom6}}</span>
-            <span class="formule__prix">{{t:packCadeau.formules.prix6}}</span>
-            <span class="formule__detail">{{t:packCadeau.formules.detail6}}</span>
+            <input type="radio" name="formule" value="libre" data-libelle="{{t:packCadeau.formules.libre}}" data-montant="">
+            <span class="formule__nom">{{t:packCadeau.formules.libre}}</span>
+            <span class="formule__prix">{{t:packCadeau.formules.libreValeur}}</span>
+            <span class="formule__detail">{{t:packCadeau.formules.libreDetail}}</span>
             <span class="formule__montant">
-              <input type="number" name="montant" min="20" max="1000" step="5" value="60" inputmode="numeric" aria-label="{{t:packCadeau.formules.montantLibre}}" data-montant-libre>
+              <input type="number" name="montant" min="10" max="2000" step="1" value="80" inputmode="numeric" aria-label="{{t:packCadeau.formules.montantLibre}}" data-montant-libre>
               <span aria-hidden="true">{{t:packCadeau.formules.devise}}</span>
             </span>
           </label>
@@ -131,8 +129,8 @@
               <img class="bon__embleme" src="{{ROOT}}images/embleme-or.webp" alt="" width="340" height="488">
               <p class="bon__surtitre">{{t:packCadeau.bon.carteSurtitre}}</p>
               <img class="bon__logotype" src="{{ROOT}}images/logotype-or.webp" alt="" width="1400" height="248">
-              <p class="bon__formule" data-bon="formule">{{t:packCadeau.formules.nom3}}</p>
-              <p class="bon__montant" data-bon="montant">{{t:packCadeau.formules.prix3}}</p>
+              <p class="bon__formule" data-bon="formule">{{t:packCadeau.formules.session4}}</p>
+              <p class="bon__montant" data-bon="montant">{{TOTAL_4}}</p>
               <div class="bon__lignes">
                 <p><span>{{t:packCadeau.bon.cartePour}}</span> <strong data-bon="beneficiaire" data-defaut="{{t:packCadeau.bon.carteDefautNom}}">{{t:packCadeau.bon.carteDefautNom}}</strong></p>
                 <p><span>{{t:packCadeau.bon.carteDe}}</span> <strong data-bon="de" data-defaut="{{t:packCadeau.bon.carteDefautDe}}">{{t:packCadeau.bon.carteDefautDe}}</strong></p>

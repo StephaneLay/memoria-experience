@@ -2390,7 +2390,7 @@ sup { font-size: .6em; line-height: 0; }
 
 .formules {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: clamp(1rem, 2vw, 1.6rem);
   min-width: 0;
   margin: clamp(2.4rem, 4.5vw, 3.4rem) 0 0;
@@ -2448,7 +2448,10 @@ sup { font-size: .6em; line-height: 0; }
   -webkit-text-fill-color: transparent;
 }
 .formule__prix { font-size: clamp(2.2rem, 1.6rem + 1.6vw, 3.1rem); white-space: nowrap; }
+.formule__unite { color: var(--blanc); }
+.formule__unite::first-letter { text-transform: uppercase; }
 .formule__detail { color: var(--gris); font-size: .95em; }
+.formule--libre .formule__prix { font-size: clamp(1.7rem, 1.3rem + 1.1vw, 2.3rem); padding-block: .25em; }
 
 .formule__montant { display: none; align-items: center; gap: .45rem; margin-top: .5rem; }
 .formule.est-choisie .formule__montant { display: flex; }
@@ -2852,7 +2855,8 @@ sup { font-size: .6em; line-height: 0; }
 .galerie-presse__grille .photo-attente { aspect-ratio: 4 / 3; }
 
 @media (max-width: 1100px) {
-  .cartes--5 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .cartes--5,
+  .formules { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .facteurs__liste { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .etapes { grid-template-columns: repeat(2, minmax(0, 1fr)); row-gap: 2.6rem; }
 }

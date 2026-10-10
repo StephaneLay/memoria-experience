@@ -24,7 +24,7 @@ function copyDirectory(source, destination) {
 
 function loadSiteConfig() {
   const configPath = path.join(SRC, 'data', 'site.json');
-  const defaults = { name: 'Memoria', siteUrl: '', defaultLanguage: 'fr', languages: ['fr'] };
+  const defaults = { name: 'Memoria', siteUrl: '', defaultLanguage: 'fr', languages: ['fr'], tarifs: {} };
   if (!fs.existsSync(configPath)) return defaults;
 
   let config;
@@ -40,6 +40,12 @@ function loadSiteConfig() {
   }
   if (!config.languages.includes(config.defaultLanguage)) {
     throw new Error('defaultLanguage doit faire partie de languages.');
+  }
+
+  for (const [joueurs, prix] of Object.entries(config.tarifs)) {
+    if (!/^\d+$/.test(joueurs) || typeof prix !== 'number' || prix <= 0) {
+      throw new Error('tarifs doit associer un nombre de joueurs à un prix par personne, par exemple { "3": 49 }.');
+    }
   }
 
   if (config.siteUrl) {
@@ -123,6 +129,17 @@ function headLinks(config, language, name) {
   return lines.join('\n  ');
 }
 
+function priceTokens(config, language) {
+  const locales = { fr: 'fr-FR', en: 'en-GB' };
+  const format = new Intl.NumberFormat(locales[language] || language, { style: 'currency', currency: 'EUR', maximumFractionDigits: 0 });
+  const tokens = {};
+  for (const [joueurs, prix] of Object.entries(config.tarifs)) {
+    tokens[`{{PRIX_${joueurs}}}`] = format.format(prix);
+    tokens[`{{TOTAL_${joueurs}}}`] = format.format(prix * Number(joueurs));
+  }
+  return tokens;
+}
+
 function renderPage(template, { name, language, config, partials, strings }) {
   const root = language === config.defaultLanguage ? '' : '../';
   let html = template;
@@ -139,6 +156,7 @@ function renderPage(template, { name, language, config, partials, strings }) {
     '{{ROOT}}': root,
     '{{LANG}}': language,
     '{{HEAD_LINKS}}': headLinks(config, language, name),
+    ...priceTokens(config, language),
   };
   for (const alternate of config.languages) {
     systemTokens[`{{HREF_${alternate.toUpperCase()}}}`] = root + outputPath(alternate, config, name);
