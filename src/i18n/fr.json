@@ -111,6 +111,9 @@
     "telephoneLabel": "Téléphone",
     "emailLabel": "E-mail"
   },
+  "lampe": {
+    "libelle": "Lampe torche"
+  },
   "footer": {
     "mentions": "Mentions légales",
     "cgv": "CGV",

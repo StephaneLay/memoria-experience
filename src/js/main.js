@@ -213,6 +213,72 @@
     }).observe(toile);
   }
 
+  var interrupteur = document.querySelector('[data-lampe-interrupteur]');
+  var halo = document.querySelector('[data-lampe-halo]');
+  if (interrupteur && halo && window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+    var cibleX = window.innerWidth / 2;
+    var cibleY = window.innerHeight / 2;
+    var lampeX = cibleX;
+    var lampeY = cibleY;
+    var suiviPrevu = null;
+
+    var placerHalo = function () {
+      halo.style.transform = 'translate3d(' + lampeX.toFixed(1) + 'px, ' + lampeY.toFixed(1) + 'px, 0)';
+    };
+
+    var suivre = function () {
+      lampeX += (cibleX - lampeX) * (reduireAnimations ? 1 : 0.2);
+      lampeY += (cibleY - lampeY) * (reduireAnimations ? 1 : 0.2);
+      placerHalo();
+      var enMouvement = Math.abs(cibleX - lampeX) > 0.5 || Math.abs(cibleY - lampeY) > 0.5;
+      suiviPrevu = enMouvement ? window.requestAnimationFrame(suivre) : null;
+    };
+
+    var viser = function (x, y) {
+      cibleX = x;
+      cibleY = y;
+      if (!suiviPrevu) suiviPrevu = window.requestAnimationFrame(suivre);
+    };
+
+    var lampeAllumee = function () {
+      return racine.classList.contains('lampe-active');
+    };
+
+    var basculerLampe = function (allumee) {
+      racine.classList.toggle('lampe-active', allumee);
+      interrupteur.setAttribute('aria-pressed', allumee ? 'true' : 'false');
+      try {
+        window.localStorage.setItem('memoria-lampe', allumee ? '1' : '0');
+      } catch (erreur) {}
+    };
+
+    interrupteur.addEventListener('click', function (evenement) {
+      if (!lampeAllumee() && evenement.clientX) {
+        lampeX = cibleX = evenement.clientX;
+        lampeY = cibleY = evenement.clientY;
+        placerHalo();
+      }
+      basculerLampe(!lampeAllumee());
+    });
+
+    document.addEventListener('pointermove', function (evenement) {
+      if (lampeAllumee()) viser(evenement.clientX, evenement.clientY);
+    }, { passive: true });
+
+    document.addEventListener('focusin', function (evenement) {
+      if (!lampeAllumee() || evenement.target === interrupteur) return;
+      var cadreFocus = evenement.target.getBoundingClientRect();
+      viser(cadreFocus.left + cadreFocus.width / 2, cadreFocus.top + cadreFocus.height / 2);
+    });
+
+    placerHalo();
+    try {
+      if (window.localStorage.getItem('memoria-lampe') === '1') basculerLampe(true);
+    } catch (erreur) {}
+  } else if (interrupteur) {
+    interrupteur.hidden = true;
+  }
+
   var dialogue = document.querySelector('[data-video]');
   if (dialogue && typeof dialogue.showModal === 'function') {
     var cadreVideo = dialogue.querySelector('[data-video-cadre]');

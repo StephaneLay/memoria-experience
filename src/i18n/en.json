@@ -111,6 +111,9 @@
     "telephoneLabel": "Phone",
     "emailLabel": "Email"
   },
+  "lampe": {
+    "libelle": "Flashlight"
+  },
   "footer": {
     "mentions": "Legal notice",
     "cgv": "Terms of sale",

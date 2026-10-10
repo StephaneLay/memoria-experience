@@ -549,12 +549,25 @@ sup { font-size: .6em; line-height: 0; }
   text-transform: uppercase;
 }
 
-.hero__titre { margin: 0; }
+.hero__titre { position: relative; margin: 0; }
 .hero__titre img {
   width: min(100%, 50rem);
   height: auto;
   margin-inline: auto;
   filter: drop-shadow(0 0 26px rgba(240, 192, 94, .22)) drop-shadow(0 4px 10px rgba(0, 0, 0, .8));
+  animation: lueur 4.5s ease-in-out infinite alternate;
+}
+
+.hero__titre::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(105deg, transparent 0 44.5%, rgba(255, 245, 215, .82) 50%, transparent 55.5% 100%) 100% 0 / 300% 100% no-repeat;
+  -webkit-mask: url('../images/logotype-or.webp') center / contain no-repeat;
+  mask: url('../images/logotype-or.webp') center / contain no-repeat;
+  mix-blend-mode: screen;
+  pointer-events: none;
+  animation: reflet 7s cubic-bezier(.45, .05, .35, 1) 1.4s infinite;
 }
 
 .hero__lieu {
@@ -1035,25 +1048,55 @@ sup { font-size: .6em; line-height: 0; }
   filter: drop-shadow(0 0 26px rgba(240, 192, 94, .22));
 }
 
-.histoire__texte { width: min(100%, 33rem); }
+.histoire__corps { position: relative; z-index: 1; }
+.histoire__texte { width: min(100%, max(29.5vw, 24rem)); }
 .histoire__texte .titre-orne { margin-bottom: clamp(1.8rem, 3vw, 2.6rem); }
-.histoire__texte p { line-height: 1.22; }
+.histoire__texte p { line-height: 1.22; text-shadow: 0 1px 12px rgba(0, 0, 0, .9); }
 .histoire__texte .accroche { margin-top: 1.6em; }
+
+.histoire__souvenirs {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
 
 .souvenir {
   position: absolute;
-  z-index: -1;
-  width: clamp(9rem, 13vw, 14.5rem);
   margin: 0;
-  padding: .55rem .55rem 1.9rem;
-  background: #ddd5c4;
-  box-shadow: 0 25px 45px rgba(0, 0, 0, .75);
-  filter: sepia(.35) brightness(.62) contrast(1.05);
+  box-shadow: 0 18px 38px rgba(0, 0, 0, .8), 0 2px 6px rgba(0, 0, 0, .6);
+  filter: brightness(.84) contrast(1.04);
   will-change: transform;
 }
 .souvenir img { width: 100%; height: auto; }
-.souvenir--lac { left: max(2rem, 9vw); top: 26%; rotate: -8deg; }
-.souvenir--riviere { right: max(2rem, 8vw); top: 52%; rotate: 6deg; }
+
+.souvenir--1 { left: 0; top: 1%; width: 14.3vw; rotate: -11deg; z-index: 3; }
+.souvenir--2 { left: 17%; top: 9%; width: 9.7vw; rotate: -11deg; z-index: 2; }
+.souvenir--3 { left: -1%; top: 17%; width: 21vw; rotate: 14deg; z-index: 1; }
+.souvenir--4 { left: 13.5%; top: 45%; width: 18.3vw; rotate: 0deg; z-index: 4; }
+.souvenir--5 { left: -3%; top: 55%; width: 21vw; rotate: -14deg; z-index: 3; }
+.souvenir--6 { left: -4%; top: 89%; width: 8.6vw; rotate: -10deg; z-index: 2; }
+.souvenir--7 { left: 86.5%; top: -1%; width: 18vw; rotate: 2deg; z-index: 1; }
+.souvenir--8 { left: 73%; top: 9%; width: 16.8vw; rotate: 9deg; z-index: 2; }
+.souvenir--9 { left: 68.6%; top: 36%; width: 18.3vw; rotate: 0deg; z-index: 4; }
+.souvenir--10 { left: 81.5%; top: 42%; width: 19vw; rotate: 18deg; z-index: 3; }
+.souvenir--11 { left: 66%; top: 66%; width: 12.3vw; rotate: 29deg; z-index: 5; }
+.souvenir--12 { left: 80.7%; top: 73%; width: 13.1vw; rotate: 4deg; z-index: 6; }
+
+@media (max-width: 1279.98px) {
+  .souvenir--2,
+  .souvenir--6,
+  .souvenir--11,
+  .souvenir--12 { display: none; }
+  .souvenir--1 { left: -3%; width: 13vw; }
+  .souvenir--3 { left: -5%; width: 18vw; }
+  .souvenir--4 { left: 7%; width: 16vw; }
+  .souvenir--5 { left: -6%; width: 18vw; }
+  .souvenir--7 { left: 88%; width: 15vw; }
+  .souvenir--8 { left: 77%; width: 15vw; }
+  .souvenir--9 { left: 76%; top: 40%; width: 16vw; }
+  .souvenir--10 { left: 86%; top: 52%; width: 16vw; }
+}
 
 .infos {
   padding-block: clamp(3.5rem, 7vw, 6rem) clamp(3rem, 5vw, 4.5rem);
@@ -1273,6 +1316,88 @@ sup { font-size: .6em; line-height: 0; }
   transition: border-color .3s, background-color .3s;
 }
 .video__fermer:hover { border-color: var(--rouge); background: var(--rouge-sang); }
+
+.lampe-interrupteur {
+  position: fixed;
+  left: clamp(.9rem, 2vw, 1.6rem);
+  bottom: clamp(.9rem, 2vw, 1.6rem);
+  z-index: 90;
+  display: inline-flex;
+  align-items: center;
+  height: 3.1rem;
+  padding: 0 .82rem;
+  border: 1px solid rgba(169, 133, 26, .6);
+  border-radius: 999px;
+  background: rgba(0, 0, 0, .72);
+  color: var(--or);
+  font-size: 1rem;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, .6);
+  backdrop-filter: blur(4px);
+  transition: background-color .4s, color .4s, border-color .4s, box-shadow .4s;
+}
+.lampe-interrupteur[hidden] { display: none; }
+.lampe-interrupteur svg { flex: none; width: 1.4rem; height: auto; overflow: visible; }
+.lampe-interrupteur__rayons { opacity: 0; transition: opacity .4s; }
+
+.lampe-interrupteur__texte {
+  max-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  opacity: 0;
+  transition: max-width .5s var(--ease), opacity .3s, margin .5s var(--ease);
+}
+.lampe-interrupteur:hover .lampe-interrupteur__texte,
+.lampe-interrupteur:focus-visible .lampe-interrupteur__texte {
+  max-width: 12rem;
+  margin-left: .6rem;
+  opacity: 1;
+}
+
+.lampe-interrupteur:hover { border-color: var(--or); }
+.lampe-interrupteur[aria-pressed='true'] {
+  border-color: var(--or);
+  background: rgba(240, 192, 94, .14);
+  color: #ffe9b8;
+  box-shadow: 0 0 24px rgba(240, 192, 94, .45), 0 6px 20px rgba(0, 0, 0, .6);
+}
+.lampe-interrupteur[aria-pressed='true'] .lampe-interrupteur__rayons { opacity: 1; }
+
+.lampe {
+  position: fixed;
+  inset: 0;
+  z-index: 80;
+  overflow: hidden;
+  pointer-events: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .7s var(--ease), visibility 0s .7s;
+}
+.lampe-active .lampe {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity .7s var(--ease), visibility 0s;
+}
+
+.lampe__halo {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 300vmax;
+  height: 300vmax;
+  margin: -150vmax 0 0 -150vmax;
+  background: radial-gradient(circle closest-side,
+    rgba(255, 232, 186, .16) 0,
+    rgba(255, 226, 172, .07) 4rem,
+    rgba(0, 0, 0, 0) 8rem,
+    rgba(0, 0, 0, .6) 13rem,
+    rgba(0, 0, 0, .9) 20rem,
+    rgba(0, 0, 0, .93) 100%);
+  will-change: transform;
+  animation: tremblement 5s steps(1) infinite;
+}
 
 .egare {
   display: flex;
@@ -1582,9 +1707,19 @@ sup { font-size: .6em; line-height: 0; }
   .infos__colonnes { grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); justify-content: stretch; }
   .infos__liste li { white-space: normal; }
 
-  .souvenir { width: clamp(7rem, 26vw, 10rem); opacity: .55; }
-  .souvenir--lac { left: auto; right: -2.5rem; top: 12%; }
-  .souvenir--riviere { right: -1.5rem; top: 62%; }
+  .histoire__corps { align-items: flex-start; }
+  .histoire__embleme { align-self: center; }
+  .histoire__texte { width: min(100% - 4.5rem, 30rem); }
+  .souvenir { opacity: .75; }
+  .souvenir--1,
+  .souvenir--3,
+  .souvenir--4,
+  .souvenir--10 { display: none; }
+  .souvenir--7 { left: auto; right: -9vw; top: 2%; width: 27vw; }
+  .souvenir--8 { left: auto; right: -4vw; top: 21%; width: 23vw; rotate: 8deg; }
+  .souvenir--9 { left: auto; right: -7vw; top: 40%; width: 25vw; rotate: -6deg; }
+  .souvenir--5 { left: auto; right: -6vw; top: 60%; width: 26vw; rotate: 9deg; }
+  .souvenir--12 { display: block; left: auto; right: -3vw; top: 80%; width: 22vw; rotate: -5deg; }
 }
 
 @media (max-width: 640px) {
@@ -1649,9 +1784,30 @@ sup { font-size: .6em; line-height: 0; }
   to { opacity: 1; translate: none; }
 }
 
+@keyframes reflet {
+  0% { background-position: 100% 0; }
+  42%, 100% { background-position: 0% 0; }
+}
+
+@keyframes lueur {
+  from { filter: drop-shadow(0 0 16px rgba(240, 192, 94, .14)) drop-shadow(0 4px 10px rgba(0, 0, 0, .8)); }
+  to { filter: drop-shadow(0 0 34px rgba(240, 192, 94, .42)) drop-shadow(0 4px 10px rgba(0, 0, 0, .8)); }
+}
+
+@keyframes tremblement {
+  0%, 37%, 39%, 71%, 73%, 100% { opacity: 1; }
+  38% { opacity: .9; }
+  72% { opacity: .95; }
+}
+
 @keyframes apparition {
   from { opacity: 0; transform: translateY(14px); }
   to { opacity: 1; transform: none; }
+}
+
+@media (hover: none), (pointer: coarse) {
+  .lampe-interrupteur,
+  .lampe { display: none; }
 }
 
 @media (prefers-reduced-motion: reduce) {
