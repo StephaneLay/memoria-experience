@@ -92,7 +92,8 @@
     "p2": "Puis, sans crier gare, un jour de 1953, les couloirs se vidèrent. Les portes se refermèrent. Et Sainte-Lucie fut abandonné, emportant avec lui les secrets de celles qui y avaient vécu.",
     "p3": "Depuis, le temps s’est arrêté entre ses murs.",
     "p4": "Et c’est vous qui avez été choisis&nbsp;:<br>ce soir, vous allez entrer à Sainte-Lucie.<br>Et peut-être même comprendre pourquoi personne n’en est jamais ressorti.",
-    "question": "Pourrez-vous découvrir la vérité ?"
+    "question": "Pourrez-vous découvrir la vérité ?",
+    "lienPage": "Découvrir toute l’histoire"
   },
   "infos": {
     "titre": "Infos pratiques",
@@ -128,5 +129,113 @@
     "titre": "Vous vous êtes égaré…",
     "texte": "Cette porte ne mène nulle part. Ou peut-être n’existe-t-elle plus.",
     "bouton": "Retrouver la sortie"
+  },
+  "notreHistoire": {
+    "meta": {
+      "title": "Notre histoire — Memoria, expérience immersive d’horreur à Lyon",
+      "description": "Trois passionnés, des années de travail et un pensionnat oublié : découvrez les coulisses de Memoria et la sombre histoire du pensionnat Sainte-Lucie."
+    },
+    "hero": {
+      "surtitre": "Memoria",
+      "titre": "Notre histoire",
+      "intro": "Deux récits se croisent ici. Celui de trois passionnés qui ont tout donné pour faire naître Memoria. Et celui du pensionnat Sainte-Lucie, que personne n’aurait jamais dû rouvrir.",
+      "lienCoulisses": "Les coulisses de Memoria",
+      "lienPensionnat": "Le pensionnat Sainte-Lucie"
+    },
+    "attente": {
+      "photo": "Photo à venir",
+      "nom": "Prénom Nom"
+    },
+    "coulisses": {
+      "partie": "Partie I · La véritable histoire",
+      "titre": "Trois passionnés, une obsession",
+      "intro": "Memoria est né d’une frustration partagée par trois amis, joueurs acharnés d’escape games et d’expériences horrifiques : avoir peur, oui… mais jamais assez longtemps, jamais assez profondément. Alors ils ont décidé de créer l’expérience qu’ils rêvaient de vivre.",
+      "role1": "Co-fondateur · Scénario & mise en scène",
+      "bio1": "Il a écrit les premières pages de l’histoire et imaginé Sainte-Lucie, ses pensionnaires et ses secrets. C’est lui qui dirige les comédiens.",
+      "role2": "Co-fondateur · Décors & construction",
+      "bio2": "Menuisier de formation, il a passé deux ans à transformer un lieu vide en pensionnat de 1953, pièce par pièce, objet par objet.",
+      "role3": "Co-fondatrice · Technique & expérience joueurs",
+      "bio3": "Sons, lumières, mécanismes, sécurité : elle orchestre tout ce que vous ne voyez pas… et tout ce qui vous fera sursauter."
+    },
+    "genese": {
+      "titre": "De l’idée aux premières portes",
+      "titre1": "L’étincelle",
+      "texte1": "Tout commence autour d’une table, après une énième partie d’escape game. Une question revient sans cesse : et si l’on pouvait vivre un véritable film d’horreur, de l’intérieur, face à de vrais comédiens ? L’idée ne les quittera plus.",
+      "visuel1": "Premiers croquis du concept",
+      "titre2": "Le scénario",
+      "texte2": "Pendant des mois, l’histoire s’écrit, se réécrit, se teste. Un pensionnat de jeunes filles, une fermeture inexpliquée en 1953, des indices dissimulés dans chaque pièce : chaque détail sert le récit, chaque énigme sert la peur.",
+      "visuel2": "Les carnets du scénario",
+      "titre3": "Le lieu",
+      "texte3": "Il fallait un lieu à la hauteur. Après des dizaines de visites, ils découvrent à Lyon 200 m² sur trois niveaux : assez vastes pour s’y perdre, assez intimes pour s’y sentir observé.",
+      "visuel3": "Le lieu avant les travaux",
+      "titre4": "Les décors",
+      "texte4": "Murs vieillis à la main, mobilier chiné dans toute la région, papiers peints d’époque, objets authentiques des années 1950 : le chantier a duré près de deux ans pour que chaque recoin raconte quelque chose.",
+      "visuel4": "Le chantier des décors",
+      "titre5": "La technique",
+      "texte5": "Son spatialisé, lumières pilotées, mécanismes cachés et effets déclenchés en temps réel : la technique se fait invisible pour que vous ne pensiez qu’à une seule chose… sortir.",
+      "visuel5": "La régie son et lumière",
+      "titre6": "Les comédiens",
+      "texte6": "Au cœur de Memoria, il y a l’humain. Des comédiens formés à l’improvisation et à la peur maîtrisée vous accompagnent, vous observent et ajustent l’intensité à chaque groupe.",
+      "visuel6": "Répétition des comédiens"
+    },
+    "valeurs": {
+      "titre": "Ce qui nous anime",
+      "titre1": "L’immersion totale",
+      "texte1": "Pas d’écran, pas de décor en carton : vous n’êtes pas spectateurs, vous êtes dans l’histoire.",
+      "titre2": "La peur en sécurité",
+      "texte2": "Trois niveaux d’intensité, un mot de sécurité et une équipe attentive à chaque instant.",
+      "titre3": "Le fait main",
+      "texte3": "Décors, accessoires, mécanismes : presque tout a été imaginé et fabriqué par nos soins.",
+      "titre4": "Des sessions uniques",
+      "texte4": "Nos comédiens s’adaptent à votre groupe : deux parties ne se ressemblent jamais."
+    },
+    "atelier": {
+      "titre": "Dans les coulisses",
+      "intro": "Croquis, chantier, répétitions : quelques images de la naissance de Memoria.",
+      "legende1": "L’équipe au complet",
+      "legende2": "Croquis du grand couloir",
+      "legende3": "Plan du pensionnat",
+      "legende4": "Le chantier, premier jour",
+      "legende5": "Vieillissement des murs",
+      "legende6": "Installation de la régie"
+    },
+    "bandeau": "Et si tout était vrai ?",
+    "pensionnat": {
+      "partie": "Partie II · Le récit",
+      "titre": "Le pensionnat Sainte-Lucie",
+      "dates": "1902 – 1953",
+      "intro": "Ce que l’on sait de Sainte-Lucie tient en quelques archives, des photographies jaunies et beaucoup de silence. Voici ce que nous avons pu reconstituer.",
+      "date1": "1902",
+      "titre1": "La fondation",
+      "texte1": "Veuve d’un riche soyeux lyonnais, Éléonore de Saint-Aubin fait bâtir le pensionnat en mémoire de sa fille Lucie, emportée par la fièvre à douze ans. Elle veut offrir aux jeunes filles de la haute société « la meilleure éducation qui soit… et la protection de Dieu ».",
+      "legende1": "La famille de Saint-Aubin, vers 1898",
+      "date2": "1902 – 1948",
+      "titre2": "Une vie réglée",
+      "texte2": "Lever à six heures, prière, leçons de français, de piano et de broderie, silence au réfectoire, couvre-feu à vingt et une heures. Une quarantaine de pensionnaires, de huit à dix-sept ans, vivent au rythme de la cloche du grand hall, sous l’œil de la directrice, Mademoiselle Vernier.",
+      "legende2": "L’escalier de l’aile est, vers 1930",
+      "date3": "1948",
+      "titre3": "Héloïse",
+      "texte3": "Parmi elles, Héloïse Marchand, quatorze ans, arrivée à l’automne 1948. Douée pour le dessin, solitaire, elle remplit ses carnets du même motif : une porte que personne, au pensionnat, ne se souvient avoir jamais vue.",
+      "legende3": "Héloïse Marchand, 1949",
+      "date4": "1951",
+      "titre4": "Le photographe",
+      "texte4": "Comme chaque printemps, un photographe vient tirer le portrait de la promotion. Au développement, une silhouette de trop apparaît au dernier rang. Aucune élève ne la reconnaît. Le photographe, lui, ne remettra jamais les pieds à Sainte-Lucie.",
+      "legende4": "Le photographe, printemps 1951",
+      "date5": "1952",
+      "titre5": "Les nuits blanches",
+      "texte5": "Les incidents se multiplient : une berceuse fredonnée dans l’aile fermée, des rideaux qui ondulent sans un souffle d’air, l’horloge du grand hall qui s’arrête chaque nuit à 3 h 17. Plusieurs familles retirent leurs filles. Mademoiselle Vernier interdit qu’on en parle.",
+      "legende5": "Les rideaux du dortoir des grandes",
+      "date6": "Novembre 1953",
+      "titre6": "Le silence",
+      "texte6": "Un matin de novembre, le livreur trouve les grilles closes. À l’intérieur, les tables du petit-déjeuner sont dressées, les lits faits, les manteaux accrochés. Il n’y a plus personne. L’enquête ne donnera rien et le pensionnat est mis sous scellés.",
+      "legende6": "Dernière photographie connue d’une pensionnaire",
+      "date7": "Aujourd’hui",
+      "titre7": "Les rumeurs",
+      "texte7": "On raconte que le piano joue encore certaines nuits, que l’horloge s’est remise en marche, qu’une jeune fille attend à une fenêtre de l’aile est. Ceux qui ont tenté d’y entrer parlent tous d’une porte qui n’apparaît sur aucun plan…",
+      "legende7": "Le parc, laissé à l’abandon",
+      "appelTitre": "Les portes se rouvrent",
+      "appelTexte": "Ce soir, Sainte-Lucie vous attend. Pourrez-vous découvrir la vérité ?",
+      "appelBouton": "Réserver votre session"
+    }
   }
 }

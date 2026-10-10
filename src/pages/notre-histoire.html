@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="{{LANG}}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#000000">
+  <title>{{t:notreHistoire.meta.title}}</title>
+  <meta name="description" content="{{t:notreHistoire.meta.description}}">
+  <meta property="og:title" content="{{t:notreHistoire.meta.title}}">
+  <meta property="og:description" content="{{t:notreHistoire.meta.description}}">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="{{t:meta.ogLocale}}">
+  {{HEAD_LINKS}}
+  <link rel="icon" href="{{ROOT}}images/favicon.png" type="image/png">
+  <link rel="preload" href="{{ROOT}}fonts/metamorphous-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ROOT}}fonts/gemunulibre-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="{{ROOT}}css/style.css">
+</head>
+<body>
+{{HEADER}}
+<main id="contenu">
+  <section class="page-hero" aria-labelledby="page-titre">
+    <div class="hero__fond">
+      <div class="page-hero__media" data-hero-media>
+        <picture>
+          <source media="(max-width: 1024px)" srcset="{{ROOT}}images/hero-hall-1024.webp">
+          <img src="{{ROOT}}images/hero-hall-1920.webp" alt="" width="1920" height="1278" fetchpriority="high">
+        </picture>
+      </div>
+      <canvas class="hero__poussiere" aria-hidden="true" data-poussiere></canvas>
+      <div class="hero__voile" aria-hidden="true"></div>
+    </div>
+    <div class="page-hero__contenu" data-hero-contenu>
+      <p class="page-hero__surtitre">{{t:notreHistoire.hero.surtitre}}</p>
+      <h1 class="titre-section page-hero__titre" id="page-titre">{{t:notreHistoire.hero.titre}}</h1>
+      <span class="ornement" aria-hidden="true"></span>
+      <p class="page-hero__intro">{{t:notreHistoire.hero.intro}}</p>
+      <div class="page-hero__sommaire">
+        <a class="bouton bouton--contour" href="#coulisses">{{t:notreHistoire.hero.lienCoulisses}}</a>
+        <a class="bouton bouton--contour" href="#pensionnat">{{t:notreHistoire.hero.lienPensionnat}}</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="coulisses" id="coulisses" aria-labelledby="coulisses-titre">
+    <div class="conteneur">
+      <p class="partie" data-reveal>{{t:notreHistoire.coulisses.partie}}</p>
+      <h2 class="titre-orne" id="coulisses-titre" data-reveal><span>{{t:notreHistoire.coulisses.titre}}</span></h2>
+      <p class="texte-intro" data-reveal>{{t:notreHistoire.coulisses.intro}}</p>
+      <ul class="equipe">
+        <li class="membre" data-reveal>
+          <figure class="photo-attente">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M4 7h3l1.5-2h7L17 7h3a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1Z"/><circle cx="12" cy="13" r="3.6"/></svg>
+            <figcaption>{{t:notreHistoire.attente.photo}}</figcaption>
+          </figure>
+          <h3 class="membre__nom">{{t:notreHistoire.attente.nom}}</h3>
+          <p class="membre__role">{{t:notreHistoire.coulisses.role1}}</p>
+          <p class="membre__bio">{{t:notreHistoire.coulisses.bio1}}</p>
+        </li>
+        <li class="membre" data-reveal>
+          <figure class="photo-attente">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M4 7h3l1.5-2h7L17 7h3a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1Z"/><circle cx="12" cy="13" r="3.6"/></svg>
+            <figcaption>{{t:notreHistoire.attente.photo}}</figcaption>
+          </figure>
+          <h3 class="membre__nom">{{t:notreHistoire.attente.nom}}</h3>
+          <p class="membre__role">{{t:notreHistoire.coulisses.role2}}</p>
+          <p class="membre__bio">{{t:notreHistoire.coulisses.bio2}}</p>
+        </li>
+        <li class="membre" data-reveal>
+          <figure class="photo-attente">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M4 7h3l1.5-2h7L17 7h3a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1Z"/><circle cx="12" cy="13" r="3.6"/></svg>
+            <figcaption>{{t:notreHistoire.attente.photo}}</figcaption>
+          </figure>
+          <h3 class="membre__nom">{{t:notreHistoire.attente.nom}}</h3>
+          <p class="membre__role">{{t:notreHistoire.coulisses.role3}}</p>
+          <p class="membre__bio">{{t:notreHistoire.coulisses.bio3}}</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="genese" aria-labelledby="genese-titre">
+    <div class="conteneur">
+      <h2 class="titre-orne" id="genese-titre" data-reveal><span>{{t:notreHistoire.genese.titre}}</span></h2>
+      <ol class="chapitres">
+        <li class="chapitre">
+          <figure class="photo-attente photo-attente--croquis" data-reveal>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round" aria-hidden="true"><path d="m4 20 1.2-4.2L16 5l3 3L8.2 18.8 4 20Z"/><path d="m14 7 3 3"/></svg>
+            <figcaption>{{t:notreHistoire.genese.visuel1}}</figcaption>
+          </figure>
+          <div class="chapitre__texte" data-reveal>
+            <p class="chapitre__numero" aria-hidden="true">01</p>
+            <h3 class="chapitre__titre">{{t:notreHistoire.genese.titre1}}</h3>
+            <p>{{t:notreHistoire.genese.texte1}}</p>
+          </div>
+        </li>
+        <li class="chapitre">
+          <figure class="photo-attente photo-attente--croquis" data-reveal>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round" aria-hidden="true"><path d="m4 20 1.2-4.2L16 5l3 3L8.2 18.8 4 20Z"/><path d="m14 7 3 3"/></svg>
+            <figcaption>{{t:notreHistoire.genese.visuel2}}</figcaption>
+          </figure>
+          <div class="chapitre__texte" data-reveal>
+            <p class="chapitre__numero" aria-hidden="true">02</p>
+            <h3 class="chapitre__titre">{{t:notreHistoire.genese.titre2}}</h3>
+            <p>{{t:notreHistoire.genese.texte2}}</p>
+          </div>
+        </li>
+        <li class="chapitre">
+          <figure class="photo-attente" data-reveal>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M4 7h3l1.5-2h7L17 7h3a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1Z"/><circle cx="12" cy="13" r="3.6"/></svg>
+            <figcaption>{{t:notreHistoire.genese.visuel3}}</figcaption>
+          </figure>
+          <div class="chapitre__texte" data-reveal>
+            <p class="chapitre__numero" aria-hidden="true">03</p>
+            <h3 class="chapitre__titre">{{t:notreHistoire.genese.titre3}}</h3>
+            <p>{{t:notreHistoire.genese.texte3}}</p>
+          </div>
+        </li>
+        <li class="chapitre">
+          <figure class="photo-attente photo-attente--chantier" data-reveal>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round" aria-hidden="true"><path d="m13 6 5 5-2.2 2.2-5-5L13 6Z"/><path d="m10.8 8.2-7.3 7.3a1.8 1.8 0 0 0 2.5 2.5l7.3-7.3"/><path d="m15 4 1.5-1.5 5 5L20 9"/></svg>
+            <figcaption>{{t:notreHistoire.genese.visuel4}}</figcaption>
+          </figure>
+          <div class="chapitre__texte" data-reveal>
+            <p class="chapitre__numero" aria-hidden="true">04</p>
+            <h3 class="chapitre__titre">{{t:notreHistoire.genese.titre4}}</h3>
+            <p>{{t:notreHistoire.genese.texte4}}</p>
+          </div>
+        </li>
+        <li class="chapitre">
+          <figure class="photo-attente" data-reveal>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M4 7h3l1.5-2h7L17 7h3a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1Z"/><circle cx="12" cy="13" r="3.6"/></svg>
+            <figcaption>{{t:notreHistoire.genese.visuel5}}</figcaption>
+          </figure>
+          <div class="chapitre__texte" data-reveal>
+            <p class="chapitre__numero" aria-hidden="true">05</p>
+            <h3 class="chapitre__titre">{{t:notreHistoire.genese.titre5}}</h3>
+            <p>{{t:notreHistoire.genese.texte5}}</p>
+          </div>
+        </li>
+        <li class="chapitre">
+          <figure class="photo-attente" data-reveal>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M4 7h3l1.5-2h7L17 7h3a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1Z"/><circle cx="12" cy="13" r="3.6"/></svg>
+            <figcaption>{{t:notreHistoire.genese.visuel6}}</figcaption>
+          </figure>
+          <div class="chapitre__texte" data-reveal>
+            <p class="chapitre__numero" aria-hidden="true">06</p>
+            <h3 class="chapitre__titre">{{t:notreHistoire.genese.titre6}}</h3>
+            <p>{{t:notreHistoire.genese.texte6}}</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="valeurs" aria-labelledby="valeurs-titre">
+    <div class="conteneur">
+      <h2 class="titre-orne" id="valeurs-titre" data-reveal><span>{{t:notreHistoire.valeurs.titre}}</span></h2>
+      <ul class="valeurs__liste">
+        <li class="valeur" data-reveal>
+          <h3>{{t:notreHistoire.valeurs.titre1}}</h3>
+          <p>{{t:notreHistoire.valeurs.texte1}}</p>
+        </li>
+        <li class="valeur" data-reveal>
+          <h3>{{t:notreHistoire.valeurs.titre2}}</h3>
+          <p>{{t:notreHistoire.valeurs.texte2}}</p>
+        </li>
+        <li class="valeur" data-reveal>
+          <h3>{{t:notreHistoire.valeurs.titre3}}</h3>
+          <p>{{t:notreHistoire.valeurs.texte3}}</p>
+        </li>
+        <li class="valeur" data-reveal>
+          <h3>{{t:notreHistoire.valeurs.titre4}}</h3>
+          <p>{{t:notreHistoire.valeurs.texte4}}</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="atelier" aria-labelledby="atelier-titre">
+    <div class="conteneur">
+      <h2 class="titre-orne" id="atelier-titre" data-reveal><span>{{t:notreHistoire.atelier.titre}}</span></h2>
+      <p class="texte-intro" data-reveal>{{t:notreHistoire.atelier.intro}}</p>
+      <ul class="atelier__grille">
+        <li data-reveal>
+          <figure class="photo-attente">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M4 7h3l1.5-2h7L17 7h3a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1Z"/><circle cx="12" cy="13" r="3.6"/></svg>
+            <figcaption>{{t:notreHistoire.atelier.legende1}}<br>{{t:notreHistoire.attente.photo}}</figcaption>
+          </figure>
+        </li>
+        <li data-reveal>
+          <figure class="photo-attente photo-attente--croquis">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round" aria-hidden="true"><path d="m4 20 1.2-4.2L16 5l3 3L8.2 18.8 4 20Z"/><path d="m14 7 3 3"/></svg>
+            <figcaption>{{t:notreHistoire.atelier.legende2}}<br>{{t:notreHistoire.attente.photo}}</figcaption>
+          </figure>
+        </li>
+        <li data-reveal>
+          <figure class="photo-attente photo-attente--croquis">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round" aria-hidden="true"><path d="m4 20 1.2-4.2L16 5l3 3L8.2 18.8 4 20Z"/><path d="m14 7 3 3"/></svg>
+            <figcaption>{{t:notreHistoire.atelier.legende3}}<br>{{t:notreHistoire.attente.photo}}</figcaption>
+          </figure>
+        </li>
+        <li data-reveal>
+          <figure class="photo-attente photo-attente--chantier">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round" aria-hidden="true"><path d="m13 6 5 5-2.2 2.2-5-5L13 6Z"/><path d="m10.8 8.2-7.3 7.3a1.8 1.8 0 0 0 2.5 2.5l7.3-7.3"/><path d="m15 4 1.5-1.5 5 5L20 9"/></svg>
+            <figcaption>{{t:notreHistoire.atelier.legende4}}<br>{{t:notreHistoire.attente.photo}}</figcaption>
+          </figure>
+        </li>
+        <li data-reveal>
+          <figure class="photo-attente photo-attente--chantier">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round" aria-hidden="true"><path d="m13 6 5 5-2.2 2.2-5-5L13 6Z"/><path d="m10.8 8.2-7.3 7.3a1.8 1.8 0 0 0 2.5 2.5l7.3-7.3"/><path d="m15 4 1.5-1.5 5 5L20 9"/></svg>
+            <figcaption>{{t:notreHistoire.atelier.legende5}}<br>{{t:notreHistoire.attente.photo}}</figcaption>
+          </figure>
+        </li>
+        <li data-reveal>
+          <figure class="photo-attente">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M4 7h3l1.5-2h7L17 7h3a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1Z"/><circle cx="12" cy="13" r="3.6"/></svg>
+            <figcaption>{{t:notreHistoire.atelier.legende6}}<br>{{t:notreHistoire.attente.photo}}</figcaption>
+          </figure>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="bandeau bandeau--memoire" aria-label="{{t:notreHistoire.bandeau}}">
+    <div class="bandeau__media" data-parallax="0.4">
+      <img src="{{ROOT}}images/archive-rideau.webp" alt="" width="560" height="942" loading="lazy">
+    </div>
+    <p class="bandeau__titre" data-reveal data-parallax="-0.12">{{t:notreHistoire.bandeau}}</p>
+  </section>
+
+  <section class="pensionnat" id="pensionnat" aria-labelledby="pensionnat-titre">
+    <div class="conteneur">
+      <p class="partie" data-reveal>{{t:notreHistoire.pensionnat.partie}}</p>
+      <h2 class="titre-orne" id="pensionnat-titre" data-reveal><span>{{t:notreHistoire.pensionnat.titre}}</span></h2>
+      <p class="pensionnat__dates" data-reveal>{{t:notreHistoire.pensionnat.dates}}</p>
+      <p class="texte-intro" data-reveal>{{t:notreHistoire.pensionnat.intro}}</p>
+      <ol class="chronique">
+        <li class="evenement">
+          <div class="evenement__texte" data-reveal>
+            <p class="evenement__date">{{t:notreHistoire.pensionnat.date1}}</p>
+            <h3 class="evenement__titre">{{t:notreHistoire.pensionnat.titre1}}</h3>
+            <p>{{t:notreHistoire.pensionnat.texte1}}</p>
+          </div>
+          <figure class="evenement__photo" data-reveal>
+            <img src="{{ROOT}}images/archive-famille.webp" alt="" width="640" height="917" loading="lazy">
+            <figcaption>{{t:notreHistoire.pensionnat.legende1}}</figcaption>
+          </figure>
+        </li>
+        <li class="evenement">
+          <div class="evenement__texte" data-reveal>
+            <p class="evenement__date">{{t:notreHistoire.pensionnat.date2}}</p>
+            <h3 class="evenement__titre">{{t:notreHistoire.pensionnat.titre2}}</h3>
+            <p>{{t:notreHistoire.pensionnat.texte2}}</p>
+          </div>
+          <figure class="evenement__photo" data-reveal>
+            <img src="{{ROOT}}images/archive-escalier.webp" alt="" width="640" height="841" loading="lazy">
+            <figcaption>{{t:notreHistoire.pensionnat.legende2}}</figcaption>
+          </figure>
+        </li>
+        <li class="evenement">
+          <div class="evenement__texte" data-reveal>
+            <p class="evenement__date">{{t:notreHistoire.pensionnat.date3}}</p>
+            <h3 class="evenement__titre">{{t:notreHistoire.pensionnat.titre3}}</h3>
+            <p>{{t:notreHistoire.pensionnat.texte3}}</p>
+          </div>
+          <figure class="evenement__photo" data-reveal>
+            <img src="{{ROOT}}images/archive-jeune-femme.webp" alt="" width="512" height="768" loading="lazy">
+            <figcaption>{{t:notreHistoire.pensionnat.legende3}}</figcaption>
+          </figure>
+        </li>
+        <li class="evenement">
+          <div class="evenement__texte" data-reveal>
+            <p class="evenement__date">{{t:notreHistoire.pensionnat.date4}}</p>
+            <h3 class="evenement__titre">{{t:notreHistoire.pensionnat.titre4}}</h3>
+            <p>{{t:notreHistoire.pensionnat.texte4}}</p>
+          </div>
+          <figure class="evenement__photo" data-reveal>
+            <img src="{{ROOT}}images/archive-photographe.webp" alt="" width="235" height="332" loading="lazy">
+            <figcaption>{{t:notreHistoire.pensionnat.legende4}}</figcaption>
+          </figure>
+        </li>
+        <li class="evenement">
+          <div class="evenement__texte" data-reveal>
+            <p class="evenement__date">{{t:notreHistoire.pensionnat.date5}}</p>
+            <h3 class="evenement__titre">{{t:notreHistoire.pensionnat.titre5}}</h3>
+            <p>{{t:notreHistoire.pensionnat.texte5}}</p>
+          </div>
+          <figure class="evenement__photo" data-reveal>
+            <img src="{{ROOT}}images/archive-rideau.webp" alt="" width="560" height="942" loading="lazy">
+            <figcaption>{{t:notreHistoire.pensionnat.legende5}}</figcaption>
+          </figure>
+        </li>
+        <li class="evenement">
+          <div class="evenement__texte" data-reveal>
+            <p class="evenement__date">{{t:notreHistoire.pensionnat.date6}}</p>
+            <h3 class="evenement__titre">{{t:notreHistoire.pensionnat.titre6}}</h3>
+            <p>{{t:notreHistoire.pensionnat.texte6}}</p>
+          </div>
+          <figure class="evenement__photo" data-reveal>
+            <img src="{{ROOT}}images/archive-lac.webp" alt="" width="513" height="696" loading="lazy">
+            <figcaption>{{t:notreHistoire.pensionnat.legende6}}</figcaption>
+          </figure>
+        </li>
+        <li class="evenement">
+          <div class="evenement__texte" data-reveal>
+            <p class="evenement__date">{{t:notreHistoire.pensionnat.date7}}</p>
+            <h3 class="evenement__titre">{{t:notreHistoire.pensionnat.titre7}}</h3>
+            <p>{{t:notreHistoire.pensionnat.texte7}}</p>
+          </div>
+          <figure class="evenement__photo" data-reveal>
+            <img src="{{ROOT}}images/archive-riviere.webp" alt="" width="500" height="650" loading="lazy">
+            <figcaption>{{t:notreHistoire.pensionnat.legende7}}</figcaption>
+          </figure>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="appel" aria-labelledby="appel-titre">
+    <div class="conteneur" data-reveal>
+      <img class="appel__embleme" src="{{ROOT}}images/embleme-or.webp" alt="" width="340" height="488" loading="lazy">
+      <h2 class="titre-orne" id="appel-titre"><span>{{t:notreHistoire.pensionnat.appelTitre}}</span></h2>
+      <p class="appel__texte">{{t:notreHistoire.pensionnat.appelTexte}}</p>
+      <a class="bouton bouton--rouge" href="index.html#reservation">{{t:notreHistoire.pensionnat.appelBouton}}</a>
+    </div>
+  </section>
+</main>
+{{FOOTER}}
+</body>
+</html>

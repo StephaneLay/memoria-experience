@@ -13,10 +13,17 @@ Rien de ce qui suit n’est bloquant pour avancer sur le design ; ce sont les co
 - [ ] **Accroche du hero** : « Pensionnat Sainte-Lucie, 1953. Personne n’en est jamais ressorti. » (ajoutée, à valider)
 - [ ] **Traduction anglaise** : faite par nos soins, à relire si le client le souhaite
 
+## Page « Notre histoire »
+
+- [ ] Prénoms, noms, rôles et courtes biographies des trois associés (les textes actuels sont inventés)
+- [ ] Photos : portraits de l’équipe, photo de groupe, croquis, plans, photos de chantier et de répétition
+- [ ] Récit réel de la création de Memoria (dates, anecdotes, valeurs) pour remplacer les textes provisoires
+- [ ] Validation de l’histoire fictive du pensionnat (personnages inventés : Éléonore de Saint-Aubin, Mademoiselle Vernier, Héloïse Marchand ; l’horloge arrêtée à 3 h 17…) pour rester cohérente avec le scénario du jeu
+
 ## Médias
 
 - [ ] **Photo du hall (hero)** : elle porte le filigrane d’un photographe en bas à gauche → obtenir la licence ou la remplacer par une photo du lieu
-- [ ] **Photos HD pour les bandeaux parallaxe** : les deux bandeaux utilisent provisoirement des photos d’archives de la maquette en basse définition (escalier, portrait de famille)
+- [ ] **Photos HD pour les bandeaux parallaxe** : les bandeaux utilisent provisoirement des images de la maquette : l’escalier et le hall sur l’accueil, le rideau de dentelle sur Notre histoire. Sur ordinateur, la photo s’affiche en plein écran derrière le bandeau : prévoir au moins 1920 px de large
 - [ ] **Bande-annonce** : lien YouTube de la vidéo
 - [ ] Photos d’archives de l’histoire : libres de droits ?
 

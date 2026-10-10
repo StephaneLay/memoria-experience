@@ -92,7 +92,8 @@
     "p2": "Then, without warning, one day in 1953, the corridors emptied. The doors closed. And Sainte-Lucie was abandoned, taking with it the secrets of those who had lived there.",
     "p3": "Since then, time has stood still within its walls.",
     "p4": "And you are the ones who have been chosen:<br>tonight, you will enter Sainte-Lucie.<br>And perhaps even understand why no one has ever come out.",
-    "question": "Will you uncover the truth?"
+    "question": "Will you uncover the truth?",
+    "lienPage": "Discover the full story"
   },
   "infos": {
     "titre": "Practical information",
@@ -128,5 +129,113 @@
     "titre": "You have lost your way…",
     "texte": "This door leads nowhere. Or perhaps it no longer exists.",
     "bouton": "Find the way out"
+  },
+  "notreHistoire": {
+    "meta": {
+      "title": "Our story — Memoria, immersive horror experience in Lyon",
+      "description": "Three enthusiasts, years of work and a forgotten boarding school: go behind the scenes of Memoria and discover the dark history of Sainte-Lucie."
+    },
+    "hero": {
+      "surtitre": "Memoria",
+      "titre": "Our story",
+      "intro": "Two stories meet here. The story of three enthusiasts who gave everything to bring Memoria to life. And the story of Sainte-Lucie boarding school, which no one should ever have reopened.",
+      "lienCoulisses": "Behind Memoria",
+      "lienPensionnat": "Sainte-Lucie boarding school"
+    },
+    "attente": {
+      "photo": "Photo coming soon",
+      "nom": "First Last"
+    },
+    "coulisses": {
+      "partie": "Part I · The true story",
+      "titre": "Three enthusiasts, one obsession",
+      "intro": "Memoria was born from a frustration shared by three friends, die-hard fans of escape games and horror experiences: being scared, yes… but never for long enough, never deeply enough. So they decided to create the experience they had always dreamt of living.",
+      "role1": "Co-founder · Story & direction",
+      "bio1": "He wrote the very first pages of the story and imagined Sainte-Lucie, its boarders and its secrets. He also directs the actors.",
+      "role2": "Co-founder · Sets & construction",
+      "bio2": "A carpenter by trade, he spent two years turning an empty space into a 1953 boarding school, room by room, object by object.",
+      "role3": "Co-founder · Technology & player experience",
+      "bio3": "Sound, lighting, mechanisms, safety: she orchestrates everything you don’t see… and everything that will make you jump."
+    },
+    "genese": {
+      "titre": "From an idea to the first doors",
+      "titre1": "The spark",
+      "texte1": "It all started around a table, after yet another escape game. One question kept coming back: what if you could live a real horror film, from the inside, face to face with real actors? The idea never left them.",
+      "visuel1": "First concept sketches",
+      "titre2": "The story",
+      "texte2": "For months, the story was written, rewritten and tested. A girls’ boarding school, an unexplained closure in 1953, clues hidden in every room: every detail serves the story, every puzzle serves the fear.",
+      "visuel2": "The script notebooks",
+      "titre3": "The venue",
+      "texte3": "It had to be the right place. After dozens of visits, they found 200 m² over three levels in Lyon: big enough to get lost in, intimate enough to feel watched.",
+      "visuel3": "The venue before the works",
+      "titre4": "The sets",
+      "texte4": "Hand-aged walls, furniture hunted down across the region, period wallpaper, authentic objects from the 1950s: the build took almost two years so that every corner tells a story.",
+      "visuel4": "Building the sets",
+      "titre5": "The technology",
+      "texte5": "Spatial sound, controlled lighting, hidden mechanisms and real-time effects: the technology becomes invisible so you can only think about one thing… getting out.",
+      "visuel5": "The sound and light control room",
+      "titre6": "The actors",
+      "texte6": "At the heart of Memoria are people. Actors trained in improvisation and controlled fear guide you, watch you and adjust the intensity to every group.",
+      "visuel6": "Actors in rehearsal"
+    },
+    "valeurs": {
+      "titre": "What drives us",
+      "titre1": "Total immersion",
+      "texte1": "No screens, no cardboard sets: you are not spectators, you are inside the story.",
+      "titre2": "Fear, safely",
+      "texte2": "Three intensity levels, a safe word and a team watching over you at every moment.",
+      "titre3": "Handmade",
+      "texte3": "Sets, props, mechanisms: almost everything was designed and built by us.",
+      "titre4": "Unique sessions",
+      "texte4": "Our actors adapt to your group: no two games are ever the same."
+    },
+    "atelier": {
+      "titre": "Behind the scenes",
+      "intro": "Sketches, building work, rehearsals: a few images from the birth of Memoria.",
+      "legende1": "The whole team",
+      "legende2": "Sketch of the great corridor",
+      "legende3": "Plan of the boarding school",
+      "legende4": "The build, day one",
+      "legende5": "Ageing the walls",
+      "legende6": "Setting up the control room"
+    },
+    "bandeau": "What if it were all true?",
+    "pensionnat": {
+      "partie": "Part II · The tale",
+      "titre": "Sainte-Lucie boarding school",
+      "dates": "1902 – 1953",
+      "intro": "What we know about Sainte-Lucie comes down to a few archives, yellowed photographs and a great deal of silence. Here is what we have been able to piece together.",
+      "date1": "1902",
+      "titre1": "The foundation",
+      "texte1": "The widow of a wealthy Lyon silk merchant, Éléonore de Saint-Aubin has the boarding school built in memory of her daughter Lucie, taken by a fever at the age of twelve. She wants to give the young ladies of high society “the finest education there is… and the protection of God”.",
+      "legende1": "The Saint-Aubin family, around 1898",
+      "date2": "1902 – 1948",
+      "titre2": "A life of rules",
+      "texte2": "Up at six, prayers, lessons in French, piano and embroidery, silence in the refectory, curfew at nine. Some forty boarders, aged eight to seventeen, live to the rhythm of the great hall’s bell, under the eye of the headmistress, Mademoiselle Vernier.",
+      "legende2": "The east wing staircase, around 1930",
+      "date3": "1948",
+      "titre3": "Héloïse",
+      "texte3": "Among them is Héloïse Marchand, fourteen, who arrives in the autumn of 1948. Gifted at drawing and solitary, she fills her notebooks with the same motif: a door that no one at the school remembers ever seeing.",
+      "legende3": "Héloïse Marchand, 1949",
+      "date4": "1951",
+      "titre4": "The photographer",
+      "texte4": "As every spring, a photographer comes to take the class portrait. When the film is developed, one figure too many appears in the back row. None of the girls recognises her. As for the photographer, he never sets foot in Sainte-Lucie again.",
+      "legende4": "The photographer, spring 1951",
+      "date5": "1952",
+      "titre5": "Sleepless nights",
+      "texte5": "The incidents multiply: a lullaby hummed in the closed wing, curtains rippling without a breath of air, the great hall clock stopping every night at 3:17. Several families take their daughters away. Mademoiselle Vernier forbids anyone to speak of it.",
+      "legende5": "The curtains of the older girls’ dormitory",
+      "date6": "November 1953",
+      "titre6": "The silence",
+      "texte6": "One November morning, the delivery man finds the gates locked. Inside, the breakfast tables are laid, the beds made, the coats hanging. There is no one left. The investigation leads nowhere and the school is sealed off.",
+      "legende6": "The last known photograph of a boarder",
+      "date7": "Today",
+      "titre7": "The rumours",
+      "texte7": "People say the piano still plays on certain nights, that the clock has started again, that a young girl waits at a window in the east wing. Those who tried to get in all speak of a door that appears on no plan…",
+      "legende7": "The grounds, left to ruin",
+      "appelTitre": "The doors open again",
+      "appelTexte": "Tonight, Sainte-Lucie is waiting for you. Will you uncover the truth?",
+      "appelBouton": "Book your session"
+    }
   }
 }

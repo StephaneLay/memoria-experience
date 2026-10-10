@@ -61,6 +61,11 @@
     });
   });
 
+  var pageCourante = window.location.pathname.split('/').pop() || 'index.html';
+  document.querySelectorAll('.site-nav__lien[href]').forEach(function (lien) {
+    if (lien.getAttribute('href') === pageCourante) lien.setAttribute('aria-current', 'page');
+  });
+
   document.querySelectorAll('[data-langue]').forEach(function (lien) {
     if (lien.getAttribute('data-langue') === langue) lien.setAttribute('aria-current', 'true');
   });
@@ -133,25 +138,6 @@
   window.addEventListener('scroll', prevoirDefilement, { passive: true });
   window.addEventListener('resize', prevoirDefilement);
   majDefilement();
-
-  var onglet = document.querySelector('[data-onglet]');
-  var zonesSansOnglet = [document.querySelector('[data-hero]'), document.getElementById('reservation')].filter(Boolean);
-  if (onglet && zonesSansOnglet.length && 'IntersectionObserver' in window) {
-    var zonesVisibles = new Set();
-    var observateurOnglet = new IntersectionObserver(function (entrees) {
-      entrees.forEach(function (entree) {
-        if (entree.isIntersecting) {
-          zonesVisibles.add(entree.target);
-        } else {
-          zonesVisibles.delete(entree.target);
-        }
-      });
-      onglet.classList.toggle('est-masque', zonesVisibles.size > 0);
-    }, { threshold: 0.25 });
-    zonesSansOnglet.forEach(function (zone) {
-      observateurOnglet.observe(zone);
-    });
-  }
 
   var toile = document.querySelector('[data-poussiere]');
   if (toile && toile.getContext && !reduireAnimations) {

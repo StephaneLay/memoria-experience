@@ -36,7 +36,7 @@ Prérequis : Node.js 18 ou plus récent, aucune dépendance npm.
 
 ## Structure
 
-- `src/pages/` : gabarits de pages (`index.html`, `404.html`)
+- `src/pages/` : gabarits de pages (`index.html`, `notre-histoire.html`, `404.html`)
 - `src/partials/` : en-tête (navigation, réseaux, langues) et pied de page (+ onglet « Réserver »)
 - `src/i18n/` : textes FR / EN
 - `src/css/style.css`, `src/js/main.js` : style et comportements (sans dépendance)
@@ -50,6 +50,8 @@ Prérequis : Node.js 18 ou plus récent, aucune dépendance npm.
 - **Réservation 4escape** : tout le contenu du `<form class="reservation__widget">` dans `src/pages/index.html` est un aperçu visuel (calendrier mercredi → dimanche, créneaux d’exemple). Le remplacer par le code d’intégration 4escape quand les accès seront disponibles, puis retirer la partie « réservation » de `src/js/main.js`.
 - **Bande-annonce** : renseigner l’identifiant YouTube dans `data-youtube=""` (balise `<dialog>` en bas de `src/pages/index.html`). Sans identifiant, la fenêtre affiche « La bande-annonce sera dévoilée très bientôt ».
 - **Réseaux sociaux** : liens `href="#"` dans `src/partials/header.html` et dans la colonne Contact de `src/pages/index.html`.
+- **Bouton « Réserver »** : onglet vertical fixé à droite sur toutes les pages, toujours visible (masqué uniquement quand le menu mobile est ouvert), avec une lueur rouge pulsée (`.onglet-reservation`).
+- **Emplacements photo** : les cadres « Photo à venir » de la page Notre histoire (`.photo-attente`, variantes `--croquis` et `--chantier`) sont à remplacer par des `<img>` quand l’équipe, les croquis et les photos de chantier seront fournis.
 - **Photos de l’histoire** : composition reprise du calque de photos d’archives de la maquette (12 photos, `.souvenir--1` à `--12` dans `src/css/style.css` : position, taille et rotation, calées sur une largeur maximale de 1728 px comme la maquette ; volontairement sans parallaxe). Version allégée en dessous de 1280 px et bande de photos à droite sur mobile.
 - **Lampe torche** : bouton en bas à gauche, affiché dès que le visiteur dispose d’une souris ou d’un pavé tactile (masqué sur écrans uniquement tactiles). Il assombrit légèrement la page, ajoute une petite lueur chaude autour du curseur et fait briller les lettres de « MEMORIA » survolées ; le choix est mémorisé dans le navigateur du visiteur. Réglages dans `.lampe-ombre`, `.lampe-lueur` et `.hero__eclat`.
 - **Reflet du logotype** : éclat qui balaie « MEMORIA » toutes les 7 s (`.hero__titre::after`, animation `reflet`).

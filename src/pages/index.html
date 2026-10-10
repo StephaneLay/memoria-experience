@@ -22,14 +22,16 @@
 {{HEADER}}
 <main id="contenu">
   <section class="hero" id="accueil" aria-labelledby="hero-titre" data-hero>
-    <div class="hero__media" data-hero-media>
-      <picture>
-        <source media="(max-width: 1024px)" srcset="{{ROOT}}images/hero-hall-1024.webp">
-        <img src="{{ROOT}}images/hero-hall-1920.webp" alt="" width="1920" height="1278" fetchpriority="high">
-      </picture>
+    <div class="hero__fond">
+      <div class="hero__media" data-hero-media>
+        <picture>
+          <source media="(max-width: 1024px)" srcset="{{ROOT}}images/hero-hall-1024.webp">
+          <img src="{{ROOT}}images/hero-hall-1920.webp" alt="" width="1920" height="1278" fetchpriority="high">
+        </picture>
+      </div>
+      <canvas class="hero__poussiere" aria-hidden="true" data-poussiere></canvas>
+      <div class="hero__voile" aria-hidden="true"></div>
     </div>
-    <canvas class="hero__poussiere" aria-hidden="true" data-poussiere></canvas>
-    <div class="hero__voile" aria-hidden="true"></div>
     <div class="hero__contenu" data-hero-contenu>
       <p class="hero__surtitre"><span>{{t:hero.surtitreGauche}}</span><span>{{t:hero.surtitreDroite}}</span></p>
       <h1 class="hero__titre" id="hero-titre">
@@ -214,6 +216,7 @@
         <p>{{t:histoire.p3}}</p>
         <p>{{t:histoire.p4}}</p>
         <p class="accroche accroche--sang">{{t:histoire.question}}</p>
+        <a class="bouton bouton--contour histoire__lien" href="notre-histoire.html#pensionnat">{{t:histoire.lienPage}}</a>
       </div>
     </div>
   </section>

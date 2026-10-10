@@ -33,6 +33,7 @@ Site vitrine statique et bilingue (FR / EN) pour **Memoria**, une expérience im
 ## Pages
 
 - Page d’accueil : faite (FR / EN).
+- Notre histoire : faite (FR / EN), textes provisoires rédigés par nos soins en attendant ceux du client. Partie I « La véritable histoire » (les trois associés, la genèse en six chapitres, les valeurs, les coulisses en images), puis, bien séparée par un bandeau, Partie II « Le récit » : la chronique fictive du pensionnat Sainte-Lucie de 1902 à aujourd’hui.
 - À créer au fil de l’eau : Team building, FAQ, mentions légales, CGV, politique de confidentialité, cookies. Les liens existent déjà dans le menu et le pied de page et mènent pour l’instant à la page 404 thématique.
 
 Ne pas ajouter de vraies clés, mots de passe ou jetons au dépôt ; utiliser les secrets de l’hébergeur/CI lorsqu’une intégration sera décidée.
