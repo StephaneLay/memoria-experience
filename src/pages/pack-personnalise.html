@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="{{LANG}}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#000000">
+  <title>{{t:packPerso.meta.title}}</title>
+  <meta name="description" content="{{t:packPerso.meta.description}}">
+  <meta property="og:title" content="{{t:packPerso.meta.title}}">
+  <meta property="og:description" content="{{t:packPerso.meta.description}}">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="{{t:meta.ogLocale}}">
+  {{HEAD_LINKS}}
+  <link rel="icon" href="{{ROOT}}images/favicon.png" type="image/png">
+  <link rel="preload" href="{{ROOT}}fonts/metamorphous-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ROOT}}fonts/gemunulibre-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="{{ROOT}}css/style.css">
+</head>
+<body>
+{{HEADER}}
+<main id="contenu">
+  <section class="page-hero" aria-labelledby="page-titre">
+    <div class="hero__fond">
+      <div class="page-hero__media page-hero__media--plafond" data-hero-media>
+        <picture>
+          <source media="(max-width: 1024px)" srcset="{{ROOT}}images/hero-hall-1024.webp">
+          <img src="{{ROOT}}images/hero-hall-1920.webp" alt="" width="1920" height="1278" fetchpriority="high">
+        </picture>
+      </div>
+      <canvas class="hero__poussiere" aria-hidden="true" data-poussiere></canvas>
+      <div class="hero__voile" aria-hidden="true"></div>
+    </div>
+    <div class="page-hero__contenu" data-hero-contenu>
+      <p class="page-hero__surtitre">{{t:packPerso.hero.surtitre}}</p>
+      <h1 class="titre-section page-hero__titre" id="page-titre">{{t:packPerso.hero.titre}}</h1>
+      <span class="ornement" aria-hidden="true"></span>
+      <p class="page-hero__intro">{{t:packPerso.hero.intro}}</p>
+      <div class="page-hero__sommaire">
+        <a class="bouton bouton--rouge" href="#creer">{{t:packPerso.hero.bouton}}</a>
+        <a class="bouton bouton--contour" href="#occasions">{{t:packPerso.hero.lien}}</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="occasions" id="occasions" aria-labelledby="occasions-titre">
+    <div class="conteneur">
+      <h2 class="titre-orne" id="occasions-titre" data-reveal><span>{{t:packPerso.occasions.titre}}</span></h2>
+      <ul class="cartes cartes--4">
+        <li class="carte" data-reveal>
+          <svg class="carte__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20h16v-7H4zM4 16.5c2 1 3.8 1 5.3 0s2.7-1 4.1 0 3.6 1 6.6 0M12 13V9.5"/><path d="M12 7c-1-1-1-2.2 0-3.5 1 1.3 1 2.5 0 3.5Z"/></svg>
+          <h3 class="carte__titre">{{t:packPerso.occasions.titre1}}</h3>
+          <p>{{t:packPerso.occasions.texte1}}</p>
+        </li>
+        <li class="carte" data-reveal>
+          <svg class="carte__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3.5h5l-.6 5.2a2 2 0 0 1-3.8 0L5 3.5ZM7.5 10.5V19M5 19.5h5M14 3.5h5l-.6 5.2a2 2 0 0 1-3.8 0L14 3.5ZM16.5 10.5V19M14 19.5h5"/></svg>
+          <h3 class="carte__titre">{{t:packPerso.occasions.titre2}}</h3>
+          <p>{{t:packPerso.occasions.texte2}}</p>
+        </li>
+        <li class="carte" data-reveal>
+          <svg class="carte__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="15" r="6"/><path d="m9.2 5.4 1.3-2h3l1.3 2L12 9 9.2 5.4Z"/></svg>
+          <h3 class="carte__titre">{{t:packPerso.occasions.titre3}}</h3>
+          <p>{{t:packPerso.occasions.texte3}}</p>
+        </li>
+        <li class="carte" data-reveal>
+          <svg class="carte__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="7.5" cy="12" r="4"/><path d="M11.5 12H21M17.5 12v3M20.5 12v2.2"/></svg>
+          <h3 class="carte__titre">{{t:packPerso.occasions.titre4}}</h3>
+          <p>{{t:packPerso.occasions.texte4}}</p>
+        </li>
+        <li class="carte" data-reveal>
+          <svg class="carte__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 9.5h17v4h-17zM5.5 13.5V21h13v-7.5M12 9.5V21"/><path d="M12 9.5C10.5 6 6.5 5.5 6.5 8S10 9.5 12 9.5Zm0 0c1.5-3.5 5.5-4 5.5-1.5S14 9.5 12 9.5Z"/></svg>
+          <h3 class="carte__titre">{{t:packPerso.occasions.titre5}}</h3>
+          <p>{{t:packPerso.occasions.texte5}}</p>
+        </li>
+        <li class="carte" data-reveal>
+          <svg class="carte__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="1.5"/><path d="M9 7V5a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2M3 12.5h18M11 12.5v2h2v-2"/></svg>
+          <h3 class="carte__titre">{{t:packPerso.occasions.titre6}}</h3>
+          <p>{{t:packPerso.occasions.texte6}}</p>
+        </li>
+        <li class="carte" data-reveal>
+          <svg class="carte__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 2.5 5.6 6 .6-4.5 4.1 1.3 6L12 16.3l-5.3 3 1.3-6-4.5-4.1 6-.6L12 3Z"/></svg>
+          <h3 class="carte__titre">{{t:packPerso.occasions.titre7}}</h3>
+          <p>{{t:packPerso.occasions.texte7}}</p>
+        </li>
+        <li class="carte" data-reveal>
+          <svg class="carte__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="7" width="13" height="10" rx="1.5"/><path d="m16 10.5 5-3v9l-5-3"/></svg>
+          <h3 class="carte__titre">{{t:packPerso.occasions.titre8}}</h3>
+          <p>{{t:packPerso.occasions.texte8}}</p>
+          <a class="carte__lien" href="presse.html">{{t:packPerso.occasions.lien8}}</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="facteurs" aria-labelledby="facteurs-titre">
+    <div class="conteneur">
+      <h2 class="titre-orne" id="facteurs-titre" data-reveal><span>{{t:packPerso.facteurs.titre}}</span></h2>
+      <p class="texte-intro" data-reveal>{{t:packPerso.facteurs.intro}}</p>
+      <ul class="facteurs__liste">
+        <li class="facteur" data-reveal>
+          <h3>{{t:packPerso.facteurs.titre1}}</h3>
+          <p>{{t:packPerso.facteurs.texte1}}</p>
+        </li>
+        <li class="facteur" data-reveal>
+          <h3>{{t:packPerso.facteurs.titre2}}</h3>
+          <p>{{t:packPerso.facteurs.texte2}}</p>
+        </li>
+        <li class="facteur" data-reveal>
+          <h3>{{t:packPerso.facteurs.titre3}}</h3>
+          <p>{{t:packPerso.facteurs.texte3}}</p>
+        </li>
+        <li class="facteur" data-reveal>
+          <h3>{{t:packPerso.facteurs.titre4}}</h3>
+          <p>{{t:packPerso.facteurs.texte4}}</p>
+        </li>
+        <li class="facteur" data-reveal>
+          <h3>{{t:packPerso.facteurs.titre5}}</h3>
+          <p>{{t:packPerso.facteurs.texte5}}</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="fonctionnement" aria-labelledby="etapes-titre">
+    <div class="conteneur">
+      <h2 class="titre-orne" id="etapes-titre" data-reveal><span>{{t:packPerso.etapes.titre}}</span></h2>
+      <ol class="etapes">
+        <li class="etape" data-reveal>
+          <p class="etape__numero" aria-hidden="true">01</p>
+          <h3 class="etape__titre">{{t:packPerso.etapes.titre1}}</h3>
+          <p>{{t:packPerso.etapes.texte1}}</p>
+        </li>
+        <li class="etape" data-reveal>
+          <p class="etape__numero" aria-hidden="true">02</p>
+          <h3 class="etape__titre">{{t:packPerso.etapes.titre2}}</h3>
+          <p>{{t:packPerso.etapes.texte2}}</p>
+        </li>
+        <li class="etape" data-reveal>
+          <p class="etape__numero" aria-hidden="true">03</p>
+          <h3 class="etape__titre">{{t:packPerso.etapes.titre3}}</h3>
+          <p>{{t:packPerso.etapes.texte3}}</p>
+        </li>
+        <li class="etape" data-reveal>
+          <p class="etape__numero" aria-hidden="true">04</p>
+          <h3 class="etape__titre">{{t:packPerso.etapes.titre4}}</h3>
+          <p>{{t:packPerso.etapes.texte4}}</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="demande" id="creer" aria-labelledby="creer-titre">
+    <div class="conteneur demande__conteneur">
+      <h2 class="titre-orne" id="creer-titre" data-reveal><span>{{t:packPerso.formulaire.titre}}</span></h2>
+      <p class="texte-intro" data-reveal>{{t:packPerso.formulaire.intro}}</p>
+      <form class="formulaire" data-formulaire data-message="{{t:formulaire.envoiAttente}}" data-reveal>
+        <div class="champs">
+          <div class="champ">
+            <label for="perso-nom">{{t:formulaire.nom}} <span aria-hidden="true">*</span></label>
+            <input id="perso-nom" name="nom" type="text" autocomplete="name" required>
+          </div>
+          <div class="champ">
+            <label for="perso-type">{{t:packPerso.formulaire.type}} <span aria-hidden="true">*</span></label>
+            <select id="perso-type" name="type" required>
+              <option value="">{{t:formulaire.choisir}}</option>
+              <option>{{t:packPerso.formulaire.type1}}</option>
+              <option>{{t:packPerso.formulaire.type2}}</option>
+              <option>{{t:packPerso.formulaire.type3}}</option>
+              <option>{{t:packPerso.formulaire.type4}}</option>
+              <option>{{t:packPerso.formulaire.type5}}</option>
+              <option>{{t:packPerso.formulaire.type6}}</option>
+              <option>{{t:packPerso.formulaire.type7}}</option>
+            </select>
+          </div>
+          <div class="champ">
+            <label for="perso-email">{{t:formulaire.email}} <span aria-hidden="true">*</span></label>
+            <input id="perso-email" name="email" type="email" autocomplete="email" required>
+          </div>
+          <div class="champ">
+            <label for="perso-telephone">{{t:formulaire.telephone}}</label>
+            <input id="perso-telephone" name="telephone" type="tel" autocomplete="tel">
+          </div>
+          <div class="champ">
+            <label for="perso-date">{{t:formulaire.date}}</label>
+            <input id="perso-date" name="date" type="date">
+          </div>
+          <div class="champ">
+            <label for="perso-participants">{{t:formulaire.participants}}</label>
+            <input id="perso-participants" name="participants" type="number" min="1" max="200" inputmode="numeric">
+          </div>
+          <div class="champ champ--large">
+            <label for="perso-budget">{{t:packPerso.formulaire.budget}}</label>
+            <select id="perso-budget" name="budget">
+              <option value="">{{t:formulaire.choisir}}</option>
+              <option>{{t:packPerso.formulaire.budget1}}</option>
+              <option>{{t:packPerso.formulaire.budget2}}</option>
+              <option>{{t:packPerso.formulaire.budget3}}</option>
+              <option>{{t:packPerso.formulaire.budget4}}</option>
+              <option>{{t:packPerso.formulaire.budget5}}</option>
+            </select>
+          </div>
+          <div class="champ champ--large">
+            <label for="perso-demande">{{t:formulaire.message}} <span aria-hidden="true">*</span></label>
+            <textarea id="perso-demande" name="demande" rows="5" required placeholder="{{t:packPerso.formulaire.demandeExemple}}"></textarea>
+          </div>
+          <div class="champ champ--large">
+            <label for="perso-infos">{{t:formulaire.infos}}</label>
+            <textarea id="perso-infos" name="infos" rows="3" placeholder="{{t:packPerso.formulaire.infosExemple}}"></textarea>
+          </div>
+          <div class="formulaire__piege" aria-hidden="true">
+            <label for="perso-site">{{t:formulaire.piege}}</label>
+            <input id="perso-site" name="site_web" type="text" tabindex="-1" autocomplete="off">
+          </div>
+          <label class="choix champ--large">
+            <input type="checkbox" name="consentement" required>
+            <span>{{t:formulaire.consentement}} <span aria-hidden="true">*</span></span>
+          </label>
+        </div>
+        <p class="formulaire__aide">{{t:formulaire.obligatoires}}</p>
+        <div class="formulaire__action">
+          <button class="bouton bouton--rouge" type="submit">{{t:packPerso.formulaire.bouton}}</button>
+          <p class="formulaire__statut" role="status" data-formulaire-statut></p>
+        </div>
+      </form>
+    </div>
+  </section>
+</main>
+{{FOOTER}}
+</body>
+</html>

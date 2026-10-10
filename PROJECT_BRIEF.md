@@ -34,6 +34,10 @@ Site vitrine statique et bilingue (FR / EN) pour **Memoria**, une expérience im
 
 - Page d’accueil : faite (FR / EN).
 - Notre histoire : faite (FR / EN), textes provisoires rédigés par nos soins en attendant ceux du client. Partie I « La véritable histoire » (les trois associés, la genèse en six chapitres, les valeurs, les coulisses en images), puis, bien séparée par un bandeau, Partie II « Le récit » : la chronique fictive du pensionnat Sainte-Lucie de 1902 à aujourd’hui.
+- Nos services (sous-menu du header), trois pages faites (FR / EN), textes provisoires :
+  - **Pack cadeau** : formules, configurateur avec aperçu du bon en direct, fonctionnement, FAQ (validité, conditions, réservation), bouton « Offrir MEMORIA » ;
+  - **Pack personnalisé** : occasions (anniversaire, EVJF/EVG, demande en mariage, privatisation, surprise, entreprise, demande spéciale), facteurs, étapes, formulaire « Créer mon expérience » ;
+  - **Presse, tournages & influenceurs** : publics, concept en chiffres, offres, conditions d’accueil, confidentialité, ressources (dossier de presse, logos, photos autorisées), formulaire « Contacter notre équipe ».
 - À créer au fil de l’eau : Team building, FAQ, mentions légales, CGV, politique de confidentialité, cookies. Les liens existent déjà dans le menu et le pied de page et mènent pour l’instant à la page 404 thématique.
 
 Ne pas ajouter de vraies clés, mots de passe ou jetons au dépôt ; utiliser les secrets de l’hébergeur/CI lorsqu’une intégration sera décidée.

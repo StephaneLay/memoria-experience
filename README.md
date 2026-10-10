@@ -36,7 +36,7 @@ Prérequis : Node.js 18 ou plus récent, aucune dépendance npm.
 
 ## Structure
 
-- `src/pages/` : gabarits de pages (`index.html`, `notre-histoire.html`, `404.html`)
+- `src/pages/` : gabarits de pages (`index.html`, `notre-histoire.html`, `pack-cadeau.html`, `pack-personnalise.html`, `presse.html`, `404.html`)
 - `src/partials/` : en-tête (navigation, réseaux, langues) et pied de page (+ onglet « Réserver »)
 - `src/i18n/` : textes FR / EN
 - `src/css/style.css`, `src/js/main.js` : style et comportements (sans dépendance)
@@ -50,6 +50,8 @@ Prérequis : Node.js 18 ou plus récent, aucune dépendance npm.
 - **Réservation 4escape** : tout le contenu du `<form class="reservation__widget">` dans `src/pages/index.html` est un aperçu visuel (calendrier mercredi → dimanche, créneaux d’exemple). Le remplacer par le code d’intégration 4escape quand les accès seront disponibles, puis retirer la partie « réservation » de `src/js/main.js`.
 - **Bande-annonce** : renseigner l’identifiant YouTube dans `data-youtube=""` (balise `<dialog>` en bas de `src/pages/index.html`). Sans identifiant, la fenêtre affiche « La bande-annonce sera dévoilée très bientôt ».
 - **Réseaux sociaux** : liens `href="#"` dans `src/partials/header.html` et dans la colonne Contact de `src/pages/index.html`.
+- **Formulaires** (pack personnalisé, presse, bon cadeau) : champs, validation et champ anti-spam invisible (`site_web`) sont prêts. Tant que la balise `<form>` n’a pas d’attribut `action`, l’envoi affiche un message d’attente. Pour les activer : ajouter `action` + `method="post"` vers le script d’envoi retenu (script PHP comme sur le-dome si l’hébergeur le permet, ou service de formulaires), et le JavaScript laissera alors le formulaire partir normalement.
+- **Bon cadeau** : les formules (`.formule`) et l’aperçu du bon sont un démonstrateur visuel ; l’achat réel passera par 4escape (remplacer le bouton « Offrir MEMORIA » par le lien ou le widget 4escape).
 - **Bouton « Réserver »** : onglet vertical fixé à droite sur toutes les pages, toujours visible (masqué uniquement quand le menu mobile est ouvert), avec une lueur rouge pulsée (`.onglet-reservation`).
 - **Emplacements photo** : les cadres « Photo à venir » de la page Notre histoire (`.photo-attente`, variantes `--croquis` et `--chantier`) sont à remplacer par des `<img>` quand l’équipe, les croquis et les photos de chantier seront fournis.
 - **Photos de l’histoire** : composition reprise du calque de photos d’archives de la maquette (12 photos, `.souvenir--1` à `--12` dans `src/css/style.css` : position, taille et rotation, calées sur une largeur maximale de 1728 px comme la maquette ; volontairement sans parallaxe). Version allégée en dessous de 1280 px et bande de photos à droite sur mobile.

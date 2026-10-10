@@ -62,8 +62,11 @@
   });
 
   var pageCourante = window.location.pathname.split('/').pop() || 'index.html';
-  document.querySelectorAll('.site-nav__lien[href]').forEach(function (lien) {
-    if (lien.getAttribute('href') === pageCourante) lien.setAttribute('aria-current', 'page');
+  document.querySelectorAll('.site-nav a[href]').forEach(function (lien) {
+    if (lien.getAttribute('href') !== pageCourante) return;
+    lien.setAttribute('aria-current', 'page');
+    var groupe = lien.closest('[data-sous-menu]');
+    if (groupe) groupe.querySelector('button').classList.add('est-courant');
   });
 
   document.querySelectorAll('[data-langue]').forEach(function (lien) {
@@ -304,6 +307,58 @@
     dialogue.addEventListener('close', function () {
       cadreVideo.innerHTML = contenuInitial;
     });
+  }
+
+  document.querySelectorAll('[data-formulaire]').forEach(function (formulaireContact) {
+    formulaireContact.addEventListener('submit', function (evenement) {
+      if (formulaireContact.getAttribute('action')) return;
+      evenement.preventDefault();
+      var statut = formulaireContact.querySelector('[data-formulaire-statut]');
+      statut.textContent = formulaireContact.getAttribute('data-message');
+      statut.classList.add('est-active');
+    });
+  });
+
+  var bonCadeau = document.querySelector('[data-bon-cadeau]');
+  if (bonCadeau) {
+    var formatEuros = new Intl.NumberFormat(langue, { style: 'currency', currency: 'EUR', maximumFractionDigits: 0 });
+    var montantLibre = bonCadeau.querySelector('[data-montant-libre]');
+    var formules = bonCadeau.querySelectorAll('input[name="formule"]');
+    var apercu = function (nom) {
+      return bonCadeau.querySelector('[data-bon="' + nom + '"]');
+    };
+
+    var majFormule = function () {
+      var choisie = bonCadeau.querySelector('input[name="formule"]:checked');
+      bonCadeau.querySelectorAll('.formule').forEach(function (carte) {
+        carte.classList.toggle('est-choisie', carte.contains(choisie));
+      });
+      if (!choisie) return;
+      var montant = choisie.getAttribute('data-montant');
+      if (!montant) montant = formatEuros.format(Math.max(20, Number(montantLibre.value) || 20));
+      apercu('formule').textContent = choisie.getAttribute('data-libelle');
+      apercu('montant').textContent = montant;
+    };
+
+    formules.forEach(function (formule) {
+      formule.addEventListener('change', majFormule);
+    });
+
+    ['focus', 'input'].forEach(function (type) {
+      montantLibre.addEventListener(type, function () {
+        bonCadeau.querySelector('input[name="formule"][value="libre"]').checked = true;
+        majFormule();
+      });
+    });
+
+    bonCadeau.querySelectorAll('[data-bon-champ]').forEach(function (champ) {
+      champ.addEventListener('input', function () {
+        var cible = apercu(champ.getAttribute('data-bon-champ'));
+        cible.textContent = champ.value.trim() || cible.getAttribute('data-defaut');
+      });
+    });
+
+    majFormule();
   }
 
   var formulaire = document.querySelector('[data-reservation]');

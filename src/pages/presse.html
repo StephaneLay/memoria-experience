@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="{{LANG}}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#000000">
+  <title>{{t:presse.meta.title}}</title>
+  <meta name="description" content="{{t:presse.meta.description}}">
+  <meta property="og:title" content="{{t:presse.meta.title}}">
+  <meta property="og:description" content="{{t:presse.meta.description}}">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="{{t:meta.ogLocale}}">
+  {{HEAD_LINKS}}
+  <link rel="icon" href="{{ROOT}}images/favicon.png" type="image/png">
+  <link rel="preload" href="{{ROOT}}fonts/metamorphous-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ROOT}}fonts/gemunulibre-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="{{ROOT}}css/style.css">
+</head>
+<body>
+{{HEADER}}
+<main id="contenu">
+  <section class="page-hero" aria-labelledby="page-titre">
+    <div class="hero__fond">
+      <div class="page-hero__media page-hero__media--oeil" data-hero-media>
+        <img src="{{ROOT}}images/oeil.webp" alt="" width="1200" height="800" fetchpriority="high">
+      </div>
+      <canvas class="hero__poussiere" aria-hidden="true" data-poussiere></canvas>
+      <div class="hero__voile" aria-hidden="true"></div>
+    </div>
+    <div class="page-hero__contenu" data-hero-contenu>
+      <p class="page-hero__surtitre">{{t:presse.hero.surtitre}}</p>
+      <h1 class="titre-section page-hero__titre" id="page-titre">{{t:presse.hero.titre}}</h1>
+      <span class="ornement" aria-hidden="true"></span>
+      <p class="page-hero__intro">{{t:presse.hero.intro}}</p>
+      <div class="page-hero__sommaire">
+        <a class="bouton bouton--rouge" href="#contact">{{t:presse.hero.bouton}}</a>
+        <a class="bouton bouton--contour" href="#ressources">{{t:presse.hero.lien}}</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="publics" aria-labelledby="publics-titre">
+    <div class="conteneur">
+      <h2 class="titre-orne" id="publics-titre" data-reveal><span>{{t:presse.publics.titre}}</span></h2>
+      <ul class="cartes cartes--5">
+        <li class="carte" data-reveal>
+          <svg class="carte__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h13v14H6a2 2 0 0 1-2-2V5ZM17 9h3v8a2 2 0 0 1-2 2M7 9h7M7 12h7M7 15h4"/></svg>
+          <h3 class="carte__titre">{{t:presse.publics.titre1}}</h3>
+          <p>{{t:presse.publics.texte1}}</p>
+        </li>
+        <li class="carte" data-reveal>
+          <svg class="carte__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="7" width="13" height="10" rx="1.5"/><path d="m16 10.5 5-3v9l-5-3"/></svg>
+          <h3 class="carte__titre">{{t:presse.publics.titre2}}</h3>
+          <p>{{t:presse.publics.texte2}}</p>
+        </li>
+        <li class="carte" data-reveal>
+          <svg class="carte__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h3l1.5-2h7L17 7h3a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1Z"/><circle cx="12" cy="13" r="3.6"/></svg>
+          <h3 class="carte__titre">{{t:presse.publics.titre3}}</h3>
+          <p>{{t:presse.publics.texte3}}</p>
+        </li>
+        <li class="carte" data-reveal>
+          <svg class="carte__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="2.5" width="10" height="19" rx="2"/><path d="M11 18.5h2M10.5 9.5l4 2.5-4 2.5z"/></svg>
+          <h3 class="carte__titre">{{t:presse.publics.titre4}}</h3>
+          <p>{{t:presse.publics.texte4}}</p>
+        </li>
+        <li class="carte" data-reveal>
+          <svg class="carte__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8.5 12h7M9.5 8H7.5a4 4 0 0 0 0 8h2M14.5 8h2a4 4 0 0 1 0 8h-2"/></svg>
+          <h3 class="carte__titre">{{t:presse.publics.titre5}}</h3>
+          <p>{{t:presse.publics.texte5}}</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="concept" aria-labelledby="concept-titre">
+    <div class="conteneur">
+      <h2 class="titre-orne" id="concept-titre" data-reveal><span>{{t:presse.concept.titre}}</span></h2>
+      <p class="texte-intro" data-reveal>{{t:presse.concept.texte}}</p>
+      <ul class="chiffres">
+        <li data-reveal><span class="chiffres__valeur">{{t:presse.concept.valeur1}}</span><span>{{t:presse.concept.libelle1}}</span></li>
+        <li data-reveal><span class="chiffres__valeur">{{t:presse.concept.valeur2}}</span><span>{{t:presse.concept.libelle2}}</span></li>
+        <li data-reveal><span class="chiffres__valeur">{{t:presse.concept.valeur3}}</span><span>{{t:presse.concept.libelle3}}</span></li>
+        <li data-reveal><span class="chiffres__valeur">{{t:presse.concept.valeur4}}</span><span>{{t:presse.concept.libelle4}}</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="offres" aria-labelledby="offres-titre">
+    <div class="conteneur">
+      <h2 class="titre-orne" id="offres-titre" data-reveal><span>{{t:presse.offres.titre}}</span></h2>
+      <ul class="cartes cartes--4">
+        <li class="carte" data-reveal>
+          <svg class="carte__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="7" width="13" height="10" rx="1.5"/><path d="m16 10.5 5-3v9l-5-3"/></svg>
+          <h3 class="carte__titre">{{t:presse.offres.titre1}}</h3>
+          <p>{{t:presse.offres.texte1}}</p>
+        </li>
+        <li class="carte" data-reveal>
+          <svg class="carte__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="7.5" cy="12" r="4"/><path d="M11.5 12H21M17.5 12v3M20.5 12v2.2"/></svg>
+          <h3 class="carte__titre">{{t:presse.offres.titre2}}</h3>
+          <p>{{t:presse.offres.texte2}}</p>
+        </li>
+        <li class="carte" data-reveal>
+          <svg class="carte__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8.5 12h7M9.5 8H7.5a4 4 0 0 0 0 8h2M14.5 8h2a4 4 0 0 1 0 8h-2"/></svg>
+          <h3 class="carte__titre">{{t:presse.offres.titre3}}</h3>
+          <p>{{t:presse.offres.texte3}}</p>
+        </li>
+        <li class="carte" data-reveal>
+          <svg class="carte__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21M9 21h6"/></svg>
+          <h3 class="carte__titre">{{t:presse.offres.titre4}}</h3>
+          <p>{{t:presse.offres.texte4}}</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="regles" aria-label="{{t:presse.regles.titreAccueil}} · {{t:presse.regles.titreConfidentialite}}">
+    <div class="conteneur regles__grille">
+      <div class="regles__bloc" data-reveal>
+        <h2 class="titre-orne titre-orne--gauche"><span>{{t:presse.regles.titreAccueil}}</span></h2>
+        <ul class="regles__liste">
+          <li>{{t:presse.regles.accueil1}}</li>
+          <li>{{t:presse.regles.accueil2}}</li>
+          <li>{{t:presse.regles.accueil3}}</li>
+          <li>{{t:presse.regles.accueil4}}</li>
+        </ul>
+      </div>
+      <div class="regles__bloc regles__bloc--sang" data-reveal>
+        <h2 class="titre-orne titre-orne--gauche"><span>{{t:presse.regles.titreConfidentialite}}</span></h2>
+        <ul class="regles__liste">
+          <li>{{t:presse.regles.confidentialite1}}</li>
+          <li>{{t:presse.regles.confidentialite2}}</li>
+          <li>{{t:presse.regles.confidentialite3}}</li>
+          <li>{{t:presse.regles.confidentialite4}}</li>
+          <li>{{t:presse.regles.confidentialite5}}</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="ressources" id="ressources" aria-labelledby="ressources-titre">
+    <div class="conteneur">
+      <h2 class="titre-orne" id="ressources-titre" data-reveal><span>{{t:presse.ressources.titre}}</span></h2>
+      <div class="ressources__grille">
+        <article class="ressource" data-reveal>
+          <svg class="carte__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h8l4 4v14H6zM14 3v4h4M9 12h6M9 15h6M9 18h4"/></svg>
+          <h3 class="carte__titre">{{t:presse.ressources.dossierTitre}}</h3>
+          <p>{{t:presse.ressources.dossierTexte}}</p>
+          <span class="bouton bouton--sombre bouton--inactif" aria-disabled="true">{{t:presse.ressources.dossierBouton}}</span>
+        </article>
+        <article class="ressource" data-reveal>
+          <svg class="carte__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7.5 10.5 12 15l4.5-4.5M5 20h14"/></svg>
+          <h3 class="carte__titre">{{t:presse.ressources.logosTitre}}</h3>
+          <p>{{t:presse.ressources.logosTexte}}</p>
+          <ul class="logos">
+            <li><a class="logos__lien" href="{{ROOT}}images/logotype-or.webp" download="memoria-logotype-or.webp"><img src="{{ROOT}}images/logotype-or.webp" alt="" width="1400" height="248" loading="lazy">{{t:presse.ressources.logoOr}}</a></li>
+            <li><a class="logos__lien" href="{{ROOT}}images/logotype-blanc.webp" download="memoria-logotype-blanc.webp"><img src="{{ROOT}}images/logotype-blanc.webp" alt="" width="377" height="66" loading="lazy">{{t:presse.ressources.logoBlanc}}</a></li>
+            <li><a class="logos__lien" href="{{ROOT}}images/embleme-or.webp" download="memoria-embleme-or.webp"><img src="{{ROOT}}images/embleme-or.webp" alt="" width="340" height="488" loading="lazy">{{t:presse.ressources.emblemeOr}}</a></li>
+            <li><a class="logos__lien" href="{{ROOT}}images/embleme-blanc.webp" download="memoria-embleme-blanc.webp"><img src="{{ROOT}}images/embleme-blanc.webp" alt="" width="200" height="240" loading="lazy">{{t:presse.ressources.emblemeBlanc}}</a></li>
+          </ul>
+        </article>
+      </div>
+      <div class="galerie-presse">
+        <h3 class="galerie-presse__titre" data-reveal>{{t:presse.ressources.galerieTitre}}</h3>
+        <p class="texte-intro" data-reveal>{{t:presse.ressources.galerieTexte}}</p>
+        <ul class="galerie-presse__grille">
+          <li data-reveal><figure class="photo-attente"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M4 7h3l1.5-2h7L17 7h3a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1Z"/><circle cx="12" cy="13" r="3.6"/></svg><figcaption>{{t:presse.ressources.photoHd}}</figcaption></figure></li>
+          <li data-reveal><figure class="photo-attente"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M4 7h3l1.5-2h7L17 7h3a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1Z"/><circle cx="12" cy="13" r="3.6"/></svg><figcaption>{{t:presse.ressources.photoHd}}</figcaption></figure></li>
+          <li data-reveal><figure class="photo-attente"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M4 7h3l1.5-2h7L17 7h3a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1Z"/><circle cx="12" cy="13" r="3.6"/></svg><figcaption>{{t:presse.ressources.photoHd}}</figcaption></figure></li>
+          <li data-reveal><figure class="photo-attente"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M4 7h3l1.5-2h7L17 7h3a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1Z"/><circle cx="12" cy="13" r="3.6"/></svg><figcaption>{{t:presse.ressources.photoHd}}</figcaption></figure></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="demande" id="contact" aria-labelledby="contact-titre">
+    <div class="conteneur demande__grille">
+      <div class="demande__infos" data-reveal>
+        <h2 class="titre-orne titre-orne--gauche" id="contact-titre"><span>{{t:presse.contact.titre}}</span></h2>
+        <p>{{t:presse.contact.intro}}</p>
+        <p class="demande__email">
+          <span>{{t:presse.contact.emailLabel}}</span>
+          <a href="mailto:presse@memoria-experience.fr">{{t:presse.contact.email}}</a>
+        </p>
+      </div>
+      <form class="formulaire" data-formulaire data-message="{{t:formulaire.envoiAttente}}" data-reveal>
+        <div class="champs">
+          <div class="champ">
+            <label for="presse-nom">{{t:formulaire.nom}} <span aria-hidden="true">*</span></label>
+            <input id="presse-nom" name="nom" type="text" autocomplete="name" required>
+          </div>
+          <div class="champ">
+            <label for="presse-societe">{{t:presse.contact.societe}} <span aria-hidden="true">*</span></label>
+            <input id="presse-societe" name="societe" type="text" autocomplete="organization" required>
+          </div>
+          <div class="champ">
+            <label for="presse-email">{{t:formulaire.email}} <span aria-hidden="true">*</span></label>
+            <input id="presse-email" name="email" type="email" autocomplete="email" required>
+          </div>
+          <div class="champ">
+            <label for="presse-telephone">{{t:formulaire.telephone}}</label>
+            <input id="presse-telephone" name="telephone" type="tel" autocomplete="tel">
+          </div>
+          <div class="champ">
+            <label for="presse-type">{{t:presse.contact.type}} <span aria-hidden="true">*</span></label>
+            <select id="presse-type" name="type" required>
+              <option value="">{{t:formulaire.choisir}}</option>
+              <option>{{t:presse.contact.type1}}</option>
+              <option>{{t:presse.contact.type2}}</option>
+              <option>{{t:presse.contact.type3}}</option>
+              <option>{{t:presse.contact.type4}}</option>
+              <option>{{t:presse.contact.type5}}</option>
+              <option>{{t:presse.contact.type6}}</option>
+            </select>
+          </div>
+          <div class="champ">
+            <label for="presse-date">{{t:formulaire.date}}</label>
+            <input id="presse-date" name="date" type="date">
+          </div>
+          <div class="champ champ--large">
+            <label for="presse-lien">{{t:presse.contact.lien}}</label>
+            <input id="presse-lien" name="lien" type="url" placeholder="https://">
+          </div>
+          <div class="champ champ--large">
+            <label for="presse-message">{{t:formulaire.message}} <span aria-hidden="true">*</span></label>
+            <textarea id="presse-message" name="message" rows="5" required placeholder="{{t:presse.contact.messageExemple}}"></textarea>
+          </div>
+          <div class="formulaire__piege" aria-hidden="true">
+            <label for="presse-site">{{t:formulaire.piege}}</label>
+            <input id="presse-site" name="site_web" type="text" tabindex="-1" autocomplete="off">
+          </div>
+          <label class="choix champ--large">
+            <input type="checkbox" name="consentement" required>
+            <span>{{t:formulaire.consentement}} <span aria-hidden="true">*</span></span>
+          </label>
+        </div>
+        <p class="formulaire__aide">{{t:formulaire.obligatoires}}</p>
+        <div class="formulaire__action">
+          <button class="bouton bouton--rouge" type="submit">{{t:presse.contact.bouton}}</button>
+          <p class="formulaire__statut" role="status" data-formulaire-statut></p>
+        </div>
+      </form>
+    </div>
+  </section>
+</main>
+{{FOOTER}}
+</body>
+</html>

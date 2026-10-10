@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="{{LANG}}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#000000">
+  <title>{{t:packCadeau.meta.title}}</title>
+  <meta name="description" content="{{t:packCadeau.meta.description}}">
+  <meta property="og:title" content="{{t:packCadeau.meta.title}}">
+  <meta property="og:description" content="{{t:packCadeau.meta.description}}">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="{{t:meta.ogLocale}}">
+  {{HEAD_LINKS}}
+  <link rel="icon" href="{{ROOT}}images/favicon.png" type="image/png">
+  <link rel="preload" href="{{ROOT}}fonts/metamorphous-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ROOT}}fonts/gemunulibre-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="{{ROOT}}css/style.css">
+</head>
+<body>
+{{HEADER}}
+<main id="contenu">
+  <section class="page-hero" aria-labelledby="page-titre">
+    <div class="hero__fond">
+      <div class="page-hero__media page-hero__media--fantome" data-hero-media>
+        <img src="{{ROOT}}images/reservation-fantome.webp" alt="" width="1024" height="577" fetchpriority="high">
+      </div>
+      <canvas class="hero__poussiere" aria-hidden="true" data-poussiere></canvas>
+      <div class="hero__voile" aria-hidden="true"></div>
+    </div>
+    <div class="page-hero__contenu" data-hero-contenu>
+      <p class="page-hero__surtitre">{{t:packCadeau.hero.surtitre}}</p>
+      <h1 class="titre-section page-hero__titre" id="page-titre">{{t:packCadeau.hero.titre}}</h1>
+      <span class="ornement" aria-hidden="true"></span>
+      <p class="page-hero__intro">{{t:packCadeau.hero.intro}}</p>
+      <div class="page-hero__sommaire">
+        <a class="bouton bouton--rouge" href="#offrir">{{t:packCadeau.hero.bouton}}</a>
+        <a class="bouton bouton--contour" href="#fonctionnement">{{t:packCadeau.hero.lien}}</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="offrir" id="offrir" aria-labelledby="formules-titre">
+    <div class="conteneur">
+      <h2 class="titre-orne" id="formules-titre" data-reveal><span>{{t:packCadeau.formules.titre}}</span></h2>
+      <p class="texte-intro" data-reveal>{{t:packCadeau.formules.intro}}</p>
+      <form class="offrir__formulaire" data-formulaire data-bon-cadeau data-message="{{t:packCadeau.bon.confirmation}}">
+        <fieldset class="formules">
+          <legend class="visually-hidden">{{t:packCadeau.formules.titre}}</legend>
+          <label class="formule" data-reveal>
+            <input type="radio" name="formule" value="place" data-libelle="{{t:packCadeau.formules.nom1}}" data-montant="{{t:packCadeau.formules.prix1}}">
+            <span class="formule__nom">{{t:packCadeau.formules.nom1}}</span>
+            <span class="formule__prix">{{t:packCadeau.formules.prix1}}</span>
+            <span class="formule__detail">{{t:packCadeau.formules.detail1}}</span>
+          </label>
+          <label class="formule" data-reveal>
+            <input type="radio" name="formule" value="3-joueurs" data-libelle="{{t:packCadeau.formules.nom2}}" data-montant="{{t:packCadeau.formules.prix2}}">
+            <span class="formule__nom">{{t:packCadeau.formules.nom2}}</span>
+            <span class="formule__prix">{{t:packCadeau.formules.prix2}}</span>
+            <span class="formule__detail">{{t:packCadeau.formules.detail2}}</span>
+          </label>
+          <label class="formule" data-reveal>
+            <input type="radio" name="formule" value="4-joueurs" data-libelle="{{t:packCadeau.formules.nom3}}" data-montant="{{t:packCadeau.formules.prix3}}" checked>
+            <span class="formule__nom">{{t:packCadeau.formules.nom3}}</span>
+            <span class="formule__prix">{{t:packCadeau.formules.prix3}}</span>
+            <span class="formule__detail">{{t:packCadeau.formules.detail3}}</span>
+          </label>
+          <label class="formule" data-reveal>
+            <input type="radio" name="formule" value="5-joueurs" data-libelle="{{t:packCadeau.formules.nom4}}" data-montant="{{t:packCadeau.formules.prix4}}">
+            <span class="formule__nom">{{t:packCadeau.formules.nom4}}</span>
+            <span class="formule__prix">{{t:packCadeau.formules.prix4}}</span>
+            <span class="formule__detail">{{t:packCadeau.formules.detail4}}</span>
+          </label>
+          <label class="formule" data-reveal>
+            <input type="radio" name="formule" value="6-joueurs" data-libelle="{{t:packCadeau.formules.nom5}}" data-montant="{{t:packCadeau.formules.prix5}}">
+            <span class="formule__nom">{{t:packCadeau.formules.nom5}}</span>
+            <span class="formule__prix">{{t:packCadeau.formules.prix5}}</span>
+            <span class="formule__detail">{{t:packCadeau.formules.detail5}}</span>
+          </label>
+          <label class="formule formule--libre" data-reveal>
+            <input type="radio" name="formule" value="libre" data-libelle="{{t:packCadeau.formules.nom6}}" data-montant="">
+            <span class="formule__nom">{{t:packCadeau.formules.nom6}}</span>
+            <span class="formule__prix">{{t:packCadeau.formules.prix6}}</span>
+            <span class="formule__detail">{{t:packCadeau.formules.detail6}}</span>
+            <span class="formule__montant">
+              <input type="number" name="montant" min="20" max="1000" step="5" value="60" inputmode="numeric" aria-label="{{t:packCadeau.formules.montantLibre}}" data-montant-libre>
+              <span aria-hidden="true">{{t:packCadeau.formules.devise}}</span>
+            </span>
+          </label>
+        </fieldset>
+
+        <div class="offrir__perso">
+          <div class="offrir__champs" data-reveal>
+            <h2 class="titre-orne titre-orne--gauche"><span>{{t:packCadeau.bon.titre}}</span></h2>
+            <p class="offrir__intro">{{t:packCadeau.bon.intro}}</p>
+            <div class="champs">
+              <div class="champ">
+                <label for="bon-beneficiaire">{{t:packCadeau.bon.beneficiaire}} <span aria-hidden="true">*</span></label>
+                <input id="bon-beneficiaire" name="beneficiaire" type="text" maxlength="40" required placeholder="{{t:packCadeau.bon.beneficiaireExemple}}" data-bon-champ="beneficiaire">
+              </div>
+              <div class="champ">
+                <label for="bon-de">{{t:packCadeau.bon.de}} <span aria-hidden="true">*</span></label>
+                <input id="bon-de" name="de" type="text" maxlength="40" required placeholder="{{t:packCadeau.bon.deExemple}}" data-bon-champ="de">
+              </div>
+              <div class="champ champ--large">
+                <label for="bon-message">{{t:packCadeau.bon.message}}</label>
+                <textarea id="bon-message" name="message" rows="3" maxlength="140" placeholder="{{t:packCadeau.bon.messageExemple}}" data-bon-champ="message"></textarea>
+              </div>
+              <fieldset class="champ champ--large">
+                <legend>{{t:packCadeau.bon.envoi}}</legend>
+                <label class="choix"><input type="radio" name="envoi" value="beneficiaire" checked> {{t:packCadeau.bon.envoiBeneficiaire}}</label>
+                <label class="choix"><input type="radio" name="envoi" value="moi"> {{t:packCadeau.bon.envoiMoi}}</label>
+              </fieldset>
+              <div class="champ">
+                <label for="bon-email">{{t:packCadeau.bon.emailBeneficiaire}}</label>
+                <input id="bon-email" name="email_beneficiaire" type="email" autocomplete="off">
+              </div>
+              <div class="champ">
+                <label for="bon-date">{{t:packCadeau.bon.dateEnvoi}}</label>
+                <input id="bon-date" name="date_envoi" type="date">
+              </div>
+            </div>
+            <p class="formulaire__aide">{{t:formulaire.obligatoires}}</p>
+            <div class="offrir__action">
+              <button class="bouton bouton--rouge bouton--large" type="submit">{{t:packCadeau.bon.bouton}}</button>
+              <p class="formulaire__statut" role="status" data-formulaire-statut>{{t:packCadeau.bon.note}}</p>
+            </div>
+          </div>
+
+          <div class="bon" aria-hidden="true" data-reveal>
+            <div class="bon__cadre">
+              <img class="bon__embleme" src="{{ROOT}}images/embleme-or.webp" alt="" width="340" height="488">
+              <p class="bon__surtitre">{{t:packCadeau.bon.carteSurtitre}}</p>
+              <img class="bon__logotype" src="{{ROOT}}images/logotype-or.webp" alt="" width="1400" height="248">
+              <p class="bon__formule" data-bon="formule">{{t:packCadeau.formules.nom3}}</p>
+              <p class="bon__montant" data-bon="montant">{{t:packCadeau.formules.prix3}}</p>
+              <div class="bon__lignes">
+                <p><span>{{t:packCadeau.bon.cartePour}}</span> <strong data-bon="beneficiaire" data-defaut="{{t:packCadeau.bon.carteDefautNom}}">{{t:packCadeau.bon.carteDefautNom}}</strong></p>
+                <p><span>{{t:packCadeau.bon.carteDe}}</span> <strong data-bon="de" data-defaut="{{t:packCadeau.bon.carteDefautDe}}">{{t:packCadeau.bon.carteDefautDe}}</strong></p>
+              </div>
+              <p class="bon__message" data-bon="message" data-defaut="{{t:packCadeau.bon.carteDefautMessage}}">{{t:packCadeau.bon.carteDefautMessage}}</p>
+              <p class="bon__pied">{{t:packCadeau.bon.cartePied}}</p>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <section class="fonctionnement" id="fonctionnement" aria-labelledby="etapes-titre">
+    <div class="conteneur">
+      <h2 class="titre-orne" id="etapes-titre" data-reveal><span>{{t:packCadeau.etapes.titre}}</span></h2>
+      <ol class="etapes">
+        <li class="etape" data-reveal>
+          <p class="etape__numero" aria-hidden="true">01</p>
+          <h3 class="etape__titre">{{t:packCadeau.etapes.titre1}}</h3>
+          <p>{{t:packCadeau.etapes.texte1}}</p>
+        </li>
+        <li class="etape" data-reveal>
+          <p class="etape__numero" aria-hidden="true">02</p>
+          <h3 class="etape__titre">{{t:packCadeau.etapes.titre2}}</h3>
+          <p>{{t:packCadeau.etapes.texte2}}</p>
+        </li>
+        <li class="etape" data-reveal>
+          <p class="etape__numero" aria-hidden="true">03</p>
+          <h3 class="etape__titre">{{t:packCadeau.etapes.titre3}}</h3>
+          <p>{{t:packCadeau.etapes.texte3}}</p>
+        </li>
+        <li class="etape" data-reveal>
+          <p class="etape__numero" aria-hidden="true">04</p>
+          <h3 class="etape__titre">{{t:packCadeau.etapes.titre4}}</h3>
+          <p>{{t:packCadeau.etapes.texte4}}</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="questions" aria-labelledby="questions-titre">
+    <div class="conteneur">
+      <h2 class="titre-orne" id="questions-titre" data-reveal><span>{{t:packCadeau.questions.titre}}</span></h2>
+      <div class="questions__liste" data-reveal>
+        <details class="question">
+          <summary>{{t:packCadeau.questions.q1}}</summary>
+          <p>{{t:packCadeau.questions.r1}}</p>
+        </details>
+        <details class="question">
+          <summary>{{t:packCadeau.questions.q2}}</summary>
+          <p>{{t:packCadeau.questions.r2}}</p>
+        </details>
+        <details class="question">
+          <summary>{{t:packCadeau.questions.q3}}</summary>
+          <p>{{t:packCadeau.questions.r3}}</p>
+        </details>
+        <details class="question">
+          <summary>{{t:packCadeau.questions.q4}}</summary>
+          <p>{{t:packCadeau.questions.r4}}</p>
+        </details>
+        <details class="question">
+          <summary>{{t:packCadeau.questions.q5}}</summary>
+          <p>{{t:packCadeau.questions.r5}}</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="appel" aria-labelledby="appel-titre">
+    <div class="conteneur" data-reveal>
+      <img class="appel__embleme" src="{{ROOT}}images/embleme-or.webp" alt="" width="340" height="488" loading="lazy">
+      <h2 class="titre-orne" id="appel-titre"><span>{{t:packCadeau.appel.titre}}</span></h2>
+      <p class="appel__texte">{{t:packCadeau.appel.texte}}</p>
+      <a class="bouton bouton--rouge" href="#offrir">{{t:packCadeau.appel.bouton}}</a>
+    </div>
+  </section>
+</main>
+{{FOOTER}}
+</body>
+</html>

@@ -20,6 +20,13 @@ Rien de ce qui suit n’est bloquant pour avancer sur le design ; ce sont les co
 - [ ] Récit réel de la création de Memoria (dates, anecdotes, valeurs) pour remplacer les textes provisoires
 - [ ] Validation de l’histoire fictive du pensionnat (personnages inventés : Éléonore de Saint-Aubin, Mademoiselle Vernier, Héloïse Marchand ; l’horloge arrêtée à 3 h 17…) pour rester cohérente avec le scénario du jeu
 
+## Pages « Nos services »
+
+- [ ] **Bons cadeaux** : fonctionnalités de 4escape (achat en ligne, envoi par e-mail, codes), formules et prix réels (les montants affichés reprennent les tarifs 49/43/39/35 € par personne), durée de validité (12 mois indiqués), conditions d’utilisation et âge minimum (16 ans conseillé / 12 ans minimum indiqués)
+- [ ] **Pack personnalisé** : occasions réellement proposées, délai de préparation (3 semaines indiqué), délai de réponse (48 h indiqué), tranches de budget du formulaire
+- [ ] **Presse** : adresse dédiée (presse@memoria-experience.fr indiquée), dossier de presse PDF, photos HD libres de droits, logos en version vectorielle (SVG/PDF), conditions d’accueil et règles de confidentialité à valider
+- [ ] **Envoi des formulaires** : hébergeur avec PHP (script comme sur le-dome) ou service de formulaires ? Adresse(s) de réception des demandes
+
 ## Médias
 
 - [ ] **Photo du hall (hero)** : elle porte le filigrane d’un photographe en bas à gauche → obtenir la licence ou la remplacer par une photo du lieu
