@@ -562,12 +562,12 @@ sup { font-size: .6em; line-height: 0; }
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(105deg, transparent 0 44.5%, rgba(255, 245, 215, .82) 50%, transparent 55.5% 100%) 100% 0 / 300% 100% no-repeat;
+  background: linear-gradient(105deg, transparent 0 43%, rgba(255, 226, 150, .45) 50%, transparent 57% 100%) 100% 0 / 300% 100% no-repeat;
   -webkit-mask: url('../images/logotype-or.webp') center / contain no-repeat;
   mask: url('../images/logotype-or.webp') center / contain no-repeat;
   mix-blend-mode: screen;
   pointer-events: none;
-  animation: reflet 7s cubic-bezier(.45, .05, .35, 1) 1.4s infinite;
+  animation: reflet 10s ease-in-out 2s infinite;
 }
 
 .hero__lieu {
@@ -797,6 +797,26 @@ sup { font-size: .6em; line-height: 0; }
 }
 
 .bandeau--memoire .bandeau__media img { object-position: center 30%; }
+
+@media (min-width: 1100px) and (any-hover: hover) {
+  .bandeau {
+    height: clamp(22rem, 36vw, 34rem);
+    clip-path: inset(0);
+  }
+
+  .bandeau__media {
+    position: fixed;
+    inset: 0;
+    transform: none !important;
+    will-change: auto;
+  }
+
+  .bandeau__media img { filter: grayscale(.3) sepia(.3) contrast(1.15) brightness(.5); }
+
+  .bandeau__media::after {
+    background: radial-gradient(ellipse 75% 70% at 50% 50%, transparent 30%, rgba(0, 0, 0, .7) 100%);
+  }
+}
 
 .tarifs {
   padding-block: clamp(4rem, 8vw, 6.5rem) clamp(3.5rem, 7vw, 5.5rem);
@@ -1068,7 +1088,6 @@ sup { font-size: .6em; line-height: 0; }
   margin: 0;
   box-shadow: 0 18px 38px rgba(0, 0, 0, .8), 0 2px 6px rgba(0, 0, 0, .6);
   filter: brightness(.84) contrast(1.04);
-  will-change: transform;
 }
 .souvenir img { width: 100%; height: auto; }
 
@@ -1802,7 +1821,7 @@ sup { font-size: .6em; line-height: 0; }
 
 @keyframes reflet {
   0% { background-position: 100% 0; }
-  42%, 100% { background-position: 0% 0; }
+  45%, 100% { background-position: 0% 0; }
 }
 
 @keyframes lueur {
