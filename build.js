@@ -223,7 +223,7 @@ function build() {
     console.log(`  ✓ ${file}`);
   }
 
-  for (const directory of ['css', 'js', 'images', 'fonts', 'scripts']) {
+  for (const directory of ['css', 'js', 'images', 'videos', 'fonts', 'scripts']) {
     const sourceDirectory = path.join(SRC, directory);
     if (fs.existsSync(sourceDirectory)) {
       copyDirectory(sourceDirectory, path.join(DIST, directory));

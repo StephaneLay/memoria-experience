@@ -2886,6 +2886,431 @@ sup { font-size: .6em; line-height: 0; }
   .champ--large { grid-column: auto; }
 }
 
+.page-hero__video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 55%;
+  filter: sepia(.35) saturate(.6) contrast(1.12) brightness(.45);
+}
+
+.page-hero--video { min-height: 92vh; min-height: 92svh; }
+.page-hero__titre--long { font-size: clamp(2.1rem, 1.3rem + 3vw, 4.1rem); text-wrap: balance; }
+
+.presentation {
+  padding-block: clamp(4.5rem, 9vw, 7.5rem) clamp(3rem, 6vw, 5rem);
+}
+
+.presentation__grille {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(0, .85fr);
+  align-items: start;
+  gap: clamp(2.5rem, 6vw, 6rem);
+}
+
+.presentation__texte .titre-orne { margin-bottom: clamp(1.6rem, 3vw, 2.4rem); }
+.presentation__texte p { color: var(--gris-clair); line-height: 1.34; }
+.presentation__chapeau {
+  color: var(--ivoire) !important;
+  font-size: clamp(1.3rem, 1.1rem + .6vw, 1.7rem);
+  line-height: 1.28 !important;
+}
+
+.presentation__fiche {
+  padding: clamp(1.6rem, 3vw, 2.4rem);
+  border: 1px solid rgba(169, 133, 26, .35);
+  border-radius: 10px;
+  background: linear-gradient(160deg, rgba(138, 19, 22, .18), rgba(10, 10, 10, .8) 55%);
+}
+
+.presentation__chiffres {
+  display: grid;
+  gap: 1.1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.presentation__chiffres li {
+  display: flex;
+  align-items: baseline;
+  gap: .9rem;
+  padding-bottom: 1.1rem;
+  border-bottom: 1px solid rgba(169, 133, 26, .25);
+  color: var(--gris-clair);
+}
+.presentation__chiffres .chiffres__valeur { min-width: 4.6em; font-size: clamp(1.9rem, 1.5rem + 1.2vw, 2.6rem); }
+
+.presentation__public-titre {
+  margin: 1.8rem 0 1rem;
+  color: var(--or);
+  font-size: .95rem;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+}
+
+.publics-cibles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.publics-cibles li {
+  padding: .35rem .8rem;
+  border: 1px solid rgba(255, 255, 255, .18);
+  border-radius: 999px;
+  color: var(--ivoire);
+  font-size: .98rem;
+}
+
+.benefices {
+  padding-block: clamp(3.5rem, 7vw, 6rem);
+}
+
+.cartes--centrees {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cartes--centrees > .carte { flex: 0 1 calc((100% - 2 * clamp(1rem, 2vw, 1.6rem)) / 3); }
+
+.difference {
+  padding-block: clamp(2rem, 4vw, 3rem) clamp(4rem, 8vw, 6.5rem);
+}
+
+.difference__panneau {
+  padding: clamp(2rem, 5vw, 4rem) clamp(1.4rem, 4vw, 3.5rem);
+  border: 1px solid rgba(240, 192, 94, .45);
+  border-radius: 10px;
+  outline: 1px solid rgba(240, 192, 94, .18);
+  outline-offset: -12px;
+  background:
+    radial-gradient(ellipse at 50% 0%, rgba(138, 19, 22, .35), transparent 60%),
+    rgba(8, 7, 6, .85);
+  box-shadow: 0 30px 70px rgba(0, 0, 0, .7);
+}
+
+.difference__liste {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: clamp(1.2rem, 2.4vw, 2rem);
+  margin: clamp(2.4rem, 4.5vw, 3.4rem) 0 0;
+  padding: 0;
+  list-style: none;
+}
+.difference__liste li { display: flex; flex-direction: column; align-items: center; text-align: center; }
+.difference__liste h3 {
+  margin: .9rem 0 .6rem;
+  color: var(--ivoire);
+  font-family: var(--police-titre);
+  font-size: clamp(1.05rem, .95rem + .35vw, 1.25rem);
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.difference__liste p { margin: 0; color: var(--gris-clair); line-height: 1.26; }
+
+.difference__numero {
+  position: relative;
+  isolation: isolate;
+  display: grid;
+  place-items: center;
+  width: 3.4rem;
+  aspect-ratio: 1;
+  color: var(--or);
+  font-family: var(--police-titre);
+  font-size: 1.05rem;
+}
+.difference__numero::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  inset: .5rem;
+  border: 1px solid rgba(240, 192, 94, .6);
+  background: rgba(138, 19, 22, .25);
+  rotate: 45deg;
+}
+
+.intensite {
+  padding-block: clamp(4rem, 8vw, 6.5rem);
+}
+
+.niveaux {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(1rem, 2.4vw, 2rem);
+  margin: clamp(2.6rem, 5vw, 3.6rem) 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.niveau {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: clamp(1.6rem, 3vw, 2.4rem) clamp(1.1rem, 2vw, 1.6rem);
+  border: 4px solid var(--gris-sombre);
+  border-radius: 10px;
+  background: var(--carte);
+  text-align: center;
+}
+.niveau p:last-child { margin: 0; color: var(--gris-clair); line-height: 1.28; }
+.niveau--standard { border-color: #5a1a1d; box-shadow: 0 0 32px rgba(138, 19, 22, .3); }
+.niveau--extreme {
+  border-color: var(--rouge-sang);
+  background: linear-gradient(170deg, rgba(138, 19, 22, .28), var(--carte) 60%);
+  box-shadow: 0 0 40px rgba(195, 28, 32, .35);
+}
+
+.niveau__jauge { display: flex; gap: .7rem; margin: 0 0 1.2rem; }
+.niveau__jauge span {
+  width: .9rem;
+  aspect-ratio: 1;
+  border: 1.3px solid #d6d6d6;
+  rotate: 45deg;
+}
+.niveau__jauge .est-plein { border-color: var(--rouge); background: var(--rouge); box-shadow: 0 0 10px rgba(195, 28, 32, .8); }
+
+.niveau__nom {
+  margin: 0;
+  color: var(--ivoire);
+  font-family: var(--police-titre);
+  font-size: clamp(1.7rem, 1.3rem + 1.2vw, 2.4rem);
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.niveau__accroche {
+  margin: .3rem 0 1rem;
+  color: var(--rouge-texte);
+  letter-spacing: .06em;
+}
+
+.intensite__infos {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(1rem, 2.4vw, 2rem);
+  margin-top: clamp(1.4rem, 3vw, 2rem);
+}
+
+.garantie,
+.conseil {
+  padding: clamp(1.6rem, 3vw, 2.4rem);
+  border-radius: 10px;
+}
+
+.garantie {
+  border: 1px solid rgba(195, 28, 32, .5);
+  background: linear-gradient(160deg, rgba(138, 19, 22, .3), rgba(10, 10, 10, .8) 65%);
+}
+.garantie__icone { width: 2.6rem; height: auto; margin-bottom: 1rem; color: var(--rouge-texte); }
+
+.conseil { border: 1px solid rgba(169, 133, 26, .35); background: rgba(10, 10, 10, .75); }
+.conseil .regles__liste { margin: 1rem 0 1.2rem; }
+.conseil .bouton { margin-top: .6rem; }
+
+.garantie h3,
+.conseil h3,
+.encadre__titre {
+  margin: 0 0 .9rem;
+  color: var(--ivoire);
+  font-family: var(--police-titre);
+  font-size: clamp(1.3rem, 1.1rem + .7vw, 1.75rem);
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.garantie p,
+.conseil p { color: var(--gris-clair); line-height: 1.32; }
+.garantie p { margin: 0; }
+
+.privatisation,
+.convivial {
+  padding-block: clamp(4rem, 8vw, 6.5rem);
+}
+
+.deux-colonnes {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  align-items: center;
+  gap: clamp(2rem, 6vw, 5.5rem);
+}
+.deux-colonnes .titre-orne { margin-bottom: clamp(1.4rem, 2.6vw, 2rem); }
+.deux-colonnes__texte { color: var(--gris-clair); font-size: clamp(1.15rem, 1.02rem + .4vw, 1.4rem); line-height: 1.34; }
+.deux-colonnes--inverse > :first-child { order: 2; }
+
+.encadre {
+  padding: clamp(1.6rem, 3vw, 2.4rem);
+  border: 1px solid rgba(169, 133, 26, .35);
+  border-radius: 10px;
+  background: rgba(10, 10, 10, .75);
+}
+
+.regles__liste--colonnes { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 1.6rem; }
+
+.menu-carte {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: clamp(2rem, 4vw, 3rem) clamp(1.6rem, 3.5vw, 3rem);
+  border: 1px solid rgba(240, 192, 94, .55);
+  border-radius: 4px;
+  outline: 1px solid rgba(240, 192, 94, .2);
+  outline-offset: -11px;
+  background:
+    radial-gradient(ellipse at 50% 0%, rgba(138, 19, 22, .3), transparent 65%),
+    url('../images/fond-grunge.webp') center / cover,
+    #080706;
+  background-blend-mode: normal, soft-light, normal;
+  box-shadow: 0 30px 70px rgba(0, 0, 0, .75);
+  text-align: center;
+  rotate: -1deg;
+}
+
+.menu-carte__titre {
+  margin: 0;
+  color: var(--or);
+  font-family: var(--police-titre);
+  font-size: clamp(1.6rem, 1.3rem + 1vw, 2.2rem);
+  text-transform: uppercase;
+}
+.menu-carte .ornement { margin: .9rem auto 1.4rem; }
+
+.menu-carte__liste {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: .7rem 2rem;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.menu-carte__liste li {
+  padding-bottom: .55rem;
+  border-bottom: 1px dotted rgba(240, 192, 94, .3);
+  color: var(--ivoire);
+  font-size: clamp(1.05rem, .98rem + .25vw, 1.2rem);
+}
+
+.menu-carte__note {
+  margin: 1.5rem 0 0;
+  color: var(--gris-clair);
+  font-size: .98rem;
+  line-height: 1.3;
+}
+
+.offres-entreprise {
+  padding-block: clamp(4rem, 8vw, 6.5rem);
+}
+
+.offres-entreprise__liste {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: stretch;
+  gap: clamp(1rem, 2.4vw, 2rem);
+  margin: clamp(2.6rem, 5vw, 3.6rem) 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.offre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: clamp(1.8rem, 3vw, 2.6rem) clamp(1.2rem, 2.4vw, 2rem);
+  border: 4px solid var(--gris-sombre);
+  border-radius: 10px;
+  background: var(--carte);
+  text-align: center;
+  transition: transform .5s var(--ease), box-shadow .5s, border-color .5s;
+}
+.offre:hover { transform: translateY(-6px); box-shadow: 0 18px 40px rgba(0, 0, 0, .6); }
+
+.offre .bouton { white-space: nowrap; font-size: clamp(.95rem, .82rem + .35vw, 1.15rem); padding-inline: 1.3em; }
+.offre--phare {
+  border-color: var(--rouge-sang);
+  background: linear-gradient(170deg, rgba(138, 19, 22, .25), var(--carte) 55%);
+  box-shadow: 0 0 40px rgba(195, 28, 32, .3);
+}
+
+.offre__nom {
+  margin: 0;
+  color: var(--ivoire);
+  font-family: var(--police-titre);
+  font-size: clamp(1.3rem, 1.1rem + .7vw, 1.75rem);
+  font-weight: 400;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.offre__accroche { margin: .5rem 0 1.4rem; color: var(--rouge-texte); letter-spacing: .05em; }
+
+.offre__inclus {
+  display: grid;
+  gap: .7rem;
+  width: 100%;
+  margin: 0 0 1.6rem;
+  padding: 1.2rem 0 0;
+  border-top: 1px solid rgba(169, 133, 26, .3);
+  list-style: none;
+  text-align: left;
+}
+.offre__inclus li { position: relative; padding-left: 1.6rem; color: var(--gris-clair); line-height: 1.26; }
+.offre__inclus li::before {
+  content: '';
+  position: absolute;
+  left: .15rem;
+  top: .42em;
+  width: .5rem;
+  aspect-ratio: 1;
+  background: var(--or);
+  rotate: 45deg;
+}
+
+.offre__tarif {
+  margin: auto 0 1.1rem;
+  color: var(--or);
+  font-family: var(--police-titre);
+  font-size: 1.3rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.choix-ligne { display: flex; flex-wrap: wrap; gap: .6rem 1.4rem; min-height: 3rem; align-items: center; }
+.choix-ligne .choix + .choix { margin-top: 0; }
+
+@media (max-width: 1100px) {
+  .difference__liste { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+@media (max-width: 900px) {
+  .presentation__grille,
+  .intensite__infos,
+  .deux-colonnes,
+  .offres-entreprise__liste,
+  .niveaux { grid-template-columns: 1fr; }
+  .deux-colonnes--inverse > :first-child { order: 0; }
+  .cartes--centrees > .carte { flex-basis: calc((100% - clamp(1rem, 2vw, 1.6rem)) / 2); }
+  .difference__liste { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .offres-entreprise__liste,
+  .niveaux { max-width: 30rem; margin-inline: auto; }
+  .menu-carte { rotate: 0deg; }
+}
+
+@media (max-width: 640px) {
+  .page-hero__titre--long { font-size: clamp(1.55rem, 1.1rem + 2.2vw, 2rem); }
+  .bouton { padding-inline: 1.1em; }
+  .bouton--rouge { white-space: nowrap; }
+}
+
+@media (max-width: 560px) {
+  .cartes--centrees > .carte { flex-basis: 100%; }
+  .difference__liste,
+  .regles__liste--colonnes,
+  .menu-carte__liste { grid-template-columns: minmax(0, 1fr); }
+}
+
 @keyframes grain {
   0% { transform: translate(0, 0); }
   20% { transform: translate(-3%, 2%); }

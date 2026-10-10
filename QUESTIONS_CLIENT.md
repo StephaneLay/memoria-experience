@@ -27,6 +27,14 @@ Rien de ce qui suit n’est bloquant pour avancer sur le design ; ce sont les co
 - [ ] **Presse** : adresse dédiée (presse@memoria-experience.fr indiquée), dossier de presse PDF, photos HD libres de droits, logos en version vectorielle (SVG/PDF), conditions d’accueil et règles de confidentialité à valider
 - [ ] **Envoi des formulaires** : hébergeur avec PHP (script comme sur le-dome) ou service de formulaires ? Adresse(s) de réception des demandes
 
+## Page « Team building »
+
+- [ ] **Vidéo du hero** (fichier MP4 court, sans son, en boucle)
+- [ ] Descriptions des trois niveaux d’intensité (faible / standard / extrême) : textes rédigés par nos soins, à valider
+- [ ] Mention « chacun peut demander une pause ou quitter l’expérience à tout moment » : à confirmer avec le fonctionnement réel
+- [ ] Formules entreprises : prix ou fourchettes à afficher, ou rester « sur devis » ?
+- [ ] Capacité maximale (nombre de participants, d’équipes en simultané) et prestataire traiteur pour le cocktail
+
 ## Médias
 
 - [ ] **Photo du hall (hero)** : elle porte le filigrane d’un photographe en bas à gauche → obtenir la licence ou la remplacer par une photo du lieu

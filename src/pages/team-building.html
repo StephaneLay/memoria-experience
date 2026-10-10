@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="{{LANG}}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#000000">
+  <title>{{t:teamBuilding.meta.title}}</title>
+  <meta name="description" content="{{t:teamBuilding.meta.description}}">
+  <meta property="og:title" content="{{t:teamBuilding.meta.title}}">
+  <meta property="og:description" content="{{t:teamBuilding.meta.description}}">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="{{t:meta.ogLocale}}">
+  {{HEAD_LINKS}}
+  <link rel="icon" href="{{ROOT}}images/favicon.png" type="image/png">
+  <link rel="preload" href="{{ROOT}}fonts/metamorphous-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ROOT}}fonts/gemunulibre-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="{{ROOT}}css/style.css">
+</head>
+<body>
+{{HEADER}}
+<main id="contenu">
+  <section class="page-hero page-hero--video" aria-labelledby="page-titre">
+    <div class="hero__fond">
+      <div class="page-hero__media" data-hero-media>
+        <video class="page-hero__video" autoplay muted loop playsinline preload="metadata" poster="{{ROOT}}images/hero-hall-1920.webp" aria-hidden="true" data-video-fond></video>
+      </div>
+      <canvas class="hero__poussiere" aria-hidden="true" data-poussiere></canvas>
+      <div class="hero__voile" aria-hidden="true"></div>
+    </div>
+    <div class="page-hero__contenu" data-hero-contenu>
+      <p class="page-hero__surtitre">{{t:teamBuilding.hero.surtitre}}</p>
+      <h1 class="titre-section page-hero__titre page-hero__titre--long" id="page-titre">{{t:teamBuilding.hero.titre}}</h1>
+      <span class="ornement" aria-hidden="true"></span>
+      <p class="page-hero__intro">{{t:teamBuilding.hero.intro}}</p>
+      <div class="page-hero__sommaire">
+        <a class="bouton bouton--rouge" href="#devis">{{t:teamBuilding.hero.bouton}}</a>
+        <a class="bouton bouton--contour" href="#formules">{{t:teamBuilding.hero.lien}}</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="presentation" aria-labelledby="presentation-titre">
+    <div class="conteneur presentation__grille">
+      <div class="presentation__texte" data-reveal>
+        <h2 class="titre-orne titre-orne--gauche" id="presentation-titre"><span>{{t:teamBuilding.presentation.titre}}</span></h2>
+        <p class="presentation__chapeau">{{t:teamBuilding.presentation.p1}}</p>
+        <p>{{t:teamBuilding.presentation.p2}}</p>
+        <p>{{t:teamBuilding.presentation.p3}}</p>
+        <p>{{t:teamBuilding.presentation.p4}}</p>
+      </div>
+      <aside class="presentation__fiche" data-reveal>
+        <ul class="presentation__chiffres">
+          <li><span class="chiffres__valeur">{{t:teamBuilding.presentation.valeur1}}</span><span>{{t:teamBuilding.presentation.libelle1}}</span></li>
+          <li><span class="chiffres__valeur">{{t:teamBuilding.presentation.valeur2}}</span><span>{{t:teamBuilding.presentation.libelle2}}</span></li>
+          <li><span class="chiffres__valeur">{{t:teamBuilding.presentation.valeur3}}</span><span>{{t:teamBuilding.presentation.libelle3}}</span></li>
+        </ul>
+        <p class="presentation__public-titre">{{t:teamBuilding.presentation.publicTitre}}</p>
+        <ul class="publics-cibles">
+          <li>{{t:teamBuilding.presentation.public1}}</li>
+          <li>{{t:teamBuilding.presentation.public2}}</li>
+          <li>{{t:teamBuilding.presentation.public3}}</li>
+          <li>{{t:teamBuilding.presentation.public4}}</li>
+          <li>{{t:teamBuilding.presentation.public5}}</li>
+          <li>{{t:teamBuilding.presentation.public6}}</li>
+          <li>{{t:teamBuilding.presentation.public7}}</li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <section class="benefices" aria-labelledby="benefices-titre">
+    <div class="conteneur">
+      <h2 class="titre-orne" id="benefices-titre" data-reveal><span>{{t:teamBuilding.benefices.titre}}</span></h2>
+      <ul class="cartes cartes--centrees">
+        <li class="carte" data-reveal>
+          <svg class="carte__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="8" cy="10" r="4.5"/><circle cx="16" cy="10" r="4.5"/><circle cx="12" cy="16" r="4.5"/></svg>
+          <h3 class="carte__titre">{{t:teamBuilding.benefices.titre1}}</h3>
+          <p>{{t:teamBuilding.benefices.texte1}}</p>
+        </li>
+        <li class="carte" data-reveal>
+          <svg class="carte__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 5.5h11v7h-6l-3 2.5v-2.5h-2zM17.5 9.5h3v7h-2v2.5l-3-2.5h-4.5v-2"/></svg>
+          <h3 class="carte__titre">{{t:teamBuilding.benefices.titre2}}</h3>
+          <p>{{t:teamBuilding.benefices.texte2}}</p>
+        </li>
+        <li class="carte" data-reveal>
+          <svg class="carte__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 5 6v5.5c0 4.3 3 7.6 7 9.5 4-1.9 7-5.2 7-9.5V6l-7-3Z"/><path d="m8.8 12 2.2 2.2 4.2-4.4"/></svg>
+          <h3 class="carte__titre">{{t:teamBuilding.benefices.titre3}}</h3>
+          <p>{{t:teamBuilding.benefices.texte3}}</p>
+        </li>
+        <li class="carte" data-reveal>
+          <svg class="carte__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="5" r="2.2"/><circle cx="5" cy="17" r="2.2"/><circle cx="19" cy="17" r="2.2"/><circle cx="12" cy="13" r="1.6"/><path d="M12 7.2v4.2M10.7 14.1l-4 1.9M13.3 14.1l4 1.9M7.2 17h9.6"/></svg>
+          <h3 class="carte__titre">{{t:teamBuilding.benefices.titre4}}</h3>
+          <p>{{t:teamBuilding.benefices.texte4}}</p>
+        </li>
+        <li class="carte" data-reveal>
+          <svg class="carte__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="3.5" width="16" height="17" rx="1"/><path d="M4 15.5l4.5-4.5 4 4 2.5-2.5 5 5"/><circle cx="15.5" cy="8" r="1.6"/></svg>
+          <h3 class="carte__titre">{{t:teamBuilding.benefices.titre5}}</h3>
+          <p>{{t:teamBuilding.benefices.texte5}}</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="difference" aria-labelledby="difference-titre">
+    <div class="conteneur">
+      <div class="difference__panneau" data-reveal>
+        <h2 class="titre-orne" id="difference-titre"><span>{{t:teamBuilding.difference.titre}}</span></h2>
+        <p class="texte-intro">{{t:teamBuilding.difference.intro}}</p>
+        <ol class="difference__liste">
+          <li>
+            <span class="difference__numero" aria-hidden="true">I</span>
+            <h3>{{t:teamBuilding.difference.titre1}}</h3>
+            <p>{{t:teamBuilding.difference.texte1}}</p>
+          </li>
+          <li>
+            <span class="difference__numero" aria-hidden="true">II</span>
+            <h3>{{t:teamBuilding.difference.titre2}}</h3>
+            <p>{{t:teamBuilding.difference.texte2}}</p>
+          </li>
+          <li>
+            <span class="difference__numero" aria-hidden="true">III</span>
+            <h3>{{t:teamBuilding.difference.titre3}}</h3>
+            <p>{{t:teamBuilding.difference.texte3}}</p>
+          </li>
+          <li>
+            <span class="difference__numero" aria-hidden="true">IV</span>
+            <h3>{{t:teamBuilding.difference.titre4}}</h3>
+            <p>{{t:teamBuilding.difference.texte4}}</p>
+          </li>
+          <li>
+            <span class="difference__numero" aria-hidden="true">V</span>
+            <h3>{{t:teamBuilding.difference.titre5}}</h3>
+            <p>{{t:teamBuilding.difference.texte5}}</p>
+            <a class="carte__lien" href="#intensite">{{t:teamBuilding.difference.lien}}</a>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <section class="intensite" id="intensite" aria-labelledby="intensite-titre">
+    <div class="conteneur">
+      <h2 class="titre-orne" id="intensite-titre" data-reveal><span>{{t:teamBuilding.intensite.titre}}</span></h2>
+      <p class="texte-intro" data-reveal>{{t:teamBuilding.intensite.intro}}</p>
+      <ul class="niveaux">
+        <li class="niveau" data-reveal>
+          <p class="niveau__jauge" aria-label="{{t:teamBuilding.intensite.niveau}} 1/3"><span class="est-plein"></span><span></span><span></span></p>
+          <h3 class="niveau__nom">{{t:teamBuilding.intensite.nom1}}</h3>
+          <p class="niveau__accroche">{{t:teamBuilding.intensite.accroche1}}</p>
+          <p>{{t:teamBuilding.intensite.texte1}}</p>
+        </li>
+        <li class="niveau niveau--standard" data-reveal>
+          <p class="niveau__jauge" aria-label="{{t:teamBuilding.intensite.niveau}} 2/3"><span class="est-plein"></span><span class="est-plein"></span><span></span></p>
+          <h3 class="niveau__nom">{{t:teamBuilding.intensite.nom2}}</h3>
+          <p class="niveau__accroche">{{t:teamBuilding.intensite.accroche2}}</p>
+          <p>{{t:teamBuilding.intensite.texte2}}</p>
+        </li>
+        <li class="niveau niveau--extreme" data-reveal>
+          <p class="niveau__jauge" aria-label="{{t:teamBuilding.intensite.niveau}} 3/3"><span class="est-plein"></span><span class="est-plein"></span><span class="est-plein"></span></p>
+          <h3 class="niveau__nom">{{t:teamBuilding.intensite.nom3}}</h3>
+          <p class="niveau__accroche">{{t:teamBuilding.intensite.accroche3}}</p>
+          <p>{{t:teamBuilding.intensite.texte3}}</p>
+        </li>
+      </ul>
+      <div class="intensite__infos">
+        <div class="garantie" data-reveal>
+          <svg class="garantie__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 5 6v5.5c0 4.3 3 7.6 7 9.5 4-1.9 7-5.2 7-9.5V6l-7-3Z"/><path d="m8.8 12 2.2 2.2 4.2-4.4"/></svg>
+          <h3>{{t:teamBuilding.intensite.garantieTitre}}</h3>
+          <p>{{t:teamBuilding.intensite.garantieTexte}}</p>
+        </div>
+        <div class="conseil" data-reveal>
+          <h3>{{t:teamBuilding.intensite.conseilTitre}}</h3>
+          <p>{{t:teamBuilding.intensite.conseilTexte}}</p>
+          <ul class="regles__liste">
+            <li>{{t:teamBuilding.intensite.critere1}}</li>
+            <li>{{t:teamBuilding.intensite.critere2}}</li>
+            <li>{{t:teamBuilding.intensite.critere3}}</li>
+            <li>{{t:teamBuilding.intensite.critere4}}</li>
+            <li>{{t:teamBuilding.intensite.critere5}}</li>
+          </ul>
+          <p>{{t:teamBuilding.intensite.conseilFin}}</p>
+          <a class="bouton bouton--contour" href="#devis">{{t:teamBuilding.intensite.conseilBouton}}</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bandeau" aria-label="{{t:teamBuilding.bandeau}}">
+    <div class="bandeau__media" data-parallax="0.4">
+      <img src="{{ROOT}}images/reservation-fantome.webp" alt="" width="1024" height="577" loading="lazy">
+    </div>
+    <p class="bandeau__titre" data-reveal data-parallax="-0.12">{{t:teamBuilding.bandeau}}</p>
+  </section>
+
+  <section class="privatisation" aria-labelledby="privatisation-titre">
+    <div class="conteneur deux-colonnes">
+      <div data-reveal>
+        <h2 class="titre-orne titre-orne--gauche" id="privatisation-titre"><span>{{t:teamBuilding.privatisation.titre}}</span></h2>
+        <p class="deux-colonnes__texte">{{t:teamBuilding.privatisation.intro}}</p>
+      </div>
+      <div class="encadre" data-reveal>
+        <h3 class="encadre__titre">{{t:teamBuilding.privatisation.sousTitre}}</h3>
+        <ul class="regles__liste regles__liste--colonnes">
+          <li>{{t:teamBuilding.privatisation.p1}}</li>
+          <li>{{t:teamBuilding.privatisation.p2}}</li>
+          <li>{{t:teamBuilding.privatisation.p3}}</li>
+          <li>{{t:teamBuilding.privatisation.p4}}</li>
+          <li>{{t:teamBuilding.privatisation.p5}}</li>
+          <li>{{t:teamBuilding.privatisation.p6}}</li>
+          <li>{{t:teamBuilding.privatisation.p7}}</li>
+          <li>{{t:teamBuilding.privatisation.p8}}</li>
+          <li>{{t:teamBuilding.privatisation.p9}}</li>
+          <li>{{t:teamBuilding.privatisation.p10}}</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="convivial" aria-labelledby="convivial-titre">
+    <div class="conteneur deux-colonnes deux-colonnes--inverse">
+      <div data-reveal>
+        <h2 class="titre-orne titre-orne--gauche" id="convivial-titre"><span>{{t:teamBuilding.convivial.titre}}</span></h2>
+        <p class="deux-colonnes__texte">{{t:teamBuilding.convivial.p1}}</p>
+        <p class="deux-colonnes__texte">{{t:teamBuilding.convivial.p2}}</p>
+      </div>
+      <div class="menu-carte" data-reveal>
+        <p class="menu-carte__titre">{{t:teamBuilding.convivial.carteTitre}}</p>
+        <span class="ornement" aria-hidden="true"></span>
+        <ul class="menu-carte__liste">
+          <li>{{t:teamBuilding.convivial.c1}}</li>
+          <li>{{t:teamBuilding.convivial.c2}}</li>
+          <li>{{t:teamBuilding.convivial.c3}}</li>
+          <li>{{t:teamBuilding.convivial.c4}}</li>
+          <li>{{t:teamBuilding.convivial.c5}}</li>
+          <li>{{t:teamBuilding.convivial.c6}}</li>
+          <li>{{t:teamBuilding.convivial.c7}}</li>
+          <li>{{t:teamBuilding.convivial.c8}}</li>
+          <li>{{t:teamBuilding.convivial.c9}}</li>
+          <li>{{t:teamBuilding.convivial.c10}}</li>
+        </ul>
+        <p class="menu-carte__note">{{t:teamBuilding.convivial.allergies}}</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="offres-entreprise" id="formules" aria-labelledby="formules-titre">
+    <div class="conteneur">
+      <h2 class="titre-orne" id="formules-titre" data-reveal><span>{{t:teamBuilding.formules.titre}}</span></h2>
+      <p class="texte-intro" data-reveal>{{t:teamBuilding.formules.intro}}</p>
+      <ul class="offres-entreprise__liste">
+        <li class="offre" data-reveal>
+          <h3 class="offre__nom">{{t:teamBuilding.formules.nom1}}</h3>
+          <p class="offre__accroche">{{t:teamBuilding.formules.accroche1}}</p>
+          <ul class="offre__inclus">
+            <li>{{t:teamBuilding.formules.f1i1}}</li>
+            <li>{{t:teamBuilding.formules.f1i2}}</li>
+            <li>{{t:teamBuilding.formules.f1i3}}</li>
+            <li>{{t:teamBuilding.formules.f1i4}}</li>
+            <li>{{t:teamBuilding.formules.f1i5}}</li>
+            <li>{{t:teamBuilding.formules.f1i6}}</li>
+          </ul>
+          <p class="offre__tarif">{{t:teamBuilding.formules.surDevis}}</p>
+          <a class="bouton bouton--contour" href="#devis" data-choisir-formule="experience">{{t:teamBuilding.formules.bouton}}</a>
+        </li>
+        <li class="offre offre--phare" data-reveal>
+          <h3 class="offre__nom">{{t:teamBuilding.formules.nom2}}</h3>
+          <p class="offre__accroche">{{t:teamBuilding.formules.accroche2}}</p>
+          <ul class="offre__inclus">
+            <li>{{t:teamBuilding.formules.f2i1}}</li>
+            <li>{{t:teamBuilding.formules.f2i2}}</li>
+            <li>{{t:teamBuilding.formules.f2i3}}</li>
+            <li>{{t:teamBuilding.formules.f2i4}}</li>
+            <li>{{t:teamBuilding.formules.f2i5}}</li>
+            <li>{{t:teamBuilding.formules.f2i6}}</li>
+          </ul>
+          <p class="offre__tarif">{{t:teamBuilding.formules.surDevis}}</p>
+          <a class="bouton bouton--rouge" href="#devis" data-choisir-formule="experience-cocktail">{{t:teamBuilding.formules.bouton}}</a>
+        </li>
+        <li class="offre" data-reveal>
+          <h3 class="offre__nom">{{t:teamBuilding.formules.nom3}}</h3>
+          <p class="offre__accroche">{{t:teamBuilding.formules.accroche3}}</p>
+          <ul class="offre__inclus">
+            <li>{{t:teamBuilding.formules.f3i1}}</li>
+            <li>{{t:teamBuilding.formules.f3i2}}</li>
+            <li>{{t:teamBuilding.formules.f3i3}}</li>
+            <li>{{t:teamBuilding.formules.f3i4}}</li>
+            <li>{{t:teamBuilding.formules.f3i5}}</li>
+            <li>{{t:teamBuilding.formules.f3i6}}</li>
+          </ul>
+          <p class="offre__tarif">{{t:teamBuilding.formules.surDevis}}</p>
+          <a class="bouton bouton--contour" href="#devis" data-choisir-formule="privatisation">{{t:teamBuilding.formules.bouton}}</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="demande" id="devis" aria-labelledby="devis-titre">
+    <div class="conteneur demande__conteneur">
+      <h2 class="titre-orne" id="devis-titre" data-reveal><span>{{t:teamBuilding.formulaire.titre}}</span></h2>
+      <p class="texte-intro" data-reveal>{{t:teamBuilding.formulaire.intro}}</p>
+      <form class="formulaire" data-formulaire data-message="{{t:formulaire.envoiAttente}}" data-reveal>
+        <div class="champs">
+          <div class="champ">
+            <label for="tb-prenom">{{t:teamBuilding.formulaire.prenom}} <span aria-hidden="true">*</span></label>
+            <input id="tb-prenom" name="prenom" type="text" autocomplete="given-name" required>
+          </div>
+          <div class="champ">
+            <label for="tb-nom">{{t:teamBuilding.formulaire.nom}} <span aria-hidden="true">*</span></label>
+            <input id="tb-nom" name="nom" type="text" autocomplete="family-name" required>
+          </div>
+          <div class="champ">
+            <label for="tb-entreprise">{{t:teamBuilding.formulaire.entreprise}} <span aria-hidden="true">*</span></label>
+            <input id="tb-entreprise" name="entreprise" type="text" autocomplete="organization" required>
+          </div>
+          <div class="champ">
+            <label for="tb-email">{{t:teamBuilding.formulaire.emailPro}} <span aria-hidden="true">*</span></label>
+            <input id="tb-email" name="email" type="email" autocomplete="email" required>
+          </div>
+          <div class="champ">
+            <label for="tb-telephone">{{t:formulaire.telephone}}</label>
+            <input id="tb-telephone" name="telephone" type="tel" autocomplete="tel">
+          </div>
+          <div class="champ">
+            <label for="tb-participants">{{t:teamBuilding.formulaire.participants}} <span aria-hidden="true">*</span></label>
+            <input id="tb-participants" name="participants" type="number" min="1" max="500" inputmode="numeric" required>
+          </div>
+          <div class="champ">
+            <label for="tb-periode">{{t:teamBuilding.formulaire.periode}}</label>
+            <input id="tb-periode" name="periode" type="text" placeholder="{{t:teamBuilding.formulaire.periodeExemple}}">
+          </div>
+          <div class="champ">
+            <label for="tb-formule">{{t:teamBuilding.formulaire.formule}} <span aria-hidden="true">*</span></label>
+            <select id="tb-formule" name="formule" required data-formule-devis>
+              <option value="">{{t:formulaire.choisir}}</option>
+              <option value="experience">{{t:teamBuilding.formulaire.choix1}}</option>
+              <option value="experience-cocktail">{{t:teamBuilding.formulaire.choix2}}</option>
+              <option value="privatisation">{{t:teamBuilding.formulaire.choix3}}</option>
+              <option value="evenement">{{t:teamBuilding.formulaire.choix4}}</option>
+              <option value="devis">{{t:teamBuilding.formulaire.choix5}}</option>
+              <option value="informations">{{t:teamBuilding.formulaire.choix6}}</option>
+            </select>
+          </div>
+          <fieldset class="champ">
+            <legend>{{t:teamBuilding.formulaire.privatisation}}</legend>
+            <div class="choix-ligne">
+              <label class="choix"><input type="radio" name="privatisation" value="oui"> {{t:teamBuilding.formulaire.oui}}</label>
+              <label class="choix"><input type="radio" name="privatisation" value="non"> {{t:teamBuilding.formulaire.non}}</label>
+              <label class="choix"><input type="radio" name="privatisation" value="a-definir" checked> {{t:teamBuilding.formulaire.aDefinir}}</label>
+            </div>
+          </fieldset>
+          <fieldset class="champ">
+            <legend>{{t:teamBuilding.formulaire.cocktail}}</legend>
+            <div class="choix-ligne">
+              <label class="choix"><input type="radio" name="cocktail" value="oui"> {{t:teamBuilding.formulaire.oui}}</label>
+              <label class="choix"><input type="radio" name="cocktail" value="non"> {{t:teamBuilding.formulaire.non}}</label>
+              <label class="choix"><input type="radio" name="cocktail" value="a-definir" checked> {{t:teamBuilding.formulaire.aDefinir}}</label>
+            </div>
+          </fieldset>
+          <div class="champ champ--large">
+            <label for="tb-budget">{{t:teamBuilding.formulaire.budget}}</label>
+            <input id="tb-budget" name="budget" type="text" placeholder="{{t:teamBuilding.formulaire.budgetExemple}}">
+          </div>
+          <div class="champ champ--large">
+            <label for="tb-demandes">{{t:teamBuilding.formulaire.demandes}}</label>
+            <textarea id="tb-demandes" name="demandes" rows="3" placeholder="{{t:teamBuilding.formulaire.demandesExemple}}"></textarea>
+          </div>
+          <div class="champ champ--large">
+            <label for="tb-message">{{t:teamBuilding.formulaire.message}}</label>
+            <textarea id="tb-message" name="message" rows="5"></textarea>
+          </div>
+          <div class="formulaire__piege" aria-hidden="true">
+            <label for="tb-site">{{t:formulaire.piege}}</label>
+            <input id="tb-site" name="site_web" type="text" tabindex="-1" autocomplete="off">
+          </div>
+          <label class="choix champ--large">
+            <input type="checkbox" name="consentement" required>
+            <span>{{t:formulaire.consentement}} <span aria-hidden="true">*</span></span>
+          </label>
+        </div>
+        <p class="formulaire__aide">{{t:formulaire.obligatoires}}</p>
+        <div class="formulaire__action">
+          <button class="bouton bouton--rouge" type="submit">{{t:teamBuilding.formulaire.bouton}}</button>
+          <p class="formulaire__statut" role="status" data-formulaire-statut></p>
+        </div>
+      </form>
+    </div>
+  </section>
+</main>
+{{FOOTER}}
+</body>
+</html>

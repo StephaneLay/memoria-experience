@@ -319,6 +319,20 @@
     });
   });
 
+  var choixFormule = document.querySelector('[data-formule-devis]');
+  document.querySelectorAll('[data-choisir-formule]').forEach(function (lien) {
+    lien.addEventListener('click', function () {
+      if (choixFormule) choixFormule.value = lien.getAttribute('data-choisir-formule');
+    });
+  });
+
+  if (reduireAnimations) {
+    document.querySelectorAll('[data-video-fond]').forEach(function (video) {
+      video.removeAttribute('autoplay');
+      video.pause();
+    });
+  }
+
   var bonCadeau = document.querySelector('[data-bon-cadeau]');
   if (bonCadeau) {
     var formatEuros = new Intl.NumberFormat(langue, { style: 'currency', currency: 'EUR', maximumFractionDigits: 0 });

@@ -36,11 +36,11 @@ Prérequis : Node.js 18 ou plus récent, aucune dépendance npm.
 
 ## Structure
 
-- `src/pages/` : gabarits de pages (`index.html`, `notre-histoire.html`, `pack-cadeau.html`, `pack-personnalise.html`, `presse.html`, `404.html`)
+- `src/pages/` : gabarits de pages (`index.html`, `notre-histoire.html`, `pack-cadeau.html`, `pack-personnalise.html`, `presse.html`, `team-building.html`, `404.html`)
 - `src/partials/` : en-tête (navigation, réseaux, langues) et pied de page (+ onglet « Réserver »)
 - `src/i18n/` : textes FR / EN
 - `src/css/style.css`, `src/js/main.js` : style et comportements (sans dépendance)
-- `src/images/`, `src/fonts/` : médias et polices auto-hébergées (Metamorphous, Gemunu Libre)
+- `src/images/`, `src/videos/`, `src/fonts/` : médias et polices auto-hébergées (Metamorphous, Gemunu Libre)
 - `src/data/site.json` : nom, URL publique, langues
 - `src/racine/` : fichiers copiés à la racine (`.htaccess`…)
 - `maquette/` : exports de la maquette Figma (captures, éléments sources) — **ignoré par git**, référence de travail uniquement
@@ -57,6 +57,7 @@ Ne jamais écrire un prix en dur dans une page ou un fichier de traduction.
 ## Où brancher les éléments attendus
 
 - **Réservation 4escape** : tout le contenu du `<form class="reservation__widget">` dans `src/pages/index.html` est un aperçu visuel (calendrier mercredi → dimanche, créneaux d’exemple). Le remplacer par le code d’intégration 4escape quand les accès seront disponibles, puis retirer la partie « réservation » de `src/js/main.js`.
+- **Vidéo du hero Team building** : déposer la vidéo dans `src/videos/` (ex. `team-building.mp4`, idéalement H.264, 10 à 20 s en boucle, sans son, moins de 5 Mo) puis ajouter dans la balise `<video data-video-fond>` de `src/pages/team-building.html` : `<source src="{{ROOT}}videos/team-building.mp4" type="video/mp4">`. En attendant, la photo du hall s’affiche à sa place. La vidéo est mise en pause si le visiteur a demandé à réduire les animations.
 - **Bande-annonce** : renseigner l’identifiant YouTube dans `data-youtube=""` (balise `<dialog>` en bas de `src/pages/index.html`). Sans identifiant, la fenêtre affiche « La bande-annonce sera dévoilée très bientôt ».
 - **Réseaux sociaux** : liens `href="#"` dans `src/partials/header.html` et dans la colonne Contact de `src/pages/index.html`.
 - **Formulaires** (pack personnalisé, presse, bon cadeau) : champs, validation et champ anti-spam invisible (`site_web`) sont prêts. Tant que la balise `<form>` n’a pas d’attribut `action`, l’envoi affiche un message d’attente. Pour les activer : ajouter `action` + `method="post"` vers le script d’envoi retenu (script PHP comme sur le-dome si l’hébergeur le permet, ou service de formulaires), et le JavaScript laissera alors le formulaire partir normalement.
