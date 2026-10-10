@@ -104,9 +104,9 @@
     if (reduireAnimations) return;
 
     if (heroMedia && y < hauteur * 1.3) {
-      heroMedia.style.transform = 'translate3d(0, ' + (y * 0.38).toFixed(1) + 'px, 0)';
+      heroMedia.style.transform = 'translate3d(0, ' + (y * 0.5).toFixed(1) + 'px, 0)';
       if (heroContenu) {
-        heroContenu.style.transform = 'translate3d(0, ' + (y * 0.16).toFixed(1) + 'px, 0)';
+        heroContenu.style.transform = 'translate3d(0, ' + (y * 0.28).toFixed(1) + 'px, 0)';
         heroContenu.style.opacity = Math.max(0, 1 - y / (hauteur * 0.7)).toFixed(3);
       }
     }
@@ -214,8 +214,9 @@
   }
 
   var interrupteur = document.querySelector('[data-lampe-interrupteur]');
-  var halo = document.querySelector('[data-lampe-halo]');
-  if (interrupteur && halo && window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+  var couchesLampe = document.querySelectorAll('[data-lampe-ombre], [data-lampe-lueur]');
+  var eclat = document.querySelector('[data-eclat]');
+  if (interrupteur && couchesLampe.length && window.matchMedia('(any-hover: hover)').matches) {
     var cibleX = window.innerWidth / 2;
     var cibleY = window.innerHeight / 2;
     var lampeX = cibleX;
@@ -223,7 +224,15 @@
     var suiviPrevu = null;
 
     var placerHalo = function () {
-      halo.style.transform = 'translate3d(' + lampeX.toFixed(1) + 'px, ' + lampeY.toFixed(1) + 'px, 0)';
+      var position = 'translate3d(' + lampeX.toFixed(1) + 'px, ' + lampeY.toFixed(1) + 'px, 0)';
+      couchesLampe.forEach(function (couche) {
+        couche.style.transform = position;
+      });
+      if (eclat) {
+        var cadreEclat = eclat.getBoundingClientRect();
+        eclat.style.setProperty('--lampe-x', (lampeX - cadreEclat.left).toFixed(1) + 'px');
+        eclat.style.setProperty('--lampe-y', (lampeY - cadreEclat.top).toFixed(1) + 'px');
+      }
     };
 
     var suivre = function () {
@@ -263,6 +272,10 @@
 
     document.addEventListener('pointermove', function (evenement) {
       if (lampeAllumee()) viser(evenement.clientX, evenement.clientY);
+    }, { passive: true });
+
+    window.addEventListener('scroll', function () {
+      if (lampeAllumee() && eclat) placerHalo();
     }, { passive: true });
 
     document.addEventListener('focusin', function (evenement) {

@@ -34,6 +34,7 @@
       <p class="hero__surtitre"><span>{{t:hero.surtitreGauche}}</span><span>{{t:hero.surtitreDroite}}</span></p>
       <h1 class="hero__titre" id="hero-titre">
         <img src="{{ROOT}}images/logotype-or.webp" alt="{{t:hero.titre}}" width="1400" height="248">
+        <span class="hero__eclat" aria-hidden="true" data-eclat></span>
       </h1>
       <p class="hero__lieu">{{t:hero.lieu}}</p>
       <p class="hero__accroche">{{t:hero.accroche}}</p>
@@ -50,7 +51,7 @@
 
   <section class="bande-annonce" id="bande-annonce" aria-labelledby="bande-annonce-titre">
     <div class="conteneur bande-annonce__grille">
-      <button class="bande-annonce__ecran" type="button" data-video-ouvrir data-reveal aria-label="{{t:bandeAnnonce.lire}}">
+      <button class="bande-annonce__ecran" type="button" data-video-ouvrir data-reveal data-parallax="0.1" aria-label="{{t:bandeAnnonce.lire}}">
         <img src="{{ROOT}}images/oeil.webp" alt="" width="1200" height="800" loading="lazy">
         <span class="bande-annonce__lecture" aria-hidden="true">
           <svg viewBox="0 0 68 48" width="68" height="48"><path fill="#c31c20" d="M66.5 7.7a8.5 8.5 0 0 0-6-6C55.3.3 34 .3 34 .3s-21.3 0-26.6 1.4a8.5 8.5 0 0 0-6 6C0 13 0 24 0 24s0 11 1.4 16.3a8.5 8.5 0 0 0 6 6C12.7 47.7 34 47.7 34 47.7s21.3 0 26.6-1.4a8.5 8.5 0 0 0 6-6C68 35 68 24 68 24s0-11-1.5-16.3Z"/><path fill="#fff" d="m27 34 18-10-18-10z"/></svg>
@@ -93,10 +94,10 @@
   </section>
 
   <section class="bandeau" aria-label="{{t:bandeaux.seuil}}">
-    <div class="bandeau__media" data-parallax="0.22">
+    <div class="bandeau__media" data-parallax="0.4">
       <img src="{{ROOT}}images/archive-escalier.webp" alt="" width="837" height="1100" loading="lazy">
     </div>
-    <p class="bandeau__titre" data-reveal>{{t:bandeaux.seuil}}</p>
+    <p class="bandeau__titre" data-reveal data-parallax="-0.12">{{t:bandeaux.seuil}}</p>
   </section>
 
   <section class="tarifs" id="tarifs" aria-labelledby="tarifs-titre">
@@ -183,26 +184,26 @@
   </section>
 
   <section class="bandeau bandeau--memoire" aria-label="{{t:bandeaux.memoire}}">
-    <div class="bandeau__media" data-parallax="0.22">
+    <div class="bandeau__media" data-parallax="0.4">
       <img src="{{ROOT}}images/hero-hall-1920.webp" alt="" width="1920" height="1278" loading="lazy">
     </div>
-    <p class="bandeau__titre" data-reveal>{{t:bandeaux.memoire}}</p>
+    <p class="bandeau__titre" data-reveal data-parallax="-0.12">{{t:bandeaux.memoire}}</p>
   </section>
 
   <section class="histoire" id="histoire" aria-labelledby="histoire-titre">
     <div class="histoire__souvenirs" aria-hidden="true">
-      <figure class="souvenir souvenir--1" data-parallax="0.1"><img src="{{ROOT}}images/archive-toits.webp" alt="" width="560" height="750" loading="lazy"></figure>
-      <figure class="souvenir souvenir--2" data-parallax="0.16"><img src="{{ROOT}}images/archive-rideau.webp" alt="" width="560" height="942" loading="lazy"></figure>
-      <figure class="souvenir souvenir--3" data-parallax="0.05"><img src="{{ROOT}}images/archive-riviere.webp" alt="" width="500" height="650" loading="lazy"></figure>
-      <figure class="souvenir souvenir--4" data-parallax="0.12"><img src="{{ROOT}}images/archive-escalier.webp" alt="" width="640" height="841" loading="lazy"></figure>
-      <figure class="souvenir souvenir--5" data-parallax="0.07"><img src="{{ROOT}}images/archive-famille.webp" alt="" width="640" height="917" loading="lazy"></figure>
-      <figure class="souvenir souvenir--6" data-parallax="0.14"><img src="{{ROOT}}images/archive-rideau.webp" alt="" width="560" height="942" loading="lazy"></figure>
-      <figure class="souvenir souvenir--7" data-parallax="0.04"><img src="{{ROOT}}images/archive-rideau.webp" alt="" width="560" height="942" loading="lazy"></figure>
-      <figure class="souvenir souvenir--8" data-parallax="0.09"><img src="{{ROOT}}images/archive-jeune-femme.webp" alt="" width="512" height="768" loading="lazy"></figure>
-      <figure class="souvenir souvenir--9" data-parallax="0.13"><img src="{{ROOT}}images/archive-lac.webp" alt="" width="513" height="696" loading="lazy"></figure>
-      <figure class="souvenir souvenir--10" data-parallax="0.06"><img src="{{ROOT}}images/archive-photographe.webp" alt="" width="235" height="332" loading="lazy"></figure>
-      <figure class="souvenir souvenir--11" data-parallax="0.17"><img src="{{ROOT}}images/archive-rideau.webp" alt="" width="560" height="942" loading="lazy"></figure>
-      <figure class="souvenir souvenir--12" data-parallax="0.11"><img src="{{ROOT}}images/archive-toits.webp" alt="" width="560" height="750" loading="lazy"></figure>
+      <figure class="souvenir souvenir--1" data-parallax="0.18"><img src="{{ROOT}}images/archive-toits.webp" alt="" width="560" height="750" loading="lazy"></figure>
+      <figure class="souvenir souvenir--2" data-parallax="0.29"><img src="{{ROOT}}images/archive-rideau.webp" alt="" width="560" height="942" loading="lazy"></figure>
+      <figure class="souvenir souvenir--3" data-parallax="0.09"><img src="{{ROOT}}images/archive-riviere.webp" alt="" width="500" height="650" loading="lazy"></figure>
+      <figure class="souvenir souvenir--4" data-parallax="0.22"><img src="{{ROOT}}images/archive-escalier.webp" alt="" width="640" height="841" loading="lazy"></figure>
+      <figure class="souvenir souvenir--5" data-parallax="0.13"><img src="{{ROOT}}images/archive-famille.webp" alt="" width="640" height="917" loading="lazy"></figure>
+      <figure class="souvenir souvenir--6" data-parallax="0.25"><img src="{{ROOT}}images/archive-rideau.webp" alt="" width="560" height="942" loading="lazy"></figure>
+      <figure class="souvenir souvenir--7" data-parallax="0.07"><img src="{{ROOT}}images/archive-rideau.webp" alt="" width="560" height="942" loading="lazy"></figure>
+      <figure class="souvenir souvenir--8" data-parallax="0.16"><img src="{{ROOT}}images/archive-jeune-femme.webp" alt="" width="512" height="768" loading="lazy"></figure>
+      <figure class="souvenir souvenir--9" data-parallax="0.23"><img src="{{ROOT}}images/archive-lac.webp" alt="" width="513" height="696" loading="lazy"></figure>
+      <figure class="souvenir souvenir--10" data-parallax="0.11"><img src="{{ROOT}}images/archive-photographe.webp" alt="" width="235" height="332" loading="lazy"></figure>
+      <figure class="souvenir souvenir--11" data-parallax="0.31"><img src="{{ROOT}}images/archive-rideau.webp" alt="" width="560" height="942" loading="lazy"></figure>
+      <figure class="souvenir souvenir--12" data-parallax="0.20"><img src="{{ROOT}}images/archive-toits.webp" alt="" width="560" height="750" loading="lazy"></figure>
     </div>
     <div class="conteneur histoire__corps">
       <img class="histoire__embleme" src="{{ROOT}}images/embleme-or.webp" alt="" width="340" height="488" loading="lazy" data-reveal>
