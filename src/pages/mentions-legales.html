@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="{{LANG}}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#000000">
+  <title>{{t:legal.mentions.metaTitre}}</title>
+  <meta name="description" content="{{t:legal.mentions.description}}">
+  <meta property="og:title" content="{{t:legal.mentions.metaTitre}}">
+  <meta property="og:description" content="{{t:legal.mentions.description}}">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="{{t:meta.ogLocale}}">
+  {{HEAD_LINKS}}
+  <link rel="icon" href="{{ROOT}}images/favicon.png" type="image/png">
+  <link rel="preload" href="{{ROOT}}fonts/metamorphous-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ROOT}}fonts/gemunulibre-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="{{ROOT}}css/style.css">
+</head>
+<body>
+{{HEADER}}
+<main id="contenu">
+  <section class="page-hero page-hero--legal" aria-labelledby="page-titre">
+    <div class="hero__fond">
+      <div class="page-hero__media" data-hero-media>
+        <picture>
+          <source media="(max-width: 1024px)" srcset="{{ROOT}}images/hero-hall-1024.webp">
+          <img src="{{ROOT}}images/hero-hall-1920.webp" alt="" width="1920" height="1278" fetchpriority="high">
+        </picture>
+      </div>
+      <canvas class="hero__poussiere" aria-hidden="true" data-poussiere></canvas>
+      <div class="hero__voile" aria-hidden="true"></div>
+    </div>
+    <div class="page-hero__contenu" data-hero-contenu>
+      <p class="page-hero__surtitre">{{t:legal.commun.autres}}</p>
+      <h1 class="titre-section page-hero__titre" id="page-titre">{{t:legal.mentions.titre}}</h1>
+      <span class="ornement" aria-hidden="true"></span>
+    </div>
+  </section>
+
+  <div class="legal">
+    <div class="conteneur legal__grille">
+      <details class="legal__sommaire" data-sommaire-legal>
+        <summary class="legal__sommaire-titre">{{t:legal.commun.sommaire}}</summary>
+        <nav aria-label="{{t:legal.commun.sommaire}}">
+          <ol class="legal__sommaire-liste">
+            <li><a href="#article-1">{{t:legal.mentions.s1.titre}}</a></li>
+            <li><a href="#article-2">{{t:legal.mentions.s2.titre}}</a></li>
+            <li><a href="#article-3">{{t:legal.mentions.s3.titre}}</a></li>
+            <li><a href="#article-4">{{t:legal.mentions.s4.titre}}</a></li>
+            <li><a href="#article-5">{{t:legal.mentions.s5.titre}}</a></li>
+            <li><a href="#article-6">{{t:legal.mentions.s6.titre}}</a></li>
+            <li><a href="#article-7">{{t:legal.mentions.s7.titre}}</a></li>
+            <li><a href="#article-8">{{t:legal.mentions.s8.titre}}</a></li>
+            <li><a href="#article-9">{{t:legal.mentions.s9.titre}}</a></li>
+          </ol>
+        </nav>
+        <p class="legal__autres-titre">{{t:legal.commun.autres}}</p>
+        <ul class="legal__autres">
+            <li><a href="mentions-legales.html" aria-current="page">{{t:footer.mentions}}</a></li>
+            <li><a href="cgv.html">{{t:footer.cgv}}</a></li>
+            <li><a href="confidentialite.html">{{t:footer.confidentialite}}</a></li>
+            <li><a href="cookies.html">{{t:footer.cookies}}</a></li>
+        </ul>
+      </details>
+      <article class="legal__document">
+        <p class="legal__avertissement" role="note">{{t:legal.commun.avertissement}}</p>
+        <p class="legal__maj">{{t:legal.commun.miseAJour}}</p>
+        <p class="legal__intro">{{t:legal.mentions.intro}}</p>
+        <section class="legal__section" id="article-1">
+          <h2>{{t:legal.mentions.s1.titre}}</h2>
+          {{t:legal.mentions.s1.contenu}}
+        </section>
+        <section class="legal__section" id="article-2">
+          <h2>{{t:legal.mentions.s2.titre}}</h2>
+          {{t:legal.mentions.s2.contenu}}
+        </section>
+        <section class="legal__section" id="article-3">
+          <h2>{{t:legal.mentions.s3.titre}}</h2>
+          {{t:legal.mentions.s3.contenu}}
+        </section>
+        <section class="legal__section" id="article-4">
+          <h2>{{t:legal.mentions.s4.titre}}</h2>
+          {{t:legal.mentions.s4.contenu}}
+        </section>
+        <section class="legal__section" id="article-5">
+          <h2>{{t:legal.mentions.s5.titre}}</h2>
+          {{t:legal.mentions.s5.contenu}}
+        </section>
+        <section class="legal__section" id="article-6">
+          <h2>{{t:legal.mentions.s6.titre}}</h2>
+          {{t:legal.mentions.s6.contenu}}
+        </section>
+        <section class="legal__section" id="article-7">
+          <h2>{{t:legal.mentions.s7.titre}}</h2>
+          {{t:legal.mentions.s7.contenu}}
+        </section>
+        <section class="legal__section" id="article-8">
+          <h2>{{t:legal.mentions.s8.titre}}</h2>
+          {{t:legal.mentions.s8.contenu}}
+        </section>
+        <section class="legal__section" id="article-9">
+          <h2>{{t:legal.mentions.s9.titre}}</h2>
+          {{t:legal.mentions.s9.contenu}}
+        </section>
+      </article>
+    </div>
+  </div>
+</main>
+{{FOOTER}}
+</body>
+</html>

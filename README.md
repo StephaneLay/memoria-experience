@@ -36,7 +36,7 @@ Prérequis : Node.js 18 ou plus récent, aucune dépendance npm.
 
 ## Structure
 
-- `src/pages/` : gabarits de pages (`index.html`, `notre-histoire.html`, `pack-cadeau.html`, `pack-personnalise.html`, `presse.html`, `team-building.html`, `faq.html`, `contact.html`, `404.html`)
+- `src/pages/` : gabarits de pages (`index.html`, `notre-histoire.html`, `pack-cadeau.html`, `pack-personnalise.html`, `presse.html`, `team-building.html`, `faq.html`, `contact.html`, `mentions-legales.html`, `cgv.html`, `confidentialite.html`, `cookies.html`, `404.html`)
 - `src/partials/` : en-tête (navigation, réseaux, langues) et pied de page (+ onglet « Réserver »)
 - `src/i18n/` : textes FR / EN
 - `src/css/style.css`, `src/js/main.js` : style et comportements (sans dépendance)
@@ -57,6 +57,7 @@ Ne jamais écrire un prix en dur dans une page ou un fichier de traduction.
 ## Où brancher les éléments attendus
 
 - **Réservation 4escape** : tout le contenu du `<form class="reservation__widget">` dans `src/pages/index.html` est un aperçu visuel (calendrier mercredi → dimanche, créneaux d’exemple). Le remplacer par le code d’intégration 4escape quand les accès seront disponibles, puis retirer la partie « réservation » de `src/js/main.js`.
+- **Pages légales** : textes dans la rubrique `legal` des traductions (une entrée `sN.titre` / `sN.contenu` par section, HTML autorisé). Les éléments à compléter sont balisés `<span class="a-completer">[…]</span>`, ce qui les surligne à l’écran : en les remplaçant, retirer aussi la balise. Une fois tout complété, supprimer l’encart provisoire (`legal.commun.avertissement` et le paragraphe `.legal__avertissement` des quatre pages). Les CGV reprennent les tarifs via `{{PRIX_3}}`… Si un outil de mesure d’audience ou un widget tiers est ajouté, mettre à jour la politique cookies (et prévoir un bandeau de consentement si nécessaire).
 - **Page Contact** : formulaire général (9 sujets) avec **panneau de confirmation** après envoi (« Merci, Prénom »). Tant que l’envoi n’est pas branché, le panneau précise qu’il s’agit d’un aperçu (`data-confirmation-apercu`, à supprimer une fois l’envoi actif). Un lien `contact.html?sujet=accessibilite#formulaire` présélectionne le sujet (valeurs : `reservation`, `modification`, `bon-cadeau`, `pack-personnalise`, `team-building`, `presse`, `technique`, `accessibilite`, `autre`). Téléphone, adresse et horaires reprennent les textes de l’accueil (rubrique `infos`) : une seule source.
 - **FAQ** : ajouter une question = ajouter une paire `qN` / `rN` dans la catégorie voulue de `src/i18n/fr.json` et `en.json` (rubrique `faq`), puis un bloc `<details class="question" data-question>` dans `src/pages/faq.html`. La recherche et le sommaire fonctionnent automatiquement. Les réponses peuvent contenir des liens et les jetons de prix (`{{PRIX_3}}`…).
 - **Niveaux d’intensité** : textes communs (rubrique `intensite` des traductions), affichés à l’identique sur l’accueil et la page Team building.

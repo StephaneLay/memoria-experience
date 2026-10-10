@@ -833,5 +833,197 @@
       "acces2": "Entrée et accès au bâtiment : informations à venir.",
       "acces3": "Le pensionnat s’étend sur trois niveaux reliés par des escaliers. Pour toute situation de handicap, <a href=\"contact.html?sujet=accessibilite#formulaire\">contactez-nous</a> avant de réserver."
     }
+  },
+  "legal": {
+    "commun": {
+      "avertissement": "Document provisoire : les éléments <span class=\"a-completer\">[entre crochets]</span> sont à compléter, et l’ensemble du texte doit être validé par Memoria, idéalement avec l’aide d’un professionnel du droit.",
+      "miseAJour": "Dernière mise à jour : <span class=\"a-completer\">[date]</span>",
+      "sommaire": "Sommaire",
+      "autres": "Informations légales"
+    },
+    "mentions": {
+      "titre": "Mentions légales",
+      "metaTitre": "Mentions légales — Memoria",
+      "description": "Mentions légales du site Memoria : éditeur, directeur de la publication, hébergeur, propriété intellectuelle.",
+      "intro": "Conformément à la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l’économie numérique, voici les informations relatives à l’éditeur et à l’hébergeur du site.",
+      "s1": {
+        "titre": "Éditeur du site",
+        "contenu": "<p>Le site memoria-experience.fr est édité par :</p><ul><li><span class=\"a-completer\">[Raison sociale]</span>, <span class=\"a-completer\">[forme juridique]</span> au capital de <span class=\"a-completer\">[montant]</span> €</li><li>Siège social : <span class=\"a-completer\">[adresse complète du siège]</span></li><li>Immatriculée au RCS de <span class=\"a-completer\">[ville]</span> sous le numéro <span class=\"a-completer\">[numéro RCS]</span></li><li>SIRET : <span class=\"a-completer\">[numéro SIRET]</span></li><li>N° de TVA intracommunautaire : <span class=\"a-completer\">[numéro de TVA]</span></li><li>Téléphone : <span class=\"a-completer\">[numéro de téléphone]</span></li><li>E-mail : <a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a></li></ul>"
+      },
+      "s2": {
+        "titre": "Directeur de la publication",
+        "contenu": "<p><span class=\"a-completer\">[Prénom Nom]</span>, en qualité de <span class=\"a-completer\">[fonction, ex. : gérant / président]</span>.</p>"
+      },
+      "s3": {
+        "titre": "Hébergement",
+        "contenu": "<p>Le site est hébergé par :</p><ul><li><span class=\"a-completer\">[Nom de l’hébergeur]</span></li><li><span class=\"a-completer\">[Adresse de l’hébergeur]</span></li><li><span class=\"a-completer\">[Téléphone ou site web de l’hébergeur]</span></li></ul>"
+      },
+      "s4": {
+        "titre": "Conception et réalisation",
+        "contenu": "<p>Site conçu et réalisé par <span class=\"a-completer\">[nom du prestataire ou de l’agence]</span>.</p>"
+      },
+      "s5": {
+        "titre": "Propriété intellectuelle",
+        "contenu": "<p>L’ensemble des éléments du site (textes, logotypes, emblèmes, photographies, vidéos, illustrations, univers et scénario de l’expérience) est la propriété exclusive de <span class=\"a-completer\">[Raison sociale]</span> ou de ses partenaires, et est protégé par le droit de la propriété intellectuelle.</p><p>Toute reproduction, représentation, modification ou exploitation, totale ou partielle, sans autorisation écrite préalable est interdite. Les logos et visuels proposés sur la page <a href=\"presse.html\">Presse</a> peuvent être utilisés par les médias pour illustrer un sujet consacré à Memoria, avec la mention « © Memoria ».</p>"
+      },
+      "s6": {
+        "titre": "Crédits photographiques",
+        "contenu": "<p>Photographies et visuels : <span class=\"a-completer\">[noms des photographes / banques d’images et licences]</span>.</p>"
+      },
+      "s7": {
+        "titre": "Responsabilité",
+        "contenu": "<p><span class=\"a-completer\">[Raison sociale]</span> s’efforce de fournir des informations exactes et à jour, sans pouvoir garantir l’absence d’erreurs ou d’omissions. Les informations pratiques (horaires, tarifs, accès) peuvent évoluer : en cas de doute, <a href=\"contact.html\">contactez-nous</a>.</p><p>Le site peut contenir des liens vers des sites tiers, sur lesquels <span class=\"a-completer\">[Raison sociale]</span> n’exerce aucun contrôle et dont elle ne saurait être tenue responsable.</p>"
+      },
+      "s8": {
+        "titre": "Données personnelles et cookies",
+        "contenu": "<p>Le traitement de vos données personnelles est décrit dans notre <a href=\"confidentialite.html\">politique de confidentialité</a>, et l’usage des cookies dans notre <a href=\"cookies.html\">politique cookies</a>.</p>"
+      },
+      "s9": {
+        "titre": "Droit applicable",
+        "contenu": "<p>Les présentes mentions légales sont soumises au droit français.</p>"
+      }
+    },
+    "cgv": {
+      "titre": "Conditions générales de vente",
+      "metaTitre": "Conditions générales de vente — Memoria",
+      "description": "Conditions générales de vente de Memoria : réservation, paiement, annulation, bons cadeaux, conditions de participation.",
+      "intro": "Les présentes conditions générales de vente (CGV) s’appliquent à toute réservation d’une session Memoria, à tout achat de bon cadeau et à toute prestation sur mesure. Toute réservation implique leur acceptation sans réserve.",
+      "s1": {
+        "titre": "Article 1 — Objet et vendeur",
+        "contenu": "<p>Les prestations sont proposées par <span class=\"a-completer\">[Raison sociale]</span>, <span class=\"a-completer\">[forme juridique]</span>, <span class=\"a-completer\">[adresse du siège]</span>, RCS <span class=\"a-completer\">[ville et numéro]</span> (ci-après « Memoria »).</p><p>Memoria propose une expérience immersive d’horreur d’une durée d’environ 1h30, pour des groupes de 3 à 6 joueurs, en présence de comédiens, au 45 cours de la Liberté à Lyon.</p>"
+      },
+      "s2": {
+        "titre": "Article 2 — Prix",
+        "contenu": "<p>Les prix sont indiqués en euros, toutes taxes comprises, par personne, et dépendent du nombre de joueurs de la session :</p><ul><li>3 joueurs : {{PRIX_3}} par personne</li><li>4 joueurs : {{PRIX_4}} par personne</li><li>5 joueurs : {{PRIX_5}} par personne</li><li>6 joueurs : {{PRIX_6}} par personne</li></ul><p>Le prix applicable est celui en vigueur au moment de la réservation. Les prestations sur mesure (team building, privatisation, pack personnalisé) font l’objet d’un devis.</p>"
+      },
+      "s3": {
+        "titre": "Article 3 — Réservation et paiement",
+        "contenu": "<p>La réservation s’effectue en ligne via la plateforme de réservation <span class=\"a-completer\">[nom de la plateforme, ex. : 4escape]</span>. Elle n’est définitive qu’après paiement intégral, réalisé par <span class=\"a-completer\">[moyens de paiement acceptés]</span> sur une interface sécurisée. Un e-mail de confirmation récapitulant la date, l’horaire, le nombre de joueurs et le niveau d’intensité est alors adressé au client.</p>"
+      },
+      "s4": {
+        "titre": "Article 4 — Conditions de participation",
+        "contenu": "<ul><li>L’expérience est interdite aux moins de 12 ans et déconseillée aux moins de 16 ans. Les mineurs doivent être accompagnés d’un adulte participant à la session.</li><li>Elle est déconseillée aux personnes souffrant de troubles cardiaques, d’épilepsie, de troubles anxieux importants ou de claustrophobie, ainsi qu’aux femmes enceintes. Chaque participant s’engage à ne pas participer en cas de contre-indication.</li><li>Les participants doivent respecter les consignes données lors du briefing, les décors, les accessoires et les comédiens.</li><li>Memoria se réserve le droit de refuser l’accès ou d’interrompre la session de toute personne sous l’emprise de l’alcool ou de stupéfiants, ou dont le comportement met en danger sa sécurité ou celle des autres, sans remboursement.</li><li>Un mot de sécurité, communiqué lors du briefing, permet à tout participant d’interrompre l’expérience à tout moment.</li></ul>"
+      },
+      "s5": {
+        "titre": "Article 5 — Retard",
+        "contenu": "<p>Les participants doivent se présenter 15 minutes avant l’horaire de la session. En cas de retard, la durée de l’expérience pourra être réduite d’autant ; au-delà de <span class=\"a-completer\">[nombre]</span> minutes de retard, la session pourra être annulée sans remboursement.</p>"
+      },
+      "s6": {
+        "titre": "Article 6 — Modification et annulation par le client",
+        "contenu": "<ul><li>Une réservation peut être modifiée, sous réserve de disponibilité, jusqu’à 48 heures avant la session.</li><li>Une annulation effectuée jusqu’à 72 heures avant la session donne lieu à <span class=\"a-completer\">[remboursement intégral / avoir]</span>.</li><li>Passé ce délai, ou en cas d’absence, aucun remboursement n’est dû.</li></ul><p>Les demandes se font par e-mail à <a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a>.</p>"
+      },
+      "s7": {
+        "titre": "Article 7 — Annulation par Memoria",
+        "contenu": "<p>En cas d’impossibilité d’assurer une session (force majeure, problème technique, indisponibilité d’un comédien…), Memoria en informe le client dans les meilleurs délais et lui propose un report ou le remboursement intégral des sommes versées, à l’exclusion de toute autre indemnité.</p>"
+      },
+      "s8": {
+        "titre": "Article 8 — Absence de droit de rétractation",
+        "contenu": "<p>Conformément à l’article L.221-28 12° du Code de la consommation, le droit de rétractation ne s’applique pas aux prestations de services d’activités de loisirs fournies à une date ou à une période déterminée.</p>"
+      },
+      "s9": {
+        "titre": "Article 9 — Bons cadeaux",
+        "contenu": "<ul><li>Les bons cadeaux sont valables 12 mois à compter de leur date d’achat ; la date de fin de validité figure sur le bon.</li><li>Ils sont utilisables en une seule fois, ne sont ni remboursables ni échangeables contre des espèces, et ne peuvent être prolongés après expiration que sur décision de Memoria.</li><li>Si le prix de la session réservée est supérieur à la valeur du bon, le complément est réglé lors de la réservation.</li></ul>"
+      },
+      "s10": {
+        "titre": "Article 10 — Prestations sur mesure et entreprises",
+        "contenu": "<p>Les prestations de team building, de privatisation et les événements personnalisés font l’objet d’un devis détaillé. Leurs conditions particulières (acompte, délai d’annulation, nombre de participants) prévalent sur les présentes CGV.</p>"
+      },
+      "s11": {
+        "titre": "Article 11 — Responsabilité",
+        "contenu": "<p>Les participants sont responsables des dommages qu’ils causent volontairement aux décors, accessoires et équipements. Memoria ne saurait être tenue responsable de la perte ou du vol des objets personnels, qui peuvent être déposés à l’accueil.</p>"
+      },
+      "s12": {
+        "titre": "Article 12 — Droit à l’image",
+        "contenu": "<p>Une photographie de groupe peut être réalisée à l’issue de l’expérience. Elle n’est publiée (site, réseaux sociaux) qu’avec l’accord exprès des personnes photographiées. Il est interdit de filmer ou de photographier pendant l’expérience.</p>"
+      },
+      "s13": {
+        "titre": "Article 13 — Données personnelles",
+        "contenu": "<p>Les données collectées lors de la réservation sont traitées conformément à notre <a href=\"confidentialite.html\">politique de confidentialité</a>.</p>"
+      },
+      "s14": {
+        "titre": "Article 14 — Réclamations et médiation",
+        "contenu": "<p>Toute réclamation peut être adressée à <a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a>. En cas de litige non résolu, le client peut recourir gratuitement au médiateur de la consommation : <span class=\"a-completer\">[nom et coordonnées du médiateur]</span>.</p>"
+      },
+      "s15": {
+        "titre": "Article 15 — Droit applicable",
+        "contenu": "<p>Les présentes CGV sont soumises au droit français. À défaut de résolution amiable, les tribunaux compétents seront ceux du ressort de <span class=\"a-completer\">[ville]</span>, sous réserve des règles d’ordre public applicables aux consommateurs.</p>"
+      }
+    },
+    "confidentialite": {
+      "titre": "Politique de confidentialité",
+      "metaTitre": "Politique de confidentialité — Memoria",
+      "description": "Comment Memoria collecte et protège vos données personnelles : finalités, durées de conservation, destinataires et droits RGPD.",
+      "intro": "Memoria attache une grande importance à la protection de vos données personnelles. Cette politique explique quelles données nous collectons, pourquoi, combien de temps nous les conservons et comment exercer vos droits, conformément au Règlement général sur la protection des données (RGPD) et à la loi Informatique et Libertés.",
+      "s1": {
+        "titre": "Responsable du traitement",
+        "contenu": "<p><span class=\"a-completer\">[Raison sociale]</span>, <span class=\"a-completer\">[adresse du siège]</span>, joignable à <a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a>.</p><p>Délégué à la protection des données : <span class=\"a-completer\">[nom et coordonnées, ou « non désigné »]</span>.</p>"
+      },
+      "s2": {
+        "titre": "Données collectées",
+        "contenu": "<ul><li><strong>Formulaires du site</strong> (contact, demande de devis, pack personnalisé, presse, bon cadeau) : nom, prénom, adresse e-mail, téléphone, entreprise le cas échéant, contenu de votre message et informations sur votre projet.</li><li><strong>Réservations et achats</strong> : données nécessaires à la réservation et au paiement, collectées par notre plateforme de réservation <span class=\"a-completer\">[nom de la plateforme]</span>. Les données bancaires sont traitées exclusivement par le prestataire de paiement et ne sont jamais conservées par Memoria.</li><li><strong>Navigation</strong> : données techniques (adresse IP, navigateur, pages consultées) enregistrées par notre hébergeur pour assurer la sécurité et le bon fonctionnement du site.</li></ul><p>Nous ne collectons que les données strictement nécessaires. Ne nous transmettez pas de données de santé : en cas de question médicale, décrivez simplement votre situation, nous vous répondrons sans conserver ces informations au-delà du nécessaire.</p>"
+      },
+      "s3": {
+        "titre": "Finalités et bases légales",
+        "contenu": "<ul><li>Répondre à vos demandes et établir des devis : mesures précontractuelles prises à votre demande.</li><li>Gérer les réservations, les bons cadeaux et les prestations : exécution du contrat.</li><li>Respecter nos obligations comptables et fiscales : obligation légale.</li><li>Assurer la sécurité du site et améliorer nos services : intérêt légitime.</li><li>Vous adresser nos actualités et offres, si vous l’avez demandé : consentement, retirable à tout moment.</li></ul>"
+      },
+      "s4": {
+        "titre": "Destinataires",
+        "contenu": "<p>Vos données sont destinées à l’équipe de Memoria. Elles peuvent être transmises à nos prestataires techniques, dans la limite de leurs missions : hébergement du site (<span class=\"a-completer\">[hébergeur]</span>), réservation et paiement (<span class=\"a-completer\">[plateforme de réservation]</span>), envoi des e-mails (<span class=\"a-completer\">[service d’envoi]</span>). Elles ne sont jamais vendues ni cédées à des tiers à des fins commerciales.</p>"
+      },
+      "s5": {
+        "titre": "Transferts hors de l’Union européenne",
+        "contenu": "<p><span class=\"a-completer\">[À compléter selon les prestataires retenus : absence de transfert, ou transfert encadré par des clauses contractuelles types de la Commission européenne.]</span></p>"
+      },
+      "s6": {
+        "titre": "Durées de conservation",
+        "contenu": "<ul><li>Demandes de contact et de devis sans suite : 3 ans à compter du dernier échange.</li><li>Données clients : pendant la relation commerciale, puis 3 ans à des fins de prospection.</li><li>Factures et pièces comptables : 10 ans, conformément au Code de commerce.</li><li>Données de navigation de l’hébergeur : <span class=\"a-completer\">[durée]</span>.</li></ul>"
+      },
+      "s7": {
+        "titre": "Vos droits",
+        "contenu": "<p>Vous disposez d’un droit d’accès, de rectification, d’effacement, de limitation et de portabilité de vos données, d’un droit d’opposition, du droit de retirer votre consentement à tout moment et de définir des directives relatives au sort de vos données après votre décès.</p><p>Pour exercer ces droits, écrivez-nous à <a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a>. Nous vous répondrons dans un délai d’un mois. Si vous estimez que vos droits ne sont pas respectés, vous pouvez introduire une réclamation auprès de la CNIL (<a href=\"https://www.cnil.fr\" target=\"_blank\" rel=\"noopener\">www.cnil.fr</a>).</p>"
+      },
+      "s8": {
+        "titre": "Sécurité",
+        "contenu": "<p>Nous mettons en œuvre des mesures techniques et organisationnelles adaptées pour protéger vos données : connexion chiffrée (HTTPS), accès restreint aux seules personnes habilitées, choix de prestataires présentant des garanties suffisantes.</p>"
+      },
+      "s9": {
+        "titre": "Cookies",
+        "contenu": "<p>L’utilisation des cookies et traceurs est détaillée dans notre <a href=\"cookies.html\">politique cookies</a>.</p>"
+      },
+      "s10": {
+        "titre": "Modification de la politique",
+        "contenu": "<p>Cette politique peut être mise à jour, notamment lors de l’ajout de nouveaux services. La date de dernière mise à jour figure en haut de cette page.</p>"
+      }
+    },
+    "cookies": {
+      "titre": "Politique cookies",
+      "metaTitre": "Politique cookies — Memoria",
+      "description": "Cookies et traceurs utilisés sur le site Memoria, services tiers et gestion de vos préférences.",
+      "intro": "Cette page explique ce que sont les cookies, lesquels sont utilisés sur ce site et comment gérer vos préférences.",
+      "s1": {
+        "titre": "Qu’est-ce qu’un cookie ?",
+        "contenu": "<p>Un cookie est un petit fichier déposé sur votre appareil lors de la visite d’un site. Par extension, on parle aussi de « traceurs » pour les technologies similaires, comme le stockage local du navigateur. Certains sont indispensables au fonctionnement du site ; les autres ne peuvent être utilisés qu’avec votre consentement.</p>"
+      },
+      "s2": {
+        "titre": "Ce que ce site utilise aujourd’hui",
+        "contenu": "<p>À ce jour, le site Memoria n’utilise <strong>aucun cookie publicitaire ni de mesure d’audience</strong>. Le seul élément stocké sur votre appareil est une préférence d’affichage, déposée uniquement si vous utilisez la fonction concernée :</p><div class=\"tableau-defilant\"><table class=\"legal__tableau\"><thead><tr><th scope=\"col\">Nom</th><th scope=\"col\">Finalité</th><th scope=\"col\">Durée</th><th scope=\"col\">Type</th></tr></thead><tbody><tr><td>memoria-lampe</td><td>Mémoriser l’activation de la lampe torche</td><td>Jusqu’à suppression par l’utilisateur</td><td>Stockage local, fonctionnel</td></tr></tbody></table></div><p>Cet élément sert uniquement à retenir votre choix d’affichage et ne nécessite pas de consentement.</p>"
+      },
+      "s3": {
+        "titre": "Services tiers",
+        "contenu": "<ul><li><strong>Google Maps</strong> : le plan affiché sur le site est une simple image ; aucun cookie Google n’est déposé tant que vous ne cliquez pas sur « Voir sur la carte » ou « Itinéraire », qui vous redirigent vers Google Maps.</li><li><strong>YouTube</strong> : la bande-annonce est intégrée en mode « confidentialité renforcée » et ne se charge que lorsque vous lancez la vidéo. YouTube peut alors déposer ses propres cookies.</li><li><strong>Réservation en ligne</strong> : le module de réservation <span class=\"a-completer\">[nom de la plateforme]</span> peut déposer des cookies nécessaires à la réservation et au paiement. <span class=\"a-completer\">[À compléter une fois le module intégré.]</span></li></ul>"
+      },
+      "s4": {
+        "titre": "Mesure d’audience",
+        "contenu": "<p><span class=\"a-completer\">[Si un outil de mesure d’audience est ajouté (Google Analytics, Matomo…) : nom de l’outil, finalité, durée de conservation, et mise en place d’un bandeau de consentement lorsque l’outil le requiert.]</span></p>"
+      },
+      "s5": {
+        "titre": "Gérer vos préférences",
+        "contenu": "<p>Vous pouvez à tout moment supprimer les cookies et données stockées par le site, ou configurer votre navigateur pour les refuser :</p><ul><li><a href=\"https://support.google.com/chrome/answer/95647\" target=\"_blank\" rel=\"noopener\">Google Chrome</a></li><li><a href=\"https://support.mozilla.org/fr/kb/effacer-cookies-donnees-site-firefox\" target=\"_blank\" rel=\"noopener\">Mozilla Firefox</a></li><li><a href=\"https://support.apple.com/fr-fr/guide/safari/sfri11471/mac\" target=\"_blank\" rel=\"noopener\">Safari</a></li><li><a href=\"https://support.microsoft.com/fr-fr/microsoft-edge/supprimer-les-cookies-dans-microsoft-edge-63947406-40ac-c3b8-57b9-2a946a29ae09\" target=\"_blank\" rel=\"noopener\">Microsoft Edge</a></li></ul><p>Pour la lampe torche, il suffit de la désactiver : votre choix est alors simplement mis à jour.</p>"
+      },
+      "s6": {
+        "titre": "Contact",
+        "contenu": "<p>Pour toute question sur les cookies ou vos données, écrivez-nous à <a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a> ou consultez notre <a href=\"confidentialite.html\">politique de confidentialité</a>.</p>"
+      }
+    }
   }
 }

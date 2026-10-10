@@ -42,6 +42,6 @@ Site vitrine statique et bilingue (FR / EN) pour **Memoria**, une expérience im
 - **FAQ** : faite (FR / EN), 32 questions en 4 catégories (L’expérience, Intensité & peur, Réservation, Informations pratiques), questions dépliables, recherche instantanée et sommaire des catégories.
 - L’accueil affiche aussi les trois niveaux d’intensité (mêmes textes que la page Team building), avec un lien vers la FAQ.
 - **Nous contacter** : faite (FR / EN). Coordonnées (téléphone, e-mail, adresse, horaires, réseaux), formulaire de contact (prénom, nom, e-mail, téléphone facultatif, sujet parmi 9, message, consentement) avec message de confirmation, et « Venir à Memoria » : plan, itinéraire, transports, stationnement, accès. Le menu « Nous contacter » mène désormais à cette page.
-- À créer au fil de l’eau : mentions légales, CGV, politique de confidentialité, cookies. Les liens existent déjà dans le menu et le pied de page et mènent pour l’instant à la page 404 thématique.
+- **Pages légales** (pied de page) : mentions légales, CGV, politique de confidentialité, politique cookies — faites en FR / EN sous forme de modèles complets, avec les éléments à fournir surlignés `[entre crochets]` et un encart « document provisoire ». Toutes les pages du menu et du pied de page existent désormais.
 
 Ne pas ajouter de vraies clés, mots de passe ou jetons au dépôt ; utiliser les secrets de l’hébergeur/CI lorsqu’une intégration sera décidée.

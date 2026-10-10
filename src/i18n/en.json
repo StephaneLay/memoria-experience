@@ -833,5 +833,197 @@
       "acces2": "Entrance and building access: details coming soon.",
       "acces3": "The boarding school spreads over three levels connected by stairs. For any disability, <a href=\"contact.html?sujet=accessibilite#formulaire\">contact us</a> before booking."
     }
+  },
+  "legal": {
+    "commun": {
+      "avertissement": "Provisional document: items <span class=\"a-completer\">[in brackets]</span> are to be completed, and the whole text must be approved by Memoria, ideally with the help of a legal professional. The French version of this document prevails.",
+      "miseAJour": "Last updated: <span class=\"a-completer\">[date]</span>",
+      "sommaire": "Contents",
+      "autres": "Legal information"
+    },
+    "mentions": {
+      "titre": "Legal notice",
+      "metaTitre": "Legal notice — Memoria",
+      "description": "Legal notice for the Memoria website: publisher, publication director, host, intellectual property.",
+      "intro": "In accordance with French law no. 2004-575 of 21 June 2004 on confidence in the digital economy, here is the information about the publisher and host of this website.",
+      "s1": {
+        "titre": "Website publisher",
+        "contenu": "<p>The memoria-experience.fr website is published by:</p><ul><li><span class=\"a-completer\">[Company name]</span>, <span class=\"a-completer\">[legal form]</span> with a share capital of €<span class=\"a-completer\">[amount]</span></li><li>Registered office: <span class=\"a-completer\">[full address]</span></li><li>Registered with the <span class=\"a-completer\">[city]</span> Trade and Companies Register under number <span class=\"a-completer\">[RCS number]</span></li><li>SIRET: <span class=\"a-completer\">[SIRET number]</span></li><li>EU VAT number: <span class=\"a-completer\">[VAT number]</span></li><li>Phone: <span class=\"a-completer\">[phone number]</span></li><li>Email: <a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a></li></ul>"
+      },
+      "s2": {
+        "titre": "Publication director",
+        "contenu": "<p><span class=\"a-completer\">[First name Last name]</span>, as <span class=\"a-completer\">[position, e.g. managing director]</span>.</p>"
+      },
+      "s3": {
+        "titre": "Hosting",
+        "contenu": "<p>The website is hosted by:</p><ul><li><span class=\"a-completer\">[Host name]</span></li><li><span class=\"a-completer\">[Host address]</span></li><li><span class=\"a-completer\">[Host phone number or website]</span></li></ul>"
+      },
+      "s4": {
+        "titre": "Design and development",
+        "contenu": "<p>Website designed and developed by <span class=\"a-completer\">[name of the provider or agency]</span>.</p>"
+      },
+      "s5": {
+        "titre": "Intellectual property",
+        "contenu": "<p>All elements of the website (texts, wordmarks, emblems, photographs, videos, illustrations, the universe and story of the experience) are the exclusive property of <span class=\"a-completer\">[Company name]</span> or its partners, and are protected by intellectual property law.</p><p>Any reproduction, representation, modification or use, in whole or in part, without prior written permission is prohibited. Logos and visuals offered on the <a href=\"presse.html\">Press</a> page may be used by the media to illustrate a story about Memoria, credited “© Memoria”.</p>"
+      },
+      "s6": {
+        "titre": "Photo credits",
+        "contenu": "<p>Photographs and visuals: <span class=\"a-completer\">[photographers / image banks and licences]</span>.</p>"
+      },
+      "s7": {
+        "titre": "Liability",
+        "contenu": "<p><span class=\"a-completer\">[Company name]</span> strives to provide accurate and up-to-date information, but cannot guarantee that it is free of errors or omissions. Practical information (opening hours, prices, access) may change: if in doubt, <a href=\"contact.html\">contact us</a>.</p><p>The website may contain links to third-party websites, over which <span class=\"a-completer\">[Company name]</span> has no control and for which it cannot be held responsible.</p>"
+      },
+      "s8": {
+        "titre": "Personal data and cookies",
+        "contenu": "<p>How we process your personal data is described in our <a href=\"confidentialite.html\">privacy policy</a>, and our use of cookies in our <a href=\"cookies.html\">cookie policy</a>.</p>"
+      },
+      "s9": {
+        "titre": "Governing law",
+        "contenu": "<p>This legal notice is governed by French law.</p>"
+      }
+    },
+    "cgv": {
+      "titre": "Terms of sale",
+      "metaTitre": "Terms of sale — Memoria",
+      "description": "Memoria terms of sale: booking, payment, cancellation, gift vouchers, conditions of participation.",
+      "intro": "These general terms of sale apply to any booking of a Memoria session, any purchase of a gift voucher and any tailor-made service. Any booking implies their unreserved acceptance.",
+      "s1": {
+        "titre": "Article 1 — Purpose and seller",
+        "contenu": "<p>The services are offered by <span class=\"a-completer\">[Company name]</span>, <span class=\"a-completer\">[legal form]</span>, <span class=\"a-completer\">[registered office address]</span>, RCS <span class=\"a-completer\">[city and number]</span> (hereinafter “Memoria”).</p><p>Memoria offers an immersive horror experience lasting about 90 minutes, for groups of 3 to 6 players, with live actors, at 45 cours de la Liberté in Lyon.</p>"
+      },
+      "s2": {
+        "titre": "Article 2 — Prices",
+        "contenu": "<p>Prices are shown in euros, including all taxes, per person, and depend on the number of players in the session:</p><ul><li>3 players: {{PRIX_3}} per person</li><li>4 players: {{PRIX_4}} per person</li><li>5 players: {{PRIX_5}} per person</li><li>6 players: {{PRIX_6}} per person</li></ul><p>The applicable price is the one in force at the time of booking. Tailor-made services (team building, private hire, tailor-made pack) are subject to a quote.</p>"
+      },
+      "s3": {
+        "titre": "Article 3 — Booking and payment",
+        "contenu": "<p>Bookings are made online via the <span class=\"a-completer\">[booking platform name, e.g. 4escape]</span> platform. A booking is only final once paid in full by <span class=\"a-completer\">[accepted payment methods]</span> on a secure interface. A confirmation email summarising the date, time, number of players and intensity level is then sent to the customer.</p>"
+      },
+      "s4": {
+        "titre": "Article 4 — Conditions of participation",
+        "contenu": "<ul><li>The experience is not allowed for under-12s and not recommended for under-16s. Minors must be accompanied by an adult taking part in the session.</li><li>It is not recommended for people with heart conditions, epilepsy, severe anxiety or claustrophobia, or for pregnant women. Each participant undertakes not to take part if a contraindication applies.</li><li>Participants must follow the instructions given during the briefing and respect the sets, props and actors.</li><li>Memoria reserves the right to refuse entry to, or stop the session of, anyone under the influence of alcohol or drugs, or whose behaviour endangers their own safety or that of others, without refund.</li><li>A safe word, given during the briefing, allows any participant to stop the experience at any time.</li></ul>"
+      },
+      "s5": {
+        "titre": "Article 5 — Late arrival",
+        "contenu": "<p>Participants must arrive 15 minutes before the session time. If they are late, the experience may be shortened accordingly; beyond <span class=\"a-completer\">[number]</span> minutes late, the session may be cancelled without refund.</p>"
+      },
+      "s6": {
+        "titre": "Article 6 — Changes and cancellation by the customer",
+        "contenu": "<ul><li>A booking may be changed, subject to availability, up to 48 hours before the session.</li><li>A cancellation made up to 72 hours before the session entitles the customer to <span class=\"a-completer\">[a full refund / a credit note]</span>.</li><li>After this deadline, or in case of no-show, no refund is due.</li></ul><p>Requests must be sent by email to <a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a>.</p>"
+      },
+      "s7": {
+        "titre": "Article 7 — Cancellation by Memoria",
+        "contenu": "<p>If Memoria is unable to run a session (force majeure, technical problem, actor unavailable…), it will inform the customer as soon as possible and offer a new date or a full refund of the sums paid, excluding any other compensation.</p>"
+      },
+      "s8": {
+        "titre": "Article 8 — No right of withdrawal",
+        "contenu": "<p>In accordance with article L.221-28 12° of the French Consumer Code, the right of withdrawal does not apply to leisure services provided on a specific date or during a specific period.</p>"
+      },
+      "s9": {
+        "titre": "Article 9 — Gift vouchers",
+        "contenu": "<ul><li>Gift vouchers are valid for 12 months from the date of purchase; the expiry date is printed on the voucher.</li><li>They can be used once, cannot be refunded or exchanged for cash, and can only be extended after expiry at Memoria’s discretion.</li><li>If the price of the session booked exceeds the value of the voucher, the difference is paid when booking.</li></ul>"
+      },
+      "s10": {
+        "titre": "Article 10 — Tailor-made and corporate services",
+        "contenu": "<p>Team building, private hire and custom events are subject to a detailed quote. Their specific conditions (deposit, cancellation deadline, number of participants) prevail over these terms of sale.</p>"
+      },
+      "s11": {
+        "titre": "Article 11 — Liability",
+        "contenu": "<p>Participants are liable for any damage they deliberately cause to the sets, props and equipment. Memoria cannot be held responsible for the loss or theft of personal belongings, which may be left at the welcome desk.</p>"
+      },
+      "s12": {
+        "titre": "Article 12 — Image rights",
+        "contenu": "<p>A group photo may be taken at the end of the experience. It is only published (website, social media) with the express consent of the people photographed. Filming or taking photos during the experience is prohibited.</p>"
+      },
+      "s13": {
+        "titre": "Article 13 — Personal data",
+        "contenu": "<p>Data collected when booking is processed in accordance with our <a href=\"confidentialite.html\">privacy policy</a>.</p>"
+      },
+      "s14": {
+        "titre": "Article 14 — Complaints and mediation",
+        "contenu": "<p>Any complaint may be sent to <a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a>. If a dispute remains unresolved, the customer may use the consumer mediator free of charge: <span class=\"a-completer\">[mediator name and contact details]</span>.</p>"
+      },
+      "s15": {
+        "titre": "Article 15 — Governing law",
+        "contenu": "<p>These terms of sale are governed by French law. Failing an amicable settlement, the competent courts shall be those of <span class=\"a-completer\">[city]</span>, subject to the mandatory rules applicable to consumers.</p>"
+      }
+    },
+    "confidentialite": {
+      "titre": "Privacy policy",
+      "metaTitre": "Privacy policy — Memoria",
+      "description": "How Memoria collects and protects your personal data: purposes, retention periods, recipients and GDPR rights.",
+      "intro": "Memoria takes the protection of your personal data very seriously. This policy explains what data we collect, why, how long we keep it and how to exercise your rights, in accordance with the General Data Protection Regulation (GDPR) and the French Data Protection Act.",
+      "s1": {
+        "titre": "Data controller",
+        "contenu": "<p><span class=\"a-completer\">[Company name]</span>, <span class=\"a-completer\">[registered office address]</span>, who can be reached at <a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a>.</p><p>Data protection officer: <span class=\"a-completer\">[name and contact details, or “not appointed”]</span>.</p>"
+      },
+      "s2": {
+        "titre": "Data collected",
+        "contenu": "<ul><li><strong>Website forms</strong> (contact, quote request, tailor-made pack, press, gift voucher): last name, first name, email address, phone number, company where applicable, the content of your message and information about your project.</li><li><strong>Bookings and purchases</strong>: data needed for booking and payment, collected by our booking platform <span class=\"a-completer\">[platform name]</span>. Bank details are processed exclusively by the payment provider and are never stored by Memoria.</li><li><strong>Browsing</strong>: technical data (IP address, browser, pages visited) logged by our host to keep the website secure and working properly.</li></ul><p>We only collect strictly necessary data. Please do not send us health data: if you have a medical question, simply describe your situation and we will answer without keeping this information longer than necessary.</p>"
+      },
+      "s3": {
+        "titre": "Purposes and legal bases",
+        "contenu": "<ul><li>Answering your requests and drawing up quotes: pre-contractual measures taken at your request.</li><li>Managing bookings, gift vouchers and services: performance of the contract.</li><li>Meeting our accounting and tax obligations: legal obligation.</li><li>Keeping the website secure and improving our services: legitimate interest.</li><li>Sending you our news and offers, if you asked for them: consent, which can be withdrawn at any time.</li></ul>"
+      },
+      "s4": {
+        "titre": "Recipients",
+        "contenu": "<p>Your data is intended for the Memoria team. It may be shared with our technical providers, within the limits of their tasks: website hosting (<span class=\"a-completer\">[host]</span>), booking and payment (<span class=\"a-completer\">[booking platform]</span>), email delivery (<span class=\"a-completer\">[email service]</span>). It is never sold or transferred to third parties for commercial purposes.</p>"
+      },
+      "s5": {
+        "titre": "Transfers outside the European Union",
+        "contenu": "<p><span class=\"a-completer\">[To be completed depending on the providers chosen: no transfer, or transfer governed by the European Commission’s standard contractual clauses.]</span></p>"
+      },
+      "s6": {
+        "titre": "Retention periods",
+        "contenu": "<ul><li>Contact and quote requests not followed up: 3 years from the last exchange.</li><li>Customer data: for the duration of the business relationship, then 3 years for marketing purposes.</li><li>Invoices and accounting documents: 10 years, in accordance with the French Commercial Code.</li><li>Host browsing data: <span class=\"a-completer\">[period]</span>.</li></ul>"
+      },
+      "s7": {
+        "titre": "Your rights",
+        "contenu": "<p>You have the right to access, rectify, erase, restrict and port your data, the right to object, the right to withdraw your consent at any time and to set guidelines for what happens to your data after your death.</p><p>To exercise these rights, write to us at <a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a>. We will reply within one month. If you believe your rights have not been respected, you can lodge a complaint with the CNIL, the French data protection authority (<a href=\"https://www.cnil.fr\" target=\"_blank\" rel=\"noopener\">www.cnil.fr</a>).</p>"
+      },
+      "s8": {
+        "titre": "Security",
+        "contenu": "<p>We implement appropriate technical and organisational measures to protect your data: encrypted connection (HTTPS), access restricted to authorised people only, and providers offering sufficient guarantees.</p>"
+      },
+      "s9": {
+        "titre": "Cookies",
+        "contenu": "<p>Our use of cookies and trackers is detailed in our <a href=\"cookies.html\">cookie policy</a>.</p>"
+      },
+      "s10": {
+        "titre": "Changes to this policy",
+        "contenu": "<p>This policy may be updated, in particular when new services are added. The date of the last update is shown at the top of this page.</p>"
+      }
+    },
+    "cookies": {
+      "titre": "Cookie policy",
+      "metaTitre": "Cookie policy — Memoria",
+      "description": "Cookies and trackers used on the Memoria website, third-party services and how to manage your preferences.",
+      "intro": "This page explains what cookies are, which ones are used on this website and how to manage your preferences.",
+      "s1": {
+        "titre": "What is a cookie?",
+        "contenu": "<p>A cookie is a small file placed on your device when you visit a website. By extension, “trackers” also covers similar technologies, such as the browser’s local storage. Some are essential for the website to work; the others may only be used with your consent.</p>"
+      },
+      "s2": {
+        "titre": "What this website uses today",
+        "contenu": "<p>At present, the Memoria website uses <strong>no advertising or audience measurement cookies</strong>. The only item stored on your device is a display preference, set only if you use the feature concerned:</p><div class=\"tableau-defilant\"><table class=\"legal__tableau\"><thead><tr><th scope=\"col\">Name</th><th scope=\"col\">Purpose</th><th scope=\"col\">Duration</th><th scope=\"col\">Type</th></tr></thead><tbody><tr><td>memoria-lampe</td><td>Remember whether the flashlight is switched on</td><td>Until deleted by the user</td><td>Local storage, functional</td></tr></tbody></table></div><p>This item is only used to remember your display choice and does not require consent.</p>"
+      },
+      "s3": {
+        "titre": "Third-party services",
+        "contenu": "<ul><li><strong>Google Maps</strong>: the map shown on the website is a simple image; no Google cookie is set unless you click “View on the map” or “Directions”, which take you to Google Maps.</li><li><strong>YouTube</strong>: the trailer is embedded in “privacy-enhanced” mode and only loads when you start the video. YouTube may then set its own cookies.</li><li><strong>Online booking</strong>: the <span class=\"a-completer\">[platform name]</span> booking module may set cookies needed for booking and payment. <span class=\"a-completer\">[To be completed once the module is integrated.]</span></li></ul>"
+      },
+      "s4": {
+        "titre": "Audience measurement",
+        "contenu": "<p><span class=\"a-completer\">[If an audience measurement tool is added (Google Analytics, Matomo…): name of the tool, purpose, retention period, and a consent banner where the tool requires one.]</span></p>"
+      },
+      "s5": {
+        "titre": "Managing your preferences",
+        "contenu": "<p>You can delete the cookies and data stored by the website at any time, or set your browser to refuse them:</p><ul><li><a href=\"https://support.google.com/chrome/answer/95647\" target=\"_blank\" rel=\"noopener\">Google Chrome</a></li><li><a href=\"https://support.mozilla.org/en-US/kb/clear-cookies-and-site-data-firefox\" target=\"_blank\" rel=\"noopener\">Mozilla Firefox</a></li><li><a href=\"https://support.apple.com/en-gb/guide/safari/sfri11471/mac\" target=\"_blank\" rel=\"noopener\">Safari</a></li><li><a href=\"https://support.microsoft.com/en-us/microsoft-edge/delete-cookies-in-microsoft-edge-63947406-40ac-c3b8-57b9-2a946a29ae09\" target=\"_blank\" rel=\"noopener\">Microsoft Edge</a></li></ul><p>For the flashlight, simply switch it off: your choice is then updated.</p>"
+      },
+      "s6": {
+        "titre": "Contact",
+        "contenu": "<p>For any question about cookies or your data, write to us at <a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a> or read our <a href=\"confidentialite.html\">privacy policy</a>.</p>"
+      }
+    }
   }
 }

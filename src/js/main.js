@@ -354,6 +354,31 @@
     });
   });
 
+  var sommaireLegal = document.querySelector('[data-sommaire-legal]');
+  if (sommaireLegal) {
+    var ecranLarge = window.matchMedia('(min-width: 901px)');
+    var ajusterSommaire = function () {
+      sommaireLegal.open = ecranLarge.matches;
+    };
+    ajusterSommaire();
+    ecranLarge.addEventListener('change', ajusterSommaire);
+
+    var liensArticles = sommaireLegal.querySelectorAll('.legal__sommaire-liste a');
+    if ('IntersectionObserver' in window) {
+      var observateurArticles = new IntersectionObserver(function (entrees) {
+        entrees.forEach(function (entree) {
+          if (!entree.isIntersecting) return;
+          liensArticles.forEach(function (lien) {
+            lien.classList.toggle('est-actif', lien.getAttribute('href') === '#' + entree.target.id);
+          });
+        });
+      }, { rootMargin: '-25% 0px -65% 0px' });
+      document.querySelectorAll('.legal__section').forEach(function (section) {
+        observateurArticles.observe(section);
+      });
+    }
+  }
+
   var faq = document.querySelector('[data-faq]');
   if (faq) {
     var recherche = faq.querySelector('[data-faq-recherche]');

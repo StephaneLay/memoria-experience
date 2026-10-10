@@ -58,6 +58,14 @@ Les réponses ont été rédigées pour être cohérentes avec le reste du site,
 - [ ] Contenu de l’e-mail de confirmation envoyé au visiteur (si l’outil le permet)
 - [ ] Informations d’accès au bâtiment : entrée, interphone, étage d’accueil
 
+## Pages légales — à compléter (surligné sur les pages)
+
+- [ ] **Mentions légales** : raison sociale, forme juridique, capital, siège, RCS, SIRET, TVA, téléphone, directeur de la publication, hébergeur définitif, prestataire de conception, crédits photo
+- [ ] **CGV** : moyens de paiement, tolérance de retard, remboursement ou avoir en cas d’annulation, **médiateur de la consommation** (obligatoire), tribunal compétent — à aligner avec les conditions de 4escape
+- [ ] **Confidentialité** : délégué à la protection des données éventuel, prestataires (hébergeur, réservation, envoi d’e-mails), transferts hors UE, durée des journaux de l’hébergeur
+- [ ] **Cookies** : cookies du module 4escape, outil de mesure d’audience éventuel (→ bandeau de consentement)
+- [ ] Faire relire l’ensemble par un professionnel du droit avant la mise en ligne
+
 ## Médias
 
 - [ ] **Photo du hall (hero)** : elle porte le filigrane d’un photographe en bas à gauche → obtenir la licence ou la remplacer par une photo du lieu
