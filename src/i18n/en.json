@@ -526,18 +526,10 @@
       "valeur2": "200 m²",
       "libelle2": "of boarding school to explore",
       "valeur3": "3",
-      "libelle3": "intensity levels",
-      "publicTitre": "Designed for",
-      "public1": "Executives",
-      "public2": "HR directors",
-      "public3": "Happiness managers",
-      "public4": "Communication managers",
-      "public5": "Team managers",
-      "public6": "Works councils",
-      "public7": "Event agencies"
+      "libelle3": "intensity levels"
     },
     "benefices": {
-      "titre": "What your team gains",
+      "titre": "A rewarding experience for your teams",
       "titre1": "Strengthen cohesion",
       "texte1": "Participants share an intense experience in which success depends on their ability to move forward together.",
       "titre2": "Improve communication",
@@ -650,7 +642,8 @@
       "f3i3": "The Memoria adventure",
       "f3i4": "Cocktail or buffet",
       "f3i5": "Speaking slot if desired",
-      "f3i6": "Organisation adapted to the number of employees"
+      "f3i6": "Organisation adapted to the number of employees",
+      "recommandee": "Recommended"
     },
     "formulaire": {
       "titre": "Request a quote",

@@ -1,3 +1,4 @@
+const crypto = require('node:crypto');
 const fs = require('node:fs');
 const path = require('node:path');
 
@@ -106,6 +107,20 @@ function loadTranslations(languages) {
   return translations;
 }
 
+function assetVersions() {
+  const versions = {};
+  for (const file of ['css/style.css', 'js/main.js']) {
+    const content = fs.readFileSync(path.join(SRC, file));
+    versions[file] = crypto.createHash('sha256').update(content).digest('hex').slice(0, 10);
+  }
+  return versions;
+}
+
+function versionAssets(html, versions) {
+  return html.replace(/(["'])((?:\.\.\/)*)(css\/style\.css|js\/main\.js)\1/g,
+    (match, quote, root, file) => `${quote}${root}${file}?v=${versions[file]}${quote}`);
+}
+
 function outputPath(language, config, name) {
   return language === config.defaultLanguage ? name : `${language}/${name}`;
 }
@@ -206,11 +221,12 @@ function build() {
     '{{FOOTER}}': readSource('partials/footer.html'),
   };
 
+  const versions = assetVersions();
   const renderedPages = [];
   for (const name of pageNames) {
     const template = fs.readFileSync(path.join(pagesDirectory, name), 'utf8');
     for (const language of config.languages) {
-      const html = renderPage(template, { name, language, config, partials, strings: translations[language] });
+      const html = versionAssets(renderPage(template, { name, language, config, partials, strings: translations[language] }), versions);
       renderedPages.push({ name, language, file: outputPath(language, config, name), html });
     }
   }

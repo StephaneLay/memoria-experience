@@ -526,18 +526,10 @@
       "valeur2": "200 m²",
       "libelle2": "de pensionnat à explorer",
       "valeur3": "3",
-      "libelle3": "niveaux d’intensité",
-      "publicTitre": "Une expérience pensée pour",
-      "public1": "Dirigeants",
-      "public2": "DRH",
-      "public3": "Happiness managers",
-      "public4": "Responsables communication",
-      "public5": "Managers d’équipe",
-      "public6": "CSE",
-      "public7": "Agences événementielles"
+      "libelle3": "niveaux d’intensité"
     },
     "benefices": {
-      "titre": "Ce que votre équipe en retire",
+      "titre": "Une expérience bénéfique pour vos équipes",
       "titre1": "Renforcer la cohésion",
       "texte1": "Les participants vivent une expérience forte dans laquelle la réussite dépend de leur capacité à avancer ensemble.",
       "titre2": "Améliorer la communication",
@@ -650,7 +642,8 @@
       "f3i3": "L’aventure Memoria",
       "f3i4": "Cocktail ou buffet",
       "f3i5": "Temps de parole si souhaité",
-      "f3i6": "Organisation adaptée au nombre de collaborateurs"
+      "f3i6": "Organisation adaptée au nombre de collaborateurs",
+      "recommandee": "Recommandée"
     },
     "formulaire": {
       "titre": "Demander un devis",

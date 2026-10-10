@@ -9,7 +9,7 @@ src/  = les sources (ce qu'on édite)        ← jamais déployé
 dist/ = le site généré (ce qu'on déploie)   ← jamais édité à la main
 ```
 
-`node build.js` lit `src/`, assemble chaque page dans chaque langue et écrit le résultat dans `dist/`. **`dist/` est entièrement effacé et régénéré à chaque build.**
+`node build.js` lit `src/`, assemble chaque page dans chaque langue et écrit le résultat dans `dist/`. **`dist/` est entièrement effacé et régénéré à chaque build.** Il ajoute aussi une empreinte aux liens vers `css/style.css` et `js/main.js` (`style.css?v=…`) : à chaque modification, les navigateurs (et le cache de 10 minutes de GitHub Pages) chargent forcément la nouvelle version, sans mélange entre une page récente et un ancien style.
 
 Prérequis : Node.js 18 ou plus récent, aucune dépendance npm.
 

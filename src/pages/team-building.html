@@ -40,62 +40,72 @@
   </section>
 
   <section class="presentation" aria-labelledby="presentation-titre">
-    <div class="conteneur presentation__grille">
-      <div class="presentation__texte" data-reveal>
-        <h2 class="titre-orne titre-orne--gauche" id="presentation-titre"><span>{{t:teamBuilding.presentation.titre}}</span></h2>
-        <p class="presentation__chapeau">{{t:teamBuilding.presentation.p1}}</p>
-        <p>{{t:teamBuilding.presentation.p2}}</p>
-        <p>{{t:teamBuilding.presentation.p3}}</p>
-        <p>{{t:teamBuilding.presentation.p4}}</p>
+    <div class="conteneur">
+      <h2 class="titre-orne" id="presentation-titre" data-reveal><span>{{t:teamBuilding.presentation.titre}}</span></h2>
+      <p class="presentation__chapeau" data-reveal>{{t:teamBuilding.presentation.p1}}</p>
+      <div class="presentation__colonnes">
+        <p data-reveal>{{t:teamBuilding.presentation.p2}}</p>
+        <p data-reveal>{{t:teamBuilding.presentation.p3}}</p>
+        <p data-reveal>{{t:teamBuilding.presentation.p4}}</p>
       </div>
-      <aside class="presentation__fiche" data-reveal>
-        <ul class="presentation__chiffres">
-          <li><span class="chiffres__valeur">{{t:teamBuilding.presentation.valeur1}}</span><span>{{t:teamBuilding.presentation.libelle1}}</span></li>
-          <li><span class="chiffres__valeur">{{t:teamBuilding.presentation.valeur2}}</span><span>{{t:teamBuilding.presentation.libelle2}}</span></li>
-          <li><span class="chiffres__valeur">{{t:teamBuilding.presentation.valeur3}}</span><span>{{t:teamBuilding.presentation.libelle3}}</span></li>
-        </ul>
-        <p class="presentation__public-titre">{{t:teamBuilding.presentation.publicTitre}}</p>
-        <ul class="publics-cibles">
-          <li>{{t:teamBuilding.presentation.public1}}</li>
-          <li>{{t:teamBuilding.presentation.public2}}</li>
-          <li>{{t:teamBuilding.presentation.public3}}</li>
-          <li>{{t:teamBuilding.presentation.public4}}</li>
-          <li>{{t:teamBuilding.presentation.public5}}</li>
-          <li>{{t:teamBuilding.presentation.public6}}</li>
-          <li>{{t:teamBuilding.presentation.public7}}</li>
-        </ul>
-      </aside>
+      <ul class="chiffres-cartes">
+        <li class="chiffre-carte" data-reveal>
+          <img class="chiffre-carte__picto" src="{{ROOT}}images/picto-horloge.svg" alt="" width="126" height="126" loading="lazy">
+          <span class="chiffre-carte__valeur">{{t:teamBuilding.presentation.valeur1}}</span>
+          <span class="chiffre-carte__libelle">{{t:teamBuilding.presentation.libelle1}}</span>
+        </li>
+        <li class="chiffre-carte" data-reveal>
+          <img class="chiffre-carte__picto" src="{{ROOT}}images/picto-arche.svg" alt="" width="134" height="126" loading="lazy">
+          <span class="chiffre-carte__valeur">{{t:teamBuilding.presentation.valeur2}}</span>
+          <span class="chiffre-carte__libelle">{{t:teamBuilding.presentation.libelle2}}</span>
+        </li>
+        <li class="chiffre-carte" data-reveal>
+          <img class="chiffre-carte__picto" src="{{ROOT}}images/picto-niveaux.svg" alt="" width="157" height="128" loading="lazy">
+          <span class="chiffre-carte__valeur">{{t:teamBuilding.presentation.valeur3}}</span>
+          <span class="chiffre-carte__libelle">{{t:teamBuilding.presentation.libelle3}}</span>
+        </li>
+      </ul>
     </div>
   </section>
 
   <section class="benefices" aria-labelledby="benefices-titre">
     <div class="conteneur">
       <h2 class="titre-orne" id="benefices-titre" data-reveal><span>{{t:teamBuilding.benefices.titre}}</span></h2>
-      <ul class="cartes cartes--centrees">
-        <li class="carte" data-reveal>
-          <svg class="carte__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="8" cy="10" r="4.5"/><circle cx="16" cy="10" r="4.5"/><circle cx="12" cy="16" r="4.5"/></svg>
-          <h3 class="carte__titre">{{t:teamBuilding.benefices.titre1}}</h3>
-          <p>{{t:teamBuilding.benefices.texte1}}</p>
+      <ul class="atouts">
+        <li class="atout" data-reveal>
+          <span class="atout__icone"><svg class="atout__svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="8" cy="10" r="4.5"/><circle cx="16" cy="10" r="4.5"/><circle cx="12" cy="16" r="4.5"/></svg></span>
+          <div>
+            <h3 class="atout__titre">{{t:teamBuilding.benefices.titre1}}</h3>
+            <p>{{t:teamBuilding.benefices.texte1}}</p>
+          </div>
         </li>
-        <li class="carte" data-reveal>
-          <svg class="carte__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 5.5h11v7h-6l-3 2.5v-2.5h-2zM17.5 9.5h3v7h-2v2.5l-3-2.5h-4.5v-2"/></svg>
-          <h3 class="carte__titre">{{t:teamBuilding.benefices.titre2}}</h3>
-          <p>{{t:teamBuilding.benefices.texte2}}</p>
+        <li class="atout" data-reveal>
+          <span class="atout__icone"><svg class="atout__svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 5.5h11v7h-6l-3 2.5v-2.5h-2zM17.5 9.5h3v7h-2v2.5l-3-2.5h-4.5v-2"/></svg></span>
+          <div>
+            <h3 class="atout__titre">{{t:teamBuilding.benefices.titre2}}</h3>
+            <p>{{t:teamBuilding.benefices.texte2}}</p>
+          </div>
         </li>
-        <li class="carte" data-reveal>
-          <svg class="carte__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 5 6v5.5c0 4.3 3 7.6 7 9.5 4-1.9 7-5.2 7-9.5V6l-7-3Z"/><path d="m8.8 12 2.2 2.2 4.2-4.4"/></svg>
-          <h3 class="carte__titre">{{t:teamBuilding.benefices.titre3}}</h3>
-          <p>{{t:teamBuilding.benefices.texte3}}</p>
+        <li class="atout" data-reveal>
+          <span class="atout__icone"><svg class="atout__svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 5 6v5.5c0 4.3 3 7.6 7 9.5 4-1.9 7-5.2 7-9.5V6l-7-3Z"/><path d="m8.8 12 2.2 2.2 4.2-4.4"/></svg></span>
+          <div>
+            <h3 class="atout__titre">{{t:teamBuilding.benefices.titre3}}</h3>
+            <p>{{t:teamBuilding.benefices.texte3}}</p>
+          </div>
         </li>
-        <li class="carte" data-reveal>
-          <svg class="carte__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="5" r="2.2"/><circle cx="5" cy="17" r="2.2"/><circle cx="19" cy="17" r="2.2"/><circle cx="12" cy="13" r="1.6"/><path d="M12 7.2v4.2M10.7 14.1l-4 1.9M13.3 14.1l4 1.9M7.2 17h9.6"/></svg>
-          <h3 class="carte__titre">{{t:teamBuilding.benefices.titre4}}</h3>
-          <p>{{t:teamBuilding.benefices.texte4}}</p>
+        <li class="atout" data-reveal>
+          <span class="atout__icone"><svg class="atout__svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="5" r="2.2"/><circle cx="5" cy="17" r="2.2"/><circle cx="19" cy="17" r="2.2"/><circle cx="12" cy="13" r="1.6"/><path d="M12 7.2v4.2M10.7 14.1l-4 1.9M13.3 14.1l4 1.9M7.2 17h9.6"/></svg></span>
+          <div>
+            <h3 class="atout__titre">{{t:teamBuilding.benefices.titre4}}</h3>
+            <p>{{t:teamBuilding.benefices.texte4}}</p>
+          </div>
         </li>
-        <li class="carte" data-reveal>
-          <svg class="carte__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="3.5" width="16" height="17" rx="1"/><path d="M4 15.5l4.5-4.5 4 4 2.5-2.5 5 5"/><circle cx="15.5" cy="8" r="1.6"/></svg>
-          <h3 class="carte__titre">{{t:teamBuilding.benefices.titre5}}</h3>
-          <p>{{t:teamBuilding.benefices.texte5}}</p>
+        <li class="atout" data-reveal>
+          <span class="atout__icone"><svg class="atout__svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="3.5" width="16" height="17" rx="1"/><path d="M4 15.5l4.5-4.5 4 4 2.5-2.5 5 5"/><circle cx="15.5" cy="8" r="1.6"/></svg></span>
+          <div>
+            <h3 class="atout__titre">{{t:teamBuilding.benefices.titre5}}</h3>
+            <p>{{t:teamBuilding.benefices.texte5}}</p>
+          </div>
         </li>
       </ul>
     </div>
@@ -103,38 +113,36 @@
 
   <section class="difference" aria-labelledby="difference-titre">
     <div class="conteneur">
-      <div class="difference__panneau" data-reveal>
-        <h2 class="titre-orne" id="difference-titre"><span>{{t:teamBuilding.difference.titre}}</span></h2>
-        <p class="texte-intro">{{t:teamBuilding.difference.intro}}</p>
-        <ol class="difference__liste">
-          <li>
-            <span class="difference__numero" aria-hidden="true">I</span>
-            <h3>{{t:teamBuilding.difference.titre1}}</h3>
-            <p>{{t:teamBuilding.difference.texte1}}</p>
-          </li>
-          <li>
-            <span class="difference__numero" aria-hidden="true">II</span>
-            <h3>{{t:teamBuilding.difference.titre2}}</h3>
-            <p>{{t:teamBuilding.difference.texte2}}</p>
-          </li>
-          <li>
-            <span class="difference__numero" aria-hidden="true">III</span>
-            <h3>{{t:teamBuilding.difference.titre3}}</h3>
-            <p>{{t:teamBuilding.difference.texte3}}</p>
-          </li>
-          <li>
-            <span class="difference__numero" aria-hidden="true">IV</span>
-            <h3>{{t:teamBuilding.difference.titre4}}</h3>
-            <p>{{t:teamBuilding.difference.texte4}}</p>
-          </li>
-          <li>
-            <span class="difference__numero" aria-hidden="true">V</span>
-            <h3>{{t:teamBuilding.difference.titre5}}</h3>
-            <p>{{t:teamBuilding.difference.texte5}}</p>
-            <a class="carte__lien" href="#intensite">{{t:teamBuilding.difference.lien}}</a>
-          </li>
-        </ol>
-      </div>
+      <h2 class="titre-orne" id="difference-titre" data-reveal><span>{{t:teamBuilding.difference.titre}}</span></h2>
+      <p class="texte-intro" data-reveal>{{t:teamBuilding.difference.intro}}</p>
+      <ol class="cartes-ligne">
+        <li class="carte carte--badge" data-reveal>
+          <span class="carte__badge" aria-hidden="true"><span>I</span></span>
+          <h3 class="carte__titre">{{t:teamBuilding.difference.titre1}}</h3>
+          <p>{{t:teamBuilding.difference.texte1}}</p>
+        </li>
+        <li class="carte carte--badge" data-reveal>
+          <span class="carte__badge" aria-hidden="true"><span>II</span></span>
+          <h3 class="carte__titre">{{t:teamBuilding.difference.titre2}}</h3>
+          <p>{{t:teamBuilding.difference.texte2}}</p>
+        </li>
+        <li class="carte carte--badge" data-reveal>
+          <span class="carte__badge" aria-hidden="true"><span>III</span></span>
+          <h3 class="carte__titre">{{t:teamBuilding.difference.titre3}}</h3>
+          <p>{{t:teamBuilding.difference.texte3}}</p>
+        </li>
+        <li class="carte carte--badge" data-reveal>
+          <span class="carte__badge" aria-hidden="true"><span>IV</span></span>
+          <h3 class="carte__titre">{{t:teamBuilding.difference.titre4}}</h3>
+          <p>{{t:teamBuilding.difference.texte4}}</p>
+        </li>
+        <li class="carte carte--badge" data-reveal>
+          <span class="carte__badge" aria-hidden="true"><span>V</span></span>
+          <h3 class="carte__titre">{{t:teamBuilding.difference.titre5}}</h3>
+          <p>{{t:teamBuilding.difference.texte5}}</p>
+          <a class="carte__lien" href="#intensite">{{t:teamBuilding.difference.lien}}</a>
+        </li>
+      </ol>
     </div>
   </section>
 
@@ -147,40 +155,40 @@
           <p class="niveau__jauge" aria-label="{{t:teamBuilding.intensite.niveau}} 1/3"><span class="est-plein"></span><span></span><span></span></p>
           <h3 class="niveau__nom">{{t:teamBuilding.intensite.nom1}}</h3>
           <p class="niveau__accroche">{{t:teamBuilding.intensite.accroche1}}</p>
-          <p>{{t:teamBuilding.intensite.texte1}}</p>
+          <p class="niveau__texte">{{t:teamBuilding.intensite.texte1}}</p>
         </li>
         <li class="niveau niveau--standard" data-reveal>
           <p class="niveau__jauge" aria-label="{{t:teamBuilding.intensite.niveau}} 2/3"><span class="est-plein"></span><span class="est-plein"></span><span></span></p>
           <h3 class="niveau__nom">{{t:teamBuilding.intensite.nom2}}</h3>
           <p class="niveau__accroche">{{t:teamBuilding.intensite.accroche2}}</p>
-          <p>{{t:teamBuilding.intensite.texte2}}</p>
+          <p class="niveau__texte">{{t:teamBuilding.intensite.texte2}}</p>
         </li>
         <li class="niveau niveau--extreme" data-reveal>
           <p class="niveau__jauge" aria-label="{{t:teamBuilding.intensite.niveau}} 3/3"><span class="est-plein"></span><span class="est-plein"></span><span class="est-plein"></span></p>
           <h3 class="niveau__nom">{{t:teamBuilding.intensite.nom3}}</h3>
           <p class="niveau__accroche">{{t:teamBuilding.intensite.accroche3}}</p>
-          <p>{{t:teamBuilding.intensite.texte3}}</p>
+          <p class="niveau__texte">{{t:teamBuilding.intensite.texte3}}</p>
         </li>
       </ul>
-      <div class="intensite__infos">
-        <div class="garantie" data-reveal>
-          <svg class="garantie__icone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 5 6v5.5c0 4.3 3 7.6 7 9.5 4-1.9 7-5.2 7-9.5V6l-7-3Z"/><path d="m8.8 12 2.2 2.2 4.2-4.4"/></svg>
-          <h3>{{t:teamBuilding.intensite.garantieTitre}}</h3>
+      <div class="garantie" data-reveal>
+        <span class="garantie__icone"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 5 6v5.5c0 4.3 3 7.6 7 9.5 4-1.9 7-5.2 7-9.5V6l-7-3Z"/><path d="m8.8 12 2.2 2.2 4.2-4.4"/></svg></span>
+        <div>
+          <h3 class="garantie__titre">{{t:teamBuilding.intensite.garantieTitre}}</h3>
           <p>{{t:teamBuilding.intensite.garantieTexte}}</p>
         </div>
-        <div class="conseil" data-reveal>
-          <h3>{{t:teamBuilding.intensite.conseilTitre}}</h3>
-          <p>{{t:teamBuilding.intensite.conseilTexte}}</p>
-          <ul class="regles__liste">
+      </div>
+      <div class="conseil" data-reveal>
+        <h3 class="conseil__titre">{{t:teamBuilding.intensite.conseilTitre}}</h3>
+        <p class="conseil__texte">{{t:teamBuilding.intensite.conseilTexte}}</p>
+        <ul class="conseil__criteres">
             <li>{{t:teamBuilding.intensite.critere1}}</li>
             <li>{{t:teamBuilding.intensite.critere2}}</li>
             <li>{{t:teamBuilding.intensite.critere3}}</li>
             <li>{{t:teamBuilding.intensite.critere4}}</li>
             <li>{{t:teamBuilding.intensite.critere5}}</li>
-          </ul>
-          <p>{{t:teamBuilding.intensite.conseilFin}}</p>
-          <a class="bouton bouton--contour" href="#devis">{{t:teamBuilding.intensite.conseilBouton}}</a>
-        </div>
+        </ul>
+        <p class="conseil__texte">{{t:teamBuilding.intensite.conseilFin}}</p>
+        <a class="bouton bouton--contour" href="#devis">{{t:teamBuilding.intensite.conseilBouton}}</a>
       </div>
     </div>
   </section>
@@ -249,8 +257,10 @@
       <p class="texte-intro" data-reveal>{{t:teamBuilding.formules.intro}}</p>
       <ul class="offres-entreprise__liste">
         <li class="offre" data-reveal>
+          <span class="offre__badge" aria-hidden="true"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M6 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16M4 21h16"/><circle cx="14.5" cy="12.5" r=".9" fill="currentColor"/></svg></span>
           <h3 class="offre__nom">{{t:teamBuilding.formules.nom1}}</h3>
           <p class="offre__accroche">{{t:teamBuilding.formules.accroche1}}</p>
+          <span class="ornement" aria-hidden="true"></span>
           <ul class="offre__inclus">
             <li>{{t:teamBuilding.formules.f1i1}}</li>
             <li>{{t:teamBuilding.formules.f1i2}}</li>
@@ -259,12 +269,17 @@
             <li>{{t:teamBuilding.formules.f1i5}}</li>
             <li>{{t:teamBuilding.formules.f1i6}}</li>
           </ul>
-          <p class="offre__tarif">{{t:teamBuilding.formules.surDevis}}</p>
-          <a class="bouton bouton--contour" href="#devis" data-choisir-formule="experience">{{t:teamBuilding.formules.bouton}}</a>
+          <div class="offre__pied">
+            <p class="offre__tarif">{{t:teamBuilding.formules.surDevis}}</p>
+            <a class="bouton bouton--rouge offre__bouton" href="#devis" data-choisir-formule="experience">{{t:teamBuilding.formules.bouton}}</a>
+          </div>
         </li>
         <li class="offre offre--phare" data-reveal>
+          <p class="offre__etiquette">{{t:teamBuilding.formules.recommandee}}</p>
+          <span class="offre__badge" aria-hidden="true"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h14l-7 8.5L5 4ZM12 12.5V20M8 20.5h8M7.2 6.7h9.6"/></svg></span>
           <h3 class="offre__nom">{{t:teamBuilding.formules.nom2}}</h3>
           <p class="offre__accroche">{{t:teamBuilding.formules.accroche2}}</p>
+          <span class="ornement" aria-hidden="true"></span>
           <ul class="offre__inclus">
             <li>{{t:teamBuilding.formules.f2i1}}</li>
             <li>{{t:teamBuilding.formules.f2i2}}</li>
@@ -273,12 +288,16 @@
             <li>{{t:teamBuilding.formules.f2i5}}</li>
             <li>{{t:teamBuilding.formules.f2i6}}</li>
           </ul>
-          <p class="offre__tarif">{{t:teamBuilding.formules.surDevis}}</p>
-          <a class="bouton bouton--rouge" href="#devis" data-choisir-formule="experience-cocktail">{{t:teamBuilding.formules.bouton}}</a>
+          <div class="offre__pied">
+            <p class="offre__tarif">{{t:teamBuilding.formules.surDevis}}</p>
+            <a class="bouton bouton--rouge offre__bouton" href="#devis" data-choisir-formule="experience-cocktail">{{t:teamBuilding.formules.bouton}}</a>
+          </div>
         </li>
         <li class="offre" data-reveal>
+          <span class="offre__badge" aria-hidden="true"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><circle cx="7.5" cy="12" r="4"/><path d="M11.5 12H21M17.5 12v3M20.5 12v2.2"/></svg></span>
           <h3 class="offre__nom">{{t:teamBuilding.formules.nom3}}</h3>
           <p class="offre__accroche">{{t:teamBuilding.formules.accroche3}}</p>
+          <span class="ornement" aria-hidden="true"></span>
           <ul class="offre__inclus">
             <li>{{t:teamBuilding.formules.f3i1}}</li>
             <li>{{t:teamBuilding.formules.f3i2}}</li>
@@ -287,8 +306,10 @@
             <li>{{t:teamBuilding.formules.f3i5}}</li>
             <li>{{t:teamBuilding.formules.f3i6}}</li>
           </ul>
-          <p class="offre__tarif">{{t:teamBuilding.formules.surDevis}}</p>
-          <a class="bouton bouton--contour" href="#devis" data-choisir-formule="privatisation">{{t:teamBuilding.formules.bouton}}</a>
+          <div class="offre__pied">
+            <p class="offre__tarif">{{t:teamBuilding.formules.surDevis}}</p>
+            <a class="bouton bouton--rouge offre__bouton" href="#devis" data-choisir-formule="privatisation">{{t:teamBuilding.formules.bouton}}</a>
+          </div>
         </li>
       </ul>
     </div>
