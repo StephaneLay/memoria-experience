@@ -557,20 +557,6 @@
       "lien": "See the intensity levels"
     },
     "intensite": {
-      "titre": "Choose the intensity level",
-      "intro": "So that everyone can enjoy the experience with peace of mind, you choose the intensity level best suited to your group.",
-      "niveau": "Level",
-      "nom1": "Low",
-      "accroche1": "Shiver without shaking",
-      "texte1": "A disturbing atmosphere and a gripping story, with measured interaction from the actors. Ideal for teams new to horror.",
-      "nom2": "Standard",
-      "accroche2": "The Memoria experience",
-      "texte2": "The balance between tension, surprises and cooperation, just as we designed it. Recommended for most teams.",
-      "nom3": "Extreme",
-      "accroche3": "For the boldest",
-      "texte3": "Relentless immersion, more present actors and more testing situations. For thrill-seekers only.",
-      "garantieTitre": "No one is ever forced",
-      "garantieTexte": "Whatever level you choose, no participant will ever be put against their will in a situation they refuse. Anyone can ask for a break or leave the experience at any time, and our team keeps a watchful eye from start to finish.",
       "conseilTitre": "Which level for your team?",
       "conseilTexte": "We recommend a level based on:",
       "critere1": "the group’s profile",
@@ -673,6 +659,122 @@
       "demandesExemple": "Allergies, dietary requirements, accessibility, timing…",
       "message": "Free message",
       "bouton": "Request a quote"
+    }
+  },
+  "intensite": {
+    "titre": "Choose the intensity level",
+    "intro": "So that everyone can enjoy the experience with peace of mind, you choose the intensity level best suited to your group.",
+    "niveau": "Level",
+    "nom1": "Low",
+    "nom2": "Standard",
+    "nom3": "Extreme",
+    "accroche1": "Shiver without shaking",
+    "accroche2": "The Memoria experience",
+    "accroche3": "For the boldest",
+    "texte1": "A disturbing atmosphere and a gripping story, with measured interaction from the actors. Ideal for teams new to horror.",
+    "texte2": "The balance between tension, surprises and cooperation, just as we designed it. Recommended for most teams.",
+    "texte3": "Relentless immersion, more present actors and more testing situations. For thrill-seekers only.",
+    "garantieTitre": "No one is ever forced",
+    "garantieTexte": "Whatever level you choose, no participant will ever be put against their will in a situation they refuse. Anyone can ask for a break or leave the experience at any time, and our team keeps a watchful eye from start to finish.",
+    "lienFaq": "All your questions about intensity"
+  },
+  "faq": {
+    "meta": {
+      "title": "FAQ — Frequently asked questions | Memoria Lyon",
+      "description": "Duration, number of players, intensity levels, booking, minimum age, getting here: all the answers to your questions before living Memoria in Lyon."
+    },
+    "hero": {
+      "surtitre": "FAQ",
+      "titre": "Frequently asked questions",
+      "intro": "Everything you need to know before stepping through the doors of Sainte-Lucie boarding school."
+    },
+    "outils": {
+      "recherche": "Search the FAQ",
+      "rechercheExemple": "Search for a question…",
+      "categories": "Categories",
+      "aucun": "No question matches your search. Write to us at <a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a> and we will get back to you."
+    },
+    "experience": {
+      "titre": "The experience",
+      "q1": "What is Memoria?",
+      "r1": "Memoria is an immersive horror experience in Lyon. For 90 minutes, you and your group step into Sainte-Lucie boarding school, abandoned in 1953, and live a disturbing story from the inside, surrounded by professional actors and sets recreated down to the last detail.",
+      "q2": "Is it an escape game?",
+      "r2": "Not quite. Memoria borrows some escape game codes (searching, observing, cooperating), but the experience is above all about the story, immersion and interaction with the actors. Here, it is not just about getting out of a room: it is about surviving Sainte-Lucie… and uncovering the truth.",
+      "q3": "How long does the experience last?",
+      "r3": "The adventure lasts 90 minutes. Allow about 15 extra minutes for the welcome and briefing before your session.",
+      "q4": "How many players can take part?",
+      "r4": "Each session welcomes 3 to 6 players. For larger groups, several sessions can follow one another or the venue can be privately hired: discover our <a href=\"team-building.html\">team building</a> offers and our <a href=\"pack-personnalise.html\">tailor-made pack</a>.",
+      "q5": "Are there actors?",
+      "r5": "Yes. Professional actors play the characters of the boarding school. They interact with you, guide you… or put you to the test, and adapt their performance to each group.",
+      "q6": "Do I need to be fit?",
+      "r6": "No, no particular level of fitness is required. You will walk, go up and down stairs (the boarding school spreads over three levels) and sometimes crouch, but never run or make any intense effort.",
+      "q7": "Are there puzzles?",
+      "r7": "Yes, but they serve the story: objects to search, clues to gather, mechanisms to figure out. They are solved as a team and require no particular knowledge, just observation and communication.",
+      "q8": "Do players stay together?",
+      "r8": "Most of the time, yes. Depending on the story and the intensity level chosen, some passages may separate the group for a few moments, always under the watch of our team.",
+      "q9": "Can we stop the experience?",
+      "r9": "Yes, at any time. A safe word is given to you during the briefing: as soon as it is spoken, the experience stops for that person and a team member comes to fetch them."
+    },
+    "intensite": {
+      "titre": "Intensity & fear",
+      "q1": "What are the three intensity levels?",
+      "r1": "<strong>Low</strong>: a disturbing atmosphere and measured interactions, ideal if horror is not your thing.<br><strong>Standard</strong>: the balance between tension, surprises and cooperation, just as we designed the experience.<br><strong>Extreme</strong>: relentless immersion and more testing situations, for thrill-seekers only.",
+      "q2": "Is there any physical contact?",
+      "r2": "Actors may come very close to you, but there is never any rough or violent contact. At the low and standard levels, they do not touch you. At the extreme level, light contact may happen (a hand on your shoulder, an arm to guide you); you can refuse it by saying so during the briefing.",
+      "q3": "Can we change level?",
+      "r3": "The level is chosen when booking and can still be changed at the welcome desk, before the session starts. During the experience, our actors stay attentive and adapt the intensity if a player is struggling.",
+      "q4": "Is the extreme level compulsory?",
+      "r4": "Not at all. Standard is the level we recommend to most groups; extreme is an option reserved for those who choose it.",
+      "q5": "Is the experience suitable for sensitive people?",
+      "r5": "Yes, thanks to the low level, designed to let you live the story with a shiver without being overwhelmed. If in doubt, contact us before booking: we will help you choose the level best suited to your group.",
+      "q6": "What happens if a player is too scared?",
+      "r6": "They can ask for a break or leave the experience at any time using the safe word. A team member then comes to fetch them and takes them somewhere calm, while the rest of the group carries on with the adventure. No one is ever forced."
+    },
+    "reservation": {
+      "titre": "Booking",
+      "q1": "How do I book?",
+      "r1": "Directly online, from the <a href=\"index.html#reservation\">Book your session</a> section: choose a date, a time slot, the number of players and your intensity level. The price depends on the size of the group: from {{PRIX_6}} to {{PRIX_3}} per person.",
+      "q2": "Can I change a booking?",
+      "r2": "Yes, subject to availability, up to 48 hours before your session. Write to us at <a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a> with your booking number.",
+      "q3": "Can I cancel?",
+      "r3": "You can cancel up to 72 hours before the session. After that, the booking is no longer refundable, but you can contact us to look at postponing it. Full details are in our <a href=\"cgv.html\">terms of sale</a>.",
+      "q4": "Can I add a player?",
+      "r4": "Yes, within the limit of 6 players per session and subject to availability. Contact us: the price per person is adjusted to the final number of players.",
+      "q5": "What happens if we are late?",
+      "r5": "Please arrive 15 minutes before your session starts. If you are running late, let us know as soon as possible: as sessions follow one another, a long delay may shorten your experience.",
+      "q6": "Can we pay separately?",
+      "r6": "Payment is made online when booking. If each player wants to pay their share, contact us before booking and we will explain how to proceed.",
+      "q7": "Can I use a gift voucher?",
+      "r7": "Yes. Enter your voucher code when booking online: its value is deducted automatically. Vouchers are valid for 12 months. Want to give one? Head to the <a href=\"pack-cadeau.html\">Give Memoria</a> page.",
+      "q8": "Can we hire the venue privately?",
+      "r8": "Yes, for a birthday, a corporate event or a special occasion: several time slots or the whole venue can be reserved for you. Discover our <a href=\"pack-personnalise.html\">tailor-made pack</a> and our <a href=\"team-building.html\">team building</a> offers."
+    },
+    "pratique": {
+      "titre": "Practical information",
+      "q1": "What is the minimum age?",
+      "r1": "The experience is not allowed for under-12s and not recommended for under-16s. Minors must be accompanied by an adult taking part in the session.",
+      "q2": "What should I wear?",
+      "r2": "Comfortable clothes and flat, closed shoes. Avoid delicate or light-coloured clothing: the boarding school was abandoned for a long time… Your personal belongings can be left at the welcome desk.",
+      "q3": "Where is Memoria?",
+      "r3": "At 45 cours de la Liberté, Lyon. Find the map and our contact details in the <a href=\"index.html#infos\">practical information</a>.",
+      "q4": "How do I get there?",
+      "r4": "Memoria is easy to reach by public transport and by Vélo’v bike. Details of the nearest lines and stops will be available very soon.",
+      "q5": "Where can I park?",
+      "r5": "There are several public car parks nearby. We do recommend public transport, which is more convenient in the city centre. Detailed information will be available soon.",
+      "q6": "Is the venue accessible to people with disabilities?",
+      "r6": "The boarding school spreads over three levels connected by stairs, which currently limits access for people with reduced mobility. For any disability, contact us before booking and we will look at possible adaptations together.",
+      "q7": "Are there any contraindications?",
+      "r7": "The experience includes sudden sound and light effects, passages in the dark and confined spaces. It is not recommended for people with heart conditions, epilepsy, severe anxiety or claustrophobia, or for pregnant women. Anyone under the influence of alcohol or drugs will be refused entry.",
+      "q8": "Can I come if I am pregnant?",
+      "r8": "As a precaution, the experience is not recommended for pregnant women, because of the strong emotions, sudden effects and moving around in the dark. The other members of your group are of course welcome to take part.",
+      "q9": "Can I take part with a heart or medical condition?",
+      "r9": "People with heart conditions or health problems that could be worsened by intense stress must not take part. If in doubt, ask your doctor for advice and talk to us before booking."
+    },
+    "contact": {
+      "titre": "Didn’t find your answer?",
+      "texte": "Our team replies within 48 hours.",
+      "ecrire": "Write to us",
+      "reserver": "Book a session"
     }
   }
 }

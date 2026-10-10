@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="{{LANG}}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#000000">
+  <title>{{t:faq.meta.title}}</title>
+  <meta name="description" content="{{t:faq.meta.description}}">
+  <meta property="og:title" content="{{t:faq.meta.title}}">
+  <meta property="og:description" content="{{t:faq.meta.description}}">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="{{t:meta.ogLocale}}">
+  {{HEAD_LINKS}}
+  <link rel="icon" href="{{ROOT}}images/favicon.png" type="image/png">
+  <link rel="preload" href="{{ROOT}}fonts/metamorphous-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ROOT}}fonts/gemunulibre-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="{{ROOT}}css/style.css">
+</head>
+<body>
+{{HEADER}}
+<main id="contenu">
+  <section class="page-hero page-hero--court" aria-labelledby="page-titre">
+    <div class="hero__fond">
+      <div class="page-hero__media" data-hero-media>
+        <picture>
+          <source media="(max-width: 1024px)" srcset="{{ROOT}}images/hero-hall-1024.webp">
+          <img src="{{ROOT}}images/hero-hall-1920.webp" alt="" width="1920" height="1278" fetchpriority="high">
+        </picture>
+      </div>
+      <canvas class="hero__poussiere" aria-hidden="true" data-poussiere></canvas>
+      <div class="hero__voile" aria-hidden="true"></div>
+    </div>
+    <div class="page-hero__contenu" data-hero-contenu>
+      <p class="page-hero__surtitre">{{t:faq.hero.surtitre}}</p>
+      <h1 class="titre-section page-hero__titre" id="page-titre">{{t:faq.hero.titre}}</h1>
+      <span class="ornement" aria-hidden="true"></span>
+      <p class="page-hero__intro">{{t:faq.hero.intro}}</p>
+    </div>
+  </section>
+
+  <div class="faq" data-faq>
+    <div class="faq__outils">
+      <div class="conteneur faq__outils-interieur">
+        <label class="faq-recherche">
+          <span class="visually-hidden">{{t:faq.outils.recherche}}</span>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></svg>
+          <input type="search" placeholder="{{t:faq.outils.rechercheExemple}}" autocomplete="off" data-faq-recherche>
+        </label>
+        <nav aria-label="{{t:faq.outils.categories}}">
+          <ul class="faq-sommaire">
+            <li><a class="faq-sommaire__lien" href="#experience"><span class="faq-sommaire__icone"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16M4 21h16"/><circle cx="14.5" cy="12.5" r=".9" fill="currentColor"/></svg></span>{{t:faq.experience.titre}}</a></li>
+            <li><a class="faq-sommaire__lien" href="#intensite"><span class="faq-sommaire__icone"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3c1 3.5 5 5.5 5 10a5 5 0 0 1-10 0c0-2.4 1.2-4 2.5-5.2.2 1.8 1 2.9 2.2 3.4C12.4 9.3 11.7 6.2 12 3Z"/></svg></span>{{t:faq.intensite.titre}}</a></li>
+            <li><a class="faq-sommaire__lien" href="#reservation"><span class="faq-sommaire__icone"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4M7 14h2M11 14h2M15 14h2M7 17.5h2M11 17.5h2"/></svg></span>{{t:faq.reservation.titre}}</a></li>
+            <li><a class="faq-sommaire__lien" href="#pratique"><span class="faq-sommaire__icone"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-6.5-6.2-6.5-11a6.5 6.5 0 0 1 13 0c0 4.8-6.5 11-6.5 11Z"/><circle cx="12" cy="10" r="2.3"/></svg></span>{{t:faq.pratique.titre}}</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <div class="conteneur faq__contenu">
+      <section class="faq-categorie" id="experience" aria-labelledby="faq-experience-titre" data-categorie>
+        <h2 class="faq-categorie__titre" id="faq-experience-titre"><span class="faq-categorie__icone"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16M4 21h16"/><circle cx="14.5" cy="12.5" r=".9" fill="currentColor"/></svg></span>{{t:faq.experience.titre}}</h2>
+        <div class="questions__liste">
+          <details class="question" data-question>
+            <summary>{{t:faq.experience.q1}}</summary>
+            <p>{{t:faq.experience.r1}}</p>
+          </details>
+          <details class="question" data-question>
+            <summary>{{t:faq.experience.q2}}</summary>
+            <p>{{t:faq.experience.r2}}</p>
+          </details>
+          <details class="question" data-question>
+            <summary>{{t:faq.experience.q3}}</summary>
+            <p>{{t:faq.experience.r3}}</p>
+          </details>
+          <details class="question" data-question>
+            <summary>{{t:faq.experience.q4}}</summary>
+            <p>{{t:faq.experience.r4}}</p>
+          </details>
+          <details class="question" data-question>
+            <summary>{{t:faq.experience.q5}}</summary>
+            <p>{{t:faq.experience.r5}}</p>
+          </details>
+          <details class="question" data-question>
+            <summary>{{t:faq.experience.q6}}</summary>
+            <p>{{t:faq.experience.r6}}</p>
+          </details>
+          <details class="question" data-question>
+            <summary>{{t:faq.experience.q7}}</summary>
+            <p>{{t:faq.experience.r7}}</p>
+          </details>
+          <details class="question" data-question>
+            <summary>{{t:faq.experience.q8}}</summary>
+            <p>{{t:faq.experience.r8}}</p>
+          </details>
+          <details class="question" data-question>
+            <summary>{{t:faq.experience.q9}}</summary>
+            <p>{{t:faq.experience.r9}}</p>
+          </details>
+        </div>
+      </section>
+      <section class="faq-categorie" id="intensite" aria-labelledby="faq-intensite-titre" data-categorie>
+        <h2 class="faq-categorie__titre" id="faq-intensite-titre"><span class="faq-categorie__icone"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3c1 3.5 5 5.5 5 10a5 5 0 0 1-10 0c0-2.4 1.2-4 2.5-5.2.2 1.8 1 2.9 2.2 3.4C12.4 9.3 11.7 6.2 12 3Z"/></svg></span>{{t:faq.intensite.titre}}</h2>
+        <div class="questions__liste">
+          <details class="question" data-question>
+            <summary>{{t:faq.intensite.q1}}</summary>
+            <p>{{t:faq.intensite.r1}}</p>
+          </details>
+          <details class="question" data-question>
+            <summary>{{t:faq.intensite.q2}}</summary>
+            <p>{{t:faq.intensite.r2}}</p>
+          </details>
+          <details class="question" data-question>
+            <summary>{{t:faq.intensite.q3}}</summary>
+            <p>{{t:faq.intensite.r3}}</p>
+          </details>
+          <details class="question" data-question>
+            <summary>{{t:faq.intensite.q4}}</summary>
+            <p>{{t:faq.intensite.r4}}</p>
+          </details>
+          <details class="question" data-question>
+            <summary>{{t:faq.intensite.q5}}</summary>
+            <p>{{t:faq.intensite.r5}}</p>
+          </details>
+          <details class="question" data-question>
+            <summary>{{t:faq.intensite.q6}}</summary>
+            <p>{{t:faq.intensite.r6}}</p>
+          </details>
+        </div>
+      </section>
+      <section class="faq-categorie" id="reservation" aria-labelledby="faq-reservation-titre" data-categorie>
+        <h2 class="faq-categorie__titre" id="faq-reservation-titre"><span class="faq-categorie__icone"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4M7 14h2M11 14h2M15 14h2M7 17.5h2M11 17.5h2"/></svg></span>{{t:faq.reservation.titre}}</h2>
+        <div class="questions__liste">
+          <details class="question" data-question>
+            <summary>{{t:faq.reservation.q1}}</summary>
+            <p>{{t:faq.reservation.r1}}</p>
+          </details>
+          <details class="question" data-question>
+            <summary>{{t:faq.reservation.q2}}</summary>
+            <p>{{t:faq.reservation.r2}}</p>
+          </details>
+          <details class="question" data-question>
+            <summary>{{t:faq.reservation.q3}}</summary>
+            <p>{{t:faq.reservation.r3}}</p>
+          </details>
+          <details class="question" data-question>
+            <summary>{{t:faq.reservation.q4}}</summary>
+            <p>{{t:faq.reservation.r4}}</p>
+          </details>
+          <details class="question" data-question>
+            <summary>{{t:faq.reservation.q5}}</summary>
+            <p>{{t:faq.reservation.r5}}</p>
+          </details>
+          <details class="question" data-question>
+            <summary>{{t:faq.reservation.q6}}</summary>
+            <p>{{t:faq.reservation.r6}}</p>
+          </details>
+          <details class="question" data-question>
+            <summary>{{t:faq.reservation.q7}}</summary>
+            <p>{{t:faq.reservation.r7}}</p>
+          </details>
+          <details class="question" data-question>
+            <summary>{{t:faq.reservation.q8}}</summary>
+            <p>{{t:faq.reservation.r8}}</p>
+          </details>
+        </div>
+      </section>
+      <section class="faq-categorie" id="pratique" aria-labelledby="faq-pratique-titre" data-categorie>
+        <h2 class="faq-categorie__titre" id="faq-pratique-titre"><span class="faq-categorie__icone"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-6.5-6.2-6.5-11a6.5 6.5 0 0 1 13 0c0 4.8-6.5 11-6.5 11Z"/><circle cx="12" cy="10" r="2.3"/></svg></span>{{t:faq.pratique.titre}}</h2>
+        <div class="questions__liste">
+          <details class="question" data-question>
+            <summary>{{t:faq.pratique.q1}}</summary>
+            <p>{{t:faq.pratique.r1}}</p>
+          </details>
+          <details class="question" data-question>
+            <summary>{{t:faq.pratique.q2}}</summary>
+            <p>{{t:faq.pratique.r2}}</p>
+          </details>
+          <details class="question" data-question>
+            <summary>{{t:faq.pratique.q3}}</summary>
+            <p>{{t:faq.pratique.r3}}</p>
+          </details>
+          <details class="question" data-question>
+            <summary>{{t:faq.pratique.q4}}</summary>
+            <p>{{t:faq.pratique.r4}}</p>
+          </details>
+          <details class="question" data-question>
+            <summary>{{t:faq.pratique.q5}}</summary>
+            <p>{{t:faq.pratique.r5}}</p>
+          </details>
+          <details class="question" data-question>
+            <summary>{{t:faq.pratique.q6}}</summary>
+            <p>{{t:faq.pratique.r6}}</p>
+          </details>
+          <details class="question" data-question>
+            <summary>{{t:faq.pratique.q7}}</summary>
+            <p>{{t:faq.pratique.r7}}</p>
+          </details>
+          <details class="question" data-question>
+            <summary>{{t:faq.pratique.q8}}</summary>
+            <p>{{t:faq.pratique.r8}}</p>
+          </details>
+          <details class="question" data-question>
+            <summary>{{t:faq.pratique.q9}}</summary>
+            <p>{{t:faq.pratique.r9}}</p>
+          </details>
+        </div>
+      </section>
+      <p class="faq__aucun" role="status" hidden data-faq-aucun>{{t:faq.outils.aucun}}</p>
+    </div>
+  </div>
+
+  <section class="appel" aria-labelledby="appel-titre">
+    <div class="conteneur" data-reveal>
+      <img class="appel__embleme" src="{{ROOT}}images/embleme-or.webp" alt="" width="340" height="488" loading="lazy">
+      <h2 class="titre-orne" id="appel-titre"><span>{{t:faq.contact.titre}}</span></h2>
+      <p class="appel__texte">{{t:faq.contact.texte}}</p>
+      <div class="appel__actions">
+        <a class="bouton bouton--contour" href="mailto:contact@memoria-experience.fr">{{t:faq.contact.ecrire}}</a>
+        <a class="bouton bouton--rouge" href="index.html#reservation">{{t:faq.contact.reserver}}</a>
+      </div>
+    </div>
+  </section>
+</main>
+{{FOOTER}}
+</body>
+</html>

@@ -95,6 +95,41 @@
     </div>
   </section>
 
+  <section class="intensite" id="intensite" aria-labelledby="intensite-titre">
+    <div class="conteneur">
+      <h2 class="titre-orne" id="intensite-titre" data-reveal><span>{{t:intensite.titre}}</span></h2>
+      <p class="texte-intro" data-reveal>{{t:intensite.intro}}</p>
+      <ul class="niveaux">
+        <li class="niveau" data-reveal>
+          <p class="niveau__jauge" aria-label="{{t:intensite.niveau}} 1/3"><span class="est-plein"></span><span></span><span></span></p>
+          <h3 class="niveau__nom">{{t:intensite.nom1}}</h3>
+          <p class="niveau__accroche">{{t:intensite.accroche1}}</p>
+          <p class="niveau__texte">{{t:intensite.texte1}}</p>
+        </li>
+        <li class="niveau niveau--standard" data-reveal>
+          <p class="niveau__jauge" aria-label="{{t:intensite.niveau}} 2/3"><span class="est-plein"></span><span class="est-plein"></span><span></span></p>
+          <h3 class="niveau__nom">{{t:intensite.nom2}}</h3>
+          <p class="niveau__accroche">{{t:intensite.accroche2}}</p>
+          <p class="niveau__texte">{{t:intensite.texte2}}</p>
+        </li>
+        <li class="niveau niveau--extreme" data-reveal>
+          <p class="niveau__jauge" aria-label="{{t:intensite.niveau}} 3/3"><span class="est-plein"></span><span class="est-plein"></span><span class="est-plein"></span></p>
+          <h3 class="niveau__nom">{{t:intensite.nom3}}</h3>
+          <p class="niveau__accroche">{{t:intensite.accroche3}}</p>
+          <p class="niveau__texte">{{t:intensite.texte3}}</p>
+        </li>
+      </ul>
+      <div class="garantie" data-reveal>
+        <span class="garantie__icone"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 5 6v5.5c0 4.3 3 7.6 7 9.5 4-1.9 7-5.2 7-9.5V6l-7-3Z"/><path d="m8.8 12 2.2 2.2 4.2-4.4"/></svg></span>
+        <div>
+          <h3 class="garantie__titre">{{t:intensite.garantieTitre}}</h3>
+          <p>{{t:intensite.garantieTexte}}</p>
+        </div>
+      </div>
+      <p class="intensite__lien" data-reveal><a class="carte__lien" href="faq.html#intensite">{{t:intensite.lienFaq}}</a></p>
+    </div>
+  </section>
+
   <section class="bandeau" aria-label="{{t:bandeaux.seuil}}">
     <div class="bandeau__media" data-parallax="0.4">
       <img src="{{ROOT}}images/archive-escalier.webp" alt="" width="837" height="1100" loading="lazy">

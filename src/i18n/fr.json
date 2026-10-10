@@ -557,20 +557,6 @@
       "lien": "Voir les niveaux d’intensité"
     },
     "intensite": {
-      "titre": "Choisissez le niveau d’intensité",
-      "intro": "Pour que chacun vive l’expérience sereinement, vous choisissez le niveau d’intensité le plus adapté à votre groupe.",
-      "niveau": "Niveau",
-      "nom1": "Faible",
-      "accroche1": "Frissonner sans trembler",
-      "texte1": "Une atmosphère inquiétante et une histoire captivante, avec des interactions mesurées des comédiens. Idéal pour les équipes peu habituées à l’horreur.",
-      "nom2": "Standard",
-      "accroche2": "L’expérience Memoria",
-      "texte2": "L’équilibre entre tension, surprises et coopération, tel que nous l’avons imaginé. Recommandé pour la plupart des équipes.",
-      "nom3": "Extrême",
-      "accroche3": "Pour les plus audacieux",
-      "texte3": "Une immersion sans répit, des comédiens plus présents et des situations plus éprouvantes. Réservé aux amateurs de sensations fortes.",
-      "garantieTitre": "Personne n’est jamais forcé",
-      "garantieTexte": "Quel que soit le niveau choisi, aucun participant ne sera placé contre sa volonté dans une situation qu’il refuse. Chacun peut à tout moment demander une pause ou quitter l’expérience, et notre équipe reste attentive du début à la fin.",
       "conseilTitre": "Quel niveau pour votre équipe ?",
       "conseilTexte": "Nous recommandons un niveau selon :",
       "critere1": "le profil du groupe",
@@ -673,6 +659,122 @@
       "demandesExemple": "Allergies, régimes alimentaires, accessibilité, horaires…",
       "message": "Message libre",
       "bouton": "Demander un devis"
+    }
+  },
+  "intensite": {
+    "titre": "Choisissez le niveau d’intensité",
+    "intro": "Pour que chacun vive l’expérience sereinement, vous choisissez le niveau d’intensité le plus adapté à votre groupe.",
+    "niveau": "Niveau",
+    "nom1": "Faible",
+    "nom2": "Standard",
+    "nom3": "Extrême",
+    "accroche1": "Frissonner sans trembler",
+    "accroche2": "L’expérience Memoria",
+    "accroche3": "Pour les plus audacieux",
+    "texte1": "Une atmosphère inquiétante et une histoire captivante, avec des interactions mesurées des comédiens. Idéal pour les équipes peu habituées à l’horreur.",
+    "texte2": "L’équilibre entre tension, surprises et coopération, tel que nous l’avons imaginé. Recommandé pour la plupart des équipes.",
+    "texte3": "Une immersion sans répit, des comédiens plus présents et des situations plus éprouvantes. Réservé aux amateurs de sensations fortes.",
+    "garantieTitre": "Personne n’est jamais forcé",
+    "garantieTexte": "Quel que soit le niveau choisi, aucun participant ne sera placé contre sa volonté dans une situation qu’il refuse. Chacun peut à tout moment demander une pause ou quitter l’expérience, et notre équipe reste attentive du début à la fin.",
+    "lienFaq": "Toutes vos questions sur l’intensité"
+  },
+  "faq": {
+    "meta": {
+      "title": "FAQ — Questions fréquentes | Memoria Lyon",
+      "description": "Durée, nombre de joueurs, niveaux d’intensité, réservation, âge minimum, accès : toutes les réponses à vos questions avant de vivre Memoria à Lyon."
+    },
+    "hero": {
+      "surtitre": "FAQ",
+      "titre": "Questions fréquentes",
+      "intro": "Tout ce qu’il faut savoir avant de franchir les portes du pensionnat Sainte-Lucie."
+    },
+    "outils": {
+      "recherche": "Rechercher dans la FAQ",
+      "rechercheExemple": "Rechercher une question…",
+      "categories": "Catégories",
+      "aucun": "Aucune question ne correspond à votre recherche. Écrivez-nous à <a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a>, nous vous répondrons."
+    },
+    "experience": {
+      "titre": "L’expérience",
+      "q1": "Qu’est-ce que Memoria ?",
+      "r1": "Memoria est une expérience immersive d’horreur à Lyon. Pendant 1h30, vous pénétrez avec votre groupe dans le pensionnat Sainte-Lucie, abandonné en 1953, et vivez de l’intérieur une histoire inquiétante, entourés de comédiens professionnels et de décors reconstitués dans leurs moindres détails.",
+      "q2": "Est-ce un escape game ?",
+      "r2": "Pas tout à fait. Memoria reprend certains codes de l’escape game (fouiller, observer, coopérer), mais l’expérience repose avant tout sur l’histoire, l’immersion et l’interaction avec les comédiens. Ici, il ne s’agit pas seulement de sortir d’une pièce : il s’agit de survivre à Sainte-Lucie… et de découvrir la vérité.",
+      "q3": "Combien de temps dure l’expérience ?",
+      "r3": "L’aventure dure 1h30. Prévoyez environ 15 minutes de plus pour l’accueil et le briefing avant votre session.",
+      "q4": "Combien de joueurs peuvent participer ?",
+      "r4": "Chaque session accueille de 3 à 6 joueurs. Pour les groupes plus nombreux, plusieurs sessions peuvent s’enchaîner ou le lieu peut être privatisé : découvrez nos offres <a href=\"team-building.html\">team building</a> et notre <a href=\"pack-personnalise.html\">pack personnalisé</a>.",
+      "q5": "Y a-t-il des comédiens ?",
+      "r5": "Oui. Des comédiens professionnels incarnent les personnages du pensionnat. Ils interagissent avec vous, vous guident… ou vous mettent à l’épreuve, et adaptent leur jeu à chaque groupe.",
+      "q6": "Faut-il être sportif ?",
+      "r6": "Non, aucune condition physique particulière n’est nécessaire. Vous serez amenés à marcher, à monter et descendre des escaliers (le pensionnat s’étend sur trois niveaux) et parfois à vous baisser, mais jamais à courir ni à fournir d’effort intense.",
+      "q7": "Y a-t-il des énigmes ?",
+      "r7": "Oui, mais elles servent l’histoire : objets à fouiller, indices à rassembler, mécanismes à comprendre. Elles se résolvent en équipe et ne demandent aucune connaissance particulière, seulement de l’observation et de la communication.",
+      "q8": "Les joueurs restent-ils ensemble ?",
+      "r8": "La plupart du temps, oui. Selon le scénario et le niveau d’intensité choisi, certains passages peuvent séparer le groupe quelques instants, toujours sous la surveillance de notre équipe.",
+      "q9": "Peut-on arrêter l’expérience ?",
+      "r9": "Oui, à tout moment. Un mot de sécurité vous est communiqué lors du briefing : dès qu’il est prononcé, l’expérience s’interrompt pour la personne concernée et un membre de l’équipe vient la chercher."
+    },
+    "intensite": {
+      "titre": "Intensité & peur",
+      "q1": "Quels sont les trois niveaux d’intensité ?",
+      "r1": "<strong>Faible</strong> : une atmosphère inquiétante et des interactions mesurées, idéal si l’horreur n’est pas votre domaine.<br><strong>Standard</strong> : l’équilibre entre tension, surprises et coopération, tel que nous avons imaginé l’expérience.<br><strong>Extrême</strong> : une immersion sans répit et des situations plus éprouvantes, réservée aux amateurs de sensations fortes.",
+      "q2": "Y a-t-il du contact physique ?",
+      "r2": "Les comédiens peuvent s’approcher très près de vous, mais aucun contact brusque ou violent n’a lieu. Aux niveaux faible et standard, ils ne vous touchent pas. Au niveau extrême, un contact léger peut survenir (une main posée sur l’épaule, un bras pour vous guider) ; vous pouvez le refuser en le signalant lors du briefing.",
+      "q3": "Peut-on changer de niveau ?",
+      "r3": "Le niveau est choisi au moment de la réservation et peut encore être modifié à l’accueil, avant le début de la session. Pendant l’expérience, nos comédiens restent attentifs et adaptent l’intensité si un joueur est en difficulté.",
+      "q4": "Le niveau extrême est-il obligatoire ?",
+      "r4": "Pas du tout. Le niveau standard est celui que nous recommandons à la plupart des groupes ; le niveau extrême est une option réservée à ceux qui la choisissent.",
+      "q5": "L’expérience est-elle adaptée aux personnes sensibles ?",
+      "r5": "Oui, grâce au niveau faible, pensé pour vivre l’histoire en frissonnant sans être submergé. En cas de doute, contactez-nous avant de réserver : nous vous aiderons à choisir le niveau le plus adapté à votre groupe.",
+      "q6": "Que se passe-t-il si un joueur a trop peur ?",
+      "r6": "Il peut demander une pause ou quitter l’expérience à tout moment grâce au mot de sécurité. Un membre de l’équipe vient alors le chercher et l’accompagne au calme, pendant que le reste du groupe poursuit l’aventure. Personne n’est jamais forcé."
+    },
+    "reservation": {
+      "titre": "Réservation",
+      "q1": "Comment réserver ?",
+      "r1": "Directement en ligne, depuis la section <a href=\"index.html#reservation\">Réservez votre session</a> : choisissez une date, un créneau, le nombre de joueurs et votre niveau d’intensité. Le tarif dépend de la taille du groupe : de {{PRIX_6}} à {{PRIX_3}} par personne.",
+      "q2": "Peut-on modifier une réservation ?",
+      "r2": "Oui, sous réserve de disponibilité, jusqu’à 48 heures avant votre session. Écrivez-nous à <a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a> en indiquant votre numéro de réservation.",
+      "q3": "Peut-on annuler ?",
+      "r3": "Une annulation est possible jusqu’à 72 heures avant la session. Passé ce délai, la réservation n’est plus remboursable, mais vous pouvez nous contacter pour étudier un report. Les modalités détaillées figurent dans nos <a href=\"cgv.html\">conditions générales de vente</a>.",
+      "q4": "Peut-on ajouter un joueur ?",
+      "r4": "Oui, dans la limite de 6 joueurs par session et selon les disponibilités. Contactez-nous : le tarif par personne est ajusté selon le nombre final de joueurs.",
+      "q5": "Que se passe-t-il en cas de retard ?",
+      "r5": "Merci d’arriver 15 minutes avant le début de votre session. En cas de retard, prévenez-nous au plus vite : les sessions s’enchaînant, un retard important peut réduire la durée de votre expérience.",
+      "q6": "Peut-on payer séparément ?",
+      "r6": "Le paiement s’effectue en ligne lors de la réservation. Si chaque joueur souhaite régler sa part, contactez-nous avant de réserver : nous vous indiquerons la marche à suivre.",
+      "q7": "Peut-on utiliser un bon cadeau ?",
+      "r7": "Oui. Saisissez le code de votre bon lors de la réservation en ligne : son montant est déduit automatiquement. Les bons sont valables 12 mois. Envie d’en offrir un ? Rendez-vous sur la page <a href=\"pack-cadeau.html\">Offrir Memoria</a>.",
+      "q8": "Peut-on privatiser le lieu ?",
+      "r8": "Oui, pour un anniversaire, un événement d’entreprise ou une occasion spéciale : plusieurs créneaux ou le lieu entier peuvent vous être réservés. Découvrez notre <a href=\"pack-personnalise.html\">pack personnalisé</a> et nos offres <a href=\"team-building.html\">team building</a>."
+    },
+    "pratique": {
+      "titre": "Informations pratiques",
+      "q1": "Quel est l’âge minimum ?",
+      "r1": "L’expérience est interdite aux moins de 12 ans et déconseillée aux moins de 16 ans. Les mineurs doivent être accompagnés d’un adulte participant à la session.",
+      "q2": "Quelle tenue porter ?",
+      "r2": "Une tenue confortable et des chaussures plates et fermées. Évitez les vêtements fragiles ou trop clairs : le pensionnat est resté longtemps abandonné… Vos affaires personnelles peuvent être déposées à l’accueil.",
+      "q3": "Où se trouve Memoria ?",
+      "r3": "Au 45 cours de la Liberté, à Lyon. Retrouvez le plan et nos coordonnées dans les <a href=\"index.html#infos\">informations pratiques</a>.",
+      "q4": "Quels transports utiliser ?",
+      "r4": "Memoria est facilement accessible en transports en commun et en Vélo’v. Le détail des lignes et des arrêts les plus proches sera précisé très prochainement.",
+      "q5": "Où se garer ?",
+      "r5": "Plusieurs parkings publics se trouvent à proximité. Nous vous recommandons toutefois les transports en commun, plus pratiques en centre-ville. Les informations détaillées seront bientôt disponibles.",
+      "q6": "Le lieu est-il accessible aux personnes en situation de handicap ?",
+      "r6": "Le pensionnat s’étend sur trois niveaux reliés par des escaliers, ce qui limite pour l’instant l’accès aux personnes à mobilité réduite. Pour toute situation de handicap, contactez-nous avant de réserver : nous étudierons ensemble les possibilités d’adaptation.",
+      "q7": "Quelles sont les contre-indications ?",
+      "r7": "L’expérience comporte des effets sonores et lumineux soudains, des passages dans la pénombre et des espaces exigus. Elle est déconseillée aux personnes souffrant de troubles cardiaques, d’épilepsie, de troubles anxieux importants ou de claustrophobie, ainsi qu’aux femmes enceintes. L’accès est refusé à toute personne sous l’emprise de l’alcool ou de stupéfiants.",
+      "q8": "Peut-on venir enceinte ?",
+      "r8": "Par précaution, l’expérience est déconseillée aux femmes enceintes, en raison des émotions fortes, des effets soudains et des déplacements dans la pénombre. Les autres membres de votre groupe peuvent bien sûr participer.",
+      "q9": "Peut-on participer avec un problème cardiaque ou médical ?",
+      "r9": "Les personnes souffrant de troubles cardiaques ou d’un problème de santé pouvant être aggravé par un stress intense ne doivent pas participer. En cas de doute, demandez l’avis de votre médecin et parlez-nous-en avant de réserver."
+    },
+    "contact": {
+      "titre": "Vous n’avez pas trouvé votre réponse ?",
+      "texte": "Notre équipe vous répond sous 48 heures.",
+      "ecrire": "Nous écrire",
+      "reserver": "Réserver une session"
     }
   }
 }

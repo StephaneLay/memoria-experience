@@ -319,6 +319,50 @@
     });
   });
 
+  var faq = document.querySelector('[data-faq]');
+  if (faq) {
+    var recherche = faq.querySelector('[data-faq-recherche]');
+    var aucunResultat = faq.querySelector('[data-faq-aucun]');
+    var normaliser = function (texte) {
+      return texte.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    };
+    var questions = Array.prototype.map.call(faq.querySelectorAll('[data-question]'), function (question) {
+      return { element: question, texte: normaliser(question.textContent) };
+    });
+
+    recherche.addEventListener('input', function () {
+      var termes = normaliser(recherche.value.trim()).split(/\s+/).filter(Boolean);
+      var trouvees = 0;
+      questions.forEach(function (question) {
+        var visible = termes.every(function (terme) {
+          return question.texte.indexOf(terme) !== -1;
+        });
+        question.element.hidden = !visible;
+        question.element.open = termes.length > 0 && visible;
+        if (visible) trouvees++;
+      });
+      faq.querySelectorAll('[data-categorie]').forEach(function (categorie) {
+        categorie.hidden = !categorie.querySelector('[data-question]:not([hidden])');
+      });
+      aucunResultat.hidden = trouvees > 0;
+    });
+
+    var liensCategories = faq.querySelectorAll('.faq-sommaire__lien');
+    if ('IntersectionObserver' in window) {
+      var observateurCategories = new IntersectionObserver(function (entrees) {
+        entrees.forEach(function (entree) {
+          if (!entree.isIntersecting) return;
+          liensCategories.forEach(function (lien) {
+            lien.classList.toggle('est-actif', lien.getAttribute('href') === '#' + entree.target.id);
+          });
+        });
+      }, { rootMargin: '-35% 0px -55% 0px' });
+      faq.querySelectorAll('[data-categorie]').forEach(function (categorie) {
+        observateurCategories.observe(categorie);
+      });
+    }
+  }
+
   var choixFormule = document.querySelector('[data-formule-devis]');
   document.querySelectorAll('[data-choisir-formule]').forEach(function (lien) {
     lien.addEventListener('click', function () {

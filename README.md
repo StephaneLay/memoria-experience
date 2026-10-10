@@ -36,7 +36,7 @@ Prérequis : Node.js 18 ou plus récent, aucune dépendance npm.
 
 ## Structure
 
-- `src/pages/` : gabarits de pages (`index.html`, `notre-histoire.html`, `pack-cadeau.html`, `pack-personnalise.html`, `presse.html`, `team-building.html`, `404.html`)
+- `src/pages/` : gabarits de pages (`index.html`, `notre-histoire.html`, `pack-cadeau.html`, `pack-personnalise.html`, `presse.html`, `team-building.html`, `faq.html`, `404.html`)
 - `src/partials/` : en-tête (navigation, réseaux, langues) et pied de page (+ onglet « Réserver »)
 - `src/i18n/` : textes FR / EN
 - `src/css/style.css`, `src/js/main.js` : style et comportements (sans dépendance)
@@ -57,6 +57,8 @@ Ne jamais écrire un prix en dur dans une page ou un fichier de traduction.
 ## Où brancher les éléments attendus
 
 - **Réservation 4escape** : tout le contenu du `<form class="reservation__widget">` dans `src/pages/index.html` est un aperçu visuel (calendrier mercredi → dimanche, créneaux d’exemple). Le remplacer par le code d’intégration 4escape quand les accès seront disponibles, puis retirer la partie « réservation » de `src/js/main.js`.
+- **FAQ** : ajouter une question = ajouter une paire `qN` / `rN` dans la catégorie voulue de `src/i18n/fr.json` et `en.json` (rubrique `faq`), puis un bloc `<details class="question" data-question>` dans `src/pages/faq.html`. La recherche et le sommaire fonctionnent automatiquement. Les réponses peuvent contenir des liens et les jetons de prix (`{{PRIX_3}}`…).
+- **Niveaux d’intensité** : textes communs (rubrique `intensite` des traductions), affichés à l’identique sur l’accueil et la page Team building.
 - **Vidéo du hero Team building** : déposer la vidéo dans `src/videos/` (ex. `team-building.mp4`, idéalement H.264, 10 à 20 s en boucle, sans son, moins de 5 Mo) puis ajouter dans la balise `<video data-video-fond>` de `src/pages/team-building.html` : `<source src="{{ROOT}}videos/team-building.mp4" type="video/mp4">`. En attendant, la photo du hall s’affiche à sa place. La vidéo est mise en pause si le visiteur a demandé à réduire les animations.
 - **Bande-annonce** : renseigner l’identifiant YouTube dans `data-youtube=""` (balise `<dialog>` en bas de `src/pages/index.html`). Sans identifiant, la fenêtre affiche « La bande-annonce sera dévoilée très bientôt ».
 - **Réseaux sociaux** : liens `href="#"` dans `src/partials/header.html` et dans la colonne Contact de `src/pages/index.html`.

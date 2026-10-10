@@ -35,6 +35,23 @@ Rien de ce qui suit n’est bloquant pour avancer sur le design ; ce sont les co
 - [ ] Formules entreprises : prix ou fourchettes à afficher, ou rester « sur devis » ?
 - [ ] Capacité maximale (nombre de participants, d’équipes en simultané) et prestataire traiteur pour le cocktail
 
+## Page « FAQ » — règles imaginées, à valider
+
+Les réponses ont été rédigées pour être cohérentes avec le reste du site, mais plusieurs règles sont inventées :
+
+- [ ] Accueil et briefing : arrivée 15 minutes avant, briefing d’environ 15 minutes
+- [ ] **Mot de sécurité** pour interrompre l’expérience à tout moment
+- [ ] **Contact physique** : aucun aux niveaux faible et standard, contact léger possible (et refusable) au niveau extrême
+- [ ] Les joueurs peuvent être séparés quelques instants selon le scénario
+- [ ] Changement de niveau possible jusqu’à l’accueil
+- [ ] **Modification** jusqu’à 48 h avant, **annulation** remboursable jusqu’à 72 h avant (à aligner sur les CGV et sur 4escape)
+- [ ] Ajout d’un joueur possible (6 maximum), paiement séparé « sur demande »
+- [ ] Âge : interdit aux moins de 12 ans, déconseillé aux moins de 16 ans, mineurs accompagnés d’un adulte participant
+- [ ] Tenue : chaussures plates et fermées, affaires déposées à l’accueil
+- [ ] **Accessibilité** : trois niveaux reliés par des escaliers, accès PMR limité — à confirmer
+- [ ] **Contre-indications** : troubles cardiaques, épilepsie, troubles anxieux, claustrophobie, grossesse, alcool/stupéfiants (y a-t-il des effets stroboscopiques ?)
+- [ ] Transports et parkings à détailler
+
 ## Médias
 
 - [ ] **Photo du hall (hero)** : elle porte le filigrane d’un photographe en bas à gauche → obtenir la licence ou la remplacer par une photo du lieu

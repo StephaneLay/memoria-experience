@@ -39,6 +39,8 @@ Site vitrine statique et bilingue (FR / EN) pour **Memoria**, une expérience im
   - **Pack personnalisé** : occasions (anniversaire, EVJF/EVG, demande en mariage, privatisation, surprise, entreprise, demande spéciale), facteurs, étapes, formulaire « Créer mon expérience » ;
   - **Presse, tournages & influenceurs** : publics, concept en chiffres, offres, conditions d’accueil, confidentialité, ressources (dossier de presse, logos, photos autorisées), formulaire « Contacter notre équipe ».
 - **Team building** : faite (FR / EN), textes fournis par le client (mis en forme et complétés). Hero vidéo (emplacement prêt), présentation commerciale, bénéfices, « Choisir une activité qui se démarque », trois niveaux d’intensité (faible / standard / extrême) avec la garantie qu’aucun participant n’est forcé, privatisation, cocktail & moment convivial, trois formules sur devis, formulaire « Demander un devis » (les boutons des formules présélectionnent la formule).
-- À créer au fil de l’eau : FAQ, mentions légales, CGV, politique de confidentialité, cookies. Les liens existent déjà dans le menu et le pied de page et mènent pour l’instant à la page 404 thématique.
+- **FAQ** : faite (FR / EN), 32 questions en 4 catégories (L’expérience, Intensité & peur, Réservation, Informations pratiques), questions dépliables, recherche instantanée et sommaire des catégories.
+- L’accueil affiche aussi les trois niveaux d’intensité (mêmes textes que la page Team building), avec un lien vers la FAQ.
+- À créer au fil de l’eau : mentions légales, CGV, politique de confidentialité, cookies. Les liens existent déjà dans le menu et le pied de page et mènent pour l’instant à la page 404 thématique.
 
 Ne pas ajouter de vraies clés, mots de passe ou jetons au dépôt ; utiliser les secrets de l’hébergeur/CI lorsqu’une intégration sera décidée.
