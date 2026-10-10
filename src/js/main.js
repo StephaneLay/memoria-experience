@@ -309,10 +309,45 @@
     });
   }
 
+  var afficherConfirmation = function (formulaireEnvoye, confirmation) {
+    var prenom = formulaireEnvoye.querySelector('[data-prenom]');
+    var emplacementPrenom = confirmation.querySelector('[data-confirmation-prenom]');
+    if (emplacementPrenom) {
+      emplacementPrenom.textContent = prenom && prenom.value.trim() ? ', ' + prenom.value.trim() : '';
+    }
+    formulaireEnvoye.hidden = true;
+    confirmation.hidden = false;
+    confirmation.focus({ preventScroll: true });
+    confirmation.scrollIntoView({ block: 'center', behavior: reduireAnimations ? 'auto' : 'smooth' });
+  };
+
+  document.querySelectorAll('[data-confirmation-retour]').forEach(function (bouton) {
+    bouton.addEventListener('click', function () {
+      var confirmation = bouton.closest('.confirmation');
+      var formulaireLie = document.querySelector('[data-confirmation-cible="' + confirmation.id + '"]');
+      formulaireLie.reset();
+      confirmation.hidden = true;
+      formulaireLie.hidden = false;
+      var premierChamp = formulaireLie.querySelector('input, select, textarea');
+      if (premierChamp) premierChamp.focus();
+    });
+  });
+
+  var champSujet = document.querySelector('[data-sujet]');
+  if (champSujet) {
+    var sujetDemande = (new URLSearchParams(window.location.search).get('sujet') || '').replace(/[^a-z-]/g, '');
+    if (sujetDemande && champSujet.querySelector('option[value="' + sujetDemande + '"]')) champSujet.value = sujetDemande;
+  }
+
   document.querySelectorAll('[data-formulaire]').forEach(function (formulaireContact) {
     formulaireContact.addEventListener('submit', function (evenement) {
       if (formulaireContact.getAttribute('action')) return;
       evenement.preventDefault();
+      var confirmationCible = document.getElementById(formulaireContact.getAttribute('data-confirmation-cible') || '');
+      if (confirmationCible) {
+        afficherConfirmation(formulaireContact, confirmationCible);
+        return;
+      }
       var statut = formulaireContact.querySelector('[data-formulaire-statut]');
       statut.textContent = formulaireContact.getAttribute('data-message');
       statut.classList.add('est-active');

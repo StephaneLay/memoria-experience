@@ -3671,6 +3671,184 @@ sup { font-size: .6em; line-height: 0; }
   .faq-categorie { scroll-margin-top: 1rem; }
 }
 
+.contact {
+  padding-block: clamp(4rem, 8vw, 6.5rem) clamp(3rem, 6vw, 5rem);
+}
+
+.contact__grille {
+  display: grid;
+  grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr);
+  align-items: start;
+  gap: clamp(2rem, 5vw, 4.5rem);
+}
+
+.coordonnees,
+.confirmation {
+  border: 1px solid rgba(240, 192, 94, .42);
+  border-radius: 8px;
+  outline: 1px solid rgba(240, 192, 94, .14);
+  outline-offset: -9px;
+  background:
+    radial-gradient(ellipse at 50% 0%, rgba(138, 19, 22, .32), transparent 65%),
+    rgba(10, 10, 10, .84);
+  box-shadow: 0 24px 55px rgba(0, 0, 0, .65);
+}
+
+.coordonnees { padding: clamp(1.6rem, 3vw, 2.4rem); }
+.coordonnees .titre-orne { margin-bottom: 1.6rem; font-size: clamp(1.4rem, 1.1rem + 1vw, 2rem); }
+.coordonnees .titre-orne::before { width: clamp(2rem, 3vw, 3.5rem); }
+
+.coordonnees__liste { display: grid; gap: 1.2rem; margin: 0; padding: 0; list-style: none; }
+.coordonnee { display: flex; align-items: center; gap: 1rem; }
+
+.coordonnee__icone {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 3rem;
+  aspect-ratio: 1;
+  border: 1px solid rgba(240, 192, 94, .55);
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(138, 19, 22, .45), rgba(10, 10, 10, .9));
+  color: var(--or);
+}
+.coordonnee__icone svg { width: 1.4rem; height: 1.4rem; }
+
+.coordonnee__label {
+  margin: 0 0 .15rem;
+  color: var(--gris);
+  font-size: .9rem;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+
+.coordonnee__valeur {
+  margin: 0;
+  color: var(--ivoire);
+  font-size: clamp(1.15rem, 1.05rem + .3vw, 1.35rem);
+  font-style: normal;
+  line-height: 1.25;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+a.coordonnee__valeur { transition: color .3s; }
+a.coordonnee__valeur:hover { color: var(--or); }
+
+.coordonnees__reponse {
+  margin: 1.6rem 0 1.4rem;
+  padding: .9rem 1rem;
+  border-left: 2px solid var(--rouge-sang);
+  background: rgba(255, 255, 255, .03);
+  color: var(--gris-clair);
+  line-height: 1.3;
+}
+.coordonnees .reseaux--petits { margin-top: .6rem; }
+
+.formulaire__titre {
+  margin: 0 0 1.5rem;
+  color: var(--ivoire);
+  font-family: var(--police-titre);
+  font-size: clamp(1.4rem, 1.1rem + 1vw, 2rem);
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.confirmation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.1rem;
+  padding: clamp(2.2rem, 5vw, 3.6rem) clamp(1.4rem, 3vw, 2.6rem);
+  text-align: center;
+  animation: apparition .6s var(--ease);
+}
+.confirmation[hidden] { display: none; }
+.confirmation:focus { outline: 1px solid rgba(240, 192, 94, .14); }
+
+.confirmation__embleme { width: 5rem; height: auto; filter: drop-shadow(0 0 18px rgba(240, 192, 94, .3)); }
+.confirmation .titre-orne { margin: 0; }
+.confirmation .titre-orne::before,
+.confirmation .titre-orne::after { width: clamp(2.2rem, 5vw, 4rem); }
+.confirmation__texte {
+  max-width: 32rem;
+  margin: 0;
+  color: var(--ivoire);
+  font-size: clamp(1.15rem, 1.05rem + .3vw, 1.35rem);
+  line-height: 1.3;
+}
+.confirmation__apercu { max-width: 32rem; margin: 0; color: var(--gris); font-size: .98rem; line-height: 1.3; }
+.confirmation .bouton { margin-top: .6rem; }
+
+.venir {
+  padding-block: clamp(3.5rem, 7vw, 6rem);
+}
+
+.venir__grille {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, .95fr);
+  align-items: start;
+  gap: clamp(2rem, 5vw, 4.5rem);
+  margin-top: clamp(2.4rem, 4.5vw, 3.4rem);
+}
+
+.venir__plan .infos__carte { width: 100%; rotate: -2deg; }
+.venir__plan .infos__carte:hover { rotate: 0deg; }
+
+.venir__adresse {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem 1.4rem;
+  margin-top: 2rem;
+}
+.venir__adresse address { color: var(--ivoire); font-style: normal; line-height: 1.2; }
+.venir__boutons { display: flex; flex-wrap: wrap; gap: .7rem; }
+
+.venir__infos { display: grid; gap: 1rem; font-size: clamp(1.05rem, .98rem + .25vw, 1.2rem); }
+
+.venir__bloc {
+  padding: 1.4rem 1.5rem;
+  border: 2px solid var(--gris-sombre);
+  border-radius: 8px;
+  background: var(--carte);
+}
+
+.venir__titre {
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+  margin: 0 0 1rem;
+  color: var(--ivoire);
+  font-family: var(--police-titre);
+  font-size: clamp(1.15rem, 1rem + .45vw, 1.4rem);
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.venir__icone {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 2.4rem;
+  aspect-ratio: 1;
+  border: 1px solid rgba(240, 192, 94, .5);
+  border-radius: 50%;
+  background: rgba(240, 192, 94, .06);
+  color: var(--or);
+}
+.venir__icone svg { width: 1.2rem; height: 1.2rem; }
+
+.venir__bloc .infos__liste li { color: var(--gris-clair); white-space: normal; }
+.venir__bloc .regles__liste { gap: .7rem; }
+.venir__bloc .regles__liste a { color: var(--or); text-underline-offset: .18em; }
+
+@media (max-width: 900px) {
+  .contact__grille,
+  .venir__grille { grid-template-columns: 1fr; }
+  .venir__plan .infos__carte { rotate: 0deg; }
+}
+
 @keyframes grain {
   0% { transform: translate(0, 0); }
   20% { transform: translate(-3%, 2%); }

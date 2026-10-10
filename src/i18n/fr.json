@@ -776,5 +776,62 @@
       "ecrire": "Nous écrire",
       "reserver": "Réserver une session"
     }
+  },
+  "contact": {
+    "meta": {
+      "title": "Nous contacter — Memoria, expérience immersive d’horreur à Lyon",
+      "description": "Contactez l’équipe Memoria : téléphone, e-mail, adresse, horaires, plan d’accès, transports et stationnement. Réponse sous 48 heures."
+    },
+    "hero": {
+      "surtitre": "Contact",
+      "titre": "Nous contacter",
+      "intro": "Une question, une demande particulière ? Notre équipe vous répond sous 48 heures."
+    },
+    "coordonnees": {
+      "titre": "Nos coordonnées",
+      "adresseLabel": "Adresse",
+      "horairesLabel": "Horaires",
+      "reponse": "Nous répondons à tous les messages sous 48 heures.",
+      "reseaux": "Suivez-nous"
+    },
+    "formulaire": {
+      "titre": "Envoyez-nous un message",
+      "prenom": "Prénom",
+      "nom": "Nom",
+      "telephone": "Téléphone (facultatif)",
+      "sujet": "Sujet",
+      "sujet1": "Question sur une réservation",
+      "sujet2": "Modification ou annulation",
+      "sujet3": "Bon cadeau",
+      "sujet4": "Pack personnalisé",
+      "sujet5": "Team building",
+      "sujet6": "Presse ou influenceur",
+      "sujet7": "Problème technique",
+      "sujet8": "Accessibilité",
+      "sujet9": "Autre demande",
+      "message": "Votre message",
+      "messageExemple": "Écrivez votre message…",
+      "bouton": "Envoyer mon message",
+      "merci": "Merci",
+      "confirmation": "Votre message a bien été envoyé. Notre équipe vous répond sous 48 heures, à l’adresse e-mail indiquée.",
+      "apercu": "Aperçu : l’envoi réel des messages sera activé à la mise en ligne du site. En attendant, écrivez-nous à contact@memoria-experience.fr.",
+      "nouveau": "Envoyer un autre message"
+    },
+    "venir": {
+      "titre": "Venir à Memoria",
+      "intro": "Le pensionnat Sainte-Lucie vous attend au cœur de Lyon.",
+      "itineraire": "Itinéraire",
+      "transportsTitre": "Transports en commun",
+      "metro": "Métro : ligne et station à préciser",
+      "bus": "Bus et tram : lignes et arrêts à préciser",
+      "velo": "Vélo’v : station la plus proche à préciser",
+      "stationnementTitre": "Stationnement",
+      "stationnement1": "Parkings publics à proximité : adresses à préciser.",
+      "stationnement2": "En centre-ville, nous vous conseillons les transports en commun.",
+      "accesTitre": "Accès",
+      "acces1": "Merci d’arriver 15 minutes avant votre session pour l’accueil et le briefing.",
+      "acces2": "Entrée et accès au bâtiment : informations à venir.",
+      "acces3": "Le pensionnat s’étend sur trois niveaux reliés par des escaliers. Pour toute situation de handicap, <a href=\"contact.html?sujet=accessibilite#formulaire\">contactez-nous</a> avant de réserver."
+    }
   }
 }

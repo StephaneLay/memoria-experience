@@ -776,5 +776,62 @@
       "ecrire": "Write to us",
       "reserver": "Book a session"
     }
+  },
+  "contact": {
+    "meta": {
+      "title": "Contact us — Memoria, immersive horror experience in Lyon",
+      "description": "Contact the Memoria team: phone, email, address, opening hours, map, public transport and parking. Reply within 48 hours."
+    },
+    "hero": {
+      "surtitre": "Contact",
+      "titre": "Contact us",
+      "intro": "A question, a special request? Our team replies within 48 hours."
+    },
+    "coordonnees": {
+      "titre": "Our details",
+      "adresseLabel": "Address",
+      "horairesLabel": "Opening hours",
+      "reponse": "We reply to every message within 48 hours.",
+      "reseaux": "Follow us"
+    },
+    "formulaire": {
+      "titre": "Send us a message",
+      "prenom": "First name",
+      "nom": "Last name",
+      "telephone": "Phone (optional)",
+      "sujet": "Subject",
+      "sujet1": "Question about a booking",
+      "sujet2": "Change or cancellation",
+      "sujet3": "Gift voucher",
+      "sujet4": "Tailor-made pack",
+      "sujet5": "Team building",
+      "sujet6": "Press or influencer",
+      "sujet7": "Technical problem",
+      "sujet8": "Accessibility",
+      "sujet9": "Other request",
+      "message": "Your message",
+      "messageExemple": "Write your message…",
+      "bouton": "Send my message",
+      "merci": "Thank you",
+      "confirmation": "Your message has been sent. Our team will reply within 48 hours, to the email address you provided.",
+      "apercu": "Preview: messages will actually be sent once the site goes live. In the meantime, write to us at contact@memoria-experience.fr.",
+      "nouveau": "Send another message"
+    },
+    "venir": {
+      "titre": "Getting to Memoria",
+      "intro": "Sainte-Lucie boarding school awaits you in the heart of Lyon.",
+      "itineraire": "Directions",
+      "transportsTitre": "Public transport",
+      "metro": "Metro: line and station to be confirmed",
+      "bus": "Bus and tram: lines and stops to be confirmed",
+      "velo": "Vélo’v bikes: nearest station to be confirmed",
+      "stationnementTitre": "Parking",
+      "stationnement1": "Public car parks nearby: addresses to be confirmed.",
+      "stationnement2": "In the city centre, we recommend public transport.",
+      "accesTitre": "Access",
+      "acces1": "Please arrive 15 minutes before your session for the welcome and briefing.",
+      "acces2": "Entrance and building access: details coming soon.",
+      "acces3": "The boarding school spreads over three levels connected by stairs. For any disability, <a href=\"contact.html?sujet=accessibilite#formulaire\">contact us</a> before booking."
+    }
   }
 }

@@ -52,6 +52,12 @@ Les réponses ont été rédigées pour être cohérentes avec le reste du site,
 - [ ] **Contre-indications** : troubles cardiaques, épilepsie, troubles anxieux, claustrophobie, grossesse, alcool/stupéfiants (y a-t-il des effets stroboscopiques ?)
 - [ ] Transports et parkings à détailler
 
+## Page « Nous contacter »
+
+- [ ] Adresse de réception des messages du formulaire (contact@memoria-experience.fr ?) et outil d’envoi : 4escape gère-t-il aussi les e-mails de contact, ou faut-il un script / service dédié ?
+- [ ] Contenu de l’e-mail de confirmation envoyé au visiteur (si l’outil le permet)
+- [ ] Informations d’accès au bâtiment : entrée, interphone, étage d’accueil
+
 ## Médias
 
 - [ ] **Photo du hall (hero)** : elle porte le filigrane d’un photographe en bas à gauche → obtenir la licence ou la remplacer par une photo du lieu
