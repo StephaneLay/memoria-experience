@@ -889,180 +889,191 @@ sup { font-size: .6em; line-height: 0; }
 
 .reservation__papier {
   position: relative;
-  isolation: isolate;
-  container-type: inline-size;
   width: min(100% - 2 * var(--gouttiere), 89.25rem);
   margin-inline: auto;
+  padding: clamp(4rem, 7vw, 5.5rem) clamp(1.25rem, 4vw, 3.5rem) clamp(5rem, 9vw, 7rem);
 }
 
-.reservation__label {
-  display: block;
-  margin: 0;
-  padding: 0;
-  font-size: 2.45cqw;
-  line-height: 1.15;
-  text-align: center;
-  text-transform: uppercase;
-}
-.reservation__label--date { display: none; }
-
-.reservation fieldset {
-  min-width: 0;
-  margin: 0;
-  padding: 0;
-  border: 0;
-}
-
-.calendrier {
-  padding: 1.9cqw 1.4cqw 2cqw;
-  border-radius: 10px;
-  background: var(--voile);
-}
-
-.calendrier__entete {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 1.6cqw;
-}
-
-.calendrier__mois {
-  margin: 0;
-  font-size: 2.45cqw;
-  line-height: 1;
-  text-transform: uppercase;
-}
-
-.calendrier__nav {
-  display: grid;
-  place-items: center;
-  width: 2.6cqw;
-  aspect-ratio: 1;
-  border: 0;
-  border-radius: 50%;
-  background: none;
-  cursor: pointer;
-  transition: background-color .25s;
-}
-.calendrier__nav svg { width: .7cqw; height: auto; }
-.calendrier__nav:hover:not(:disabled) { background: rgba(255, 255, 255, .12); }
-.calendrier__nav:disabled { opacity: .25; cursor: default; }
-
-.calendrier__jours-semaine,
-.calendrier__grille {
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  justify-items: center;
-}
-
-.calendrier__jours-semaine {
-  padding-bottom: .5cqw;
-  margin-bottom: .5cqw;
-  border-bottom: 1px solid rgba(255, 255, 255, .35);
-  font-size: 1.4cqw;
-  text-transform: uppercase;
-}
-
-.calendrier__grille { row-gap: .25cqw; }
-
-.calendrier__jour {
-  width: 2.5cqw;
-  aspect-ratio: 1;
-  padding: 0;
-  border: 0;
-  border-radius: 4px;
-  background: none;
-  font-size: 1.75cqw;
-  line-height: 1;
-  cursor: pointer;
-  transition: background-color .25s, color .25s;
-}
-.calendrier__jour:hover:not(:disabled) { background: rgba(255, 255, 255, .14); }
-.calendrier__jour:disabled { opacity: .28; cursor: default; }
-.calendrier__jour.est-aujourdhui { text-decoration: underline; text-underline-offset: .2em; }
-.calendrier__jour[aria-pressed='true'] {
-  background: var(--blanc);
-  color: var(--rouge-sang);
-}
-
-.creneaux__grille {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: .7cqw;
-  margin-top: 1cqw;
-}
-
-.creneau {
-  padding: .85cqw .5cqw;
-  border: 1px solid transparent;
-  border-radius: 10px;
-  background: var(--voile);
-  font-size: 1.75cqw;
-  line-height: 1;
-  cursor: pointer;
-  transition: background-color .25s, border-color .25s, color .25s;
-}
-.creneau:hover { border-color: rgba(255, 255, 255, .45); }
-.creneau[aria-pressed='true'] {
-  background: var(--blanc);
-  color: var(--rouge-sang);
-}
-
-.joueurs__champ {
-  position: relative;
-  display: flex;
-  align-items: center;
-  gap: .85cqw;
-  margin-top: 1cqw;
-  padding: .7cqw 1.4cqw;
-  border-radius: 5px;
-  background: var(--voile);
-}
-.joueurs__champ img { width: 1.75cqw; height: auto; flex: 0 0 auto; }
-.joueurs__champ::after {
-  content: '';
+.reservation__decor {
   position: absolute;
-  right: 1.4cqw;
-  top: 50%;
-  width: .55cqw;
-  aspect-ratio: 1;
-  border-right: 1.5px solid currentColor;
-  border-bottom: 1.5px solid currentColor;
-  transform: translateY(-70%) rotate(45deg);
+  inset: 0;
+  overflow: hidden;
+  background:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='b'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.4' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .5 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23b)'/%3E%3C/svg%3E")
+    var(--rouge-sang);
+  clip-path: polygon(0 3.5%, 8% 1.2%, 17% 2.8%, 29% .4%, 41% 2.4%, 52% .8%, 63% 3%, 74% 1%, 86% 2.6%, 100% .5%, 100% 97%, 91% 99.2%, 79% 97.4%, 66% 99.6%, 54% 97.6%, 41% 99.4%, 29% 97.2%, 16% 99.5%, 6% 97.8%, 0 99%);
   pointer-events: none;
 }
 
-.joueurs select {
-  flex: 1;
-  min-width: 0;
-  padding: 0;
-  border: 0;
-  background: none;
-  font-size: 1.75cqw;
-  cursor: pointer;
-  appearance: none;
+.reservation__fantome {
+  position: absolute;
+  inset: auto 0 0;
+  width: 100%;
+  height: 38%;
+  object-fit: cover;
+  object-position: center 70%;
+  opacity: .35;
+  filter: grayscale(1);
+  -webkit-mask-image: linear-gradient(transparent, #000 70%);
+  mask-image: linear-gradient(transparent, #000 70%);
 }
-.joueurs select:focus-visible { outline: none; }
-.joueurs__champ:focus-within { outline: 2px solid var(--or); outline-offset: 3px; }
-.joueurs option { background: #1a0607; color: var(--blanc); }
 
-.reservation__action { text-align: center; }
+.reservation__contenu { position: relative; }
+
+.reservation__intro {
+  max-width: 42rem;
+  margin: 1.2rem auto 0;
+  color: rgba(255, 255, 255, .88);
+  text-align: center;
+  text-wrap: balance;
+}
+
+.reservation__module {
+  max-width: 76rem;
+  margin: clamp(2rem, 4vw, 3rem) auto 0;
+}
+
+.reservation__attente {
+  margin: 2rem 0 .6rem;
+  letter-spacing: .25em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.reservation__secours {
+  margin: 0;
+  color: rgba(255, 255, 255, .85);
+  text-align: center;
+  animation: apparition .6s 6s both;
+}
+.reservation__secours a { color: var(--blanc); }
 
 .bouton--large { width: 100%; }
 
-.reservation .bouton--large {
-  font-size: 2.45cqw;
-  padding-block: .9cqw;
+html .forescape {
+  --f-primary: var(--blanc);
+  --f-primary-hover: var(--ivoire);
+  --f-text-base-size: 1.15rem;
+  --f-text-base-color: var(--blanc);
+  --f-text-secondary-color: rgba(255, 255, 255, .72);
+  --f-link-color: var(--or);
+  --f-link-color-hover: var(--blanc);
+  --f-top-offset: calc(var(--header-h-compact) + 1rem);
+  --f-scrollbar-thumb-color: rgba(255, 255, 255, .25);
+  --f-highlight-bg-color: transparent;
+  --f-highlight-bg-color-hover: transparent;
+  --f-highlight-text-color: var(--blanc);
+  --f-highlight-text-color-hover: var(--blanc);
+  --f-panel-bg-color: var(--voile);
+  --f-panel-border-color: rgba(255, 255, 255, .12);
+  --f-panel-border-radius: 10px;
+  --f-card-bg-color: var(--voile);
+  --f-card-border-color: rgba(255, 255, 255, .14);
+  --f-card-border-radius: 10px;
+  --f-button-primary-bg-color: var(--nuit);
+  --f-button-primary-bg-color-hover: var(--noir);
+  --f-button-primary-border-color: var(--or-filet);
+  --f-button-primary-border-color-hover: var(--or);
+  --f-button-primary-text-color: var(--blanc);
+  --f-button-primary-border-radius: 10px;
+  --f-button-primary-shadow: 6px 6px 4px rgba(0, 0, 0, .7);
+  --f-button-secondary-bg-color: transparent;
+  --f-button-secondary-bg-color-hover: rgba(255, 255, 255, .1);
+  --f-button-secondary-border-color: rgba(255, 255, 255, .4);
+  --f-button-secondary-text-color: var(--blanc);
+  --f-button-alt-bg-color: transparent;
+  --f-button-alt-bg-color-hover: rgba(255, 255, 255, .1);
+  --f-button-alt-border-color: rgba(255, 255, 255, .4);
+  --f-button-alt-border-color-hover: var(--blanc);
+  --f-button-alt-text-color: var(--blanc);
+  --f-input-bg-color: rgba(0, 0, 0, .45);
+  --f-input-border-color: rgba(255, 255, 255, .25);
+  --f-input-text-color: var(--blanc);
+  --f-input-placeholder-color: rgba(255, 255, 255, .5);
+  --f-input-border-radius: 6px;
+  --f-input-error-border-color: var(--or);
+  --f-input-error-text-color: var(--or);
+  --f-select-option-bg-color: #1a0607;
+  --f-listbox-option-bg-color-hover: rgba(255, 255, 255, .12);
+  --f-switch-bg-color: rgba(255, 255, 255, .25);
+  --f-datepicker-input-bg-color: rgba(0, 0, 0, .45);
+  --f-datepicker-input-text-color: var(--blanc);
+  --f-datepicker-calendar-bg-color: #140405;
+  --f-datepicker-calendar-day-bg-color-hover: rgba(255, 255, 255, .14);
+  --f-datepicker-calendar-today-border-color: rgba(255, 255, 255, .5);
+  --f-datepicker-calendar-disabled-text-color: rgba(255, 255, 255, .3);
+  --f-modal-backdrop-color: rgba(0, 0, 0, .85);
+  --f-modal-bg-color: #140405;
+  --f-modal-button-secondary-bg-color: transparent;
+  --f-modal-button-secondary-bg-color-hover: rgba(255, 255, 255, .1);
+  --f-modal-button-secondary-border-color: rgba(255, 255, 255, .4);
+  --f-modal-button-secondary-text-color: var(--blanc);
+  --f-cart-bg-color: var(--rouge-sang);
+  --f-cart-text-color: var(--blanc);
+  --f-cart-panel-bg-color: #140405;
+  --f-cart-panel-text-color: var(--blanc);
+  --f-cart-button-primary-bg-color: var(--rouge);
+  --f-cart-button-primary-bg-color-hover: #a5171b;
+  --f-cart-button-secondary-bg-color: transparent;
+  --f-cart-button-secondary-bg-color-hover: rgba(255, 255, 255, .1);
+  --f-cart-button-secondary-text-color: var(--blanc);
+  --f-availability-room-slot-available-bg-color: var(--voile);
+  --f-availability-room-slot-unavailable-bg-color: rgba(0, 0, 0, .25);
+  --f-radiogroup-bg-color: rgba(255, 255, 255, .04);
+  --f-radiogroup-border-color: rgba(255, 255, 255, .25);
+  font-family: var(--police-texte);
 }
 
-.reservation__note {
-  margin: .9cqw 0 0;
-  color: rgba(255, 255, 255, .85);
-  font-size: 1.25cqw;
-  text-shadow: 0 1px 6px rgba(0, 0, 0, .9);
-  transition: color .3s;
+html .forescape [class*='f-text-red-'] { color: var(--or); }
+
+html .forescape .f-fixed.f-bg-primary {
+  top: var(--header-h-compact);
+  border-bottom: 1px solid var(--or-filet);
+  background-color: var(--rouge-sang);
+  color: var(--blanc);
 }
-.reservation__note.est-active { color: var(--blanc); }
+
+html .forescape .f-highlight > .f-h3 {
+  font-size: clamp(1.3rem, 1.1rem + .6vw, 1.7rem);
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+html .forescape .f-calendar-classic-slot,
+html .forescape .f-calendar-chocolate-slot {
+  border-color: rgba(255, 255, 255, .3);
+  border-radius: 8px;
+  transition: background-color .25s, border-color .25s, color .25s;
+}
+html .forescape .f-calendar-chocolate-slot { background-color: transparent; }
+html .forescape .f-calendar-chocolate-slot--available:hover,
+html .forescape .f-calendar-classic-slot:not(.f-calendar-bg-disabled):hover { background-color: rgba(255, 255, 255, .14); }
+html .forescape .f-calendar-chocolate-slot-time { font-size: 1.2rem; letter-spacing: .05em; }
+
+html .forescape .f-calendar-classic-slot--selected,
+html .forescape .f-calendar-chocolate-slot--selected {
+  border-color: var(--blanc);
+  background-color: var(--blanc);
+  color: var(--rouge-sang);
+}
+
+html .forescape .f-calendar-chocolate-slot--unavailable,
+html .forescape .f-calendar-bg-disabled { color: rgba(255, 255, 255, .4); }
+
+html .forescape .f-cart--empty { display: none; }
+
+html .forescape .f-cart-toggle-btn {
+  border: 1px solid var(--or-filet);
+  border-right: 0;
+  border-radius: 10px 0 0 10px;
+  box-shadow: -6px 0 24px rgba(0, 0, 0, .7);
+}
+
+html .forescape .f-btn-primary {
+  font-family: var(--police-titre);
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
 
 .histoire {
   position: relative;
@@ -1475,63 +1486,6 @@ sup { font-size: .6em; line-height: 0; }
 .reveal { opacity: 0; }
 .reveal.est-visible { animation: reveler 1.1s var(--ease) var(--delai, 0ms) both; }
 
-@media (min-width: 1100px) {
-  .reservation__papier { aspect-ratio: 1428 / 520; }
-
-  .reservation__fantome {
-    position: absolute;
-    left: 4.55%;
-    top: 6.54%;
-    z-index: -2;
-    width: 95.45%;
-    height: 90.38%;
-    object-fit: cover;
-    object-position: bottom;
-    transform: scaleX(-1);
-    filter: grayscale(1) contrast(1.1) brightness(.85);
-  }
-
-  .reservation__dechirure {
-    position: absolute;
-    left: -2.94%;
-    top: -.77%;
-    z-index: -1;
-    width: 105.16%;
-    max-width: none;
-    height: 114.62%;
-    pointer-events: none;
-  }
-
-  .reservation__contenu {
-    position: relative;
-    height: 100%;
-    padding: 2.4cqw 2.9cqw 0;
-  }
-
-  .reservation__contenu .titre-orne { font-size: 2.45cqw; }
-  .reservation__contenu .titre-orne::before,
-  .reservation__contenu .titre-orne::after { width: 8.8cqw; }
-
-  .reservation__widget {
-    display: grid;
-    grid-template-columns: 25.5cqw 31.8cqw 31.5cqw;
-    grid-template-rows: auto 1fr;
-    column-gap: 2.65cqw;
-    margin-top: 3.2cqw;
-  }
-
-  .calendrier { grid-row: 1 / 3; align-self: start; }
-  .creneaux { grid-row: 1 / 3; align-self: start; }
-  .joueurs { grid-column: 3; grid-row: 1; }
-  .reservation__action {
-    grid-column: 3;
-    grid-row: 2;
-    align-self: start;
-    margin-top: 11.4cqw;
-    padding-inline: 2.6cqw .4cqw;
-  }
-}
-
 @media (max-width: 1099.98px) {
   :root {
     --header-h: 5.25rem;
@@ -1662,28 +1616,7 @@ sup { font-size: .6em; line-height: 0; }
 
   .reservation__papier {
     width: 100%;
-    padding: clamp(4rem, 12vw, 5.5rem) var(--gouttiere) clamp(4.5rem, 14vw, 6rem);
-    overflow: hidden;
-    background:
-      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='b'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.4' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .5 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23b)'/%3E%3C/svg%3E"),
-      var(--rouge-sang);
-    clip-path: polygon(0 3.5%, 8% 1.2%, 17% 2.8%, 29% .4%, 41% 2.4%, 52% .8%, 63% 3%, 74% 1%, 86% 2.6%, 100% .5%, 100% 97%, 91% 99.2%, 79% 97.4%, 66% 99.6%, 54% 97.6%, 41% 99.4%, 29% 97.2%, 16% 99.5%, 6% 97.8%, 0 99%);
-  }
-
-  .reservation__dechirure { display: none; }
-
-  .reservation__fantome {
-    position: absolute;
-    inset: auto 0 0;
-    z-index: -1;
-    width: 100%;
-    height: 34%;
-    object-fit: cover;
-    object-position: center 70%;
-    opacity: .4;
-    filter: grayscale(1);
-    -webkit-mask-image: linear-gradient(transparent, #000 70%);
-    mask-image: linear-gradient(transparent, #000 70%);
+    padding-inline: var(--gouttiere);
   }
 
   .titre-orne > span {
@@ -1695,37 +1628,6 @@ sup { font-size: .6em; line-height: 0; }
     font-size: clamp(1.9rem, 1.2rem + 3vw, 2.6rem);
     flex-wrap: nowrap;
   }
-
-  .reservation__widget {
-    display: grid;
-    gap: 1.9rem;
-    width: min(100%, 34rem);
-    margin: 2rem auto 0;
-  }
-
-  .reservation__label { font-size: clamp(1.4rem, 1.1rem + 1.2vw, 1.8rem); }
-  .reservation__label--date { display: block; margin-bottom: .7rem; }
-
-  .calendrier { padding: 1rem 1.1rem 1.2rem; }
-  .calendrier__entete { margin-bottom: .9rem; }
-  .calendrier__mois { font-size: 1.45rem; }
-  .calendrier__nav { width: 2.3rem; }
-  .calendrier__nav svg { width: .5rem; }
-  .calendrier__jours-semaine { font-size: 1rem; padding-bottom: .4rem; margin-bottom: .4rem; }
-  .calendrier__grille { row-gap: .2rem; }
-  .calendrier__jour { width: 2.3rem; font-size: 1.2rem; }
-
-  .creneaux__grille { grid-template-columns: repeat(2, 1fr); gap: .6rem; margin-top: .8rem; }
-  .creneau { padding: .7rem .5rem; font-size: 1.3rem; }
-
-  .joueurs__champ { gap: .7rem; margin-top: .8rem; padding: .7rem 1rem; }
-  .joueurs__champ img { width: 1.5rem; }
-  .joueurs__champ::after { right: 1.1rem; width: .5rem; }
-  .joueurs select { font-size: 1.3rem; }
-
-  .reservation .bouton--large { font-size: 1.5rem; padding-block: .8rem; }
-  .reservation__note,
-  .reservation__note.est-active { margin-top: .8rem; font-size: 1.05rem; }
 
   .infos__grille { grid-template-columns: 1fr; }
 }
@@ -3776,7 +3678,6 @@ a.coordonnee__valeur:hover { color: var(--or); }
   font-size: clamp(1.15rem, 1.05rem + .3vw, 1.35rem);
   line-height: 1.3;
 }
-.confirmation__apercu { max-width: 32rem; margin: 0; color: var(--gris); font-size: .98rem; line-height: 1.3; }
 .confirmation .bouton { margin-top: .6rem; }
 
 .venir {

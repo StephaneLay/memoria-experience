@@ -182,7 +182,9 @@
           <a href="mailto:presse@memoria-experience.fr">{{t:presse.contact.email}}</a>
         </p>
       </div>
-      <form class="formulaire" data-formulaire data-message="{{t:formulaire.envoiAttente}}" data-reveal>
+      <form class="formulaire" action="{{ROOT}}scripts/formulaire.php" method="post" data-formulaire data-message="{{t:formulaire.envoiAttente}}" data-reveal data-message-envoi="{{t:formulaire.envoiEnCours}}" data-message-succes="{{t:formulaire.envoiSucces}}" data-message-erreur="{{t:formulaire.envoiErreur}}">
+        <input type="hidden" name="formulaire" value="presse">
+        <input type="hidden" name="langue" value="{{LANG}}">
         <div class="champs">
           <div class="champ">
             <label for="presse-nom">{{t:formulaire.nom}} <span aria-hidden="true">*</span></label>

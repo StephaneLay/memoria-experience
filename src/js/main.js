@@ -340,17 +340,46 @@
   }
 
   document.querySelectorAll('[data-formulaire]').forEach(function (formulaireContact) {
+    var statut = formulaireContact.querySelector('[data-formulaire-statut]');
+    var bouton = formulaireContact.querySelector('[type="submit"]');
+    var confirmationCible = document.getElementById(formulaireContact.getAttribute('data-confirmation-cible') || '');
+
+    var afficherStatut = function (attribut) {
+      statut.textContent = formulaireContact.getAttribute(attribut);
+      statut.classList.add('est-active');
+    };
+
     formulaireContact.addEventListener('submit', function (evenement) {
-      if (formulaireContact.getAttribute('action')) return;
       evenement.preventDefault();
-      var confirmationCible = document.getElementById(formulaireContact.getAttribute('data-confirmation-cible') || '');
-      if (confirmationCible) {
-        afficherConfirmation(formulaireContact, confirmationCible);
+      var action = formulaireContact.getAttribute('action');
+      if (!action) {
+        if (confirmationCible) afficherConfirmation(formulaireContact, confirmationCible);
+        else afficherStatut('data-message');
         return;
       }
-      var statut = formulaireContact.querySelector('[data-formulaire-statut]');
-      statut.textContent = formulaireContact.getAttribute('data-message');
-      statut.classList.add('est-active');
+
+      bouton.disabled = true;
+      afficherStatut('data-message-envoi');
+      fetch(action, { method: 'POST', body: new FormData(formulaireContact), headers: { Accept: 'application/json' } })
+        .then(function (reponse) {
+          if (reponse.status === 404 || reponse.status === 405) return 'apercu';
+          return reponse.json().then(function (resultat) { return resultat.ok ? 'envoye' : 'erreur'; });
+        })
+        .catch(function () { return 'erreur'; })
+        .then(function (issue) {
+          bouton.disabled = false;
+          if (issue === 'envoye') {
+            if (confirmationCible) {
+              afficherConfirmation(formulaireContact, confirmationCible);
+              statut.textContent = '';
+            } else {
+              afficherStatut('data-message-succes');
+            }
+            formulaireContact.reset();
+            return;
+          }
+          afficherStatut(issue === 'apercu' ? 'data-message' : 'data-message-erreur');
+        });
     });
   });
 
@@ -479,96 +508,30 @@
     majFormule();
   }
 
-  var formulaire = document.querySelector('[data-reservation]');
-  if (formulaire) {
-    var calendrier = formulaire.querySelector('[data-calendrier]');
-    var grille = calendrier.querySelector('[data-grille]');
-    var libelleMois = calendrier.querySelector('[data-mois-libelle]');
-    var precedent = calendrier.querySelector('[data-mois="-1"]');
-    var aujourdHui = new Date();
-    aujourdHui.setHours(0, 0, 0, 0);
-    var premierMois = new Date(aujourdHui.getFullYear(), aujourdHui.getMonth(), 1);
-    var dernierMois = new Date(aujourdHui.getFullYear(), aujourdHui.getMonth() + 6, 1);
-    var moisAffiche = new Date(premierMois);
-    var dateChoisie = null;
-    var formatMois = new Intl.DateTimeFormat(langue, { month: 'long', year: 'numeric' });
-    var formatJour = new Intl.DateTimeFormat(langue, { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
-    var formatInitiale = new Intl.DateTimeFormat(langue, { weekday: 'narrow' });
-
-    var joursSemaine = calendrier.querySelector('[data-jours-semaine]');
-    for (var jour = 0; jour < 7; jour++) {
-      var initiale = document.createElement('span');
-      initiale.textContent = formatInitiale.format(new Date(2024, 0, 1 + jour));
-      joursSemaine.appendChild(initiale);
-    }
-
-    var estOuvert = function (date) {
-      return date.getDay() !== 1 && date.getDay() !== 2;
+  var modules4escape = document.querySelectorAll('.forescape-catalog, .forescape-cart');
+  if (modules4escape.length) {
+    var charger4escape = function () {
+      var feuille = document.createElement('link');
+      feuille.rel = 'stylesheet';
+      feuille.href = 'https://widgets.4escape.app/main.css';
+      feuille.crossOrigin = 'anonymous';
+      document.head.appendChild(feuille);
+      var script = document.createElement('script');
+      script.type = 'module';
+      script.src = 'https://widgets.4escape.app/main.js';
+      document.body.appendChild(script);
     };
 
-    var afficherMois = function () {
-      var annee = moisAffiche.getFullYear();
-      var mois = moisAffiche.getMonth();
-      libelleMois.textContent = formatMois.format(moisAffiche);
-      precedent.disabled = moisAffiche <= premierMois;
-      calendrier.querySelector('[data-mois="1"]').disabled = moisAffiche >= dernierMois;
-      grille.innerHTML = '';
-
-      for (var vide = (new Date(annee, mois, 1).getDay() + 6) % 7; vide > 0; vide--) {
-        grille.appendChild(document.createElement('span'));
-      }
-
-      for (var numero = 1, total = new Date(annee, mois + 1, 0).getDate(); numero <= total; numero++) {
-        var date = new Date(annee, mois, numero);
-        var bouton = document.createElement('button');
-        var etiquette = formatJour.format(date);
-        bouton.type = 'button';
-        bouton.className = 'calendrier__jour';
-        bouton.textContent = String(numero);
-        bouton.setAttribute('data-date', String(date.getTime()));
-        if (date < aujourdHui || !estOuvert(date)) {
-          bouton.disabled = true;
-          if (!estOuvert(date)) etiquette += ' (' + calendrier.getAttribute('data-ferme') + ')';
+    if ('IntersectionObserver' in window) {
+      var observateur4escape = new IntersectionObserver(function (entrees) {
+        if (entrees.some(function (entree) { return entree.isIntersecting; })) {
+          observateur4escape.disconnect();
+          charger4escape();
         }
-        if (date.getTime() === aujourdHui.getTime()) bouton.classList.add('est-aujourdhui');
-        bouton.setAttribute('aria-label', etiquette);
-        bouton.setAttribute('aria-pressed', dateChoisie && dateChoisie.getTime() === date.getTime() ? 'true' : 'false');
-        grille.appendChild(bouton);
-      }
-    };
-
-    grille.addEventListener('click', function (evenement) {
-      var bouton = evenement.target.closest('.calendrier__jour');
-      if (!bouton || bouton.disabled) return;
-      dateChoisie = new Date(Number(bouton.getAttribute('data-date')));
-      grille.querySelectorAll('.calendrier__jour').forEach(function (autre) {
-        autre.setAttribute('aria-pressed', autre === bouton ? 'true' : 'false');
-      });
-    });
-
-    calendrier.querySelectorAll('[data-mois]').forEach(function (navigation) {
-      navigation.addEventListener('click', function () {
-        moisAffiche = new Date(moisAffiche.getFullYear(), moisAffiche.getMonth() + Number(navigation.getAttribute('data-mois')), 1);
-        afficherMois();
-      });
-    });
-
-    var creneaux = formulaire.querySelectorAll('.creneau');
-    creneaux.forEach(function (creneau) {
-      creneau.addEventListener('click', function () {
-        creneaux.forEach(function (autre) {
-          autre.setAttribute('aria-pressed', autre === creneau ? 'true' : 'false');
-        });
-      });
-    });
-
-    formulaire.addEventListener('submit', function (evenement) {
-      evenement.preventDefault();
-      var note = formulaire.querySelector('[data-reservation-note]');
-      note.textContent = formulaire.getAttribute('data-message');
-      note.classList.add('est-active');
-    });
-
-    afficherMois();
+      }, { rootMargin: '900px 0px' });
+      modules4escape.forEach(function (module) { observateur4escape.observe(module); });
+    } else {
+      charger4escape();
+    }
   }
 })();

@@ -68,19 +68,9 @@
   },
   "reservation": {
     "titre": "Réservez votre session",
-    "date": "Date",
-    "moisPrecedent": "Mois précédent",
-    "moisSuivant": "Mois suivant",
-    "ferme": "fermé",
-    "horaires": "Horaires disponibles",
-    "joueurs": "Nombre de joueurs",
-    "joueursOption3": "3 joueurs",
-    "joueursOption4": "4 joueurs",
-    "joueursOption5": "5 joueurs",
-    "joueursOption6": "6 joueurs",
-    "bouton": "Réserver",
-    "note": "La réservation en ligne ouvrira très prochainement.",
-    "message": "Merci ! La réservation en ligne ouvre très bientôt."
+    "intro": "Choisissez le nombre de joueurs, la date et l’horaire : la confirmation vous est envoyée par e-mail dès le paiement validé.",
+    "chargement": "Chargement des disponibilités…",
+    "secours": "Le calendrier ne s’affiche pas ? <a href=\"https://memoria-experience.4escape.io/\" target=\"_blank\" rel=\"noopener\">Réservez sur notre billetterie en ligne</a> ou <a href=\"contact.html?sujet=reservation#formulaire\">contactez-nous</a>."
   },
   "histoire": {
     "titre": "Histoire",
@@ -246,7 +236,10 @@
     "obligatoires": "Les champs marqués d’un astérisque (*) sont obligatoires.",
     "consentement": "J’accepte que mes données soient utilisées pour répondre à ma demande, conformément à la <a href=\"confidentialite.html\">politique de confidentialité</a>.",
     "piege": "Ne pas remplir ce champ",
-    "envoiAttente": "Merci ! Votre demande est prête. L’envoi en ligne sera activé à la mise en ligne du site ; en attendant, écrivez-nous à contact@memoria-experience.fr."
+    "envoiAttente": "Aperçu du site : l’envoi des formulaires fonctionnera une fois le site en ligne. En attendant, écrivez-nous à contact@memoria-experience.fr.",
+    "envoiEnCours": "Envoi en cours…",
+    "envoiSucces": "Merci ! Votre demande a bien été envoyée : nous vous répondons au plus vite.",
+    "envoiErreur": "L’envoi n’a pas abouti. Réessayez dans quelques minutes ou écrivez-nous directement à contact@memoria-experience.fr."
   },
   "packCadeau": {
     "meta": {
@@ -814,7 +807,6 @@
       "bouton": "Envoyer mon message",
       "merci": "Merci",
       "confirmation": "Votre message a bien été envoyé. Notre équipe vous répond sous 48 heures, à l’adresse e-mail indiquée.",
-      "apercu": "Aperçu : l’envoi réel des messages sera activé à la mise en ligne du site. En attendant, écrivez-nous à contact@memoria-experience.fr.",
       "nouveau": "Envoyer un autre message"
     },
     "venir": {
@@ -856,7 +848,7 @@
       },
       "s3": {
         "titre": "Hébergement",
-        "contenu": "<p>Le site est hébergé par :</p><ul><li><span class=\"a-completer\">[Nom de l’hébergeur]</span></li><li><span class=\"a-completer\">[Adresse de l’hébergeur]</span></li><li><span class=\"a-completer\">[Téléphone ou site web de l’hébergeur]</span></li></ul>"
+        "contenu": "<p>Le site est hébergé par :</p><ul><li>OVH SAS (OVHcloud)</li><li>2 rue Kellermann, 59100 Roubaix, France</li><li><a href=\"https://www.ovhcloud.com/fr/\" target=\"_blank\" rel=\"noopener\">www.ovhcloud.com</a></li></ul><p>Les fichiers du site sont stockés dans un centre de données situé en France (Gravelines).</p>"
       },
       "s4": {
         "titre": "Conception et réalisation",
@@ -898,7 +890,7 @@
       },
       "s3": {
         "titre": "Article 3 — Réservation et paiement",
-        "contenu": "<p>La réservation s’effectue en ligne via la plateforme de réservation <span class=\"a-completer\">[nom de la plateforme, ex. : 4escape]</span>. Elle n’est définitive qu’après paiement intégral, réalisé par <span class=\"a-completer\">[moyens de paiement acceptés]</span> sur une interface sécurisée. Un e-mail de confirmation récapitulant la date, l’horaire, le nombre de joueurs et le niveau d’intensité est alors adressé au client.</p>"
+        "contenu": "<p>La réservation s’effectue en ligne via la plateforme de réservation 4escape. Elle n’est définitive qu’après paiement intégral, réalisé par <span class=\"a-completer\">[moyens de paiement acceptés]</span> sur une interface sécurisée. Un e-mail de confirmation récapitulant la date, l’horaire, le nombre de joueurs et le niveau d’intensité est alors adressé au client.</p>"
       },
       "s4": {
         "titre": "Article 4 — Conditions de participation",
@@ -960,7 +952,7 @@
       },
       "s2": {
         "titre": "Données collectées",
-        "contenu": "<ul><li><strong>Formulaires du site</strong> (contact, demande de devis, pack personnalisé, presse, bon cadeau) : nom, prénom, adresse e-mail, téléphone, entreprise le cas échéant, contenu de votre message et informations sur votre projet.</li><li><strong>Réservations et achats</strong> : données nécessaires à la réservation et au paiement, collectées par notre plateforme de réservation <span class=\"a-completer\">[nom de la plateforme]</span>. Les données bancaires sont traitées exclusivement par le prestataire de paiement et ne sont jamais conservées par Memoria.</li><li><strong>Navigation</strong> : données techniques (adresse IP, navigateur, pages consultées) enregistrées par notre hébergeur pour assurer la sécurité et le bon fonctionnement du site.</li></ul><p>Nous ne collectons que les données strictement nécessaires. Ne nous transmettez pas de données de santé : en cas de question médicale, décrivez simplement votre situation, nous vous répondrons sans conserver ces informations au-delà du nécessaire.</p>"
+        "contenu": "<ul><li><strong>Formulaires du site</strong> (contact, demande de devis, pack personnalisé, presse, bon cadeau) : nom, prénom, adresse e-mail, téléphone, entreprise le cas échéant, contenu de votre message et informations sur votre projet.</li><li><strong>Réservations et achats</strong> : données nécessaires à la réservation et au paiement, collectées par notre plateforme de réservation 4escape. Les données bancaires sont traitées exclusivement par le prestataire de paiement et ne sont jamais conservées par Memoria.</li><li><strong>Navigation</strong> : données techniques (adresse IP, navigateur, pages consultées) enregistrées par notre hébergeur pour assurer la sécurité et le bon fonctionnement du site.</li></ul><p>Nous ne collectons que les données strictement nécessaires. Ne nous transmettez pas de données de santé : en cas de question médicale, décrivez simplement votre situation, nous vous répondrons sans conserver ces informations au-delà du nécessaire.</p>"
       },
       "s3": {
         "titre": "Finalités et bases légales",
@@ -968,7 +960,7 @@
       },
       "s4": {
         "titre": "Destinataires",
-        "contenu": "<p>Vos données sont destinées à l’équipe de Memoria. Elles peuvent être transmises à nos prestataires techniques, dans la limite de leurs missions : hébergement du site (<span class=\"a-completer\">[hébergeur]</span>), réservation et paiement (<span class=\"a-completer\">[plateforme de réservation]</span>), envoi des e-mails (<span class=\"a-completer\">[service d’envoi]</span>). Elles ne sont jamais vendues ni cédées à des tiers à des fins commerciales.</p>"
+        "contenu": "<p>Vos données sont destinées à l’équipe de Memoria. Elles peuvent être transmises à nos prestataires techniques, dans la limite de leurs missions : hébergement du site et envoi des formulaires (OVHcloud, en France), réservation, paiement et e-mails de confirmation (4escape), messagerie de l’équipe (Google). Elles ne sont jamais vendues ni cédées à des tiers à des fins commerciales.</p>"
       },
       "s5": {
         "titre": "Transferts hors de l’Union européenne",
@@ -1006,11 +998,11 @@
       },
       "s2": {
         "titre": "Ce que ce site utilise aujourd’hui",
-        "contenu": "<p>À ce jour, le site Memoria n’utilise <strong>aucun cookie publicitaire ni de mesure d’audience</strong>. Le seul élément stocké sur votre appareil est une préférence d’affichage, déposée uniquement si vous utilisez la fonction concernée :</p><div class=\"tableau-defilant\"><table class=\"legal__tableau\"><thead><tr><th scope=\"col\">Nom</th><th scope=\"col\">Finalité</th><th scope=\"col\">Durée</th><th scope=\"col\">Type</th></tr></thead><tbody><tr><td>memoria-lampe</td><td>Mémoriser l’activation de la lampe torche</td><td>Jusqu’à suppression par l’utilisateur</td><td>Stockage local, fonctionnel</td></tr></tbody></table></div><p>Cet élément sert uniquement à retenir votre choix d’affichage et ne nécessite pas de consentement.</p>"
+        "contenu": "<p>À ce jour, le site Memoria n’utilise <strong>aucun cookie publicitaire ni de mesure d’audience</strong>. Les seuls éléments stockés sur votre appareil sont techniques : une préférence d’affichage, et les données du module de réservation lorsque celui-ci se charge (en approchant de la section « Réservez votre session » de l’accueil).</p><div class=\"tableau-defilant\"><table class=\"legal__tableau\"><thead><tr><th scope=\"col\">Nom</th><th scope=\"col\">Finalité</th><th scope=\"col\">Durée</th><th scope=\"col\">Type</th></tr></thead><tbody><tr><td>memoria-lampe</td><td>Mémoriser l’activation de la lampe torche</td><td>Jusqu’à suppression par l’utilisateur</td><td>Stockage local, fonctionnel</td></tr><tr><td>forescapeStoreOrder</td><td>Conserver votre panier de réservation (identifiant de commande)</td><td>Jusqu’à suppression par l’utilisateur</td><td>Stockage local, nécessaire (4escape)</td></tr><tr><td>forescapeLayout</td><td>Mémoriser la langue du module de réservation</td><td>Jusqu’à suppression par l’utilisateur</td><td>Stockage local, fonctionnel (4escape)</td></tr><tr><td>forescapeAnalytics</td><td><span class=\"a-completer\">[finalité à confirmer par 4escape]</span></td><td>Jusqu’à suppression par l’utilisateur</td><td>Stockage local (4escape)</td></tr><tr><td>forescape</td><td>État technique du module pendant la visite</td><td>Fin de la session</td><td>Stockage de session, nécessaire (4escape)</td></tr></tbody></table></div><p>Ces éléments sont nécessaires au fonctionnement de la réservation ou à vos choix d’affichage et ne requièrent pas de consentement.</p>"
       },
       "s3": {
         "titre": "Services tiers",
-        "contenu": "<ul><li><strong>Google Maps</strong> : le plan affiché sur le site est une simple image ; aucun cookie Google n’est déposé tant que vous ne cliquez pas sur « Voir sur la carte » ou « Itinéraire », qui vous redirigent vers Google Maps.</li><li><strong>YouTube</strong> : la bande-annonce est intégrée en mode « confidentialité renforcée » et ne se charge que lorsque vous lancez la vidéo. YouTube peut alors déposer ses propres cookies.</li><li><strong>Réservation en ligne</strong> : le module de réservation <span class=\"a-completer\">[nom de la plateforme]</span> peut déposer des cookies nécessaires à la réservation et au paiement. <span class=\"a-completer\">[À compléter une fois le module intégré.]</span></li></ul>"
+        "contenu": "<ul><li><strong>Google Maps</strong> : le plan affiché sur le site est une simple image ; aucun cookie Google n’est déposé tant que vous ne cliquez pas sur « Voir sur la carte » ou « Itinéraire », qui vous redirigent vers Google Maps.</li><li><strong>YouTube</strong> : la bande-annonce est intégrée en mode « confidentialité renforcée » et ne se charge que lorsque vous lancez la vidéo. YouTube peut alors déposer ses propres cookies.</li><li><strong>Réservation en ligne</strong> : le module de réservation et de paiement est fourni par 4escape (memoria-experience.4escape.io). Il ne se charge que sur la page d’accueil, à l’approche de la section de réservation. Lors du paiement, son prestataire de paiement peut déposer des cookies nécessaires à la sécurité de la transaction et à la prévention de la fraude. <span class=\"a-completer\">[Liste exacte des traceurs du paiement à confirmer par 4escape.]</span></li></ul>"
       },
       "s4": {
         "titre": "Mesure d’audience",

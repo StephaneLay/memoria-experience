@@ -166,56 +166,20 @@
   </section>
 
   <section class="reservation" id="reservation" aria-labelledby="reservation-titre">
-    <div class="reservation__papier" data-reveal>
-      <img class="reservation__fantome" src="{{ROOT}}images/reservation-fantome.webp" alt="" width="1024" height="577" loading="lazy">
-      <img class="reservation__dechirure" src="{{ROOT}}images/papier-dechire.svg" alt="" width="1502" height="596" loading="lazy">
+    <div class="reservation__papier">
+      <div class="reservation__decor" aria-hidden="true">
+        <img class="reservation__fantome" src="{{ROOT}}images/reservation-fantome.webp" alt="" width="1024" height="577" loading="lazy">
+      </div>
       <div class="reservation__contenu">
-        <h2 class="titre-orne titre-orne--clair" id="reservation-titre"><span>{{t:reservation.titre}}</span></h2>
-        <form class="reservation__widget" data-reservation data-message="{{t:reservation.message}}">
-          <fieldset class="calendrier" data-calendrier data-ferme="{{t:reservation.ferme}}">
-            <legend class="reservation__label reservation__label--date">{{t:reservation.date}}</legend>
-            <div class="calendrier__entete">
-              <button class="calendrier__nav" type="button" data-mois="-1" aria-label="{{t:reservation.moisPrecedent}}">
-                <svg viewBox="0 0 8 14" width="8" height="14" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M7 1 1 7l6 6"/></svg>
-              </button>
-              <p class="calendrier__mois" aria-live="polite" data-mois-libelle></p>
-              <button class="calendrier__nav" type="button" data-mois="1" aria-label="{{t:reservation.moisSuivant}}">
-                <svg viewBox="0 0 8 14" width="8" height="14" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="m1 1 6 6-6 6"/></svg>
-              </button>
-            </div>
-            <div class="calendrier__jours-semaine" aria-hidden="true" data-jours-semaine></div>
-            <div class="calendrier__grille" data-grille></div>
-          </fieldset>
-          <fieldset class="creneaux">
-            <legend class="reservation__label">{{t:reservation.horaires}}</legend>
-            <div class="creneaux__grille">
-              <button class="creneau" type="button" aria-pressed="false">10:00</button>
-              <button class="creneau" type="button" aria-pressed="false">11:45</button>
-              <button class="creneau" type="button" aria-pressed="false">13:30</button>
-              <button class="creneau" type="button" aria-pressed="false">15:15</button>
-              <button class="creneau" type="button" aria-pressed="false">17:00</button>
-              <button class="creneau" type="button" aria-pressed="false">18:45</button>
-              <button class="creneau" type="button" aria-pressed="false">20:30</button>
-              <button class="creneau" type="button" aria-pressed="false">21:30</button>
-            </div>
-          </fieldset>
-          <div class="joueurs">
-            <label class="reservation__label" for="joueurs">{{t:reservation.joueurs}}</label>
-            <div class="joueurs__champ">
-              <img src="{{ROOT}}images/picto-joueurs.svg" alt="" width="25" height="21">
-              <select id="joueurs" name="joueurs">
-                <option value="3">{{t:reservation.joueursOption3}}</option>
-                <option value="4">{{t:reservation.joueursOption4}}</option>
-                <option value="5">{{t:reservation.joueursOption5}}</option>
-                <option value="6">{{t:reservation.joueursOption6}}</option>
-              </select>
-            </div>
+        <h2 class="titre-orne titre-orne--clair" id="reservation-titre" data-reveal><span>{{t:reservation.titre}}</span></h2>
+        <p class="reservation__intro" data-reveal>{{t:reservation.intro}}</p>
+        <div class="reservation__module">
+          <div class="forescape-catalog" data-widget-id="b621c6a9-8b98-4882-9bf5-554f51ad0de2" data-redirect-route="/room/6ad21dacaa0dcf48cd96b8cc?wid=1c42f479-5ed5-49ed-85a4-3a156636b1ee" data-settings="b64.eyJkb21haW4iOiJtZW1vcmlhLWV4cGVyaWVuY2UuNGVzY2FwZS5pbyJ9" data-lng="{{LANG}}">
+            <p class="reservation__attente" role="status">{{t:reservation.chargement}}</p>
+            <p class="reservation__secours">{{t:reservation.secours}}</p>
           </div>
-          <div class="reservation__action">
-            <button class="bouton bouton--rouge bouton--large" type="submit">{{t:reservation.bouton}}</button>
-            <p class="reservation__note" data-reservation-note role="status">{{t:reservation.note}}</p>
-          </div>
-        </form>
+          <div class="forescape-cart" data-settings="b64.eyJkb21haW4iOiJtZW1vcmlhLWV4cGVyaWVuY2UuNGVzY2FwZS5pbyJ9" data-lng="{{LANG}}"></div>
+        </div>
       </div>
     </div>
   </section>

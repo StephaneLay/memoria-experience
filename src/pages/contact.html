@@ -96,7 +96,9 @@
       </aside>
 
       <div class="contact__formulaire" id="formulaire" data-reveal>
-        <form class="formulaire" data-formulaire data-confirmation-cible="contact-confirmation" data-message="{{t:formulaire.envoiAttente}}">
+        <form class="formulaire" action="{{ROOT}}scripts/formulaire.php" method="post" data-formulaire data-confirmation-cible="contact-confirmation" data-message="{{t:formulaire.envoiAttente}}" data-message-envoi="{{t:formulaire.envoiEnCours}}" data-message-succes="{{t:formulaire.envoiSucces}}" data-message-erreur="{{t:formulaire.envoiErreur}}">
+          <input type="hidden" name="formulaire" value="contact">
+          <input type="hidden" name="langue" value="{{LANG}}">
           <h2 class="formulaire__titre">{{t:contact.formulaire.titre}}</h2>
           <div class="champs">
             <div class="champ">
@@ -153,7 +155,6 @@
           <img class="confirmation__embleme" src="{{ROOT}}images/embleme-or.webp" alt="" width="340" height="488" loading="lazy">
           <h2 class="titre-orne"><span>{{t:contact.formulaire.merci}}<span data-confirmation-prenom></span></span></h2>
           <p class="confirmation__texte">{{t:contact.formulaire.confirmation}}</p>
-          <p class="confirmation__apercu" data-confirmation-apercu>{{t:contact.formulaire.apercu}}</p>
           <button class="bouton bouton--contour" type="button" data-confirmation-retour>{{t:contact.formulaire.nouveau}}</button>
         </div>
       </div>

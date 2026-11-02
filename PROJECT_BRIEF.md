@@ -25,10 +25,24 @@ Site vitrine statique et bilingue (FR / EN) pour **Memoria**, une expérience im
 - Une seule source par page, textes dans `src/i18n/*.json`, build bloquant si une traduction manque.
 - Préversion sur GitHub Pages (non indexée) ; hébergeur définitif à confirmer.
 
-## Intégrations prévues
+## Intégrations
 
-- **Réservation : 4escape**. Le client n’a pas encore les accès : la section réservation est un aperçu visuel fidèle à la maquette (non connecté), à remplacer par le widget 4escape.
+- **Réservation : 4escape**, intégrée sur l’accueil (widget catalogue + panier, habillé aux couleurs du site). Compte `memoria-experience.4escape.io` en phase de test : paiement 4escape Pay en mode test, créneaux d’essai. Détails techniques dans le README, réglages restants dans QUESTIONS_CLIENT.
 - **Bande-annonce YouTube** : fenêtre vidéo prête, identifiant de la vidéo à fournir.
+- **Domaine et hébergement** : `memoria-experience.fr` chez OVH, hébergement « Free hosting » (100 Mo, PHP 8.2, centre de données de Gravelines, dépôt des fichiers par FTP) ; messagerie chez Google (contact@ passe par Gmail).
+
+Inventaire des éléments du site liés à 4escape (au 2 novembre 2026) :
+
+| Élément du site | Solution |
+| --- | --- |
+| Réservation (accueil, onglet « Réserver », bouton du hero, liens de la FAQ) | Widget catalogue → « Session classique » : **fait** |
+| Bons cadeaux (page Pack cadeau, bouton « Offrir MEMORIA ») | Produit « bon cadeau » + widget catalogue dédié, **à créer dans 4escape** ; le démonstrateur actuel sera remplacé par ce widget |
+| Utilisation d’un bon lors de la réservation | Gérée par 4escape au paiement (code), rien à faire côté site |
+| Choix du niveau d’intensité à la réservation (FAQ, CGV) | Option à créer sur la room dans 4escape (emplacement déjà prévu par le widget) |
+| Paiement partagé entre joueurs (FAQ) | Option « paiement partagé » de 4escape, désactivée pour l’instant |
+| E-mails de confirmation, factures, avoirs, reçus | 4escape (Mailjet à configurer avec Andrea, templates à compléter) |
+| Formulaires contact, devis team building, pack personnalisé, presse | **Pas de widget 4escape** : script PHP du site sur l’hébergement OVH, envoi vers contact@ : **fait** (testé en local) ; les devis sont ensuite édités dans 4escape |
+| Prochains créneaux libres (optionnel) | Widget « disponibilités » de 4escape, existant |
 
 ## Pages
 

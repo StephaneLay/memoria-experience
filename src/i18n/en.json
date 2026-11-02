@@ -68,19 +68,9 @@
   },
   "reservation": {
     "titre": "Book your session",
-    "date": "Date",
-    "moisPrecedent": "Previous month",
-    "moisSuivant": "Next month",
-    "ferme": "closed",
-    "horaires": "Available times",
-    "joueurs": "Number of players",
-    "joueursOption3": "3 players",
-    "joueursOption4": "4 players",
-    "joueursOption5": "5 players",
-    "joueursOption6": "6 players",
-    "bouton": "Book",
-    "note": "Online booking will open very soon.",
-    "message": "Thank you! Online booking opens very soon."
+    "intro": "Choose the number of players, the date and the time: your confirmation is emailed to you as soon as payment is complete.",
+    "chargement": "Loading availability…",
+    "secours": "Calendar not showing? <a href=\"https://memoria-experience.4escape.io/\" target=\"_blank\" rel=\"noopener\">Book on our online ticketing page</a> or <a href=\"contact.html?sujet=reservation#formulaire\">contact us</a>."
   },
   "histoire": {
     "titre": "Story",
@@ -246,7 +236,10 @@
     "obligatoires": "Fields marked with an asterisk (*) are required.",
     "consentement": "I agree that my data may be used to answer my request, in accordance with the <a href=\"confidentialite.html\">privacy policy</a>.",
     "piege": "Leave this field empty",
-    "envoiAttente": "Thank you! Your request is ready. Online sending will be activated when the site goes live; in the meantime, write to us at contact@memoria-experience.fr."
+    "envoiAttente": "Website preview: forms will be sent once the website is live. In the meantime, email us at contact@memoria-experience.fr.",
+    "envoiEnCours": "Sending…",
+    "envoiSucces": "Thank you! Your request has been sent: we will get back to you as soon as possible.",
+    "envoiErreur": "Your message could not be sent. Please try again in a few minutes or email us directly at contact@memoria-experience.fr."
   },
   "packCadeau": {
     "meta": {
@@ -814,7 +807,6 @@
       "bouton": "Send my message",
       "merci": "Thank you",
       "confirmation": "Your message has been sent. Our team will reply within 48 hours, to the email address you provided.",
-      "apercu": "Preview: messages will actually be sent once the site goes live. In the meantime, write to us at contact@memoria-experience.fr.",
       "nouveau": "Send another message"
     },
     "venir": {
@@ -856,7 +848,7 @@
       },
       "s3": {
         "titre": "Hosting",
-        "contenu": "<p>The website is hosted by:</p><ul><li><span class=\"a-completer\">[Host name]</span></li><li><span class=\"a-completer\">[Host address]</span></li><li><span class=\"a-completer\">[Host phone number or website]</span></li></ul>"
+        "contenu": "<p>The website is hosted by:</p><ul><li>OVH SAS (OVHcloud)</li><li>2 rue Kellermann, 59100 Roubaix, France</li><li><a href=\"https://www.ovhcloud.com/en/\" target=\"_blank\" rel=\"noopener\">www.ovhcloud.com</a></li></ul><p>The website’s files are stored in a data centre located in France (Gravelines).</p>"
       },
       "s4": {
         "titre": "Design and development",
@@ -898,7 +890,7 @@
       },
       "s3": {
         "titre": "Article 3 — Booking and payment",
-        "contenu": "<p>Bookings are made online via the <span class=\"a-completer\">[booking platform name, e.g. 4escape]</span> platform. A booking is only final once paid in full by <span class=\"a-completer\">[accepted payment methods]</span> on a secure interface. A confirmation email summarising the date, time, number of players and intensity level is then sent to the customer.</p>"
+        "contenu": "<p>Bookings are made online via the 4escape platform. A booking is only final once paid in full by <span class=\"a-completer\">[accepted payment methods]</span> on a secure interface. A confirmation email summarising the date, time, number of players and intensity level is then sent to the customer.</p>"
       },
       "s4": {
         "titre": "Article 4 — Conditions of participation",
@@ -960,7 +952,7 @@
       },
       "s2": {
         "titre": "Data collected",
-        "contenu": "<ul><li><strong>Website forms</strong> (contact, quote request, tailor-made pack, press, gift voucher): last name, first name, email address, phone number, company where applicable, the content of your message and information about your project.</li><li><strong>Bookings and purchases</strong>: data needed for booking and payment, collected by our booking platform <span class=\"a-completer\">[platform name]</span>. Bank details are processed exclusively by the payment provider and are never stored by Memoria.</li><li><strong>Browsing</strong>: technical data (IP address, browser, pages visited) logged by our host to keep the website secure and working properly.</li></ul><p>We only collect strictly necessary data. Please do not send us health data: if you have a medical question, simply describe your situation and we will answer without keeping this information longer than necessary.</p>"
+        "contenu": "<ul><li><strong>Website forms</strong> (contact, quote request, tailor-made pack, press, gift voucher): last name, first name, email address, phone number, company where applicable, the content of your message and information about your project.</li><li><strong>Bookings and purchases</strong>: data needed for booking and payment, collected by our booking platform, 4escape. Bank details are processed exclusively by the payment provider and are never stored by Memoria.</li><li><strong>Browsing</strong>: technical data (IP address, browser, pages visited) logged by our host to keep the website secure and working properly.</li></ul><p>We only collect strictly necessary data. Please do not send us health data: if you have a medical question, simply describe your situation and we will answer without keeping this information longer than necessary.</p>"
       },
       "s3": {
         "titre": "Purposes and legal bases",
@@ -968,7 +960,7 @@
       },
       "s4": {
         "titre": "Recipients",
-        "contenu": "<p>Your data is intended for the Memoria team. It may be shared with our technical providers, within the limits of their tasks: website hosting (<span class=\"a-completer\">[host]</span>), booking and payment (<span class=\"a-completer\">[booking platform]</span>), email delivery (<span class=\"a-completer\">[email service]</span>). It is never sold or transferred to third parties for commercial purposes.</p>"
+        "contenu": "<p>Your data is intended for the Memoria team. It may be shared with our technical providers, within the limits of their tasks: website hosting and form delivery (OVHcloud, in France), booking, payment and confirmation emails (4escape), the team’s mailbox (Google). It is never sold or transferred to third parties for commercial purposes.</p>"
       },
       "s5": {
         "titre": "Transfers outside the European Union",
@@ -1006,11 +998,11 @@
       },
       "s2": {
         "titre": "What this website uses today",
-        "contenu": "<p>At present, the Memoria website uses <strong>no advertising or audience measurement cookies</strong>. The only item stored on your device is a display preference, set only if you use the feature concerned:</p><div class=\"tableau-defilant\"><table class=\"legal__tableau\"><thead><tr><th scope=\"col\">Name</th><th scope=\"col\">Purpose</th><th scope=\"col\">Duration</th><th scope=\"col\">Type</th></tr></thead><tbody><tr><td>memoria-lampe</td><td>Remember whether the flashlight is switched on</td><td>Until deleted by the user</td><td>Local storage, functional</td></tr></tbody></table></div><p>This item is only used to remember your display choice and does not require consent.</p>"
+        "contenu": "<p>At present, the Memoria website uses <strong>no advertising or audience measurement cookies</strong>. The only items stored on your device are technical: a display preference, and the booking module’s data once it loads (as you approach the “Book your session” section of the home page).</p><div class=\"tableau-defilant\"><table class=\"legal__tableau\"><thead><tr><th scope=\"col\">Name</th><th scope=\"col\">Purpose</th><th scope=\"col\">Duration</th><th scope=\"col\">Type</th></tr></thead><tbody><tr><td>memoria-lampe</td><td>Remember whether the flashlight is switched on</td><td>Until deleted by the user</td><td>Local storage, functional</td></tr><tr><td>forescapeStoreOrder</td><td>Keep your booking basket (order identifier)</td><td>Until deleted by the user</td><td>Local storage, necessary (4escape)</td></tr><tr><td>forescapeLayout</td><td>Remember the booking module’s language</td><td>Until deleted by the user</td><td>Local storage, functional (4escape)</td></tr><tr><td>forescapeAnalytics</td><td><span class=\"a-completer\">[purpose to be confirmed by 4escape]</span></td><td>Until deleted by the user</td><td>Local storage (4escape)</td></tr><tr><td>forescape</td><td>Technical state of the module during your visit</td><td>End of session</td><td>Session storage, necessary (4escape)</td></tr></tbody></table></div><p>These items are needed for booking to work or to remember your display choices, and do not require consent.</p>"
       },
       "s3": {
         "titre": "Third-party services",
-        "contenu": "<ul><li><strong>Google Maps</strong>: the map shown on the website is a simple image; no Google cookie is set unless you click “View on the map” or “Directions”, which take you to Google Maps.</li><li><strong>YouTube</strong>: the trailer is embedded in “privacy-enhanced” mode and only loads when you start the video. YouTube may then set its own cookies.</li><li><strong>Online booking</strong>: the <span class=\"a-completer\">[platform name]</span> booking module may set cookies needed for booking and payment. <span class=\"a-completer\">[To be completed once the module is integrated.]</span></li></ul>"
+        "contenu": "<ul><li><strong>Google Maps</strong>: the map shown on the website is a simple image; no Google cookie is set unless you click “View on the map” or “Directions”, which take you to Google Maps.</li><li><strong>YouTube</strong>: the trailer is embedded in “privacy-enhanced” mode and only loads when you start the video. YouTube may then set its own cookies.</li><li><strong>Online booking</strong>: the booking and payment module is provided by 4escape (memoria-experience.4escape.io). It only loads on the home page, as you approach the booking section. During payment, its payment provider may set cookies needed to secure the transaction and prevent fraud. <span class=\"a-completer\">[Exact list of payment trackers to be confirmed by 4escape.]</span></li></ul>"
       },
       "s4": {
         "titre": "Audience measurement",

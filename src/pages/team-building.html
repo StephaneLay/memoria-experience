@@ -319,7 +319,9 @@
     <div class="conteneur demande__conteneur">
       <h2 class="titre-orne" id="devis-titre" data-reveal><span>{{t:teamBuilding.formulaire.titre}}</span></h2>
       <p class="texte-intro" data-reveal>{{t:teamBuilding.formulaire.intro}}</p>
-      <form class="formulaire" data-formulaire data-message="{{t:formulaire.envoiAttente}}" data-reveal>
+      <form class="formulaire" action="{{ROOT}}scripts/formulaire.php" method="post" data-formulaire data-message="{{t:formulaire.envoiAttente}}" data-reveal data-message-envoi="{{t:formulaire.envoiEnCours}}" data-message-succes="{{t:formulaire.envoiSucces}}" data-message-erreur="{{t:formulaire.envoiErreur}}">
+        <input type="hidden" name="formulaire" value="team-building">
+        <input type="hidden" name="langue" value="{{LANG}}">
         <div class="champs">
           <div class="champ">
             <label for="tb-prenom">{{t:teamBuilding.formulaire.prenom}} <span aria-hidden="true">*</span></label>

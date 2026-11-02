@@ -152,7 +152,9 @@
     <div class="conteneur demande__conteneur">
       <h2 class="titre-orne" id="creer-titre" data-reveal><span>{{t:packPerso.formulaire.titre}}</span></h2>
       <p class="texte-intro" data-reveal>{{t:packPerso.formulaire.intro}}</p>
-      <form class="formulaire" data-formulaire data-message="{{t:formulaire.envoiAttente}}" data-reveal>
+      <form class="formulaire" action="{{ROOT}}scripts/formulaire.php" method="post" data-formulaire data-message="{{t:formulaire.envoiAttente}}" data-reveal data-message-envoi="{{t:formulaire.envoiEnCours}}" data-message-succes="{{t:formulaire.envoiSucces}}" data-message-erreur="{{t:formulaire.envoiErreur}}">
+        <input type="hidden" name="formulaire" value="pack-personnalise">
+        <input type="hidden" name="langue" value="{{LANG}}">
         <div class="champs">
           <div class="champ">
             <label for="perso-nom">{{t:formulaire.nom}} <span aria-hidden="true">*</span></label>
