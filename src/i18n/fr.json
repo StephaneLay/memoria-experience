@@ -83,7 +83,7 @@
   },
   "infos": {
     "titre": "Infos pratiques",
-    "adresse": "45 cours de la Liberté<br>69000 Lyon",
+    "adresse": "45 cours de la Liberté<br>69003 Lyon",
     "carteAlt": "Plan du quartier autour du cours de la Liberté, à Lyon",
     "voirCarte": "Voir sur la carte",
     "acces": "Accès",
@@ -94,7 +94,7 @@
     "horaires": "Horaires",
     "horairesTexte": "Du mercredi au dimanche<br>de 10h00 à 23h00",
     "contact": "Contact",
-    "telephone": "00 00 00 00 00",
+    "telephone": "06 65 71 87 07",
     "telephoneLabel": "Téléphone",
     "emailLabel": "E-mail"
   },

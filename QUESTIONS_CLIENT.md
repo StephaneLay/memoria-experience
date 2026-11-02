@@ -4,10 +4,10 @@ Rien de ce qui suit n’est bloquant pour avancer sur le design ; ce sont les co
 
 ## Contenus provisoires à confirmer
 
-- [ ] **Adresse** : la maquette indique « 45 cours de la Liberté, 69000 Lyon » ; le compte 4escape indique **69003**, qui est le bon code postal pour le cours de la Liberté → corriger le site ?
-- [ ] **Téléphone** : « 00 00 00 00 00 » dans la maquette ; le compte 4escape indique 06 65 71 87 07 → numéro à afficher sur le site ?
+- [x] **Adresse** : 45 cours de la Liberté, 69003 Lyon (validé le 2 novembre)
+- [x] **Téléphone** : 06 65 71 87 07, comme dans 4escape (validé le 2 novembre)
 - [ ] **Accès** : lignes de métro / bus, parking, station Vélo’v (textes « à préciser » pour l’instant)
-- [ ] **Horaires** : « du mercredi au dimanche, de 10h à 23h » — confirmés ? (le calendrier 4escape ouvre actuellement 7 j/7)
+- [ ] **Horaires** : en attente du client (« du mercredi au dimanche, de 10h à 23h » affiché ; le calendrier 4escape ouvre actuellement 7 j/7)
 - [ ] **Liens des réseaux sociaux** : Instagram, YouTube, TikTok, Facebook
 - [ ] **Accroche du hero** : « Pensionnat Sainte-Lucie, 1953. Personne n’en est jamais ressorti. » (ajoutée, à valider)
 - [ ] **Traduction anglaise** : faite par nos soins, à relire si le client le souhaite
@@ -24,7 +24,6 @@ Rien de ce qui suit n’est bloquant pour avancer sur le design ; ce sont les co
 - [ ] **Bons cadeaux** : fonctionnalités de 4escape (achat en ligne, envoi par e-mail, codes), formules et prix réels (les montants affichés reprennent les tarifs 49/43/39/35 € par personne), durée de validité (12 mois indiqués), conditions d’utilisation et âge minimum (16 ans conseillé / 12 ans minimum indiqués)
 - [ ] **Pack personnalisé** : occasions réellement proposées, délai de préparation (3 semaines indiqué), délai de réponse (48 h indiqué), tranches de budget du formulaire
 - [ ] **Presse** : adresse dédiée (presse@memoria-experience.fr indiquée), dossier de presse PDF, photos HD libres de droits, logos en version vectorielle (SVG/PDF), conditions d’accueil et règles de confidentialité à valider
-- [ ] **Envoi des formulaires** : voir « Formulaires — non couverts par 4escape » plus bas
 
 ## Page « Team building »
 
@@ -53,16 +52,14 @@ Les réponses ont été rédigées pour être cohérentes avec le reste du site,
 
 ## Page « Nous contacter »
 
-- [ ] Adresse de réception des messages du formulaire (contact@memoria-experience.fr ?) et outil d’envoi : 4escape gère-t-il aussi les e-mails de contact, ou faut-il un script / service dédié ?
-- [ ] Contenu de l’e-mail de confirmation envoyé au visiteur (si l’outil le permet)
 - [ ] Informations d’accès au bâtiment : entrée, interphone, étage d’accueil
 
 ## Pages légales — à compléter (surligné sur les pages)
 
-- [ ] **Mentions légales** : raison sociale, forme juridique, capital, siège, RCS, SIRET, TVA, téléphone, directeur de la publication, hébergeur définitif, prestataire de conception, crédits photo
+- [ ] **Mentions légales** : raison sociale, forme juridique, capital, siège, RCS, SIRET, TVA, téléphone, directeur de la publication, prestataire de conception, crédits photo (hébergeur OVH déjà renseigné)
 - [ ] **CGV** : moyens de paiement, tolérance de retard, remboursement ou avoir en cas d’annulation, **médiateur de la consommation** (obligatoire), tribunal compétent — à aligner avec les conditions de 4escape
-- [ ] **Confidentialité** : délégué à la protection des données éventuel, prestataires (hébergeur, réservation, envoi d’e-mails), transferts hors UE, durée des journaux de l’hébergeur
-- [ ] **Cookies** : cookies du module 4escape, outil de mesure d’audience éventuel (→ bandeau de consentement)
+- [ ] **Confidentialité** : délégué à la protection des données éventuel, transferts hors UE (selon la réponse de 4escape), durée de conservation des journaux de l’hébergeur (prestataires déjà renseignés : OVH, 4escape, Google)
+- [ ] **Cookies** : traceurs du paiement 4escape (selon la réponse du prestataire) ; outil de mesure d’audience éventuel (→ bandeau de consentement)
 - [ ] Faire relire l’ensemble par un professionnel du droit avant la mise en ligne
 
 ## Médias
@@ -112,9 +109,16 @@ Ces réglages concernent l’**envoi** d’e-mails au nom de `@memoria-experienc
 
 Dans l’espace OVH : Web Cloud → Noms de domaine → memoria-experience.fr → Zone DNS.
 
-- [ ] **SPF** (urgent : aujourd’hui seul OVH est autorisé, les e-mails envoyés depuis Gmail risquent le spam). Modifier l’entrée de type « SPF » (affichée ainsi par OVH, publiée en TXT) : `v=spf1 include:_spf.google.com include:mx.ovh.com ~all`. Une seule entrée `v=spf1` doit exister
-- [ ] **DMARC** : ajouter une entrée TXT, sous-domaine `_dmarc`, valeur `v=DMARC1; p=none`
+- [x] **SPF** corrigé le 2 novembre 2026 : `v=spf1 include:_spf.google.com include:mx.ovh.com ~all` (Gmail et OVH autorisés), une seule entrée, publiée sur les serveurs OVH
+- [x] **DMARC** ajouté le 2 novembre 2026 : TXT `_dmarc` = `v=DMARC1; p=none`
 - [ ] **DKIM Google** : sur admin.google.com → Applications → Google Workspace → Gmail → Authentifier les e-mails → générer l’enregistrement (2048 bits, préfixe `google`) ; l’ajouter chez OVH en TXT, sous-domaine `google._domainkey` ; puis « Commencer l’authentification » côté Google. Nécessite l’accès administrateur Google Workspace du client
+- En ligne de commande, depuis l’OVHcloud Shell de l’espace client (déjà authentifié, outil `ovhcloud`) :
+  ```sh
+  ovhcloud domain-zone record list memoria-experience.fr -o json
+  ovhcloud domain-zone record create memoria-experience.fr --field-type TXT --sub-domain google._domainkey --target "VALEUR_FOURNIE_PAR_GOOGLE"
+  ovhcloud domain-zone refresh memoria-experience.fr
+  ```
+  `ovhcloud domain-zone record update` échoue (« failed to validate spec ») : pour modifier une entrée, en créer une nouvelle avec `create`, supprimer l’ancienne avec `record delete <zone> <id>`, puis `refresh` (rien n’est publié avant le `refresh`).
 - [ ] **Mailjet (4escape)**, quand Andrea le configure : ajouter `include:spf.mailjet.com` au SPF (`v=spf1 include:_spf.google.com include:mx.ovh.com include:spf.mailjet.com ~all`) et l’enregistrement DKIM fourni par Mailjet
 - [ ] **Vérifier** : envoyer un e-mail depuis Gmail vers une autre adresse, puis « Afficher l’original » → SPF, DKIM et DMARC : PASS
 - Ne pas toucher : entrées A / AAAA, MX `smtp.google.com`, TXT `google-site-verification`, TXT `1|www…` et `3|welcome` (marqueurs OVH), entrées `ovhmo-selector-*._domainkey` (signature DKIM des e-mails envoyés par OVH). Les entrées héritées de la messagerie OVH (`autoconfig`, `autodiscover`, `imap`, `pop3`, `smtp`, `mail`, `_imaps._tcp`, `_submission._tcp`, `_autodiscover._tcp`) sont sans effet sur Gmail : à laisser pour l’instant. Ne pas lancer l’assistant e-mail OVH, qui remettrait le MX chez OVH
@@ -127,13 +131,7 @@ Dans l’espace OVH : Web Cloud → Noms de domaine → memoria-experience.fr �
 - [ ] Nom de domaine : renouvellement automatique activé, date d’expiration vérifiée
 - [ ] **Après la mise en ligne** : un message de test depuis chaque formulaire, reçu dans Gmail
 
-## Pages et informations légales
+## Divers
 
-- [ ] Contenus des pages Team building et FAQ
-- [ ] Mentions légales (société, SIRET, directeur de publication, hébergeur), CGV, politique de confidentialité, politique cookies
-- [ ] Âge minimum, avertissements (femmes enceintes, problèmes cardiaques, épilepsie…), accessibilité PMR — à afficher près des tarifs comme sur Panik Room ?
-
-## Publication
-
-- [ ] Domaine (memoria-experience.fr ?) et hébergeur définitifs
-- [ ] Outils externes à intégrer (analytics, pixel réseaux sociaux…) — impact sur le bandeau cookies
+- [ ] Âge minimum et avertissements (grossesse, problèmes cardiaques, épilepsie…), accessibilité PMR : les afficher aussi près des tarifs sur l’accueil, comme sur Panik Room ?
+- [ ] Outils externes souhaités (mesure d’audience, pixel réseaux sociaux…) : impact sur le bandeau cookies
