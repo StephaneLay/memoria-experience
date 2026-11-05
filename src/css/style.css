@@ -575,16 +575,30 @@ sup { font-size: .6em; line-height: 0; }
 }
 
 .hero__lieu {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.1em;
   margin: clamp(1.4rem, 2.6vw, 2.2rem) 0 0;
-  padding: .6em 1.7em .6em 2em;
-  border: 1px solid rgba(255, 255, 255, .78);
-  border-radius: 50%;
   font-family: var(--police-titre);
   font-size: clamp(.9rem, .75rem + .45vw, 1.2rem);
   letter-spacing: .3em;
   text-transform: uppercase;
+  white-space: nowrap;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, .7);
 }
+.hero__lieu span { margin-right: -.3em; }
+.hero__lieu::before,
+.hero__lieu::after {
+  content: '';
+  flex: 0 0 auto;
+  width: clamp(2rem, 7vw, 6.5rem);
+  height: 6px;
+  background:
+    radial-gradient(circle, var(--rouge) 2.4px, transparent 3px) right center / 6px 6px no-repeat,
+    linear-gradient(90deg, transparent, rgba(236, 230, 218, .7)) left center / calc(100% - 11px) 1px no-repeat;
+}
+.hero__lieu::after { transform: scaleX(-1); }
 
 .hero__accroche {
   max-width: 34rem;
@@ -728,7 +742,8 @@ sup { font-size: .6em; line-height: 0; }
 }
 
 .experience__valeur {
-  margin: clamp(1.2rem, 2.2vw, 2rem) 0 .3rem;
+  margin: calc(clamp(1.2rem, 2.2vw, 2rem) - .15em) 0 .3rem;
+  padding-top: .15em;
   font-family: var(--police-titre);
   font-size: clamp(1.85rem, 1.35rem + 1.35vw, 2.55rem);
   line-height: 1;
@@ -1672,7 +1687,8 @@ html .forescape .f-btn-primary {
 }
 
 @media (max-width: 640px) {
-  .hero__lieu { padding-inline: 1.4em; letter-spacing: .16em; white-space: nowrap; }
+  .hero__lieu { gap: .75em; letter-spacing: .16em; }
+  .hero__lieu span { margin-right: -.16em; }
   .hero__actions { flex-direction: column; align-items: stretch; width: min(100%, 20rem); margin-inline: auto; }
   .hero__defiler span { display: none; }
 
@@ -1681,6 +1697,7 @@ html .forescape .f-btn-primary {
   .titre-orne::after { width: 1.9rem; }
 
   .experience__valeur {
+    font-size: min(1.85rem, 7.6vw - .3rem);
     color: var(--blanc);
     background-image: url('../images/texture-argent.webp'), linear-gradient(#f2f2f2, #9d9d9d);
     background-size: 100% 100%;
@@ -2838,6 +2855,8 @@ html .forescape .f-btn-primary {
 }
 
 .chiffre-carte__valeur {
+  margin-top: -.15em;
+  padding-top: .15em;
   font-family: var(--police-titre);
   font-size: clamp(2.2rem, 1.7rem + 1.5vw, 3rem);
   line-height: 1;
