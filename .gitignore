@@ -11,3 +11,6 @@ maquette/
 
 # Métadonnées Windows/WSL (fichiers créés lors de copies depuis Windows)
 *Zone.Identifier
+
+# Contenus fournis par le client (PDF, photos originales), hors git
+contenu-client/

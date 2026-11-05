@@ -71,31 +71,50 @@ Les réponses ont été rédigées pour être cohérentes avec le reste du site,
 
 ## Réservation — réglages dans l’admin 4escape (client)
 
-Le widget est intégré sur l’accueil : tout ce qui suit se règle dans 4escape, sans toucher au site.
+Le widget est intégré sur l’accueil. Aide officielle : https://help.4escape.io/fr/ (voir notamment « Checklist de mise en production »).
 
-- [ ] **4escape Pay** à finaliser avec Andrea : le paiement est en **mode test**, et il ne se charge même pas : à l’étape paiement, la création de la session renvoie une erreur 500 « Invalid Payment Store Data » (test du 2 novembre). Aucune réservation n’est possible avant
-- [ ] **Créneaux et jours d’ouverture réels** : le compte propose des créneaux d’essai toutes les 2 h, 7 j/7, y compris à minuit
-- [x] **Prix** de la room « Session classique » : vérifiés le 2 novembre, 147 / 172 / 195 / 210 € pour 3 à 6 joueurs (49 / 43 / 39 / 35 € par personne, TVA 20 % incluse), 6 joueurs maximum
-- [ ] **Libellés et photo** affichés dans le module : nom de la room (« Session classique »), catégorie « Joueur(s) », « 1 équipe », et la photo de la room (actuellement une image générique de coffre-fort) à remplacer par un visuel Memoria
-- [ ] **Anglais** : le compte n’autorise que le français. Activer l’anglais et traduire ces libellés, sinon la version anglaise du site affiche le module en anglais mais la room en français
-- [ ] **Niveau d’intensité** (faible / standard / extrême) à choisir pendant la réservation : créer l’option sur la room. La FAQ et les CGV annoncent ce choix
-- [ ] **Modes de paiement** : seul « Payer la totalité » est proposé aujourd’hui. Acompte, paiement sur place ou paiement partagé entre joueurs : à trancher, puis compléter l’article 3 des CGV
-- [ ] **Annulation** : le délai de modification est réglé à 48 h dans 4escape, comme sur le site ; aligner aussi le délai d’annulation (72 h sur le site)
-- [ ] **Mailjet** (e-mails de confirmation envoyés depuis le domaine) : informations à transmettre à Andrea
-- [ ] **Templates** avoir / devis / facture / reçu : informations légales (les mêmes que pour les mentions légales)
-- [ ] **Adresse du site** dans les réglages : `http://memoria-experience.fr/` → passer en `https://`
+**Bloquant pour la mise en ligne (à lancer tout de suite, délais de validation)**
+
+- [ ] **4escape Pay** : sans lui, le bloc de paiement ne se charge pas (erreur « Invalid Payment Store Data »). Procédure (article « Mise en place 4escape Pay (onboarding) ») : demander l’activation au support → Admin → Paramétrage → 4escape Pay (intégration) → onglet « Mes informations » → « Créer mon compte » → onboarding (SIRET, n° de TVA, pièces d’identité, RIB, deux documents à signer) → prévenir l’équipe 4escape → **validation sous 48 à 96 h**
+- [ ] **Mailjet** : sans lui, aucun e-mail n’est envoyé (confirmations, bons cadeaux). Le client crée un compte Mailjet et transmet ses clés au support 4escape via `paste.4escape.io` ; nous ajouterons ensuite les enregistrements DNS de Mailjet chez OVH
+
+**Fiche de la session « Session classique » (Menu → Rooms → la room → Modifier)**
+
+- [ ] **Créneaux** : durée 90 min + pause 30 min = un créneau toutes les 2 h. Fixer la vraie pause entre deux groupes, puis générer le planning réel (onglet « Planning & Prix », jours et heures d’ouverture)
+- [ ] **Date d’ouverture des réservations** : à renseigner si Memoria ouvre à une date précise, pour qu’on ne puisse pas réserver avant
+- [ ] **Arrivée des joueurs** : « Demander l’arrivée X min avant » → 15 (comme la FAQ)
+- [ ] **Adresse** de la salle (rue, code postal, ville) : vide → 45 cours de la Liberté, 69003 Lyon
+- [ ] **URL de la page vitrine** → `https://memoria-experience.fr/` ; **URL publique de réservation (widget)** → `https://memoria-experience.fr/#reservation`
+- [ ] **Nom affiché sur le web** (« Session classique ») et **image de la room** (format 16:9, remplace l’image de coffre-fort) ; vidéo YouTube quand elle existe
+- [ ] **Description** : contient des notes internes (« Blabla à modifier ») avec des **règles absentes du site** : groupes de 2 acceptés sur demande au tarif de 3 joueurs ; jusqu’à 8 joueurs pour des événements, à 35 € par joueur pour 6 à 8. À confirmer : si ces règles valent, il faut les ajouter à la FAQ, aux tarifs et au team building (le site dit « 3 à 6 joueurs »)
+- [ ] **Conditions de paiement** (total en ligne / sur place / acompte) et options **paiement partagé** et **empreinte bancaire** : à trancher, puis compléter l’article 3 des CGV
+- [ ] **Niveau d’intensité** : onglet « Variations » de la room → variation « Niveau d’intensité », type Personnalisé, champ radio, « à choisir » + « choix obligatoire », valeurs Faible / Standard / Extrême (une valeur par défaut). L’affichage dans le widget demande ensuite une intervention de 4escape
+- [ ] Idée : une variation obligatoire « Je confirme que tous les participants ont au moins 12 ans et ont lu les contre-indications » (l’aide présente cet usage)
+
+**Ailleurs dans l’admin**
+
+- [ ] **Profil → Société → Site internet** : `http://memoria-experience.fr/` → `https://memoria-experience.fr`
+- [ ] **Bon cadeau** (test du 2 novembre) : produit « Bon cadeau memoria » créé (ID `6ae8a098aa0dcf48cd98d57c`, envoi par e-mail, 147 € pour 3 joueurs). **Aucun widget spécial n’est nécessaire** : le widget de réservation l’ouvre directement (`data-redirect-route="/product/6ae8a098aa0dcf48cd98d57c"`), avec quantité, mode d’envoi (j’imprime / envoi au destinataire), « Offert par », « Pour », message (80 caractères) et e-mail du destinataire. Il manque le **modèle PDF** du bon (Admin → Paramétrages → PDF - Gestion des PDF → « Bon cadeau ») : sans lui, « Ajouter au panier » reste bloqué. Modèle retenu par le client : `maquette/bon-cadeau-memoria.pdf` (A5, 123 Ko ; source `maquette/bon-cadeau-memoria.html`). **Décidé le 2 novembre** : bon **par valeur** (pas par nombre de joueurs ; montants à fixer), **validité 12 mois**, **envoi par e-mail** uniquement. La page Pack cadeau du site devra suivre (formules par montant). L’envoi du bon par e-mail passe par Mailjet et deux workflows « gift-voucher:booked »
+- [ ] **Annulation** : modification réglée à 48 h dans 4escape, comme sur le site ; aligner le délai d’annulation (72 h sur le site)
+- [ ] **Templates** facture, avoir, devis, reçu : informations légales
+- [ ] **CGV et confidentialité au paiement** : le widget affiche déjà une case « Je confirme avoir pris connaissance et accepté les CGV et la Politique de confidentialité » ; renseigner les textes ou liens (`/cgv.html`, `/confidentialite.html`) dans Admin → Société → Confidentialité (RGPD), une fois les pages légales finalisées
+- [ ] **Logo** de la billetterie 4escape (il ne s’affiche pas sur memoria-experience.4escape.io)
+- [x] **Prix** vérifiés le 2 novembre : 147 / 172 / 195 / 210 € pour 3 à 6 joueurs, TVA 20 % incluse
+- Retour après paiement : pas de redirection possible vers une page du site (choix de 4escape, voir l’article « Tracking Widget ») ; le widget affiche sa propre confirmation. Le suivi des ventes passe par Google Tag Manager si besoin
 
 ## Demandes au prestataire 4escape
 
-- [ ] **Widget bon cadeau** : créer le produit « bon cadeau » (montant libre ou une formule par nombre de joueurs ? envoi par e-mail et/ou à imprimer, modèle visuel aux couleurs de Memoria) et un widget catalogue qui l’affiche, puis nous transmettre son identifiant (`data-widget-id`)
-- [ ] **Bouton « Ajouter au panier »** : le parcours enchaîne déjà directement sur les coordonnées puis le paiement ; renommer le bouton en « Réserver » (via les traductions personnalisées, actuellement en erreur)
-- [ ] **Historique du navigateur** : le widget ajoute deux entrées d’historique en s’ouvrant (accès à la room, ajout de la date) ; le bouton « Retour » ne quitte donc pas la page du premier coup. Demander une navigation par remplacement d’URL
-- [ ] **CGV au paiement** : vérifier qu’une case ou un lien vers nos CGV (`/cgv.html`) apparaît avant de payer (non visible tant que le paiement ne se charge pas)
-- [ ] **Retour après paiement** : vers quelle page le client est-il renvoyé ? Une adresse de retour est-elle à renseigner ?
-- [ ] **Cookies** : liste des traceurs déposés pendant le paiement, et finalité de la donnée `forescapeAnalytics` (pour la politique cookies)
-- [ ] **Données personnelles** : lieu d’hébergement des données (Union européenne ?) et sous-traitants, pour la politique de confidentialité
-- [ ] **Erreur technique** remontée par le module : « Can't parse fr custom translations ». Le champ des traductions personnalisées du compte semble mal formé
-- [ ] **Optionnel** : widget « disponibilités » (prochains créneaux libres, pour l’accueil) et check-in en ligne (décharge signée avant la session)
+C’est le client qui écrit à 4escape (décidé le 2 novembre). Aucun nouveau widget à demander.
+
+- [ ] **4escape Pay** : activation et calendrier de validation (via Andrea)
+- [ ] **Mailjet** : intégration (via Andrea)
+- [ ] **Variation « Niveau d’intensité »** : l’afficher dans le widget de la room (préciser la room et le nom de la variation)
+- [ ] **Anglais** : activer la langue sur le compte (sur demande au support), puis traduire room, catégorie de joueurs, variation et produits
+- [ ] **Bon cadeau** : pas de widget à demander (le produit s’ouvre dans le widget existant). Reste à faire configurer avec Mailjet les e-mails d’envoi du bon (workflows « gift-voucher:booked », envoi à l’acheteur et au destinataire)
+- [ ] **Traductions personnalisées** en erreur (« Can't parse fr custom translations ») ; ensuite renommer « Ajouter au panier » en « Réserver »
+- Historique du navigateur : deux entrées ajoutées à l’ouverture du widget (le bouton « Retour » demande trois clics pour quitter la page) ; gêne mineure, retirée du message du client le 2 novembre
+- Pages légales : plus de question à poser. `forescapeAnalytics` mémorise utm_source / utm_medium / gclid (lu dans le code du widget) ; plateforme et widgets hébergés chez OVHcloud à Gravelines (adresses IP) ; traceurs du paiement à relever nous-mêmes lors du premier paiement test
+- [ ] Optionnel : check-in en ligne (décharge signée) et « Manage your booking » : réservés à l’abonnement WEB PREMIUM d’après l’aide ; quel abonnement a le client ?
 
 ## Formulaires et e-mails du domaine
 
@@ -134,4 +153,4 @@ Dans l’espace OVH : Web Cloud → Noms de domaine → memoria-experience.fr �
 ## Divers
 
 - [ ] Âge minimum et avertissements (grossesse, problèmes cardiaques, épilepsie…), accessibilité PMR : les afficher aussi près des tarifs sur l’accueil, comme sur Panik Room ?
-- [ ] Outils externes souhaités (mesure d’audience, pixel réseaux sociaux…) : impact sur le bandeau cookies
+- Mesure d’audience : pas prévue pour l’instant (décision du 2 novembre) ; si elle est ajoutée plus tard, prévoir un bandeau cookies
