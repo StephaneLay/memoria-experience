@@ -33,7 +33,6 @@
       <div class="hero__voile" aria-hidden="true"></div>
     </div>
     <div class="hero__contenu" data-hero-contenu>
-      <p class="hero__surtitre"><span>{{t:hero.surtitreGauche}}</span><span>{{t:hero.surtitreDroite}}</span></p>
       <h1 class="hero__titre" id="hero-titre">
         <img src="{{ROOT}}images/logotype-or.webp" alt="{{t:hero.titre}}" width="1400" height="248">
         <span class="hero__eclat" aria-hidden="true" data-eclat></span>
@@ -193,18 +192,18 @@
 
   <section class="histoire" id="histoire" aria-labelledby="histoire-titre">
     <div class="histoire__souvenirs" aria-hidden="true">
-      <figure class="souvenir souvenir--1"><img src="{{ROOT}}images/archive-toits.webp" alt="" width="560" height="750" loading="lazy"></figure>
-      <figure class="souvenir souvenir--2"><img src="{{ROOT}}images/archive-rideau.webp" alt="" width="560" height="942" loading="lazy"></figure>
-      <figure class="souvenir souvenir--3"><img src="{{ROOT}}images/archive-riviere.webp" alt="" width="500" height="650" loading="lazy"></figure>
-      <figure class="souvenir souvenir--4"><img src="{{ROOT}}images/archive-escalier.webp" alt="" width="640" height="841" loading="lazy"></figure>
-      <figure class="souvenir souvenir--5"><img src="{{ROOT}}images/archive-famille.webp" alt="" width="640" height="917" loading="lazy"></figure>
-      <figure class="souvenir souvenir--6"><img src="{{ROOT}}images/archive-rideau.webp" alt="" width="560" height="942" loading="lazy"></figure>
-      <figure class="souvenir souvenir--7"><img src="{{ROOT}}images/archive-rideau.webp" alt="" width="560" height="942" loading="lazy"></figure>
-      <figure class="souvenir souvenir--8"><img src="{{ROOT}}images/archive-jeune-femme.webp" alt="" width="512" height="768" loading="lazy"></figure>
-      <figure class="souvenir souvenir--9"><img src="{{ROOT}}images/archive-lac.webp" alt="" width="513" height="696" loading="lazy"></figure>
-      <figure class="souvenir souvenir--10"><img src="{{ROOT}}images/archive-photographe.webp" alt="" width="235" height="332" loading="lazy"></figure>
-      <figure class="souvenir souvenir--11"><img src="{{ROOT}}images/archive-rideau.webp" alt="" width="560" height="942" loading="lazy"></figure>
-      <figure class="souvenir souvenir--12"><img src="{{ROOT}}images/archive-toits.webp" alt="" width="560" height="750" loading="lazy"></figure>
+      <figure class="souvenir souvenir--1"><img src="{{ROOT}}images/souvenir-famille.webp" alt="" width="720" height="910" loading="lazy"></figure>
+      <figure class="souvenir souvenir--2"><img src="{{ROOT}}images/souvenir-poupees.webp" alt="" width="720" height="1090" loading="lazy"></figure>
+      <figure class="souvenir souvenir--3"><img src="{{ROOT}}images/souvenir-classe.webp" alt="" width="900" height="670" loading="lazy"></figure>
+      <figure class="souvenir souvenir--4"><img src="{{ROOT}}images/souvenir-portrait.webp" alt="" width="720" height="1087" loading="lazy"></figure>
+      <figure class="souvenir souvenir--5"><img src="{{ROOT}}images/souvenir-chateau.webp" alt="" width="709" height="927" loading="lazy"></figure>
+      <figure class="souvenir souvenir--6"><img src="{{ROOT}}images/pensionnat-1926.webp" alt="" width="640" height="966" loading="lazy"></figure>
+      <figure class="souvenir souvenir--7"><img src="{{ROOT}}images/souvenir-lectrice.webp" alt="" width="720" height="1086" loading="lazy"></figure>
+      <figure class="souvenir souvenir--8"><img src="{{ROOT}}images/souvenir-fillettes.webp" alt="" width="720" height="968" loading="lazy"></figure>
+      <figure class="souvenir souvenir--9"><img src="{{ROOT}}images/pensionnat-1915.webp" alt="" width="640" height="800" loading="lazy"></figure>
+      <figure class="souvenir souvenir--10"><img src="{{ROOT}}images/pensionnat-1941.webp" alt="" width="640" height="708" loading="lazy"></figure>
+      <figure class="souvenir souvenir--11"><img src="{{ROOT}}images/pensionnat-1904.webp" alt="" width="640" height="960" loading="lazy"></figure>
+      <figure class="souvenir souvenir--12"><img src="{{ROOT}}images/pensionnat-1951.webp" alt="" width="640" height="910" loading="lazy"></figure>
     </div>
     <div class="conteneur histoire__corps">
       <img class="histoire__embleme" src="{{ROOT}}images/embleme-or.webp" alt="" width="340" height="488" loading="lazy" data-reveal>
@@ -214,7 +213,10 @@
         <p>{{t:histoire.p2}}</p>
         <p>{{t:histoire.p3}}</p>
         <p>{{t:histoire.p4}}</p>
-        <p class="accroche accroche--sang">{{t:histoire.question}}</p>
+        <p>{{t:histoire.p5}}</p>
+        <p>{{t:histoire.p6}}</p>
+        <p>{{t:histoire.p7}}</p>
+        <p class="accroche accroche--sang">{{t:histoire.conclusion}}</p>
         <a class="bouton bouton--contour histoire__lien" href="notre-histoire.html#pensionnat">{{t:histoire.lienPage}}</a>
       </div>
     </div>
@@ -239,8 +241,9 @@
             <h3>{{t:infos.acces}}</h3>
             <ul class="infos__liste">
               <li><img src="{{ROOT}}images/acces-metro.svg" alt="" width="27" height="26" loading="lazy">{{t:infos.accesMetro}}</li>
+              <li><img src="{{ROOT}}images/acces-metro.svg" alt="" width="27" height="26" loading="lazy">{{t:infos.accesMetro2}}</li>
+              <li><img src="{{ROOT}}images/acces-tram.svg" alt="" width="27" height="26" loading="lazy">{{t:infos.accesTram}}</li>
               <li><img src="{{ROOT}}images/acces-bus.svg" alt="" width="27" height="26" loading="lazy">{{t:infos.accesBus}}</li>
-              <li><img src="{{ROOT}}images/acces-parking.svg" alt="" width="27" height="26" loading="lazy">{{t:infos.accesParking}}</li>
               <li><img src="{{ROOT}}images/acces-velo.svg" alt="" width="27" height="26" loading="lazy">{{t:infos.accesVelo}}</li>
             </ul>
           </div>

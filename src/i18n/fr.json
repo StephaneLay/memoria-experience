@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Memoria — Expérience immersive d’horreur à Lyon",
-    "description": "Pensionnat Sainte-Lucie, 1953. Entrez dans Memoria, une expérience immersive d’horreur de 1h30 avec comédiens, sur 200 m² et 3 niveaux d’intensité.",
+    "description": "Pensionnat de la Liberté, 1953. Entrez dans Memoria, une expérience immersive d’horreur de 1h30 avec comédiens, sur 200 m² et 3 niveaux d’intensité.",
     "ogTitle": "Memoria — Oserez-vous franchir les portes du pensionnat ?",
     "ogLocale": "fr_FR",
     "langName": "Français"
@@ -26,11 +26,9 @@
     "servicesPresse": "Presse & tournages"
   },
   "hero": {
-    "surtitreGauche": "Expérience",
-    "surtitreDroite": "immersive",
     "titre": "Memoria",
-    "lieu": "Lyon",
-    "accroche": "Pensionnat Sainte-Lucie, 1953. Personne n’en est jamais ressorti.",
+    "lieu": "Expérience immersive",
+    "accroche": "Pensionnat de la Liberté. Personne n’en est jamais ressorti.",
     "reserver": "Réserver",
     "bandeAnnonce": "Voir la bande-annonce",
     "defiler": "Entrez si vous l’osez"
@@ -56,7 +54,7 @@
   },
   "bandeaux": {
     "seuil": "Osez franchir le seuil",
-    "memoire": "Sainte-Lucie · 1953"
+    "memoire": "Pensionnat de la Liberté – 1953"
   },
   "tarifs": {
     "titre": "Tarifs",
@@ -74,11 +72,14 @@
   },
   "histoire": {
     "titre": "Histoire",
-    "p1": "Érigé au début du XX<sup>e</sup> siècle, le pensionnat Sainte-Lucie accueillait les jeunes filles de la haute société.",
-    "p2": "Puis, sans crier gare, un jour de 1953, les couloirs se vidèrent. Les portes se refermèrent. Et Sainte-Lucie fut abandonné, emportant avec lui les secrets de celles qui y avaient vécu.",
-    "p3": "Depuis, le temps s’est arrêté entre ses murs.",
-    "p4": "Et c’est vous qui avez été choisis&nbsp;:<br>ce soir, vous allez entrer à Sainte-Lucie.<br>Et peut-être même comprendre pourquoi personne n’en est jamais ressorti.",
-    "question": "Pourrez-vous découvrir la vérité ?",
+    "p1": "Érigé au XIX<sup>e</sup> siècle, le Pensionnat de la Liberté accueillait depuis des décennies des enfants venus y recevoir une éducation rigoureuse, loin de leurs familles.",
+    "p2": "Mais une nuit de 1953, tout bascula.",
+    "p3": "Des cris déchirèrent le silence. D’étranges lumières jaillirent des fenêtres. Alertée, la police intervint sur les lieux… mais ce qui s’y passa ne fut jamais révélé.",
+    "p4": "Dès le lendemain, le pensionnat fut définitivement fermé. L’affaire classée. Les événements de cette nuit enterrés.",
+    "p5": "Depuis, le bâtiment demeure à l’abandon. Et ses secrets avec lui.",
+    "p6": "Aujourd’hui, vous avez décidé de rouvrir cette affaire.",
+    "p7": "Accompagnés de notre démonologue, vous franchirez les portes du Pensionnat de la Liberté pour découvrir ce qui s’est réellement passé cette nuit-là.",
+    "conclusion": "Mais certaines vérités auraient peut-être dû rester enfouies.",
     "lienPage": "Découvrir toute l’histoire"
   },
   "infos": {
@@ -87,16 +88,17 @@
     "carteAlt": "Plan du quartier autour du cours de la Liberté, à Lyon",
     "voirCarte": "Voir sur la carte",
     "acces": "Accès",
-    "accesMetro": "Métro : à préciser",
-    "accesBus": "Bus : à préciser",
-    "accesParking": "Parking : à préciser",
-    "accesVelo": "Vélo’v : à préciser",
+    "accesMetro": "Métro D : Guillotière",
+    "accesBus": "Bus C9 : Liberté",
+    "accesVelo": "Vélo’v : 32 cours de la Liberté",
     "horaires": "Horaires",
-    "horairesTexte": "Du mercredi au dimanche<br>de 10h00 à 23h00",
+    "horairesTexte": "Du lundi au dimanche<br>de 10h00 à 00h00",
     "contact": "Contact",
     "telephone": "06 65 71 87 07",
     "telephoneLabel": "Téléphone",
-    "emailLabel": "E-mail"
+    "emailLabel": "E-mail",
+    "accesTram": "Tramway T1 : Liberté",
+    "accesMetro2": "Métro B : Place Guichard"
   },
   "lampe": {
     "libelle": "Lampe torche"
@@ -119,29 +121,29 @@
   "notreHistoire": {
     "meta": {
       "title": "Notre histoire — Memoria, expérience immersive d’horreur à Lyon",
-      "description": "Trois passionnés, des années de travail et un pensionnat oublié : découvrez les coulisses de Memoria et la sombre histoire du pensionnat Sainte-Lucie."
+      "description": "Une passion, des années de travail et un pensionnat oublié : découvrez les coulisses de Memoria et la sombre histoire du Pensionnat de la Liberté."
     },
     "hero": {
       "surtitre": "Memoria",
       "titre": "Notre histoire",
-      "intro": "Deux récits se croisent ici. Celui de trois passionnés qui ont tout donné pour faire naître Memoria. Et celui du pensionnat Sainte-Lucie, que personne n’aurait jamais dû rouvrir.",
+      "intro": "Deux récits se croisent ici. Celui de passionnés qui ont consacré leur énergie à donner vie à Memoria. Et celui du Pensionnat de la Liberté, dont les portes n’auraient peut-être jamais dû être rouvertes.",
       "lienCoulisses": "Les coulisses de Memoria",
-      "lienPensionnat": "Le pensionnat Sainte-Lucie"
+      "lienPensionnat": "Le Pensionnat de la Liberté"
     },
     "attente": {
-      "photo": "Photo à venir",
-      "nom": "Prénom Nom"
+      "photo": "Photo à venir"
     },
     "coulisses": {
       "partie": "Partie I · La véritable histoire",
-      "titre": "Trois passionnés, une obsession",
-      "intro": "Memoria est né d’une frustration partagée par trois amis, joueurs acharnés d’escape games et d’expériences horrifiques : avoir peur, oui… mais jamais assez longtemps, jamais assez profondément. Alors ils ont décidé de créer l’expérience qu’ils rêvaient de vivre.",
-      "role1": "Co-fondateur · Scénario & mise en scène",
-      "bio1": "Il a écrit les premières pages de l’histoire et imaginé Sainte-Lucie, ses pensionnaires et ses secrets. C’est lui qui dirige les comédiens.",
-      "role2": "Co-fondateur · Décors & construction",
-      "bio2": "Menuisier de formation, il a passé deux ans à transformer un lieu vide en pensionnat de 1953, pièce par pièce, objet par objet.",
-      "role3": "Co-fondatrice · Technique & expérience joueurs",
-      "bio3": "Sons, lumières, mécanismes, sécurité : elle orchestre tout ce que vous ne voyez pas… et tout ce qui vous fera sursauter."
+      "titre": "Une passion, une obsession",
+      "intro": "Memoria est né d’une envie simple : repousser les limites de l’immersion. Passionnés d’escape games, de cinéma et d’horreur, nous rêvions d’une expérience où les joueurs ne seraient plus de simples spectateurs, mais les véritables protagonistes de leur propre film d’horreur.",
+      "intro2": "Alors, plutôt que d’attendre qu’une telle expérience existe, nous avons décidé de la créer.",
+      "nom1": "Sylvain",
+      "role1": "Fondateur · Scénario, mise en scène et direction artistique",
+      "bio1": "Issu du Cours Florent et passionné de théâtre, de cinéma et d’expériences immersives, Sylvain donne vie à l’univers de Memoria, à son histoire et à ses personnages. De l’écriture du scénario à la direction des comédiens, il façonne une expérience où chaque joueur devient acteur de sa propre histoire.",
+      "nom2": "Alexis",
+      "role2": "Cofondateur · Direction technique, conception et développement",
+      "bio2": "Passionné de jeux et d’expériences immersives, Alexis allie ingéniosité technique, créativité et sens de l’organisation, fort de son expérience en gestion de projet. De la conception des décors à la réalisation des mécanismes, il transforme les idées en expériences concrètes. Il apporte sa sensibilité artistique et joue un rôle essentiel dans la direction et le développement de Memoria."
     },
     "genese": {
       "titre": "De l’idée aux premières portes",
@@ -149,16 +151,16 @@
       "texte1": "Tout commence autour d’une table, après une énième partie d’escape game. Une question revient sans cesse : et si l’on pouvait vivre un véritable film d’horreur, de l’intérieur, face à de vrais comédiens ? L’idée ne les quittera plus.",
       "visuel1": "Premiers croquis du concept",
       "titre2": "Le scénario",
-      "texte2": "Pendant des mois, l’histoire s’écrit, se réécrit, se teste. Un pensionnat de jeunes filles, une fermeture inexpliquée en 1953, des indices dissimulés dans chaque pièce : chaque détail sert le récit, chaque énigme sert la peur.",
+      "texte2": "Pendant des mois, l’histoire s’écrit, se réécrit, se teste. Un pensionnat, une fermeture inexpliquée en 1953, des indices dissimulés dans chaque pièce : chaque détail sert le récit, chaque énigme sert la peur.",
       "visuel2": "Les carnets du scénario",
       "titre3": "Le lieu",
-      "texte3": "Il fallait un lieu à la hauteur. Après des dizaines de visites, ils découvrent à Lyon 200 m² sur trois niveaux : assez vastes pour s’y perdre, assez intimes pour s’y sentir observé.",
+      "texte3": "Il fallait un lieu à la hauteur. Après des dizaines de visites, ils découvrent à Lyon près de 200 m² répartis sur trois niveaux : assez vastes pour s’y perdre, assez intimes pour s’y sentir observé.",
       "visuel3": "Le lieu avant les travaux",
       "titre4": "Les décors",
-      "texte4": "Murs vieillis à la main, mobilier chiné dans toute la région, papiers peints d’époque, objets authentiques des années 1950 : le chantier a duré près de deux ans pour que chaque recoin raconte quelque chose.",
+      "texte4": "Murs vieillis à la main, mobilier chiné, objets anciens et décors fabriqués sur mesure : chaque pièce a été pensée pour donner l’impression que le temps s’est arrêté en 1953. Un travail minutieux pour que chaque recoin raconte une histoire.",
       "visuel4": "Le chantier des décors",
       "titre5": "La technique",
-      "texte5": "Son spatialisé, lumières pilotées, mécanismes cachés et effets déclenchés en temps réel : la technique se fait invisible pour que vous ne pensiez qu’à une seule chose… sortir.",
+      "texte5": "Son spatialisé, lumières pilotées, mécanismes cachés et effets déclenchés en temps réel : la technique se fait invisible pour que vous ne pensiez qu’à une seule chose… survivre.",
       "visuel5": "La régie son et lumière",
       "titre6": "Les comédiens",
       "texte6": "Au cœur de Memoria, il y a l’humain. Des comédiens formés à l’improvisation et à la peur maîtrisée vous accompagnent, vous observent et ajustent l’intensité à chaque groupe.",
@@ -169,7 +171,7 @@
       "titre1": "L’immersion totale",
       "texte1": "Pas d’écran, pas de décor en carton : vous n’êtes pas spectateurs, vous êtes dans l’histoire.",
       "titre2": "La peur en sécurité",
-      "texte2": "Trois niveaux d’intensité, un mot de sécurité et une équipe attentive à chaque instant.",
+      "texte2": "Trois niveaux d’intensité, un signal de sécurité et une équipe attentive à chaque instant.",
       "titre3": "Le fait main",
       "texte3": "Décors, accessoires, mécanismes : presque tout a été imaginé et fabriqué par nos soins.",
       "titre4": "Des sessions uniques",
@@ -177,50 +179,59 @@
     },
     "atelier": {
       "titre": "Dans les coulisses",
-      "intro": "Croquis, chantier, répétitions : quelques images de la naissance de Memoria.",
+      "intro": "Chantier, décors, croquis, répétitions : quelques images de la naissance de Memoria.",
       "legende1": "L’équipe au complet",
-      "legende2": "Croquis du grand couloir",
-      "legende3": "Plan du pensionnat",
-      "legende4": "Le chantier, premier jour",
-      "legende5": "Vieillissement des murs",
-      "legende6": "Installation de la régie"
+      "legende2": "Croquis et plans",
+      "legende3": "La régie technique et les répétitions",
+      "alt1": "Sur le chantier, perceuse en main, au pied d’une échelle",
+      "alt2": "Pose des cloisons sur le chantier",
+      "alt3": "Découpe d’un panneau sur le chantier",
+      "alt4": "Fabrication des accessoires du pensionnat",
+      "alt5": "Rayonnage de livres anciens dans les décors du pensionnat"
     },
     "bandeau": "Et si tout était vrai ?",
     "pensionnat": {
       "partie": "Partie II · Le récit",
-      "titre": "Le pensionnat Sainte-Lucie",
-      "dates": "1902 – 1953",
-      "intro": "Ce que l’on sait de Sainte-Lucie tient en quelques archives, des photographies jaunies et beaucoup de silence. Voici ce que nous avons pu reconstituer.",
-      "date1": "1902",
+      "titre": "Le Pensionnat de la Liberté",
+      "intro": "Du Pensionnat de la Liberté, il ne reste aujourd’hui que quelques archives, des photographies jaunies et le souvenir d’une nuit de 1953 que personne ne semble vouloir évoquer.<br>Des cris, d’étranges lumières, une intervention de police… puis le silence.<br>Voici ce que nous avons pu reconstituer.",
+      "date1": "1877",
       "titre1": "La fondation",
-      "texte1": "Veuve d’un riche soyeux lyonnais, Éléonore de Saint-Aubin fait bâtir le pensionnat en mémoire de sa fille Lucie, emportée par la fièvre à douze ans. Elle veut offrir aux jeunes filles de la haute société « la meilleure éducation qui soit… et la protection de Dieu ».",
-      "legende1": "La famille de Saint-Aubin, vers 1898",
-      "date2": "1902 – 1948",
-      "titre2": "Une vie réglée",
-      "texte2": "Lever à six heures, prière, leçons de français, de piano et de broderie, silence au réfectoire, couvre-feu à vingt et une heures. Une quarantaine de pensionnaires, de huit à dix-sept ans, vivent au rythme de la cloche du grand hall, sous l’œil de la directrice, Mademoiselle Vernier.",
-      "legende2": "L’escalier de l’aile est, vers 1930",
-      "date3": "1948",
-      "titre3": "Héloïse",
-      "texte3": "Parmi elles, Héloïse Marchand, quatorze ans, arrivée à l’automne 1948. Douée pour le dessin, solitaire, elle remplit ses carnets du même motif : une porte que personne, au pensionnat, ne se souvient avoir jamais vue.",
-      "legende3": "Héloïse Marchand, 1949",
-      "date4": "1951",
-      "titre4": "Le photographe",
-      "texte4": "Comme chaque printemps, un photographe vient tirer le portrait de la promotion. Au développement, une silhouette de trop apparaît au dernier rang. Aucune élève ne la reconnaît. Le photographe, lui, ne remettra jamais les pieds à Sainte-Lucie.",
-      "legende4": "Le photographe, printemps 1951",
-      "date5": "1952",
-      "titre5": "Les nuits blanches",
-      "texte5": "Les incidents se multiplient : une berceuse fredonnée dans l’aile fermée, des rideaux qui ondulent sans un souffle d’air, l’horloge du grand hall qui s’arrête chaque nuit à 3 h 17. Plusieurs familles retirent leurs filles. Mademoiselle Vernier interdit qu’on en parle.",
-      "legende5": "Les rideaux du dortoir des grandes",
-      "date6": "Novembre 1953",
-      "titre6": "Le silence",
-      "texte6": "Un matin de novembre, le livreur trouve les grilles closes. À l’intérieur, les tables du petit-déjeuner sont dressées, les lits faits, les manteaux accrochés. Il n’y a plus personne. L’enquête ne donnera rien et le pensionnat est mis sous scellés.",
-      "legende6": "Dernière photographie connue d’une pensionnaire",
-      "date7": "Aujourd’hui",
-      "titre7": "Les rumeurs",
-      "texte7": "On raconte que le piano joue encore certaines nuits, que l’horloge s’est remise en marche, qu’une jeune fille attend à une fenêtre de l’aile est. Ceux qui ont tenté d’y entrer parlent tous d’une porte qui n’apparaît sur aucun plan…",
-      "legende7": "Le parc, laissé à l’abandon",
+      "texte1": "<p>Issue d’une grande famille lyonnaise, Alice de Saint-Symphorien voit son existence bouleversée par la disparition de sa fille, emportée par la tuberculose.</p><p>Profondément marquée par ce deuil, elle décide de consacrer sa fortune à la création d’un établissement où chaque enfant, quelle que soit son origine, pourrait trouver un refuge, recevoir une instruction et grandir dans le respect et la bienveillance.</p><p>Ainsi naît le Pensionnat de la Liberté, dont la devise, gravée au-dessus de ses portes, traversera les générations :</p><p class=\"evenement__devise\">« Le travail élève, la discipline redresse, l’obéissance délivre. »</p>",
+      "legende1": "La famille de Saint-Symphorien",
+      "date2": "1904",
+      "titre2": "Les cendres du passé",
+      "texte2": "<p>Un violent incendie ravage le Pensionnat de la Liberté. Les flammes dévorent une grande partie du bâtiment, emportant avec elles de précieuses archives et plusieurs décennies de souvenirs. Seules quelques photographies endommagées échappent au désastre.</p><p>Le surveillant en chef périt dans l’incendie, dont les circonstances exactes ne seront jamais établies.</p><p>Déterminée à poursuivre son œuvre, Alice de Saint-Symphorien ordonne la reconstruction immédiate de l’établissement. Les travaux permettent au pensionnat de rouvrir ses portes, mais certaines pièces du sous-sol, trop endommagées, sont définitivement condamnées.</p>",
+      "legende2": "Rescapée de l’incendie de 1904",
+      "date3": "1915",
+      "titre3": "À l’ombre de la Grande Guerre",
+      "texte3": "<p>La Première Guerre mondiale frappe durement le pays, et le Pensionnat de la Liberté n’est pas épargné.</p><p>Malgré les pénuries, les restrictions et le départ de plusieurs membres du personnel, l’établissement poursuit sa mission. De nouveaux pensionnaires y trouvent refuge, parfois séparés de leurs familles par les événements qui bouleversent l’Europe.</p><p>Sous l’impulsion d’Alice de Saint-Symphorien, le pensionnat devient, pour beaucoup de ces enfants, l’un des rares endroits où subsiste encore un semblant de normalité.</p>",
+      "legende3": "Le personnel du pensionnat, 1915",
+      "date4": "1926",
+      "titre4": "Une nouvelle aile",
+      "texte4": "<p>Après les épreuves de la guerre, le Pensionnat de la Liberté connaît une période de prospérité. Le nombre de pensionnaires ne cesse de croître, rendant nécessaire l’agrandissement de l’établissement.</p><p>Une nouvelle aile est construite à l’est du bâtiment, permettant d’accueillir davantage d’enfants et d’améliorer leurs conditions de vie.</p><p>À cette occasion, d’importants travaux sont également entrepris dans les sous-sols, condamnés depuis l’incendie de 1904.</p><p>Les ouvriers y découvrent une pièce miraculeusement épargnée par les flammes.</p><p>Réaménagée et ouverte aux pensionnaires, elle devient une salle de jeux, bientôt considérée comme l’un des endroits les plus appréciés des enfants.</p>",
+      "legende4": "La salle de jeux des sous-sols",
+      "date5": "1941",
+      "titre5": "Les années sombres",
+      "texte5": "<p>Alors que la Seconde Guerre mondiale plonge la France dans l’une des périodes les plus sombres de son histoire, le Pensionnat de la Liberté poursuit discrètement ses activités.</p><p>Fidèle aux convictions de sa fondatrice, l’établissement accueille et protège plusieurs enfants menacés par les persécutions, dissimulant leur présence aux autorités.</p><p>Les sous-sols sont réaménagés afin de servir d’abri en cas de danger. D’anciens passages sont renforcés, certaines pièces sont transformées et les fenêtres occultées.</p><p>Autrefois lieux de vie et de jeux, ces espaces deviennent progressivement froids, austères et oppressants, témoins silencieux d’une époque où chaque bruit pouvait annoncer le pire.</p>",
+      "legende5": "Les sous-sols aménagés en abri",
+      "date6": "1947",
+      "titre6": "Le dernier héritage",
+      "texte6": "<p>Après avoir consacré près de soixante-dix années de sa vie au Pensionnat de la Liberté, Alice de Saint-Symphorien s’éteint à un âge avancé.</p><p>La direction de l’établissement est confiée à Lucie Fiammetta, une femme de confiance, attachée aux valeurs de bienveillance transmises par la fondatrice.</p><p>Soucieuse de préserver cet héritage, la nouvelle directrice fait aménager un bureau chaleureux, rempli de livres, de souvenirs et d’objets familiers. Elle souhaite en faire un lieu de confiance où chaque enfant pourra trouver écoute, réconfort et protection.</p><p>Pourtant, au cours de cette même année, d’étranges phénomènes commencent à être rapportés.</p><p>Des bruits résonnent dans des pièces inoccupées. Certains objets semblent changer de place et plusieurs pensionnaires évoquent des événements qu’ils peinent à expliquer.</p><p>La direction tente de rassurer les enfants, mais les incidents se multiplient.</p>",
+      "legende6": "Le bureau de Lucie Fiammetta",
+      "date7": "1951",
+      "titre7": "Le nouveau surveillant",
+      "texte7": "<p>Un nouveau surveillant prend ses fonctions au Pensionnat de la Liberté.</p><p>Dès son arrivée, l’homme exprime le souhait inhabituel de résider au sein même de l’établissement. Après quelques hésitations, la direction accepte sa demande et lui fait aménager une chambre dans les sous-sols.</p><p>Il prend rapidement ses fonctions et participe à l’encadrement quotidien des pensionnaires.</p><p>À cette époque, les événements inexpliqués se poursuivent dans le bâtiment. Quelques témoignages évoquent notamment des bruits nocturnes provenant des niveaux inférieurs.</p><p>Aucun lien ne sera officiellement établi entre ces phénomènes et l’arrivée du nouveau surveillant.</p>",
+      "legende7": "Le nouveau surveillant, 1951",
+      "date8": "1953",
+      "titre8": "La dernière lumière",
+      "texte8": "<p>Dans la nuit du 17 au 18 février 1953, le calme du quartier est brutalement interrompu.</p><p>Des cris terrifiants retentissent à l’intérieur du pensionnat, tandis que d’intenses lumières jaillissent de plusieurs fenêtres. Alertées par les riverains, les forces de l’ordre interviennent rapidement.</p><p>Mais à leur arrivée, le bâtiment semble désert.</p><p>Aucune trace des enfants. Aucune trace de Lucie Fiammetta. Aucune trace du surveillant.</p><p>Les policiers pénètrent dans l’établissement pour tenter de comprendre ce qui vient de se produire.</p><p>Le lendemain, les agents ayant participé à l’intervention sont retrouvés dans un état de démence profonde, les yeux atrocement mutilés. Aucun d’entre eux ne sera en mesure de fournir un témoignage cohérent sur les événements de cette nuit.</p><p>Face à l’incompréhensible, les autorités décident de mettre un terme à l’enquête. Les rapports sont soustraits au public, les accès condamnés et le Pensionnat de la Liberté définitivement fermé.</p><p>Depuis cette nuit, aucun de ses occupants n’a jamais été retrouvé.</p>",
+      "legende8": "La dernière photographie de classe, 1952-1953",
+      "date9": "Aujourd’hui",
+      "titre9": "Les murmures du silence",
+      "texte9": "<p>Au milieu de l’agitation lyonnaise, le Pensionnat de la Liberté se dresse toujours, presque invisible aux yeux de ceux qui passent devant ses murs.</p><p>Un bâtiment oublié, aux fenêtres poussiéreuses et aux portes closes, qui semble se fondre dans le paysage.</p><p>Pourtant, les habitants du quartier racontent parfois d’étranges histoires.</p><p>Une silhouette immobile aperçue derrière une fenêtre. Quelques notes de piano s’échappant d’une pièce abandonnée. Des cris lointains, étouffés par l’épaisseur des murs.</p><p>Certains affirment même que des lumières apparaissent encore, certaines nuits, aux fenêtres du pensionnat.</p><p>Personne ne sait ce qui s’est réellement produit le 18 février 1953.</p><p>Et depuis plus de soixante-dix ans, nul n’a osé franchir à nouveau ses portes.</p><p class=\"evenement__chute\">Jusqu’à aujourd’hui.</p>",
+      "legende9": "Le pensionnat aujourd’hui",
       "appelTitre": "Les portes se rouvrent",
-      "appelTexte": "Ce soir, Sainte-Lucie vous attend. Pourrez-vous découvrir la vérité ?",
+      "appelTexte": "Ce soir, le Pensionnat de la Liberté vous attend. Pourrez-vous découvrir la vérité ?",
       "appelBouton": "Réserver votre session"
     }
   },
@@ -249,7 +260,7 @@
     "hero": {
       "surtitre": "Nos services · Pack cadeau",
       "titre": "Offrir Memoria",
-      "intro": "Un anniversaire, une fête, l’envie de faire frissonner quelqu’un que vous aimez… Offrez-lui une nuit à Sainte-Lucie.",
+      "intro": "Un anniversaire, une occasion spéciale ou simplement l’envie de faire frissonner vos proches… Offrez-leur une expérience qu’ils ne sont pas près d’oublier.",
       "bouton": "Offrir MEMORIA",
       "lien": "Comment ça marche ?"
     },
@@ -290,7 +301,7 @@
       "carteDe": "De la part de",
       "carteDefautNom": "Votre bénéficiaire",
       "carteDefautDe": "Vous",
-      "carteDefautMessage": "Ce soir, Sainte-Lucie t’attend.",
+      "carteDefautMessage": "Ce soir, le Pensionnat de la Liberté t’attend.",
       "cartePied": "Valable 12 mois · Lyon · N° 1953-0000"
     },
     "etapes": {
@@ -331,29 +342,24 @@
     "hero": {
       "surtitre": "Nos services · Pack personnalisé",
       "titre": "Une expérience à votre mesure",
-      "intro": "Un anniversaire inoubliable, une demande en mariage qui donne des frissons, une soirée d’entreprise hors du commun : nous adaptons Sainte-Lucie à votre événement.",
+      "intro": "Un anniversaire inoubliable, une demande en mariage qui donne des frissons, une soirée d’entreprise hors du commun : nous adaptons le Pensionnat de la Liberté à votre événement.",
       "bouton": "Créer mon expérience",
       "lien": "Voir les occasions"
     },
     "occasions": {
       "titre": "Pour quelle occasion ?",
       "titre1": "Anniversaire",
-      "texte1": "Un accueil personnalisé et une surprise glissée dans le scénario pour la personne fêtée.",
+      "texte1": "Et si cette année, vous lui offriez bien plus qu’un simple anniversaire ? Un accueil personnalisé, des surprises et une expérience dont il se souviendra longtemps.",
       "titre2": "Enterrement de vie de célibataire",
-      "texte2": "Une épreuve dont la future mariée ou le futur marié se souviendra… longtemps.",
+      "texte2": "Avant de dire oui pour la vie, encore faut-il survivre à cette épreuve… Offrez au futur marié ou à la future mariée un enterrement de vie de célibataire mémorable.",
       "titre3": "Demande en mariage",
-      "texte3": "Le pensionnat devient le décor de votre question. Frissons garantis, réponse espérée.",
+      "texte3": "Une demande pas comme les autres, dans un lieu où personne ne s’y attend. Ensemble, imaginons une mise en scène aussi surprenante qu’inoubliable pour ce moment unique.",
       "titre4": "Privatisation",
-      "texte4": "Le lieu rien que pour vous et vos invités, le temps d’une soirée ou d’une journée.",
-      "titre5": "Surprise",
-      "texte5": "Vous préparez tout avec nous, vos proches ne se doutent de rien.",
-      "titre6": "Entreprise",
-      "texte6": "Cohésion d’équipe, séminaire, soirée client : une expérience qui marque les esprits.",
-      "titre7": "Demande spéciale",
-      "texte7": "Une idée folle ? Parlons-en : nous aimons les défis.",
-      "titre8": "Tournage & partenariat",
-      "texte8": "Médias, productions, créateurs de contenu : découvrez nos conditions d’accueil.",
-      "lien8": "Presse & tournages"
+      "texte4": "Le Pensionnat de la Liberté rien que pour vous. Privatisez notre établissement pour une occasion particulière et profitez d’une expérience entièrement réservée à votre groupe.",
+      "titre5": "Événement surprise",
+      "texte5": "Gardez le secret jusqu’au dernier instant. Nous préparons ensemble une expérience personnalisée pour surprendre vos proches… qui n’auront aucune idée de ce qui les attend.",
+      "titre6": "Demande spéciale",
+      "texte6": "Une idée originale, un projet un peu fou ou une occasion qui sort de l’ordinaire ? Parlons-en ! Nous aimons relever les défis et imaginer des expériences uniques."
     },
     "facteurs": {
       "titre": "Ce qui façonne votre projet",
@@ -384,13 +390,6 @@
       "titre": "Créer mon expérience",
       "intro": "Plus vous nous en dites, plus nous pourrons vous surprendre.",
       "type": "Type d’événement",
-      "type1": "Anniversaire",
-      "type2": "Enterrement de vie de célibataire",
-      "type3": "Demande en mariage",
-      "type4": "Privatisation",
-      "type5": "Surprise",
-      "type6": "Entreprise",
-      "type7": "Autre demande",
       "budget": "Budget envisagé",
       "budget1": "Moins de 300&#8239;€",
       "budget2": "De 300 à 600&#8239;€",
@@ -399,7 +398,13 @@
       "budget5": "Je ne sais pas encore",
       "demandeExemple": "Décrivez votre idée, l’ambiance souhaitée, la personne à surprendre…",
       "infosExemple": "Contraintes particulières, accessibilité, horaires…",
-      "bouton": "Créer mon expérience"
+      "bouton": "Créer mon expérience",
+      "type1": "Anniversaire",
+      "type2": "Enterrement de vie de célibataire",
+      "type3": "Demande en mariage",
+      "type4": "Privatisation",
+      "type5": "Événement surprise",
+      "type6": "Demande spéciale"
     }
   },
   "presse": {
@@ -410,9 +415,9 @@
     "hero": {
       "surtitre": "Nos services · Presse & tournages",
       "titre": "Presse, tournages & créateurs",
-      "intro": "Journalistes, productions, photographes, créateurs de contenu : Sainte-Lucie vous ouvre ses portes… à quelques conditions.",
+      "intro": "Journalistes, médias, productions, photographes et créateurs de contenu : Memoria vous ouvre ses portes. Découvrez notre univers et contactez-nous pour vos projets, reportages ou collaborations.",
       "bouton": "Contacter notre équipe",
-      "lien": "Ressources presse"
+      "lien": "Dossier & ressources presse"
     },
     "publics": {
       "titre": "Vous êtes…",
@@ -429,7 +434,7 @@
     },
     "concept": {
       "titre": "Memoria en bref",
-      "texte": "Memoria est une expérience immersive d’horreur qui plonge les joueurs dans le pensionnat Sainte-Lucie, abandonné en 1953. Des comédiens accompagnent chaque groupe dans une histoire dont il devient le héros… ou la victime.",
+      "texte": "Memoria est une expérience immersive d’horreur qui plonge les joueurs dans le Pensionnat de la Liberté, abandonné depuis 1953. Des comédiens accompagnent chaque groupe dans une histoire dont il devient le héros… ou la victime.",
       "valeur1": "1h30",
       "libelle1": "d’immersion",
       "valeur2": "200 m²",
@@ -464,19 +469,9 @@
       "confidentialite5": "Le droit à l’image de nos comédiens fait l’objet d’un accord spécifique."
     },
     "ressources": {
-      "titre": "Ressources presse",
-      "dossierTitre": "Dossier de presse",
-      "dossierTexte": "Présentation, chiffres clés, visuels et contacts.",
-      "dossierBouton": "Bientôt disponible",
-      "logosTitre": "Logos",
-      "logosTexte": "Logotype et emblème, en versions or et blanche.",
-      "logoOr": "Logotype or",
-      "logoBlanc": "Logotype blanc",
-      "emblemeOr": "Emblème or",
-      "emblemeBlanc": "Emblème blanc",
-      "galerieTitre": "Photos autorisées",
-      "galerieTexte": "Une sélection d’images libres d’utilisation pour illustrer vos sujets, avec la mention © Memoria.",
-      "photoHd": "Photo HD à venir"
+      "titre": "Dossier & ressources presse",
+      "texte1": "À la suite de votre visite, tournage ou collaboration avec Memoria, un dossier de presse et des ressources médias pourront être mis à votre disposition.",
+      "texte2": "Vous pourrez notamment y retrouver une présentation de notre expérience, nos logos officiels, nos visuels de communication ainsi qu’une sélection de photographies autorisées à la publication."
     },
     "contact": {
       "titre": "Contacter notre équipe",
@@ -546,7 +541,7 @@
       "titre4": "Un déroulé inattendu",
       "texte4": "Loin des énigmes à la chaîne d’un escape game classique, l’aventure se vit, se ressent et se partage.",
       "titre5": "Trois niveaux d’intensité",
-      "texte5": "Faible, standard ou extrême : l’intensité s’adapte à votre groupe.",
+      "texte5": "Demi-pensionnaire, Pensionnaire ou Jusqu’en enfer ! L’intensité s’adapte à votre groupe.",
       "lien": "Voir les niveaux d’intensité"
     },
     "intensite": {
@@ -578,8 +573,8 @@
     },
     "convivial": {
       "titre": "Cocktail & moment convivial",
-      "p1": "Avant ou après leur passage dans le pensionnat, vos collaborateurs peuvent profiter d’un espace privatisé ou d’une prestation de cocktail adaptée à votre événement.",
-      "p2": "Accueil autour d’un café, buffet, apéritif ou cocktail de fin de soirée : nous construisons avec vous une formule qui permet à votre équipe d’échanger et de prolonger ce moment dans un cadre convivial.",
+      "p1": "La formule Expérience & Cocktail inclut une privatisation de l’établissement permettant à vos collaborateurs de prolonger l’expérience après la session. Le cocktail est préparé par un traiteur.",
+      "p2": "Les modalités sont définies lors de l’établissement du devis, notamment :",
       "carteTitre": "À la carte",
       "c1": "Café d’accueil",
       "c2": "Boissons chaudes",
@@ -591,38 +586,39 @@
       "c8": "Apéritif",
       "c9": "Cocktail",
       "c10": "Formule soirée",
-      "allergies": "Allergies et régimes alimentaires : signalez-les lors de votre demande, nous adaptons la prestation."
+      "allergies": "Allergies et régimes alimentaires : signalez-les lors de votre demande, nous adaptons la prestation.",
+      "modalite1": "le nombre de participants ;",
+      "modalite2": "la durée de privatisation ;",
+      "modalite3": "les prestations du traiteur ;",
+      "modalite4": "l’organisation des différentes sessions si le groupe dépasse 8 joueurs."
     },
     "formules": {
       "titre": "Nos formules entreprises",
-      "intro": "Trois formules pour commencer, toutes ajustables à votre groupe et à vos objectifs.",
       "surDevis": "Sur devis",
       "bouton": "Demander un devis",
-      "nom1": "Formule Expérience",
+      "recommandee": "Recommandée",
+      "intro": "Deux formules pour commencer, toutes deux ajustables à votre groupe et à vos objectifs.",
+      "nom1": "Formule Classique",
       "accroche1": "L’essentiel de Memoria",
-      "f1i1": "L’aventure Memoria",
+      "f1i1": "L’expérience immersive Memoria (90 minutes)",
       "f1i2": "Choix du niveau d’intensité",
-      "f1i3": "Accueil de votre équipe",
+      "f1i3": "Accueil personnalisé de votre équipe",
       "f1i4": "Briefing avant l’expérience",
       "f1i5": "Débriefing après l’expérience",
-      "f1i6": "Photo de groupe",
+      "f1i6": "Vidéo souvenir incluse",
       "nom2": "Formule Expérience & Cocktail",
-      "accroche2": "Prolonger le moment",
-      "f2i1": "L’aventure Memoria",
+      "accroche2": "Prolongez l’expérience",
+      "f2i1": "L’expérience immersive Memoria (90 minutes)",
       "f2i2": "Choix du niveau d’intensité",
-      "f2i3": "Espace réservé à votre équipe",
-      "f2i4": "Cocktail ou buffet",
-      "f2i5": "Temps d’échange",
-      "f2i6": "Photo de groupe",
-      "nom3": "Formule Privatisation",
-      "accroche3": "Le lieu rien que pour vous",
-      "f3i1": "Privatisation du lieu ou de plusieurs créneaux",
-      "f3i2": "Accueil personnalisé",
-      "f3i3": "L’aventure Memoria",
-      "f3i4": "Cocktail ou buffet",
-      "f3i5": "Temps de parole si souhaité",
-      "f3i6": "Organisation adaptée au nombre de collaborateurs",
-      "recommandee": "Recommandée"
+      "f2i3": "Accueil personnalisé de votre équipe",
+      "f2i4": "Vidéo souvenir incluse",
+      "f2i5": "Privatisation de l’établissement",
+      "f2i6": "Cocktail préparé par un traiteur après l’expérience",
+      "f2i7": "Temps d’échange et de convivialité dans un espace réservé à votre équipe",
+      "capaciteTitre": "Une équipe de plus de 6 personnes ?",
+      "capacite1": "Memoria accueille habituellement des groupes de 3 à 6 joueurs par session. Pour les événements d’entreprise, nous pouvons exceptionnellement accueillir jusqu’à 8 joueurs au cours d’une même session.",
+      "capacite2": "Pour les équipes plus nombreuses, nous proposons une organisation personnalisée, avec la possibilité de répartir les participants sur plusieurs sessions.",
+      "capacite3": "Contactez-nous pour organiser une expérience adaptée à la taille de votre équipe."
     },
     "formulaire": {
       "titre": "Demander un devis",
@@ -635,12 +631,6 @@
       "periode": "Date ou période souhaitée",
       "periodeExemple": "Ex. : mi-décembre, un jeudi soir…",
       "formule": "Formule souhaitée",
-      "choix1": "Expérience seule",
-      "choix2": "Expérience et cocktail",
-      "choix3": "Privatisation",
-      "choix4": "Événement personnalisé",
-      "choix5": "Demande de devis",
-      "choix6": "Demande d’informations",
       "privatisation": "Privatisation souhaitée",
       "cocktail": "Cocktail souhaité",
       "oui": "Oui",
@@ -651,19 +641,24 @@
       "demandes": "Demandes particulières",
       "demandesExemple": "Allergies, régimes alimentaires, accessibilité, horaires…",
       "message": "Message libre",
-      "bouton": "Demander un devis"
+      "bouton": "Demander un devis",
+      "choix1": "Formule Classique",
+      "choix2": "Formule Expérience & Cocktail",
+      "choix3": "Événement personnalisé",
+      "choix4": "Demande de devis",
+      "choix5": "Demande d’informations"
     }
   },
   "intensite": {
     "titre": "Choisissez le niveau d’intensité",
-    "intro": "Pour que chacun vive l’expérience sereinement, vous choisissez le niveau d’intensité le plus adapté à votre groupe.",
+    "intro": "Chaque groupe possède ses propres limites face à la peur. À vous de choisir jusqu’où vous êtes prêts à aller.",
     "niveau": "Niveau",
-    "nom1": "Faible",
-    "nom2": "Standard",
-    "nom3": "Extrême",
+    "nom1": "Demi-pensionnaire",
+    "nom2": "Pensionnaire",
+    "nom3": "Jusqu’en enfer !",
     "accroche1": "Frissonner sans trembler",
     "accroche2": "L’expérience Memoria",
-    "accroche3": "Pour les plus audacieux",
+    "accroche3": "À vos risques et périls",
     "texte1": "Une atmosphère inquiétante et une histoire captivante, avec des interactions mesurées des comédiens. Idéal pour les équipes peu habituées à l’horreur.",
     "texte2": "L’équilibre entre tension, surprises et coopération, tel que nous l’avons imaginé. Recommandé pour la plupart des équipes.",
     "texte3": "Une immersion sans répit, des comédiens plus présents et des situations plus éprouvantes. Réservé aux amateurs de sensations fortes.",
@@ -679,7 +674,7 @@
     "hero": {
       "surtitre": "FAQ",
       "titre": "Questions fréquentes",
-      "intro": "Tout ce qu’il faut savoir avant de franchir les portes du pensionnat Sainte-Lucie."
+      "intro": "Tout ce qu’il faut savoir avant de franchir les portes du Pensionnat de la Liberté."
     },
     "outils": {
       "recherche": "Rechercher dans la FAQ",
@@ -690,78 +685,80 @@
     "experience": {
       "titre": "L’expérience",
       "q1": "Qu’est-ce que Memoria ?",
-      "r1": "Memoria est une expérience immersive d’horreur à Lyon. Pendant 1h30, vous pénétrez avec votre groupe dans le pensionnat Sainte-Lucie, abandonné en 1953, et vivez de l’intérieur une histoire inquiétante, entourés de comédiens professionnels et de décors reconstitués dans leurs moindres détails.",
+      "r1": "<p>Memoria est une expérience immersive d’horreur à Lyon. Pendant 1h30, vous pénétrez avec votre groupe dans le Pensionnat de la Liberté, abandonné depuis 1953, et vivez de l’intérieur une histoire inquiétante, entourés de comédiens professionnels et de décors reconstitués dans leurs moindres détails.</p>",
       "q2": "Est-ce un escape game ?",
-      "r2": "Pas tout à fait. Memoria reprend certains codes de l’escape game (fouiller, observer, coopérer), mais l’expérience repose avant tout sur l’histoire, l’immersion et l’interaction avec les comédiens. Ici, il ne s’agit pas seulement de sortir d’une pièce : il s’agit de survivre à Sainte-Lucie… et de découvrir la vérité.",
+      "r2": "<p>Non, Memoria n’est pas un escape game traditionnel, bien qu’il en reprenne certains codes, comme la fouille, l’observation et la coopération.</p><p>Il s’agit avant tout d’une expérience immersive où l’histoire, les interactions avec les comédiens et les événements qui se déroulent autour de vous occupent une place centrale.</p><p>Ici, vous ne cherchez pas simplement à résoudre des énigmes ou à sortir d’une pièce : vous êtes plongés au cœur d’une enquête terrifiante, dans les couloirs du Pensionnat de la Liberté.</p>",
       "q3": "Combien de temps dure l’expérience ?",
-      "r3": "L’aventure dure 1h30. Prévoyez environ 15 minutes de plus pour l’accueil et le briefing avant votre session.",
+      "r3": "<p>L’expérience immersive dure 1h30. Prévoyez également 15 minutes supplémentaires après l’expérience pour le débriefing et votre départ.</p><p>Comptez donc environ 1h45 sur place.</p>",
       "q4": "Combien de joueurs peuvent participer ?",
-      "r4": "Chaque session accueille de 3 à 6 joueurs. Pour les groupes plus nombreux, plusieurs sessions peuvent s’enchaîner ou le lieu peut être privatisé : découvrez nos offres <a href=\"team-building.html\">team building</a> et notre <a href=\"pack-personnalise.html\">pack personnalisé</a>.",
+      "r4": "<p>Chaque session accueille habituellement de 3 à 6 joueurs.</p><p>Pour les événements spéciaux, les anniversaires, les EVJF, les EVG ou les team buildings, il est exceptionnellement possible d’accueillir jusqu’à 8 joueurs lors d’une même session.</p><p>Ces demandes particulières doivent impérativement être effectuées via notre <a href=\"contact.html#formulaire\">formulaire de contact</a> afin que notre équipe puisse organiser votre venue.</p><p>Pour les groupes plus nombreux, plusieurs sessions peuvent également être organisées. Découvrez nos offres <a href=\"team-building.html\">Team building</a> et <a href=\"pack-personnalise.html\">Expérience sur mesure</a>.</p>",
       "q5": "Y a-t-il des comédiens ?",
-      "r5": "Oui. Des comédiens professionnels incarnent les personnages du pensionnat. Ils interagissent avec vous, vous guident… ou vous mettent à l’épreuve, et adaptent leur jeu à chaque groupe.",
+      "r5": "<p>Oui. Des comédiens professionnels incarnent les personnages du pensionnat. Ils interagissent avec vous, vous guident… ou vous mettent à l’épreuve, et adaptent leur jeu à chaque groupe.</p>",
       "q6": "Faut-il être sportif ?",
-      "r6": "Non, aucune condition physique particulière n’est nécessaire. Vous serez amenés à marcher, à monter et descendre des escaliers (le pensionnat s’étend sur trois niveaux) et parfois à vous baisser, mais jamais à courir ni à fournir d’effort intense.",
+      "r6": "<p>Non, aucune condition physique particulière n’est nécessaire. Vous serez amenés à marcher, à monter et descendre des escaliers (le pensionnat s’étend sur trois niveaux) et parfois à vous baisser, mais jamais à courir ni à fournir d’effort intense.</p>",
       "q7": "Y a-t-il des énigmes ?",
-      "r7": "Oui, mais elles servent l’histoire : objets à fouiller, indices à rassembler, mécanismes à comprendre. Elles se résolvent en équipe et ne demandent aucune connaissance particulière, seulement de l’observation et de la communication.",
+      "r7": "<p>Pas vraiment ! Contrairement à un escape game traditionnel, Memoria ne repose pas principalement sur la résolution d’énigmes.</p><p>Vous serez surtout amenés à fouiller, rechercher des objets, accomplir certaines actions et réagir aux événements qui se dérouleront autour de vous.</p><p>Quelques moments de réflexion et de déduction seront néanmoins nécessaires. Après tout, vous participez à une enquête des plus périlleuses… et chaque découverte pourrait avoir son importance.</p>",
       "q8": "Les joueurs restent-ils ensemble ?",
-      "r8": "La plupart du temps, oui. Selon le scénario et le niveau d’intensité choisi, certains passages peuvent séparer le groupe quelques instants, toujours sous la surveillance de notre équipe.",
+      "r8": "<p>La plupart du temps, oui. Selon le scénario et le niveau d’intensité choisi, certains passages peuvent séparer le groupe quelques instants, toujours sous la surveillance de notre équipe.</p>",
       "q9": "Peut-on arrêter l’expérience ?",
-      "r9": "Oui, à tout moment. Un mot de sécurité vous est communiqué lors du briefing : dès qu’il est prononcé, l’expérience s’interrompt pour la personne concernée et un membre de l’équipe vient la chercher."
+      "r9": "<p>Oui, à tout moment et sans aucune obligation de poursuivre. Votre sécurité et votre consentement restent essentiels.</p><p>Un geste ou signal de sécurité vous sera présenté lors du briefing. Si l’expérience devient trop intense, il vous suffira de l’utiliser pour interrompre immédiatement votre participation.</p><p>Un membre de notre équipe interviendra alors pour vous accompagner hors de l’expérience.</p>",
+      "q10": "Peut-on participer à seulement deux joueurs ?",
+      "r10": "<p>Memoria est une expérience conçue pour accueillir un minimum de 3 joueurs par session.</p><p>Il est néanmoins possible de participer à seulement deux personnes, sur demande préalable auprès de notre équipe.</p><p>Dans ce cas, la session sera facturée sur la base du tarif applicable à 3 joueurs.</p><p><a href=\"contact.html#formulaire\">Contactez-nous via notre formulaire</a> pour organiser votre venue.</p>"
     },
     "intensite": {
       "titre": "Intensité & peur",
       "q1": "Quels sont les trois niveaux d’intensité ?",
-      "r1": "<strong>Faible</strong> : une atmosphère inquiétante et des interactions mesurées, idéal si l’horreur n’est pas votre domaine.<br><strong>Standard</strong> : l’équilibre entre tension, surprises et coopération, tel que nous avons imaginé l’expérience.<br><strong>Extrême</strong> : une immersion sans répit et des situations plus éprouvantes, réservée aux amateurs de sensations fortes.",
+      "r1": "<p><strong>Demi-pensionnaire</strong> : une atmosphère inquiétante, des surprises et une tension maîtrisée. Idéal pour découvrir l’univers de Memoria sans contact physique avec les comédiens.</p><p><strong>Pensionnaire</strong> : l’équilibre entre tension, frissons et interactions avec les comédiens. L’expérience telle que nous l’avons imaginée, avec quelques contacts physiques possibles et une immersion plus intense.</p><p><strong>Jusqu’en enfer !</strong> : à vos risques et périls. Une expérience poussée à son intensité maximale, avec davantage d’interactions, de contacts physiques encadrés et de situations éprouvantes. Réservée à ceux qui souhaitent repousser leurs limites.</p>",
       "q2": "Y a-t-il du contact physique ?",
-      "r2": "Les comédiens peuvent s’approcher très près de vous, mais aucun contact brusque ou violent n’a lieu. Aux niveaux faible et standard, ils ne vous touchent pas. Au niveau extrême, un contact léger peut survenir (une main posée sur l’épaule, un bras pour vous guider) ; vous pouvez le refuser en le signalant lors du briefing.",
+      "r2": "<p>Oui, selon le niveau d’intensité choisi.</p><p>Au niveau Demi-pensionnaire, aucun contact physique n’est prévu avec les comédiens.</p><p>Aux niveaux Pensionnaire et Jusqu’en enfer !, des contacts physiques peuvent avoir lieu dans le cadre de l’expérience.</p><p>Toutefois, aucune brutalité, aucun geste déplacé ni aucun comportement dangereux ne sont tolérés.</p><p>Vous pouvez refuser les contacts physiques en le signalant lors du briefing. Nos comédiens adaptent leurs interactions en conséquence.</p>",
       "q3": "Peut-on changer de niveau ?",
-      "r3": "Le niveau est choisi au moment de la réservation et peut encore être modifié à l’accueil, avant le début de la session. Pendant l’expérience, nos comédiens restent attentifs et adaptent l’intensité si un joueur est en difficulté.",
-      "q4": "Le niveau extrême est-il obligatoire ?",
-      "r4": "Pas du tout. Le niveau standard est celui que nous recommandons à la plupart des groupes ; le niveau extrême est une option réservée à ceux qui la choisissent.",
+      "r3": "<p>Le niveau d’intensité est choisi lors de la réservation. Par défaut, le niveau Pensionnaire est sélectionné.</p><p>Vous pouvez néanmoins modifier votre choix lors de votre arrivée, avant le début de la session.</p><p>Pendant l’expérience, nos comédiens restent attentifs aux réactions des participants et peuvent adapter l’intensité si un joueur rencontre des difficultés.</p>",
+      "q4": "Le niveau « Jusqu’en enfer ! » est-il obligatoire ?",
+      "r4": "<p>Pas du tout. Le niveau Pensionnaire est celui que nous recommandons à la plupart des groupes. Le niveau Jusqu’en enfer ! est une option réservée à ceux qui souhaitent vivre une expérience particulièrement intense.</p>",
       "q5": "L’expérience est-elle adaptée aux personnes sensibles ?",
-      "r5": "Oui, grâce au niveau faible, pensé pour vivre l’histoire en frissonnant sans être submergé. En cas de doute, contactez-nous avant de réserver : nous vous aiderons à choisir le niveau le plus adapté à votre groupe.",
+      "r5": "<p>Oui, grâce au niveau Demi-pensionnaire, pensé pour vivre l’histoire en frissonnant sans être submergé. En cas de doute, contactez-nous avant de réserver : nous vous aiderons à choisir le niveau le plus adapté à votre groupe.</p>",
       "q6": "Que se passe-t-il si un joueur a trop peur ?",
-      "r6": "Il peut demander une pause ou quitter l’expérience à tout moment grâce au mot de sécurité. Un membre de l’équipe vient alors le chercher et l’accompagne au calme, pendant que le reste du groupe poursuit l’aventure. Personne n’est jamais forcé."
+      "r6": "<p>Il peut demander une pause ou quitter l’expérience à tout moment grâce au signal de sécurité présenté lors du briefing.</p><p>Un membre de notre équipe intervient alors pour l’accompagner dans un espace calme, pendant que le reste du groupe poursuit l’aventure.</p><p>Personne n’est jamais forcé de continuer.</p>"
     },
     "reservation": {
       "titre": "Réservation",
       "q1": "Comment réserver ?",
-      "r1": "Directement en ligne, depuis la section <a href=\"index.html#reservation\">Réservez votre session</a> : choisissez une date, un créneau, le nombre de joueurs et votre niveau d’intensité. Le tarif dépend de la taille du groupe : de {{PRIX_6}} à {{PRIX_3}} par personne.",
+      "r1": "<p>Directement en ligne, depuis la section <a href=\"index.html#reservation\">Réservez votre session</a> : choisissez une date, un créneau, le nombre de joueurs et votre niveau d’intensité. Le tarif dépend de la taille du groupe : de {{PRIX_6}} à {{PRIX_3}} par personne.</p>",
       "q2": "Peut-on modifier une réservation ?",
-      "r2": "Oui, sous réserve de disponibilité, jusqu’à 48 heures avant votre session. Écrivez-nous à <a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a> en indiquant votre numéro de réservation.",
+      "r2": "<p>Oui, une modification de réservation est possible jusqu’à 48 heures avant le début de votre session, sous réserve de disponibilité.</p><p>Pour toute demande, contactez-nous à <a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a> en précisant votre numéro de réservation et la modification souhaitée.</p><p>Passé ce délai, les modifications ne sont plus garanties.</p>",
       "q3": "Peut-on annuler ?",
-      "r3": "Une annulation est possible jusqu’à 72 heures avant la session. Passé ce délai, la réservation n’est plus remboursable, mais vous pouvez nous contacter pour étudier un report. Les modalités détaillées figurent dans nos <a href=\"cgv.html\">conditions générales de vente</a>.",
+      "r3": "<p>Une demande d’annulation peut être effectuée jusqu’à 72 heures avant votre session, pour un motif légitime et justifié.</p><p>Toute demande sera étudiée par notre équipe conformément aux conditions générales de vente.</p><p>Passé ce délai, la réservation n’est en principe plus remboursable, mais vous pouvez nous contacter afin d’étudier les possibilités de report.</p><p>Les modalités détaillées figurent dans nos <a href=\"cgv.html\">conditions générales de vente</a>.</p>",
       "q4": "Peut-on ajouter un joueur ?",
-      "r4": "Oui, dans la limite de 6 joueurs par session et selon les disponibilités. Contactez-nous : le tarif par personne est ajusté selon le nombre final de joueurs.",
+      "r4": "<p>Oui, dans la limite habituelle de 6 joueurs par session et selon les disponibilités. Contactez-nous : le tarif par personne sera ajusté en fonction du nombre final de participants.</p><p>Pour les événements spéciaux, il est possible d’accueillir exceptionnellement jusqu’à 8 joueurs, uniquement sur demande préalable auprès de notre équipe.</p>",
       "q5": "Que se passe-t-il en cas de retard ?",
-      "r5": "Merci d’arriver 15 minutes avant le début de votre session. En cas de retard, prévenez-nous au plus vite : les sessions s’enchaînant, un retard important peut réduire la durée de votre expérience.",
+      "r5": "<p>Nous vous demandons d’arriver quelques minutes avant la session, mais il n’y a ni briefing, ni accueil : la séance commence directement à l’heure.</p><p>En cas de retard, merci de nous prévenir dès que possible.</p><p>Nos sessions étant organisées selon un planning précis, tout retard pourra entraîner une réduction de la durée de votre expérience, sans modification du tarif.</p><p>Au-delà de 25 minutes de retard, la session pourra être annulée et ne pas avoir lieu.</p><p>Nous vous recommandons donc de prévoir suffisamment de temps pour rejoindre notre établissement.</p>",
       "q6": "Peut-on payer séparément ?",
-      "r6": "Le paiement s’effectue en ligne lors de la réservation. Si chaque joueur souhaite régler sa part, contactez-nous avant de réserver : nous vous indiquerons la marche à suivre.",
+      "r6": "<p>Oui ! Grâce à notre système de paiement partagé, chaque participant peut régler individuellement sa part de la réservation.</p><p>Si vous rencontrez des difficultés ou avez besoin d’aide pour organiser votre paiement, n’hésitez pas à contacter notre équipe.</p>",
       "q7": "Peut-on utiliser un bon cadeau ?",
-      "r7": "Oui. Saisissez le code de votre bon lors de la réservation en ligne : son montant est déduit automatiquement. Les bons sont valables 12 mois. Envie d’en offrir un ? Rendez-vous sur la page <a href=\"pack-cadeau.html\">Offrir Memoria</a>.",
+      "r7": "<p>Oui. Saisissez le code de votre bon lors de la réservation en ligne : son montant est déduit automatiquement. Les bons sont valables 12 mois. Envie d’en offrir un ? Rendez-vous sur la page <a href=\"pack-cadeau.html\">Offrir Memoria</a>.</p>",
       "q8": "Peut-on privatiser le lieu ?",
-      "r8": "Oui, pour un anniversaire, un événement d’entreprise ou une occasion spéciale : plusieurs créneaux ou le lieu entier peuvent vous être réservés. Découvrez notre <a href=\"pack-personnalise.html\">pack personnalisé</a> et nos offres <a href=\"team-building.html\">team building</a>."
+      "r8": "<p>Oui, pour un anniversaire, un événement d’entreprise ou une occasion spéciale : plusieurs créneaux ou le lieu entier peuvent vous être réservés. Découvrez notre <a href=\"pack-personnalise.html\">pack personnalisé</a> et nos offres <a href=\"team-building.html\">team building</a>.</p>"
     },
     "pratique": {
       "titre": "Informations pratiques",
       "q1": "Quel est l’âge minimum ?",
-      "r1": "L’expérience est interdite aux moins de 12 ans et déconseillée aux moins de 16 ans. Les mineurs doivent être accompagnés d’un adulte participant à la session.",
+      "r1": "<p>L’expérience est interdite aux moins de 12 ans et déconseillée aux moins de 16 ans. Les mineurs doivent être accompagnés d’un adulte participant à la session.</p>",
       "q2": "Quelle tenue porter ?",
-      "r2": "Une tenue confortable et des chaussures plates et fermées. Évitez les vêtements fragiles ou trop clairs : le pensionnat est resté longtemps abandonné… Vos affaires personnelles peuvent être déposées à l’accueil.",
+      "r2": "<p>Une tenue confortable et des chaussures plates et fermées. Évitez les vêtements fragiles ou trop clairs : le pensionnat est resté longtemps abandonné… Vos affaires personnelles peuvent être déposées à l’accueil.</p>",
       "q3": "Où se trouve Memoria ?",
-      "r3": "Au 45 cours de la Liberté, à Lyon. Retrouvez le plan et nos coordonnées dans les <a href=\"index.html#infos\">informations pratiques</a>.",
+      "r3": "<p>Au 45 cours de la Liberté, à Lyon. Retrouvez le plan et nos coordonnées dans les <a href=\"index.html#infos\">informations pratiques</a>.</p>",
       "q4": "Quels transports utiliser ?",
-      "r4": "Memoria est facilement accessible en transports en commun et en Vélo’v. Le détail des lignes et des arrêts les plus proches sera précisé très prochainement.",
+      "r4": "<p>Memoria est accessible en transports en commun et en Vélo’v.</p><ul><li>Métro D : Guillotière</li><li>Métro B : Place Guichard</li><li>Tramway T1 : Liberté</li><li>Bus C9 : Liberté</li><li>Vélo’v : 32 cours de la Liberté</li></ul><p>Nous vous recommandons de privilégier les transports en commun pour rejoindre notre établissement.</p>",
       "q5": "Où se garer ?",
-      "r5": "Plusieurs parkings publics se trouvent à proximité. Nous vous recommandons toutefois les transports en commun, plus pratiques en centre-ville. Les informations détaillées seront bientôt disponibles.",
+      "r5": "<p>Plusieurs parkings publics se trouvent à proximité. Nous vous recommandons toutefois de privilégier les transports en commun, plus pratiques en centre-ville.</p>",
       "q6": "Le lieu est-il accessible aux personnes en situation de handicap ?",
-      "r6": "Le pensionnat s’étend sur trois niveaux reliés par des escaliers, ce qui limite pour l’instant l’accès aux personnes à mobilité réduite. Pour toute situation de handicap, contactez-nous avant de réserver : nous étudierons ensemble les possibilités d’adaptation.",
+      "r6": "<p>Le Pensionnat de la Liberté s’étend sur plusieurs niveaux, dont certains sont accessibles uniquement par des escaliers. L’intégralité du parcours n’est donc pas accessible aux personnes à mobilité réduite.</p><p>Toutefois, nous tenons à ce que chacun puisse vivre l’expérience Memoria. C’est pourquoi nous proposons une version personnalisée et adaptée, permettant aux personnes à mobilité réduite de participer pleinement à l’aventure, selon leurs besoins et les possibilités d’aménagement.</p><p>Notre établissement dispose également de toilettes accessibles aux personnes à mobilité réduite (PMR).</p><p>Pour toute demande spécifique, nous vous invitons à <a href=\"contact.html?sujet=accessibilite#formulaire\">nous contacter</a> impérativement avant de réserver, afin que nous puissions préparer votre venue dans les meilleures conditions.</p>",
       "q7": "Quelles sont les contre-indications ?",
-      "r7": "L’expérience comporte des effets sonores et lumineux soudains, des passages dans la pénombre et des espaces exigus. Elle est déconseillée aux personnes souffrant de troubles cardiaques, d’épilepsie, de troubles anxieux importants ou de claustrophobie, ainsi qu’aux femmes enceintes. L’accès est refusé à toute personne sous l’emprise de l’alcool ou de stupéfiants.",
+      "r7": "<p>L’expérience comporte des effets sonores et lumineux soudains, des passages dans la pénombre et des espaces exigus. Elle est déconseillée aux personnes souffrant de troubles cardiaques, d’épilepsie, de troubles anxieux importants ou de claustrophobie, ainsi qu’aux femmes enceintes. L’accès est refusé à toute personne sous l’emprise de l’alcool ou de stupéfiants.</p>",
       "q8": "Peut-on venir enceinte ?",
-      "r8": "Par précaution, l’expérience est déconseillée aux femmes enceintes, en raison des émotions fortes, des effets soudains et des déplacements dans la pénombre. Les autres membres de votre groupe peuvent bien sûr participer.",
+      "r8": "<p>Par précaution, l’expérience est déconseillée aux femmes enceintes, en raison des émotions fortes, des effets soudains et des déplacements dans la pénombre. Les autres membres de votre groupe peuvent bien sûr participer.</p>",
       "q9": "Peut-on participer avec un problème cardiaque ou médical ?",
-      "r9": "Les personnes souffrant de troubles cardiaques ou d’un problème de santé pouvant être aggravé par un stress intense ne doivent pas participer. En cas de doute, demandez l’avis de votre médecin et parlez-nous-en avant de réserver."
+      "r9": "<p>Les personnes souffrant de troubles cardiaques ou d’un problème de santé pouvant être aggravé par un stress intense ne doivent pas participer. En cas de doute, demandez l’avis de votre médecin et parlez-nous-en avant de réserver.</p>"
     },
     "contact": {
       "titre": "Vous n’avez pas trouvé votre réponse ?",
@@ -811,19 +808,15 @@
     },
     "venir": {
       "titre": "Venir à Memoria",
-      "intro": "Le pensionnat Sainte-Lucie vous attend au cœur de Lyon.",
+      "intro": "Le Pensionnat de la Liberté vous attend au cœur de Lyon.",
       "itineraire": "Itinéraire",
       "transportsTitre": "Transports en commun",
-      "metro": "Métro : ligne et station à préciser",
-      "bus": "Bus et tram : lignes et arrêts à préciser",
-      "velo": "Vélo’v : station la plus proche à préciser",
       "stationnementTitre": "Stationnement",
-      "stationnement1": "Parkings publics à proximité : adresses à préciser.",
+      "stationnement1": "Plusieurs parkings publics se trouvent à proximité du cours de la Liberté.",
       "stationnement2": "En centre-ville, nous vous conseillons les transports en commun.",
       "accesTitre": "Accès",
-      "acces1": "Merci d’arriver 15 minutes avant votre session pour l’accueil et le briefing.",
-      "acces2": "Entrée et accès au bâtiment : informations à venir.",
-      "acces3": "Le pensionnat s’étend sur trois niveaux reliés par des escaliers. Pour toute situation de handicap, <a href=\"contact.html?sujet=accessibilite#formulaire\">contactez-nous</a> avant de réserver."
+      "acces1": "Merci d’arriver 5 minutes avant votre session : celle-ci ne peut pas commencer en avance.",
+      "acces3": "Le Pensionnat de la Liberté s’étend sur plusieurs niveaux, dont certains accessibles uniquement par des escaliers, et dispose de toilettes accessibles aux personnes à mobilité réduite. Une version adaptée de l’expérience peut être proposée : <a href=\"contact.html?sujet=accessibilite#formulaire\">contactez-nous</a> avant de réserver."
     }
   },
   "legal": {
@@ -831,114 +824,204 @@
       "avertissement": "Document provisoire : les éléments <span class=\"a-completer\">[entre crochets]</span> sont à compléter, et l’ensemble du texte doit être validé par Memoria, idéalement avec l’aide d’un professionnel du droit.",
       "miseAJour": "Dernière mise à jour : <span class=\"a-completer\">[date]</span>",
       "sommaire": "Sommaire",
-      "autres": "Informations légales"
+      "autres": "Informations légales",
+      "traduction": ""
     },
     "mentions": {
       "titre": "Mentions légales",
       "metaTitre": "Mentions légales — Memoria",
       "description": "Mentions légales du site Memoria : éditeur, directeur de la publication, hébergeur, propriété intellectuelle.",
-      "intro": "Conformément à la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l’économie numérique, voici les informations relatives à l’éditeur et à l’hébergeur du site.",
+      "intro": "Conformément aux dispositions de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l’économie numérique et aux textes applicables, les présentes mentions légales précisent l’identité de l’éditeur du site www.memoria-experience.fr, les informations relatives à son hébergement ainsi que les conditions d’utilisation de ses contenus.",
+      "miseAJour": "Dernière mise à jour : 3 novembre 2026",
       "s1": {
         "titre": "Éditeur du site",
-        "contenu": "<p>Le site memoria-experience.fr est édité par :</p><ul><li><span class=\"a-completer\">[Raison sociale]</span>, <span class=\"a-completer\">[forme juridique]</span> au capital de <span class=\"a-completer\">[montant]</span> €</li><li>Siège social : <span class=\"a-completer\">[adresse complète du siège]</span></li><li>Immatriculée au RCS de <span class=\"a-completer\">[ville]</span> sous le numéro <span class=\"a-completer\">[numéro RCS]</span></li><li>SIRET : <span class=\"a-completer\">[numéro SIRET]</span></li><li>N° de TVA intracommunautaire : <span class=\"a-completer\">[numéro de TVA]</span></li><li>Téléphone : <span class=\"a-completer\">[numéro de téléphone]</span></li><li>E-mail : <a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a></li></ul>"
+        "contenu": "<p>Le site internet www.memoria-experience.fr est édité par :</p><p>MEMORIA EXPERIENCE, société à responsabilité limitée (SARL), au capital social de 500 €.</p><ul><li>Dénomination sociale : MEMORIA EXPERIENCE</li><li>Forme juridique : Société à responsabilité limitée (SARL)</li><li>Capital social : 500 €</li><li>Siège social : 45 cours de la Liberté, 69003 Lyon, France <span class=\"a-completer\">[à confirmer sur le Kbis actualisé]</span></li><li>Immatriculation : RCS de Lyon</li><li>Numéro SIREN : 104 633 532</li><li>Numéro SIRET : 104 633 532 00015</li><li>Numéro de TVA intracommunautaire : FR72 104633532</li><li>Adresse électronique : <a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a></li></ul><p>Adresse de l’établissement accueillant le public :</p><p>MEMORIA EXPERIENCE<br>45 cours de la Liberté<br>69003 Lyon, France</p>"
       },
       "s2": {
         "titre": "Directeur de la publication",
-        "contenu": "<p><span class=\"a-completer\">[Prénom Nom]</span>, en qualité de <span class=\"a-completer\">[fonction, ex. : gérant / président]</span>.</p>"
+        "contenu": "<p>Le directeur de la publication du site est :</p><p>Sylvain COCCO, en sa qualité de gérant de la société MEMORIA EXPERIENCE.</p><p>Toute demande concernant le contenu du site internet peut être adressée à :</p><p><a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a></p>"
       },
       "s3": {
-        "titre": "Hébergement",
-        "contenu": "<p>Le site est hébergé par :</p><ul><li>OVH SAS (OVHcloud)</li><li>2 rue Kellermann, 59100 Roubaix, France</li><li><a href=\"https://www.ovhcloud.com/fr/\" target=\"_blank\" rel=\"noopener\">www.ovhcloud.com</a></li></ul><p>Les fichiers du site sont stockés dans un centre de données situé en France (Gravelines).</p>"
+        "titre": "Hébergement du site",
+        "contenu": "<p>Le site internet est hébergé par :</p><p>OVH SAS (OVHcloud)</p><ul><li>Adresse : 2 rue Kellermann, 59100 Roubaix, France</li><li>RCS : Lille Métropole 424 761 419</li><li>Site internet : <a href=\"https://www.ovhcloud.com/fr/\" target=\"_blank\" rel=\"noopener\">www.ovhcloud.com</a></li><li>Téléphone : 1007 (depuis la France) / +33 9 72 10 10 07 (depuis l’étranger)</li></ul>"
       },
       "s4": {
         "titre": "Conception et réalisation",
-        "contenu": "<p>Site conçu et réalisé par <span class=\"a-completer\">[nom du prestataire ou de l’agence]</span>.</p>"
+        "contenu": "<p>Le site www.memoria-experience.fr a été conçu et développé par :</p><p>Stéphane LAY</p><p>La direction éditoriale, les contenus et la coordination du projet sont assurés par MEMORIA EXPERIENCE.</p><p>Crédits artistiques :</p><ul><li>Photographies : Marie LOPEZ</li><li>Création graphique et visuelle : Hugo Le Vaguerese</li><li>Autres photographies, vidéos, illustrations et créations sonores : MEMORIA EXPERIENCE et leurs auteurs respectifs, selon les crédits et autorisations applicables.</li></ul>"
       },
       "s5": {
         "titre": "Propriété intellectuelle",
-        "contenu": "<p>L’ensemble des éléments du site (textes, logotypes, emblèmes, photographies, vidéos, illustrations, univers et scénario de l’expérience) est la propriété exclusive de <span class=\"a-completer\">[Raison sociale]</span> ou de ses partenaires, et est protégé par le droit de la propriété intellectuelle.</p><p>Toute reproduction, représentation, modification ou exploitation, totale ou partielle, sans autorisation écrite préalable est interdite. Les logos et visuels proposés sur la page <a href=\"presse.html\">Presse</a> peuvent être utilisés par les médias pour illustrer un sujet consacré à Memoria, avec la mention « © Memoria ».</p>"
+        "contenu": "<p>L’ensemble des éléments présents sur le site www.memoria-experience.fr est susceptible d’être protégé par les dispositions du Code de la propriété intellectuelle et les conventions internationales applicables.</p><p>Ces éléments comprennent notamment :</p><ul><li>Les textes et contenus éditoriaux.</li><li>Les photographies, illustrations et créations graphiques.</li><li>Les logotypes, emblèmes et éléments d’identité visuelle.</li><li>Les vidéos, bandes-annonces et contenus audiovisuels.</li><li>Les compositions musicales et créations sonores.</li><li>Les éléments originaux de l’univers narratif de MEMORIA, notamment les personnages, dialogues et scénarios.</li><li>Les créations artistiques originales liées aux décors et accessoires de l’expérience.</li><li>Les éléments originaux de conception graphique du site.</li></ul><p>Ces contenus sont la propriété de MEMORIA EXPERIENCE ou de leurs titulaires respectifs, conformément aux droits détenus et aux accords conclus avec les auteurs, prestataires et collaborateurs.</p><p>Toute reproduction, représentation, modification, adaptation, diffusion ou exploitation non autorisée d’un élément protégé est interdite, sauf exceptions prévues par la législation en vigueur.</p><p>Toute utilisation des contenus à des fins commerciales, publicitaires ou promotionnelles doit faire l’objet d’une autorisation préalable des titulaires des droits concernés.</p><h3>Utilisation par la presse et les médias</h3><p>MEMORIA EXPERIENCE peut mettre à disposition des journalistes, médias et partenaires des ressources officielles comprenant des logos, photographies, visuels promotionnels et documents de présentation.</p><p>Les conditions d’utilisation de ces contenus sont communiquées lors de leur mise à disposition.</p><p>La transmission de ces ressources ne vaut pas autorisation générale de reproduction, de modification ou d’exploitation commerciale indépendante.</p><p>Toute demande d’autorisation peut être adressée à : <a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a></p>"
       },
       "s6": {
-        "titre": "Crédits photographiques",
-        "contenu": "<p>Photographies et visuels : <span class=\"a-completer\">[noms des photographes / banques d’images et licences]</span>.</p>"
+        "titre": "Crédits photographiques et audiovisuels",
+        "contenu": "<p>Les photographies et créations visuelles publiées sur le site sont réalisées par MEMORIA EXPERIENCE ou par des professionnels et collaborateurs intervenant dans le cadre du projet.</p><p>Crédits photographiques : Marie LOPEZ.</p><p>Création graphique : Hugo Le Vaguerese.</p><p>Les éventuels autres auteurs et ayants droit sont mentionnés lorsque leur crédit est requis par les autorisations ou les contrats applicables.</p><p>Les photographies représentant des personnes identifiables sont diffusées dans le respect des autorisations et des droits applicables.</p><p>Pour signaler une utilisation susceptible de porter atteinte à des droits, merci d’écrire à :</p><p><a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a></p>"
       },
       "s7": {
-        "titre": "Responsabilité",
-        "contenu": "<p><span class=\"a-completer\">[Raison sociale]</span> s’efforce de fournir des informations exactes et à jour, sans pouvoir garantir l’absence d’erreurs ou d’omissions. Les informations pratiques (horaires, tarifs, accès) peuvent évoluer : en cas de doute, <a href=\"contact.html\">contactez-nous</a>.</p><p>Le site peut contenir des liens vers des sites tiers, sur lesquels <span class=\"a-completer\">[Raison sociale]</span> n’exerce aucun contrôle et dont elle ne saurait être tenue responsable.</p>"
+        "titre": "Responsabilité et exactitude des informations",
+        "contenu": "<p>MEMORIA EXPERIENCE s’efforce de fournir sur son site des informations exactes, accessibles et régulièrement actualisées.</p><p>Malgré le soin apporté à la rédaction et à la mise à jour des contenus, certaines informations peuvent contenir des erreurs ou des omissions.</p><p>Les informations concernant les prestations, tarifs, horaires, disponibilités et modalités d’accès sont susceptibles d’évoluer.</p><p>Les caractéristiques et conditions applicables à une prestation réservée sont celles communiquées au client lors de sa commande et précisées dans les conditions générales de vente.</p><p>MEMORIA EXPERIENCE met en œuvre des moyens raisonnables pour assurer la disponibilité et la sécurité de son site internet.</p><p>Des interruptions temporaires peuvent néanmoins survenir, notamment dans le cadre d’opérations de maintenance, de mises à jour ou d’incidents techniques.</p><p>Les éventuelles limitations de responsabilité s’appliquent dans les limites autorisées par la législation en vigueur.</p>"
       },
       "s8": {
-        "titre": "Données personnelles et cookies",
-        "contenu": "<p>Le traitement de vos données personnelles est décrit dans notre <a href=\"confidentialite.html\">politique de confidentialité</a>, et l’usage des cookies dans notre <a href=\"cookies.html\">politique cookies</a>.</p>"
+        "titre": "Liens hypertextes et services tiers",
+        "contenu": "<p>Le site www.memoria-experience.fr peut proposer des liens vers des sites internet ou services exploités par des tiers.</p><p>Ces liens peuvent notamment concerner :</p><ul><li>Les réseaux sociaux officiels de MEMORIA.</li><li>Les plateformes de réservation et de paiement.</li><li>Les prestataires techniques.</li><li>Les partenaires professionnels.</li></ul><p>MEMORIA EXPERIENCE ne contrôle pas systématiquement les contenus publiés sur ces plateformes et ne peut garantir leur disponibilité ou leur exactitude.</p><p>La consultation et l’utilisation de ces services extérieurs sont soumises à leurs propres conditions d’utilisation et politiques de confidentialité.</p>"
       },
       "s9": {
+        "titre": "Réservations et paiements en ligne",
+        "contenu": "<p>Le site www.memoria-experience.fr permet aux visiteurs de consulter les prestations proposées par MEMORIA EXPERIENCE et de réserver des expériences immersives.</p><p>La gestion des réservations et des paiements en ligne est assurée au moyen de la solution 4escape.</p><p>Les informations contractuelles relatives aux réservations, aux paiements, aux modifications, aux annulations et aux éventuels remboursements sont détaillées dans les conditions générales de vente.</p><p>Les données personnelles nécessaires à la gestion de ces opérations sont traitées conformément aux informations figurant dans la politique de confidentialité.</p>"
+      },
+      "s10": {
+        "titre": "Protection des données personnelles",
+        "contenu": "<p>Dans le cadre du fonctionnement du site internet et de ses activités, MEMORIA EXPERIENCE peut être amenée à traiter des données à caractère personnel, notamment lors d’une réservation, d’un achat, d’une demande de contact ou de l’utilisation de certains services.</p><p>Les traitements de données personnelles sont encadrés par les dispositions applicables du Règlement général sur la protection des données (RGPD) et de la législation française.</p><p>Les informations concernant les finalités des traitements, les bases légales, les durées de conservation, les destinataires et les droits des personnes concernées sont disponibles dans la rubrique dédiée.</p><p>Pour toute demande relative à vos données personnelles, vous pouvez contacter :</p><p><a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a> Vous disposez également du droit d’introduire une réclamation auprès de la Commission nationale de l’informatique et des libertés (CNIL), dans les conditions prévues par la réglementation.</p><p><a href=\"confidentialite.html\">Consulter notre politique de confidentialité.</a></p>"
+      },
+      "s11": {
+        "titre": "Cookies et traceurs",
+        "contenu": "<p>Les informations relatives aux cookies et autres traceurs susceptibles d’être utilisés sur le site, à leurs finalités et aux modalités de gestion du consentement sont détaillées dans la rubrique dédiée.</p><p><a href=\"cookies.html\">Consulter notre politique de cookies.</a></p>"
+      },
+      "s12": {
+        "titre": "Conditions générales de vente",
+        "contenu": "<p>Les prestations proposées par MEMORIA EXPERIENCE sont soumises aux conditions générales de vente applicables.</p><p>Celles-ci précisent notamment les caractéristiques des prestations, les modalités de réservation, de paiement, de modification, d’annulation et les conditions de participation.</p><p><a href=\"cgv.html\">Consulter nos conditions générales de vente.</a></p>"
+      },
+      "s13": {
+        "titre": "Activité de spectacles vivants",
+        "contenu": "<p>MEMORIA EXPERIENCE exerce une activité de création, de production et d’exploitation d’expériences immersives faisant intervenir des comédiens.</p><p>Les informations relatives aux récépissés de déclaration d’entrepreneur de spectacles vivants valant licence, lorsqu’ils sont applicables et effectivement en vigueur, seront indiquées après confirmation de leur délivrance et des mentions requises.</p>"
+      },
+      "s14": {
         "titre": "Droit applicable",
-        "contenu": "<p>Les présentes mentions légales sont soumises au droit français.</p>"
+        "contenu": "<p>Les présentes mentions légales sont soumises au droit français.</p><p>Tout différend concernant l’utilisation du site internet sera examiné conformément aux dispositions légales applicables, sans préjudice des droits reconnus aux consommateurs.</p><p>Pour toute question ou réclamation, les utilisateurs peuvent contacter MEMORIA EXPERIENCE :</p><p><a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a></p><p>Les informations relatives à la médiation de la consommation figurent dans les conditions générales de vente, conformément aux obligations applicables.</p>"
+      },
+      "s15": {
+        "titre": "Modification des mentions légales",
+        "contenu": "<p>MEMORIA EXPERIENCE peut actualiser les présentes mentions légales afin de tenir compte de toute évolution législative, réglementaire, technique ou organisationnelle.</p><p>La date de dernière mise à jour est indiquée en haut de la page.</p>"
       }
     },
     "cgv": {
       "titre": "Conditions générales de vente",
       "metaTitre": "Conditions générales de vente — Memoria",
       "description": "Conditions générales de vente de Memoria : réservation, paiement, annulation, bons cadeaux, conditions de participation.",
-      "intro": "Les présentes conditions générales de vente (CGV) s’appliquent à toute réservation d’une session Memoria, à tout achat de bon cadeau et à toute prestation sur mesure. Toute réservation implique leur acceptation sans réserve.",
+      "miseAJour": "Dernière mise à jour : 4 novembre 2026",
       "s1": {
-        "titre": "Article 1 — Objet et vendeur",
-        "contenu": "<p>Les prestations sont proposées par <span class=\"a-completer\">[Raison sociale]</span>, <span class=\"a-completer\">[forme juridique]</span>, <span class=\"a-completer\">[adresse du siège]</span>, RCS <span class=\"a-completer\">[ville et numéro]</span> (ci-après « Memoria »).</p><p>Memoria propose une expérience immersive d’horreur d’une durée d’environ 1h30, pour des groupes de 3 à 6 joueurs, en présence de comédiens, au 45 cours de la Liberté à Lyon.</p>"
+        "titre": "Article 1 — Identité du prestataire",
+        "contenu": "<p>Les présentes Conditions Générales de Vente, ci-après désignées « CGV », sont établies par :</p><p>MEMORIA EXPERIENCE, société à responsabilité limitée (SARL), au capital social de 500 €.</p><ul><li>Siège social : 45 cours de la Liberté, 69003 Lyon, France</li><li>RCS Lyon : 104 633 532</li><li>SIRET : 104 633 532 00015</li><li>TVA intracommunautaire : FR72 104633532</li><li>Adresse électronique : <a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a></li><li>Site internet : www.memoria-experience.fr</li></ul><p>Ci-après désignée « MEMORIA » ou « le Prestataire ».</p><p>L’expérience est proposée au public à l’adresse suivante :</p><p>45 cours de la Liberté, 69003 Lyon, France.</p>"
       },
       "s2": {
-        "titre": "Article 2 — Prix",
-        "contenu": "<p>Les prix sont indiqués en euros, toutes taxes comprises, par personne, et dépendent du nombre de joueurs de la session :</p><ul><li>3 joueurs : {{PRIX_3}} par personne</li><li>4 joueurs : {{PRIX_4}} par personne</li><li>5 joueurs : {{PRIX_5}} par personne</li><li>6 joueurs : {{PRIX_6}} par personne</li></ul><p>Le prix applicable est celui en vigueur au moment de la réservation. Les prestations sur mesure (team building, privatisation, pack personnalisé) font l’objet d’un devis.</p>"
+        "titre": "Article 2 — Objet et champ d’application",
+        "contenu": "<p>Les présentes CGV définissent les conditions dans lesquelles MEMORIA commercialise et réalise ses prestations.</p><p>Elles s’appliquent notamment :</p><ul><li>Aux réservations de sessions individuelles ou collectives.</li><li>Aux achats et utilisations de bons cadeaux.</li><li>Aux prestations personnalisées.</li><li>Aux anniversaires, enterrements de vie de célibataire, demandes en mariage et événements privés.</li><li>Aux prestations destinées aux entreprises, notamment les team buildings.</li><li>Aux privatisations et aux prestations accompagnées d’un cocktail.</li><li>Aux prestations complémentaires proposées lors de la réservation.</li></ul><p>Elles s’appliquent aux clients consommateurs et, sous réserve des stipulations particulières, aux clients professionnels.</p><p>Toute commande implique l’acceptation des présentes CGV, après leur mise à disposition du client avant le paiement.</p><p>L’acceptation est recueillie au moyen d’une case dédiée lors de la réservation en ligne ou, pour les prestations sur devis, au moment de l’acceptation du contrat.</p><p>En cas de contradiction entre les présentes CGV et des conditions particulières expressément acceptées dans un devis, ces dernières prévalent pour les éléments concernés, sous réserve des dispositions légales impératives.</p><p>La version applicable est celle communiquée au client et acceptée au moment de la conclusion du contrat.</p>"
       },
       "s3": {
-        "titre": "Article 3 — Réservation et paiement",
-        "contenu": "<p>La réservation s’effectue en ligne via la plateforme de réservation 4escape. Elle n’est définitive qu’après paiement intégral, réalisé par <span class=\"a-completer\">[moyens de paiement acceptés]</span> sur une interface sécurisée. Un e-mail de confirmation récapitulant la date, l’horaire, le nombre de joueurs et le niveau d’intensité est alors adressé au client.</p>"
+        "titre": "Article 3 — Description de l’expérience",
+        "contenu": "<p>MEMORIA propose une expérience immersive d’horreur, mêlant théâtre vivant, narration interactive, décors, effets techniques et interventions de comédiens.</p><p>Les participants sont plongés dans une fiction se déroulant au sein du Pensionnat de la Liberté, un établissement fictif abandonné depuis 1953.</p><p>L’expérience ne constitue pas un escape game traditionnel.</p><p>Elle repose principalement sur l’immersion, les interactions, l’exploration, l’observation et la participation active des joueurs à une enquête scénarisée.</p><p>Des actions, recherches et moments de réflexion peuvent être nécessaires au déroulement de l’aventure.</p><p>La durée habituelle de l’expérience est de 90 minutes.</p><p>Le client doit également prévoir :</p><ul><li>Environ 15 minutes après la session pour le débriefing et le départ.</li></ul><p>La présence totale recommandée dans l’établissement est donc d’environ deux heures. Les 90 minutes correspondent à la durée prévue du parcours immersif. Cette durée peut être affectée par un retard du groupe, une interruption demandée par un participant ou un impératif de sécurité.</p><p>MEMORIA s’engage à fournir une prestation conforme aux caractéristiques annoncées et aux conditions contractuelles applicables.</p><p>L’appréciation subjective de la peur, des émotions ressenties ou de la difficulté des événements ne constitue pas, à elle seule, un défaut de conformité de la prestation.</p>"
       },
       "s4": {
-        "titre": "Article 4 — Conditions de participation",
-        "contenu": "<ul><li>L’expérience est interdite aux moins de 12 ans et déconseillée aux moins de 16 ans. Les mineurs doivent être accompagnés d’un adulte participant à la session.</li><li>Elle est déconseillée aux personnes souffrant de troubles cardiaques, d’épilepsie, de troubles anxieux importants ou de claustrophobie, ainsi qu’aux femmes enceintes. Chaque participant s’engage à ne pas participer en cas de contre-indication.</li><li>Les participants doivent respecter les consignes données lors du briefing, les décors, les accessoires et les comédiens.</li><li>Memoria se réserve le droit de refuser l’accès ou d’interrompre la session de toute personne sous l’emprise de l’alcool ou de stupéfiants, ou dont le comportement met en danger sa sécurité ou celle des autres, sans remboursement.</li><li>Un mot de sécurité, communiqué lors du briefing, permet à tout participant d’interrompre l’expérience à tout moment.</li></ul>"
+        "titre": "Article 4 — Capacité d’accueil et composition des groupes",
+        "contenu": "<h3>4.1. Sessions classiques</h3><p>Chaque session accueille habituellement entre 3 et 6 joueurs.</p><p>Le nombre de participants est déterminé lors de la réservation.</p><h3>4.2. Participation à deux joueurs</h3><p>Une session peut exceptionnellement être organisée pour deux personnes, sous réserve d’une demande préalable et de l’accord de MEMORIA.</p><p>Dans ce cas, le tarif appliqué correspond à celui d’une session de trois joueurs.</p><h3>4.3. Groupes de 7 ou 8 joueurs</h3><p>Pour les événements spéciaux, les anniversaires, les EVJF, les EVG et les prestations de team building, MEMORIA peut exceptionnellement accueillir jusqu’à 8 joueurs au cours d’une même session.</p><p>Ces réservations ne sont pas accessibles automatiquement dans le calendrier classique.</p><p>Elles doivent faire l’objet d’une demande préalable par le formulaire de contact et d’une confirmation expresse de MEMORIA.</p><p>Le tarif et les conditions particulières sont communiqués avant la validation de la commande.</p><h3>4.4. Groupes de plus de huit personnes</h3><p>Les groupes de plus de huit participants peuvent bénéficier d’une organisation spécifique, notamment par la répartition des joueurs sur plusieurs sessions.</p><p>La programmation, les horaires, les capacités et les conditions tarifaires sont définis préalablement par devis.</p><h3>4.5. Absence d’un participant</h3><p>La réservation porte sur un nombre déterminé de places.</p><p>En cas d’absence d’un ou plusieurs participants, les places réservées demeurent dues, sauf modification acceptée dans les conditions prévues à l’article 12 ou disposition légale contraire.</p><p>Un changement du nombre de participants ne donne pas automatiquement droit au recalcul du prix ou au remboursement des places non utilisées.</p>"
       },
       "s5": {
-        "titre": "Article 5 — Retard",
-        "contenu": "<p>Les participants doivent se présenter 15 minutes avant l’horaire de la session. En cas de retard, la durée de l’expérience pourra être réduite d’autant ; au-delà de <span class=\"a-completer\">[nombre]</span> minutes de retard, la session pourra être annulée sans remboursement.</p>"
+        "titre": "Article 5 — Tarifs",
+        "contenu": "<p>Les prix des sessions classiques sont exprimés en euros, toutes taxes comprises (TTC).</p><p>Les tarifs applicables sont les suivants :</p><div class=\"tableau-defilant\"><table class=\"legal__tableau\"><thead><tr><th scope=\"col\">Participants</th><th scope=\"col\">Prix par personne</th><th scope=\"col\">Total</th></tr></thead><tbody><tr><td>3 joueurs</td><td>{{PRIX_3}}</td><td>{{TOTAL_3}}</td></tr><tr><td>4 joueurs</td><td>{{PRIX_4}}</td><td>{{TOTAL_4}}</td></tr><tr><td>5 joueurs</td><td>{{PRIX_5}}</td><td>{{TOTAL_5}}</td></tr><tr><td>6 joueurs</td><td>{{PRIX_6}}</td><td>{{TOTAL_6}}</td></tr></tbody></table></div><p>Pour les sessions exceptionnellement organisées avec sept ou huit joueurs, le tarif est précisé au moment de l’établissement du devis ou de la proposition commerciale.</p><p>Les prix affichés comprennent l’expérience immersive, l’encadrement par les comédiens et la photographie souvenir proposée à l’issue de la session.</p><p>La vidéo souvenir constitue une prestation complémentaire lorsqu’elle n’est pas expressément incluse dans la formule réservée.</p><p>Les tarifs des prestations sur mesure, des privatisations, des prestations pour entreprises et des cocktails sont communiqués sur devis.</p><p>Le prix applicable est celui affiché et accepté au moment de la conclusion de la réservation.</p><p>MEMORIA peut modifier ses tarifs pour les commandes futures, sans modifier unilatéralement le prix des prestations déjà contractualisées.</p><p>Les éventuelles promotions sont soumises aux conditions expressément communiquées lors de leur présentation.</p><p>Aucun frais supplémentaire ne peut être facturé sans que le client en ait été préalablement informé et ait donné son accord dans les conditions légales applicables.</p>"
       },
       "s6": {
-        "titre": "Article 6 — Modification et annulation par le client",
-        "contenu": "<ul><li>Une réservation peut être modifiée, sous réserve de disponibilité, jusqu’à 48 heures avant la session.</li><li>Une annulation effectuée jusqu’à 72 heures avant la session donne lieu à <span class=\"a-completer\">[remboursement intégral / avoir]</span>.</li><li>Passé ce délai, ou en cas d’absence, aucun remboursement n’est dû.</li></ul><p>Les demandes se font par e-mail à <a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a>.</p>"
+        "titre": "Article 6 — Réservation et formation du contrat",
+        "contenu": "<p>Les réservations classiques s’effectuent principalement en ligne via le site www.memoria-experience.fr, au moyen de la solution 4escape.</p><p>Le client sélectionne notamment :</p><ul><li>La date de participation.</li><li>L’horaire de la session.</li><li>Le nombre de joueurs.</li><li>Le niveau d’intensité.</li><li>Les éventuelles prestations complémentaires proposées.</li></ul><p>Avant la validation définitive, le client doit pouvoir vérifier le récapitulatif de sa commande, le prix total et les informations nécessaires à son exécution.</p><p>Il doit pouvoir corriger d’éventuelles erreurs avant de confirmer son achat.</p><p>La validation de la commande doit indiquer sans ambiguïté qu’elle entraîne une obligation de paiement.</p><p>La réservation devient ferme après validation du paiement exigible, sous réserve de la confirmation transmise par MEMORIA ou son système de réservation.</p><p>Un courriel récapitulatif est adressé à l’adresse communiquée par le client.</p><p>Il précise notamment les informations essentielles de la réservation.</p><p>Le client est responsable de l’exactitude des coordonnées qu’il transmet.</p><p>En l’absence de confirmation ou en cas d’anomalie de paiement, il est invité à contacter MEMORIA avant de procéder à une nouvelle commande.</p><p>La réservation est destinée à la session, à la date et à l’horaire indiqués dans la confirmation.</p><p>Toute modification ultérieure est soumise aux conditions précisées dans les présentes CGV.</p>"
       },
       "s7": {
-        "titre": "Article 7 — Annulation par Memoria",
-        "contenu": "<p>En cas d’impossibilité d’assurer une session (force majeure, problème technique, indisponibilité d’un comédien…), Memoria en informe le client dans les meilleurs délais et lui propose un report ou le remboursement intégral des sommes versées, à l’exclusion de toute autre indemnité.</p>"
+        "titre": "Article 7 — Paiement",
+        "contenu": "<p>Le paiement des réservations en ligne est réalisé au moyen de la solution 4escape et de ses dispositifs de paiement associés.</p><p>Les moyens de paiement effectivement acceptés sont présentés au client avant la validation de la commande.</p><p>Pour les sessions classiques, le règlement intégral est exigé lors de la réservation, sauf modalité particulière expressément proposée.</p><h3>Paiement partagé</h3><p>Lorsque cette fonctionnalité est proposée par le système de réservation, les participants peuvent effectuer un paiement partagé.</p><p>Chaque joueur peut alors régler la part qui lui revient selon les modalités communiquées par la plateforme.</p><p>La réservation n’est définitivement confirmée qu’une fois les conditions de paiement requises satisfaites.</p><p>Les modalités précises de répartition des paiements, les délais éventuels et le traitement des paiements incomplets sont ceux présentés avant la validation de la commande.</p><p>En cas de difficulté, le client peut contacter MEMORIA à l’adresse <a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a>.</p><p>Pour les prestations professionnelles ou personnalisées, les échéances de paiement sont fixées dans le devis accepté.</p>"
       },
       "s8": {
-        "titre": "Article 8 — Absence de droit de rétractation",
-        "contenu": "<p>Conformément à l’article L.221-28 12° du Code de la consommation, le droit de rétractation ne s’applique pas aux prestations de services d’activités de loisirs fournies à une date ou à une période déterminée.</p>"
+        "titre": "Article 8 — Niveaux d’intensité",
+        "contenu": "<p>MEMORIA propose trois niveaux d’intensité permettant d’adapter les interactions et les effets de peur à la sensibilité du groupe.</p><h3>8.1. Demi-pensionnaire</h3><p>Ce niveau privilégie une atmosphère inquiétante, la tension psychologique et des interactions mesurées.</p><p>Aucun contact physique volontaire n’est prévu entre les comédiens et les joueurs dans le cadre de la mise en scène.</p><h3>8.2. Pensionnaire</h3><p>Ce niveau correspond à l’expérience standard recommandée par MEMORIA.</p><p>Il propose une immersion plus intense, avec des situations de tension, des surprises et des interactions renforcées.</p><p>Des contacts physiques non violents peuvent intervenir dans le cadre de la mise en scène, dans le respect du consentement des participants.</p><h3>8.3. Jusqu’en enfer !</h3><p>Ce niveau correspond à l’intensité maximale proposée par MEMORIA.</p><p>Il comprend des situations de peur plus soutenues, des interactions plus directes et des contacts physiques encadrés.</p><p>Aucun niveau d’intensité n’autorise la brutalité, les violences, les humiliations, les gestes déplacés ou les comportements dangereux.</p><h3>8.4. Choix du niveau</h3><p>Le niveau d’intensité est sélectionné lors de la réservation.</p><p>Par défaut, le niveau Pensionnaire est proposé.</p><p>Le choix peut être modifié avant le début de la session, sous réserve des conditions d’organisation et de sécurité.</p><p>En cours d’expérience, les comédiens peuvent adapter leurs interactions si l’état ou les réactions d’un participant le nécessitent.</p><p>Le choix d’un niveau d’intensité ne vaut jamais renonciation aux droits fondamentaux des participants ni consentement général à tout contact physique.</p>"
       },
       "s9": {
-        "titre": "Article 9 — Bons cadeaux",
-        "contenu": "<ul><li>Les bons cadeaux sont valables 12 mois à compter de leur date d’achat ; la date de fin de validité figure sur le bon.</li><li>Ils sont utilisables en une seule fois, ne sont ni remboursables ni échangeables contre des espèces, et ne peuvent être prolongés après expiration que sur décision de Memoria.</li><li>Si le prix de la session réservée est supérieur à la valeur du bon, le complément est réglé lors de la réservation.</li></ul>"
+        "titre": "Article 9 — Conditions d’âge",
+        "contenu": "<p>L’expérience MEMORIA est interdite aux personnes âgées de moins de 12 ans.</p><p>Elle est déconseillée aux mineurs de moins de 16 ans en raison de son caractère horrifique et de l’intensité émotionnelle de certaines séquences.</p><p>Tout participant mineur doit être accompagné d’un adulte prenant effectivement part à la session.</p><p>Lorsque l’accompagnateur n’est pas titulaire de l’autorité parentale, il doit disposer de l’autorisation nécessaire à la participation du mineur.</p><p>MEMORIA peut demander une justification adaptée lorsque cela est nécessaire à la vérification du respect de ces conditions.</p><p>L’adulte accompagnateur est tenu de veiller au respect des consignes par les mineurs dont il a la responsabilité, sans préjudice des obligations de sécurité incombant à MEMORIA.</p><p>Le niveau d’intensité doit être adapté à l’âge et à la sensibilité des participants.</p><p>MEMORIA peut refuser un niveau d’intensité manifestement inadapté à un participant, pour un motif objectif de sécurité.</p>"
       },
       "s10": {
-        "titre": "Article 10 — Prestations sur mesure et entreprises",
-        "contenu": "<p>Les prestations de team building, de privatisation et les événements personnalisés font l’objet d’un devis détaillé. Leurs conditions particulières (acompte, délai d’annulation, nombre de participants) prévalent sur les présentes CGV.</p>"
+        "titre": "Article 10 — Santé, avertissements et conditions physiques",
+        "contenu": "<p>L’expérience comporte notamment :</p><ul><li>Des effets sonores parfois soudains ou intenses.</li><li>Des variations importantes de luminosité.</li><li>Des passages dans la pénombre.</li><li>Des effets visuels et lumineux susceptibles de surprendre.</li><li>Des situations de peur et de tension psychologique.</li><li>Des déplacements dans des espaces aménagés.</li><li>Des escaliers et certains espaces restreints.</li><li>Des interactions rapprochées avec des comédiens.</li></ul><p>La participation est déconseillée aux personnes présentant notamment une sensibilité particulière aux fortes émotions, à certains effets lumineux ou sonores, aux espaces confinés ou au stress intense.</p><p>Une vigilance particulière est recommandée aux personnes souffrant de troubles cardiaques, de photosensibilité, notamment liée à certaines formes d’épilepsie, ou de troubles de santé susceptibles d’être aggravés par l’expérience.</p><p>Par précaution, MEMORIA déconseille également la participation aux femmes enceintes.</p><p>En cas de doute sur leur aptitude à participer, les personnes concernées sont invitées à demander un avis médical avant leur réservation.</p><p>Aucune aptitude sportive particulière n’est exigée pour le parcours classique.</p><p>Il peut toutefois être nécessaire de marcher, de se baisser ou d’emprunter des escaliers.</p><p>Il n’est jamais demandé aux joueurs de courir.</p><p>Le client est invité à informer les autres participants des principales caractéristiques et avertissements de l’expérience avant la session.</p><p>Toute demande d’aménagement doit être adressée à MEMORIA préalablement à la réservation.</p><p>Il n’est pas demandé aux participants de communiquer un diagnostic médical détaillé à MEMORIA. Seules les informations strictement nécessaires à l’étude d’un aménagement ou à la sécurité doivent être sollicitées, dans le respect de la réglementation relative aux données personnelles.</p>"
       },
       "s11": {
-        "titre": "Article 11 — Responsabilité",
-        "contenu": "<p>Les participants sont responsables des dommages qu’ils causent volontairement aux décors, accessoires et équipements. Memoria ne saurait être tenue responsable de la perte ou du vol des objets personnels, qui peuvent être déposés à l’accueil.</p>"
+        "titre": "Article 11 — Sécurité et interruptions de participation",
+        "contenu": "<h3>11.1. Briefing de sécurité</h3><p>Un briefing de sécurité obligatoire est organisé avant chaque session.</p><p>Il présente notamment :</p><ul><li>Les caractéristiques du parcours et ses principaux risques.</li><li>Les règles de déplacement dans le bâtiment.</li><li>L’interdiction de courir.</li><li>Les précautions concernant les escaliers, les décors et les installations techniques.</li><li>Les règles applicables aux interactions avec les comédiens.</li><li>Les limites des contacts physiques.</li><li>Les modalités d’interruption volontaire de l’expérience.</li><li>Le signal de sécurité permettant de demander l’intervention de l’équipe.</li><li>Les consignes applicables en cas d’incident ou d’évacuation.</li></ul><p>Ces consignes sont adaptées aux caractéristiques de l’expérience, au niveau d’intensité choisi et, lorsque cela est nécessaire, au public concerné.</p><p>Les principales règles de sécurité sont également rappelées par écrit dans l’établissement.</p><p>Chaque participant doit assister au briefing et respecter les consignes communiquées.</p><p>Une attestation de participation au briefing et de prise de connaissance des consignes peut être recueillie individuellement avant le début de la session.</p><p>Cette attestation ne constitue pas une décharge de responsabilité au bénéfice de MEMORIA.</p><h3>11.2. Signal de sécurité</h3><p>Un geste ou signal de sécurité est communiqué aux joueurs lors du briefing.</p><p>Ce signal permet à tout participant de demander l’interruption de sa participation lorsque l’expérience devient trop intense ou lorsqu’il souhaite s’arrêter.</p><p>Son utilisation entraîne l’intervention de l’équipe dans les meilleurs délais compatibles avec la sécurité.</p><p>La personne concernée est accompagnée vers un espace adapté.</p><h3>11.3. Liberté d’interrompre l’expérience</h3><p>Aucun participant n’est obligé de poursuivre l’expérience contre sa volonté.</p><p>Il peut demander à sortir à tout moment.</p><p>Une interruption individuelle n’entraîne pas nécessairement l’arrêt de la session des autres joueurs.</p><p>Lorsque la sortie d’un participant intervient de son plein gré, sans manquement imputable à MEMORIA, elle ne donne pas automatiquement droit à un remboursement, sous réserve des dispositions légales applicables.</p><h3>11.4. Contacts physiques</h3><p>Les contacts physiques sont strictement encadrés.</p><p>Ils peuvent être proposés dans les niveaux Pensionnaire et Jusqu’en enfer!, mais doivent toujours rester compatibles avec la sécurité, la dignité et le consentement des participants.</p><p>Tout joueur peut refuser les contacts physiques en le signalant lors du briefing ou pendant l’expérience.</p><p>Ce refus doit être respecté par les comédiens.</p><h3>11.5. Interruption pour raison de sécurité</h3><p>MEMORIA peut interrompre temporairement une séquence, adapter le parcours ou mettre fin à une session si une situation présente un risque sérieux pour les participants ou le personnel.</p><p>Lorsque cette situation résulte du comportement d’un participant, les dispositions de l’article 23 s’appliquent.</p><p>Les conséquences contractuelles d’une interruption non imputable aux participants sont appréciées conformément aux droits légaux du client.</p>"
       },
       "s12": {
-        "titre": "Article 12 — Droit à l’image",
-        "contenu": "<p>Une photographie de groupe peut être réalisée à l’issue de l’expérience. Elle n’est publiée (site, réseaux sociaux) qu’avec l’accord exprès des personnes photographiées. Il est interdit de filmer ou de photographier pendant l’expérience.</p>"
+        "titre": "Article 12 — Modification d’une réservation",
+        "contenu": "<p>Une demande de modification d’une réservation peut être effectuée jusqu’à 48 heures avant l’heure prévue de la session.</p><p>La modification reste soumise à la disponibilité des créneaux et à l’accord de MEMORIA.</p><p>La demande doit être adressée à :</p><p><a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a></p><p>Elle doit préciser le numéro de réservation ainsi que la modification souhaitée.</p><p>Une modification n’est effective qu’après confirmation écrite de MEMORIA.</p><p>Si aucun nouveau créneau ne peut être convenu, la réservation initiale demeure applicable, sauf accord contraire ou droit légal à résolution.</p><p>Passé le délai de 48 heures, une demande de modification peut être examinée à titre exceptionnel, sans garantie d’acceptation.</p><p>Les modifications acceptées peuvent entraîner un ajustement tarifaire lorsqu’elles changent les caractéristiques de la prestation. Cet ajustement doit être communiqué et accepté avant confirmation.</p>"
       },
       "s13": {
-        "titre": "Article 13 — Données personnelles",
-        "contenu": "<p>Les données collectées lors de la réservation sont traitées conformément à notre <a href=\"confidentialite.html\">politique de confidentialité</a>.</p>"
+        "titre": "Article 13 — Annulation par le client",
+        "contenu": "<h3>13.1. Demandes effectuées au moins 72 heures avant la session</h3><p>Une demande d’annulation peut être présentée au moins 72 heures avant l’heure prévue de la session, pour un motif légitime et justifié.</p><p>Peuvent notamment être considérés comme des motifs légitimes :</p><ul><li>Une maladie ou un accident empêchant effectivement la participation.</li><li>Un décès ou un événement familial grave.</li><li>Une circonstance exceptionnelle, imprévisible et indépendante de la volonté du client, rendant la participation impossible.</li><li>Une impossibilité de déplacement objectivement établie, dans des circonstances exceptionnelles.</li></ul><p>Cette liste n’est pas exhaustive.</p><p>La demande doit être accompagnée des justificatifs proportionnés et strictement nécessaires permettant d’en apprécier le bien-fondé.</p><p>MEMORIA n’exige pas la communication d’informations médicales détaillées lorsque des justificatifs moins intrusifs permettent d’établir l’empêchement.</p><p>Lorsqu’une annulation est acceptée dans ces conditions, MEMORIA procède au remboursement intégral des sommes versées pour la réservation concernée.</p><p>Le remboursement commercial est effectué dans un délai maximal de 14 jours suivant l’acceptation écrite de l’annulation, sauf accord différent du client.</p><h3>13.2. Demandes effectuées moins de 72 heures avant la session</h3><p>Une annulation demandée moins de 72 heures avant le début de la session ne donne pas automatiquement droit à un remboursement.</p><p>MEMORIA peut néanmoins examiner les circonstances exceptionnelles présentées par le client et proposer une solution amiable, notamment un report.</p><p>Un report peut notamment être étudié, sur présentation d’un justificatif approprié, lorsqu’un événement grave ou imprévisible empêche la participation.</p><p>L’acceptation d’un report demeure soumise aux possibilités d’organisation de MEMORIA, sans préjudice des droits légaux du client.</p><h3>13.3. Annulation sans motif recevable</h3><p>Lorsque le client renonce à sa réservation sans motif entrant dans les conditions d’annulation acceptées, aucun remboursement commercial n’est garanti.</p><p>Cette règle ne prive pas le client des droits qui pourraient lui être reconnus par la législation applicable.</p><h3>13.4. Absence le jour de la session</h3><p>En cas d’absence du groupe sans annulation acceptée au préalable, la prestation réservée demeure due, sous réserve des dispositions légales applicables.</p><p>Toute demande d’annulation doit être adressée à :</p><p><a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a></p>"
       },
       "s14": {
-        "titre": "Article 14 — Réclamations et médiation",
-        "contenu": "<p>Toute réclamation peut être adressée à <a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a>. En cas de litige non résolu, le client peut recourir gratuitement au médiateur de la consommation : <span class=\"a-completer\">[nom et coordonnées du médiateur]</span>.</p>"
+        "titre": "Article 14 — Retards",
+        "contenu": "<p>Les participants doivent se présenter 5 minutes avant l’heure prévue du début de leur session.</p><p>Cette avance permet de procéder à l’accueil, au briefing et à la préparation de l’expérience.</p><p>En cas de retard, les participants doivent prévenir MEMORIA dès que possible.</p><p>Les sessions étant organisées selon des créneaux horaires précis, un retard imputable aux participants peut entraîner une réduction de la durée de leur expérience.</p><p>Au-delà de 25 minutes de retard par rapport à l’heure prévue du début de la session, MEMORIA peut refuser de commencer l’expérience.</p><p>Cette décision tient notamment compte des contraintes d’organisation, des réservations suivantes et des conditions de sécurité.</p><p>Lorsque l’impossibilité d’assurer la session résulte d’un retard imputable au client, aucun remboursement commercial n’est garanti, sous réserve des dispositions légales impératives.</p><p>MEMORIA peut proposer un report exceptionnel lorsque les circonstances le permettent.</p><p>La durée de retard est appréciée par rapport à l’horaire de début de session indiqué sur la confirmation, et non à l’heure d’arrivée recommandée pour le briefing.</p>"
       },
       "s15": {
-        "titre": "Article 15 — Droit applicable",
-        "contenu": "<p>Les présentes CGV sont soumises au droit français. À défaut de résolution amiable, les tribunaux compétents seront ceux du ressort de <span class=\"a-completer\">[ville]</span>, sous réserve des règles d’ordre public applicables aux consommateurs.</p>"
+        "titre": "Article 15 — Annulation ou modification par Memoria",
+        "contenu": "<p>MEMORIA peut être amenée à annuler ou reporter une session lorsque sa réalisation ne peut être assurée dans les conditions convenues.</p><p>Cette situation peut notamment résulter :</p><ul><li>D’un incident technique empêchant l’exploitation normale du parcours.</li><li>D’un problème de sécurité.</li><li>De l’indisponibilité imprévue d’un comédien indispensable à la réalisation de la prestation.</li><li>D’une fermeture administrative.</li><li>D’un événement de force majeure.</li><li>De toute autre circonstance empêchant réellement l’exécution de la prestation prévue.</li></ul><p>MEMORIA informe le client dès qu’elle a connaissance de l’impossibilité d’assurer la session.</p><p>Lorsque la prestation ne peut être exécutée, le client peut accepter un report à une autre date.</p><p>À défaut d’accord sur un report et lorsque le contrat est résolu conformément aux dispositions applicables, les sommes versées au titre de la prestation non exécutée sont remboursées dans les délais légaux.</p><p>L’annulation ou la modification imputable à MEMORIA ne prive pas le client de ses autres droits légaux, notamment lorsque les conditions d’une éventuelle indemnisation sont réunies.</p><p>Une modification substantielle de la prestation ne peut être imposée unilatéralement au client en dehors des cas autorisés par la loi.</p>"
+      },
+      "s16": {
+        "titre": "Article 16 — Droit de rétractation",
+        "contenu": "<h3>16.1. Réservations à date déterminée</h3><p>Conformément à l’article L.221-28, 12° du Code de la consommation, le droit de rétractation ne s’applique pas aux contrats portant sur des activités de loisirs devant être fournies à une date ou à une période déterminée.</p><p>En conséquence, les réservations de sessions MEMORIA pour une date précise ne bénéficient pas du délai légal de rétractation de 14 jours.</p><p>Les possibilités de modification et d’annulation commerciale sont celles prévues aux présentes CGV.</p><h3>16.2. Achat de bons cadeaux sans date de session fixée</h3><p>L’achat à distance d’un bon cadeau sans réservation simultanée d’une prestation à date déterminée peut relever du droit légal de rétractation.</p><p>Lorsqu’il est applicable, le client consommateur dispose d’un délai de 14 jours à compter de la conclusion du contrat pour exercer ce droit, sans avoir à justifier sa décision.</p><p>La rétractation peut être exercée au moyen du formulaire figurant en annexe, d’une déclaration dénuée d’ambiguïté ou de la fonctionnalité de rétractation en ligne mise à disposition conformément à la réglementation.</p><p>Le remboursement intervient selon les modalités et délais prévus par le Code de la consommation.</p><p>Lorsqu’un bon a été utilisé ou qu’une prestation a commencé pendant le délai de rétractation, les conséquences sont appréciées au regard des dispositions légales applicables et des informations communiquées au consommateur avant la commande.</p><h3>16.3. Contenus numériques complémentaires</h3><p>Lorsque MEMORIA commercialise séparément une vidéo ou un autre contenu numérique, les règles relatives au droit de rétractation dépendent de la nature de la prestation, de sa personnalisation et des conditions dans lesquelles sa fourniture commence.</p><p>Toute exception ou perte éventuelle de ce droit doit répondre aux conditions légales applicables et faire l’objet de l’information et, lorsque nécessaire, des accords exprès requis.</p>"
+      },
+      "s17": {
+        "titre": "Article 17 — Bons cadeaux",
+        "contenu": "<h3>17.1. Nature des bons cadeaux</h3><p>MEMORIA propose des bons cadeaux permettant d’offrir une expérience immersive.</p><p>Ces bons peuvent correspondre à une formule définie pour un nombre déterminé de joueurs ou à un montant libre.</p><h3>17.2. Validité</h3><p>Les bons cadeaux sont valables 12 mois à compter de leur date d’achat.</p><p>La date limite de validité est indiquée sur le bon ou dans le courriel de confirmation.</p><p>Les conditions précises de réservation avant l’expiration du bon doivent être communiquées au bénéficiaire.</p><h3>17.3. Utilisation</h3><p>Le bénéficiaire procède à une réservation selon les disponibilités proposées par MEMORIA.</p><p>Il doit saisir le code du bon cadeau lors de la réservation ou suivre la procédure communiquée lors de son émission.</p><p>Un bon cadeau ne garantit pas la disponibilité d’un créneau particulier.</p><p>Le bénéficiaire est donc invité à réserver suffisamment à l’avance.</p><h3>17.4. Différence de prix</h3><p>Lorsque le prix de la prestation réservée est supérieur à la valeur du bon cadeau, le bénéficiaire doit régler le complément avant la confirmation de sa réservation.</p><p>Lorsque le bon possède une valeur monétaire supérieure au prix de la prestation sélectionnée, les modalités d’utilisation du solde sont celles clairement indiquées au moment de l’achat.</p><p><span class=\"a-completer\">[Modalité du solde des bons à confirmer avec 4escape avant publication.]</span></p><h3>17.5. Remboursement et prolongation</h3><p>Les bons cadeaux ne sont pas échangeables contre des espèces, sauf lorsqu’un remboursement est dû en application d’un droit légal ou des conditions contractuelles applicables.</p><p>Après expiration, une prolongation peut être accordée à titre exceptionnel par MEMORIA.</p><p>Elle n’est pas automatique.</p><p>Les droits légaux du consommateur, notamment lorsqu’un droit de rétractation s’applique ou en cas d’inexécution imputable à MEMORIA, demeurent réservés.</p><h3>17.6. Perte ou utilisation frauduleuse</h3><p>Le bénéficiaire doit préserver la confidentialité de son code de bon cadeau.</p><p>En cas de perte, de vol ou de suspicion d’utilisation frauduleuse, il doit contacter MEMORIA dès que possible.</p><p>L’équipe étudiera les possibilités d’identification ou de désactivation du bon, selon les fonctionnalités du système de réservation.</p>"
+      },
+      "s18": {
+        "titre": "Article 18 — Prestations pour entreprises et team buildings",
+        "contenu": "<p>MEMORIA propose des prestations destinées aux entreprises et aux groupes professionnels.</p><p>Deux formules principales sont proposées.</p><h3>18.1. Formule Classique</h3><p>Cette formule comprend notamment :</p><ul><li>L’expérience immersive MEMORIA de 90 minutes.</li><li>Le choix du niveau d’intensité.</li><li>L’accueil personnalisé de l’équipe.</li><li>Le briefing avant l’expérience.</li><li>Le débriefing après l’expérience.</li><li>La vidéo souvenir incluse.</li></ul><h3>18.2. Formule Expérience & Cocktail</h3><p>Cette formule comprend notamment :</p><ul><li>L’expérience immersive MEMORIA de 90 minutes.</li><li>Le choix du niveau d’intensité.</li><li>L’accueil personnalisé de l’équipe.</li><li>La vidéo souvenir incluse.</li><li>La privatisation de l’établissement selon les conditions définies au devis.</li><li>Un cocktail préparé par un traiteur.</li><li>Un temps d’échange après l’expérience, dans l’espace mis à disposition du groupe.</li></ul><p>La durée de privatisation, le nombre de participants, la composition du cocktail et les prestations du traiteur sont précisés dans le devis accepté.</p><h3>18.3. Capacité et organisation</h3><p>Les groupes de 7 ou 8 participants peuvent exceptionnellement bénéficier d’une session commune, sur demande préalable.</p><p>Pour les groupes plus importants, plusieurs sessions peuvent être organisées.</p><h3>18.4. Devis et engagement contractuel</h3><p>Les prestations pour entreprises font l’objet d’un devis détaillé précisant notamment :</p><ul><li>La nature de la prestation.</li><li>La date et les horaires.</li><li>Le nombre de participants.</li><li>La durée de privatisation.</li><li>Le prix total et les taxes applicables.</li><li>Les éventuelles prestations de restauration.</li><li>Les modalités de paiement.</li><li>Les conditions particulières de modification ou d’annulation.</li></ul><p>Le contrat est conclu après acceptation du devis selon les modalités qui y figurent.</p><p>Les demandes complémentaires ou modifications substantielles peuvent donner lieu à un devis additionnel.</p><h3>18.5. Paiement entre professionnels</h3><p>Les échéances de paiement applicables aux clients professionnels sont indiquées dans le devis et sur la facture, conformément à la réglementation.</p><p>À défaut de stipulation plus spécifique, les pénalités de retard sont calculées au taux de refinancement de la Banque centrale européenne applicable, majoré de dix points de pourcentage, selon les dispositions légales en vigueur.</p><p>Une indemnité forfaitaire de 40 € pour frais de recouvrement est due dans les situations prévues par le Code de commerce.</p><p>Aucun escompte pour paiement anticipé n’est accordé, sauf mention expresse dans le devis.</p>"
+      },
+      "s19": {
+        "titre": "Article 19 — Prestations personnalisées et privatisations",
+        "contenu": "<p>MEMORIA peut proposer des prestations adaptées à des événements particuliers :</p><ul><li>Anniversaires.</li><li>Enterrements de vie de jeune fille ou de garçon.</li><li>Demandes en mariage.</li><li>Événements surprises.</li><li>Privatisations.</li><li>Demandes spéciales.</li></ul><p>Ces prestations sont étudiées individuellement.</p><p>Toute personnalisation doit être expressément acceptée par MEMORIA avant la conclusion du contrat.</p><p>La prestation effectivement due est celle décrite dans le devis ou la confirmation écrite.</p><p>Les demandes particulières restent soumises aux contraintes techniques, artistiques, matérielles et de sécurité de l’établissement.</p><p>MEMORIA ne garantit pas l’acceptation de toute demande de personnalisation.</p>"
+      },
+      "s20": {
+        "titre": "Article 20 — Cocktails et prestations de restauration",
+        "contenu": "<p>Lorsque la prestation comprend un cocktail ou une restauration, les conditions de fourniture sont précisées dans le devis.</p><p>Les aliments et boissons sont préparés ou fournis par un traiteur ou un prestataire désigné dans le cadre de l’organisation de l’événement.</p><p>Les informations concernant les allergies alimentaires, intolérances ou régimes particuliers doivent être communiquées suffisamment tôt pour permettre l’étude des possibilités d’adaptation.</p><p>Les prestations effectivement disponibles et les éventuels suppléments sont confirmés par écrit.</p><p>La responsabilité de chaque intervenant est appréciée selon son rôle, ses obligations contractuelles et les dispositions légales applicables.</p><p>MEMORIA demeure responsable envers son client des obligations qu’elle a elle-même contractées, dans les conditions prévues par la loi.</p>"
+      },
+      "s21": {
+        "titre": "Article 21 — Photographies et vidéos souvenirs",
+        "contenu": "<h3>21.1. Photographies souvenirs</h3><p>Une photographie souvenir est comprise dans l’expérience.</p><p>Elle peut notamment être réalisée à l’issue de la session.</p><p>La réalisation ou la remise d’une photographie ne constitue pas une autorisation de publication par MEMORIA à des fins commerciales ou promotionnelles.</p><h3>21.2. Vidéos souvenirs</h3><p>Une vidéo souvenir peut être proposée en option ou incluse dans certaines formules, notamment les prestations pour entreprises.</p><p>Lorsqu’elle est facturée séparément, son prix et ses caractéristiques essentielles sont communiqués avant l’achat.</p><p>Les modalités de production et de remise sont précisées au moment de la commande.</p><p>Lorsqu’une vidéo est fournie sous forme de contenu numérique, MEMORIA respecte les obligations légales de conformité applicables, notamment celles prévues aux articles L.224-25-12 et suivants du Code de la consommation.</p><p>Pour une fourniture ponctuelle, la garantie légale de conformité couvre les défauts existant lors de la fourniture et apparaissant dans un délai de deux ans.</p><p>En cas de défaut de conformité, le consommateur peut demander la mise en conformité du contenu dans les conditions prévues par la loi.</p><p>Lorsque les conditions légales sont réunies, il peut également bénéficier d’une réduction du prix ou de la résolution du contrat.</p><p>Ces droits s’exercent sans frais dans les conditions légales applicables.</p><p>En cas d’impossibilité de fournir une vidéo payante pour une cause imputable à MEMORIA, le client bénéficie des droits légaux attachés à l’inexécution de cette prestation, notamment, lorsque les conditions sont réunies, du remboursement du montant correspondant.</p><h3>21.3. Droit à l’image</h3><p>La publication d’une photographie ou d’une vidéo permettant d’identifier un participant sur le site internet, les réseaux sociaux ou les supports promotionnels de MEMORIA nécessite les autorisations appropriées.</p><p>Ces autorisations sont distinctes de l’acceptation des présentes CGV.</p><p>Elles doivent notamment préciser les utilisations envisagées et respecter les exigences applicables aux personnes mineures.</p><p>Le refus d’une utilisation promotionnelle de son image ne peut, à lui seul, empêcher un client de participer à une prestation qui ne nécessite pas cette utilisation.</p><h3>21.4. Captations liées à l’expérience</h3><p>Lorsque des images ou vidéos sont enregistrées pour les besoins de l’expérience ou d’une prestation souvenir, les participants sont informés des finalités de ces captations et des modalités de traitement de leurs données personnelles.</p><p>Les informations complémentaires figurent dans la politique de confidentialité.</p>"
+      },
+      "s22": {
+        "titre": "Article 22 — Accessibilité et adaptation du parcours",
+        "contenu": "<p>Le Pensionnat de la Liberté s’étend sur plusieurs niveaux dont certains sont reliés par des escaliers.</p><p>L’intégralité du parcours classique n’est pas accessible aux personnes à mobilité réduite.</p><p>MEMORIA propose néanmoins d’étudier des adaptations personnalisées afin de permettre aux personnes concernées de vivre une expérience immersive compatible avec leurs besoins et les conditions de sécurité.</p><p>L’établissement dispose de toilettes aménagées pour les personnes à mobilité réduite. Toute demande d’adaptation doit être transmise à MEMORIA avant la réservation, par le formulaire de contact ou par courriel.</p><p>Après échange avec le client, MEMORIA précise les aménagements effectivement possibles et les caractéristiques du parcours proposé.</p><p>Une adaptation est confirmée par écrit avant la conclusion de la réservation correspondante.</p><p>Aucune prestation ou zone inaccessible ne doit être présentée comme accessible lorsqu’elle ne l’est pas effectivement.</p>"
+      },
+      "s23": {
+        "titre": "Article 23 — Règles de comportement, exclusion et arrêt de session",
+        "contenu": "<p>Les participants s’engagent à respecter les règles de sécurité, les comédiens, le personnel, les autres joueurs, les locaux et les équipements.</p><p>Sont notamment interdits :</p><ul><li>Les violences physiques et les menaces.</li><li>Les insultes, intimidations et comportements à caractère discriminatoire ou harcelant.</li><li>Les contacts physiques non consentis avec le personnel ou les autres participants.</li><li>La dégradation volontaire des décors et accessoires.</li><li>La manipulation non autorisée des installations techniques.</li><li>L’introduction d’objets dangereux.</li><li>Tout comportement susceptible de mettre en danger autrui.</li></ul><h3>23.1. Alcool et stupéfiants</h3><p>Il est interdit d’introduire ou de consommer de l’alcool, des stupéfiants ou toute autre substance psychoactive à usage non autorisé dans l’établissement.</p><p>Une exception concernant les boissons alcoolisées servies par MEMORIA ou son traiteur peut être prévue dans le cadre d’une prestation Cocktail, exclusivement après la fin de l’expérience immersive, dans les conditions applicables à la prestation.</p><p>Les participants doivent respecter les règles de consommation et de sécurité communiquées par l’établissement.</p><p>Aucun participant présentant des signes manifestes d’ébriété ou d’altération de ses capacités par une substance psychoactive ne peut prendre part à l’expérience lorsque son état est incompatible avec son déroulement en sécurité.</p><h3>23.2. Refus d’accès à l’expérience</h3><p>MEMORIA peut refuser l’accès à toute personne qui :</p><ul><li>Présente des signes manifestes d’ébriété ou d’emprise de stupéfiants ou d’autres substances psychoactives incompatibles avec une participation en sécurité.</li><li>Adopte un comportement violent, menaçant ou gravement injurieux envers les autres participants ou le personnel.</li><li>Refuse d’assister au briefing obligatoire de sécurité.</li><li>Refuse de respecter les consignes essentielles de sécurité après qu’elles lui ont été clairement expliquées.</li></ul><p>La décision de refus d’accès repose sur des motifs objectifs, appréciés au regard des faits constatés et des exigences de sécurité de l’activité.</p><h3>23.3. Exclusion et arrêt de la session</h3><p>Le responsable de session peut, à tout moment, exclure un ou plusieurs participants ou, si la sécurité l’exige, mettre fin à la session pour l’ensemble du groupe lorsqu’un participant :</p><ul><li>Commet des violences, profère des menaces ou impose un contact physique non consenti à un comédien, à un membre du personnel ou à un autre joueur.</li><li>Se révèle manifestement sous l’emprise de l’alcool ou de stupéfiants, dans des conditions incompatibles avec la sécurité de l’expérience.</li><li>Dégrade volontairement les décors, accessoires ou installations techniques.</li><li>Persiste à enfreindre les consignes essentielles de sécurité malgré un avertissement de l’équipe.</li><li>Met gravement en danger sa propre sécurité ou celle d’autrui.</li></ul><p>Sauf en cas de violence, de menace grave ou de danger immédiat, un avertissement est donné avant l’exclusion.</p><p>Lorsque seul le comportement d’un participant est en cause, MEMORIA privilégie son exclusion individuelle et la poursuite de la session pour les autres joueurs, lorsque les conditions de sécurité et d’organisation le permettent.</p><p>Si le comportement d’un participant rend impossible la poursuite de la session en sécurité pour l’ensemble du groupe, le responsable peut décider d’interrompre définitivement l’expérience.</p><p>MEMORIA peut solliciter l’intervention des forces de l’ordre si la situation le justifie.</p><h3>23.4. Conséquences financières</h3><p>Lorsque le refus d’accès, l’exclusion ou l’interruption de participation est directement imputable à un manquement grave d’un participant aux présentes règles, celui-ci ne bénéficie pas automatiquement d’un remboursement ou d’un report.</p><p>En l’absence de manquement imputable à MEMORIA, aucun remboursement commercial n’est garanti au participant responsable, sous réserve des dispositions légales applicables.</p><p>Lorsqu’une session entière est interrompue en raison du comportement d’un seul participant, les conséquences financières sont examinées en distinguant la situation du participant responsable de celle des autres joueurs.</p><p>Les participants n’ayant commis aucun manquement conservent leurs droits légaux relatifs à la prestation non exécutée.</p><p>Un report, un remboursement correspondant à la prestation non exécutée ou une autre solution amiable peut leur être proposé selon les circonstances et les obligations applicables.</p><p>Les dommages matériels ou corporels causés par un participant peuvent engager sa responsabilité personnelle dans les conditions prévues par la loi.</p><p>Les présentes dispositions ne font pas obstacle aux droits des clients en cas de manquement de MEMORIA à ses propres obligations.</p>"
+      },
+      "s24": {
+        "titre": "Article 24 — Responsabilité et respect des consignes de sécurité",
+        "contenu": "<p>MEMORIA est tenue d’exécuter les prestations conformément au contrat et aux obligations légales qui lui incombent.</p><p>Elle met en œuvre les mesures nécessaires à la sécurité des participants et au bon déroulement des activités proposées.</p><h3>24.1. Consignes de sécurité</h3><p>Les consignes de sécurité nécessaires à la pratique de l’activité sont présentées à chaque participant lors du briefing préalable.</p><p>Elles sont adaptées aux caractéristiques du parcours, au public concerné et aux risques raisonnablement prévisibles.</p><p>Les consignes essentielles sont également rappelées par écrit dans l’établissement.</p><p>Chaque participant s’engage à respecter ces consignes ainsi que les instructions données par l’équipe pendant toute sa présence dans les locaux.</p><p>Le participant qui enfreint les consignes de sécurité ou adopte un comportement fautif peut engager sa responsabilité pour les dommages qu’il cause aux autres participants, au personnel ou aux installations.</p><p>Lorsque sa faute a contribué à la survenance de son propre dommage, elle peut entraîner une exonération totale ou partielle de responsabilité de MEMORIA, uniquement dans les conditions prévues par la loi.</p><p>L’appréciation de cette responsabilité tient notamment compte des obligations de sécurité, d’information et de prévention incombant à MEMORIA.</p><h3>24.2. Dommages matériels</h3><p>Les participants doivent respecter les installations et équipements mis à leur disposition.</p><p>Les dommages causés intentionnellement ou par faute peuvent engager la responsabilité de leur auteur dans les conditions du droit commun.</p><p>MEMORIA peut demander réparation d’un préjudice matériel effectivement subi, sous réserve d’en justifier la réalité et le montant.</p><h3>24.3. Effets personnels</h3><p>Les participants sont invités à éviter d’apporter des objets de valeur.</p><p>Les modalités éventuelles de dépôt des effets personnels sont précisées par l’équipe sur place.</p><p>La responsabilité de MEMORIA en cas de perte, de vol ou de détérioration est appréciée conformément aux règles légales applicables et aux circonstances.</p><h3>24.4. Limites légales</h3><p>Aucune stipulation des présentes CGV ne peut avoir pour effet d’exclure ou de limiter une responsabilité que la loi interdit d’exclure ou de limiter.</p><p>Les présentes CGV ne constituent pas une décharge de responsabilité en matière de sécurité des personnes.</p><p>La participation à l’expérience et l’acceptation des présentes conditions n’emportent aucune renonciation anticipée à un droit à réparation légalement reconnu.</p>"
+      },
+      "s25": {
+        "titre": "Article 25 — Force majeure",
+        "contenu": "<p>Les situations de force majeure sont appréciées conformément à l’article 1218 du Code civil.</p><p>Lorsqu’un événement répondant aux conditions légales de la force majeure empêche temporairement l’exécution d’une obligation contractuelle, les conséquences sont déterminées selon les dispositions légales applicables.</p><p>Lorsque l’empêchement est définitif, le contrat peut être résolu dans les conditions prévues par la loi, avec les conséquences restitutoires correspondantes.</p><p>Une difficulté technique, organisationnelle ou financière ne constitue pas automatiquement un cas de force majeure.</p><p>La partie qui invoque un événement de force majeure informe l’autre partie dans les meilleurs délais raisonnablement possibles.</p>"
+      },
+      "s26": {
+        "titre": "Article 26 — Réclamations",
+        "contenu": "<p>Toute réclamation relative à une réservation, à une prestation ou à son exécution peut être adressée à :</p><p>MEMORIA EXPERIENCE<br>45 cours de la Liberté<br>69003 Lyon, France</p><p>Courriel : <a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a></p><p>Le client est invité à préciser la nature de sa réclamation, le numéro de réservation et tout élément utile à son examen.</p><p>MEMORIA s’engage à examiner les réclamations et à y répondre dans un délai raisonnable.</p><p>Le recours au service client n’empêche pas le consommateur d’exercer les droits que lui reconnaît la loi.</p>"
+      },
+      "s27": {
+        "titre": "Article 27 — Médiation de la consommation",
+        "contenu": "<p>Conformément aux articles L.612-1 et suivants et L.616-1 du Code de la consommation, tout client ayant la qualité de consommateur dispose du droit de recourir gratuitement à un médiateur de la consommation afin de rechercher une résolution amiable d’un litige l’opposant à MEMORIA EXPERIENCE.</p><p>MEMORIA EXPERIENCE a désigné comme médiateur de la consommation :</p><p>CM2C — Centre de la Médiation de la Consommation de Conciliateurs de Justice</p><ul><li>Adresse postale : 49 rue de Ponthieu, 75008 Paris, France</li><li>Téléphone : 01 89 47 00 14</li><li>Site internet : <a href=\"https://www.cm2c.net\" target=\"_blank\" rel=\"noopener\">www.cm2c.net</a></li><li>Saisine en ligne : <a href=\"https://www.cm2c.net/declarer-un-litige.php\" target=\"_blank\" rel=\"noopener\">https://www.cm2c.net/declarer-un-litige.php</a></li></ul><p>L’adhésion de MEMORIA EXPERIENCE au dispositif CM2C est valable jusqu’au 4 novembre 2029.</p><h3>Conditions de recours à la médiation</h3><p>Avant de saisir le médiateur, le consommateur doit avoir préalablement adressé une réclamation écrite à MEMORIA EXPERIENCE afin de tenter de résoudre directement le différend.</p><p>Lorsque cette démarche n’a pas permis d’obtenir une solution satisfaisante, le consommateur peut saisir gratuitement CM2C, sous réserve des conditions de recevabilité prévues par la réglementation.</p><p>La saisine doit notamment intervenir dans un délai maximal d’un an à compter de la réclamation écrite adressée au professionnel.</p><p>Le recours à la médiation est facultatif pour le consommateur.</p><p>Il ne le prive pas de son droit de saisir une juridiction compétente.</p><p>La procédure de médiation est gratuite pour le consommateur, sous réserve des frais éventuels qu’il choisirait lui-même d’engager pour être assisté ou représenté.</p>"
+      },
+      "s28": {
+        "titre": "Article 28 — Données personnelles",
+        "contenu": "<p>Les données personnelles collectées dans le cadre des réservations, paiements, contacts, bons cadeaux, captations et prestations sont traitées dans les conditions décrites dans la politique de confidentialité.</p><p>Les informations détaillées relatives aux finalités, aux bases légales, aux destinataires, aux durées de conservation et aux droits des personnes concernées sont accessibles dans cette rubrique.</p><p>Pour toute demande relative aux données personnelles :</p><p><a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a></p><p><a href=\"confidentialite.html\">Consulter la politique de confidentialité.</a></p>"
+      },
+      "s29": {
+        "titre": "Article 29 — Droit applicable et litiges",
+        "contenu": "<p>Les présentes CGV sont soumises au droit français.</p><p>En cas de différend, les parties sont invitées à rechercher prioritairement une solution amiable.</p><p>Les clients consommateurs peuvent saisir les juridictions compétentes selon les règles légales qui leur sont applicables.</p><p>Aucune clause des présentes CGV ne prive un consommateur des règles impératives de compétence juridictionnelle ou de protection dont il bénéficie.</p><p>Pour les contrats conclus entre professionnels, les éventuelles stipulations spécifiques relatives aux litiges et à la compétence juridictionnelle sont précisées dans le contrat ou le devis accepté, dans les limites autorisées par la loi.</p>"
+      },
+      "s30": {
+        "titre": "Article 30 — Modification des CGV",
+        "contenu": "<p>MEMORIA peut modifier les présentes CGV pour les contrats futurs afin de tenir compte de l’évolution de son activité, de ses prestations ou de la réglementation.</p><p>Les modifications ne s’appliquent pas rétroactivement aux contrats déjà conclus, sauf disposition légale applicable ou accord des parties.</p><p>La version des CGV applicable à une commande est celle communiquée et acceptée au moment de sa conclusion.</p>"
+      },
+      "s31": {
+        "titre": "Annexe — Formulaire type de rétractation",
+        "contenu": "<p>À utiliser uniquement pour les achats bénéficiant légalement d’un droit de rétractation, notamment certains bons cadeaux achetés à distance sans date de prestation déterminée.</p><p>À l’attention de :</p><p>MEMORIA EXPERIENCE<br>45 cours de la Liberté<br>69003 Lyon, France</p><p><a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a></p><p>Je vous notifie par la présente ma rétractation du contrat portant sur la commande suivante :</p><ul><li>Nature de la commande :</li><li>Numéro de commande :</li><li>Date de la commande :</li><li>Nom et prénom du consommateur :</li><li>Adresse du consommateur :</li><li>Adresse électronique :</li></ul><p>Date :</p><p>Signature du consommateur (uniquement en cas de notification sur papier) :</p><p>Ce formulaire peut être adressé par courriel ou courrier.</p><p>La fonctionnalité de rétractation en ligne, lorsqu’elle est légalement requise, doit également être accessible depuis l’interface concernée.</p>"
       }
     },
     "confidentialite": {
@@ -948,7 +1031,7 @@
       "intro": "Memoria attache une grande importance à la protection de vos données personnelles. Cette politique explique quelles données nous collectons, pourquoi, combien de temps nous les conservons et comment exercer vos droits, conformément au Règlement général sur la protection des données (RGPD) et à la loi Informatique et Libertés.",
       "s1": {
         "titre": "Responsable du traitement",
-        "contenu": "<p><span class=\"a-completer\">[Raison sociale]</span>, <span class=\"a-completer\">[adresse du siège]</span>, joignable à <a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a>.</p><p>Délégué à la protection des données : <span class=\"a-completer\">[nom et coordonnées, ou « non désigné »]</span>.</p>"
+        "contenu": "<p>MEMORIA EXPERIENCE, SARL au capital de 500 €, 45 cours de la Liberté, 69003 Lyon, joignable à <a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a>.</p><p>Délégué à la protection des données : <span class=\"a-completer\">[nom et coordonnées, ou « non désigné »]</span>.</p>"
       },
       "s2": {
         "titre": "Données collectées",
@@ -1006,7 +1089,7 @@
       },
       "s4": {
         "titre": "Mesure d’audience",
-        "contenu": "<p><span class=\"a-completer\">[Si un outil de mesure d’audience est ajouté (Google Analytics, Matomo…) : nom de l’outil, finalité, durée de conservation, et mise en place d’un bandeau de consentement lorsque l’outil le requiert.]</span></p>"
+        "contenu": "<p>Le site n’utilise aucun outil de mesure d’audience. Si un tel outil était ajouté, cette politique serait mise à jour et votre consentement recueilli lorsque la réglementation l’exige.</p>"
       },
       "s5": {
         "titre": "Gérer vos préférences",

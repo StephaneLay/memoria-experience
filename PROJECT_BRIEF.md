@@ -44,6 +44,10 @@ Inventaire des éléments du site liés à 4escape (au 2 novembre 2026) :
 | Formulaires contact, devis team building, pack personnalisé, presse | **Pas de widget 4escape** : script PHP du site sur l’hébergement OVH, envoi vers contact@ : **fait** (testé en local) ; les devis sont ensuite édités dans 4escape |
 | Prochains créneaux libres (optionnel) | Widget « disponibilités » de 4escape, existant |
 
+## Contenu final du client (4-5 novembre 2026)
+
+Le client a fourni une fiche de contenus (`contenu-client/Contenu Site MEMORIA EXPERIENCE.pdf`, hors git) et 20 photos (`contenu-client/photos/`). Tout a été intégré le 5 novembre en FR / EN : nouveau nom du lieu (**Pensionnat de la Liberté**, à la place de Sainte-Lucie), nouvelle histoire et chronologie (1877 → aujourd’hui), deux fondateurs (Sylvain, Alexis), niveaux d’intensité renommés, horaires (7 j/7, 10 h – 00 h), transports, FAQ réécrite, deux formules team building, six occasions sur mesure, ressources presse simplifiées, mentions légales et CGV définitives (médiateur CM2C). Les écarts et décisions sont suivis dans QUESTIONS_CLIENT.
+
 ## Pages
 
 - Page d’accueil : faite (FR / EN).

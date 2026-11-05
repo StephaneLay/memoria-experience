@@ -2,72 +2,51 @@
 
 Rien de ce qui suit n’est bloquant pour avancer sur le design ; ce sont les contenus provisoires actuellement en ligne sur la préversion.
 
-## Contenus provisoires à confirmer
+## Contenu final intégré le 5 novembre — reste à fournir
 
-- [x] **Adresse** : 45 cours de la Liberté, 69003 Lyon (validé le 2 novembre)
-- [x] **Téléphone** : 06 65 71 87 07, comme dans 4escape (validé le 2 novembre)
-- [ ] **Accès** : lignes de métro / bus, parking, station Vélo’v (textes « à préciser » pour l’instant)
-- [ ] **Horaires** : en attente du client (« du mercredi au dimanche, de 10h à 23h » affiché ; le calendrier 4escape ouvre actuellement 7 j/7)
-- [ ] **Liens des réseaux sociaux** : Instagram, YouTube, TikTok, Facebook
-- [ ] **Accroche du hero** : « Pensionnat Sainte-Lucie, 1953. Personne n’en est jamais ressorti. » (ajoutée, à valider)
-- [ ] **Traduction anglaise** : faite par nos soins, à relire si le client le souhaite
+- [ ] **Fond animé du haut de l’accueil** : vidéo MP4 courte, sans son, en boucle (moins de 5 Mo), plutôt qu’un GIF
+- [ ] **Bande-annonce** : lien YouTube
+- [ ] **Pictogrammes de Hugo** pour « Votre expérience Memoria » : annoncés « fournis avec la fiche », absents du PDF et du dossier photos
+- [ ] **Photos** : portraits de Sylvain et d’Alexis ; photo d’équipe ; croquis et plans ; régie technique et répétitions ; étapes 01 (l’étincelle), 02 (le scénario), 05 (la technique) et 06 (les comédiens) de la genèse ; photo « Aujourd’hui » de la chronologie (provisoire : les toits) ; 2 ou 3 photos pour l’histoire de l’accueil (5 emplacements reprennent pour l’instant des photos de la chronologie)
+- [ ] **Vidéo du hero Team building**
+- [ ] **Liens des réseaux sociaux**
+- [ ] **Photo du hall (hero)** : filigrane d’un photographe → licence ou remplacement
+- [ ] **Entrée et accès au bâtiment** (interphone, étage…) : la ligne « informations à venir » a été retirée de la page Contact faute d’information
 
-## Page « Notre histoire »
+## Décisions prises en intégrant la fiche (à valider)
 
-- [ ] Prénoms, noms, rôles et courtes biographies des trois associés (les textes actuels sont inventés)
-- [ ] Photos : portraits de l’équipe, photo de groupe, croquis, plans, photos de chantier et de répétition
-- [ ] Récit réel de la création de Memoria (dates, anecdotes, valeurs) pour remplacer les textes provisoires
-- [ ] Validation de l’histoire fictive du pensionnat (personnages inventés : Éléonore de Saint-Aubin, Mademoiselle Vernier, Héloïse Marchand ; l’horloge arrêtée à 3 h 17…) pour rester cohérente avec le scénario du jeu
+- [ ] **« Signal de sécurité » partout** (Notre histoire, FAQ, CGV) : la fiche demandait « mot de sécurité » pour Notre histoire, mais la FAQ et les CGV fournies disent « geste ou signal » et la note de fin de fiche demande un seul terme
+- [ ] Photo de classe « 1952-1953 » placée sur **1953** (fichier nommé « 1957 », coquille supposée) ; photo « bibliothèque » placée sur **1947** (le bureau de Lucie Fiammetta)
+- [ ] Légendes des photos de la chronologie rédigées par nos soins
+- [ ] Fin de Notre histoire : « Ce soir, le Pensionnat de la Liberté vous attend… » (la fiche indiquait « Sainte-Lucie », l’ancien nom)
+- [ ] « Expérience immersive » déplacé sous le logo (il figurait déjà au-dessus : pas de doublon)
+- [ ] Histoire de l’accueil : la dernière phrase (« Mais certaines vérités… ») prend la place de « Pourrez-vous découvrir la vérité ? », en rouge
+- [ ] FAQ : question renommée « Le niveau « Jusqu’en enfer ! » est-il obligatoire ? » ; « Où se garer ? » sans « informations bientôt disponibles »
+- [ ] Team building : titre ajouté au bloc capacité (« Une équipe de plus de 6 personnes ? »), intro « Deux formules… », liste du formulaire de devis alignée (option Privatisation retirée)
+- [ ] Expérience sur mesure : options du formulaire alignées sur les six occasions (Entreprise retirée, « Autre demande » → « Demande spéciale »)
+- [ ] Contact : stationnement sans adresse précise ; accès PMR aligné sur la FAQ
+- [ ] Mentions légales : « Hugo Le Vaguerese » (donné en section 6) repris en section 4
+- [ ] Mentions légales et CGV en anglais : traduction par nos soins, avec la mention « la version française prévaut »
 
-## Pages « Nos services »
+## Incohérences relevées dans la fiche (laissées telles quelles)
 
-- [ ] **Bons cadeaux** : fonctionnalités de 4escape (achat en ligne, envoi par e-mail, codes), formules et prix réels (les montants affichés reprennent les tarifs 49/43/39/35 € par personne), durée de validité (12 mois indiqués), conditions d’utilisation et âge minimum (16 ans conseillé / 12 ans minimum indiqués)
-- [ ] **Pack personnalisé** : occasions réellement proposées, délai de préparation (3 semaines indiqué), délai de réponse (48 h indiqué), tranches de budget du formulaire
-- [ ] **Presse** : adresse dédiée (presse@memoria-experience.fr indiquée), dossier de presse PDF, photos HD libres de droits, logos en version vectorielle (SVG/PDF), conditions d’accueil et règles de confidentialité à valider
+- [ ] FAQ « retard » : « il n’y a ni briefing, ni accueil » ↔ CGV art. 11 et 14 (briefing de sécurité obligatoire, arrivée 5 minutes avant pour l’accueil et le briefing) et FAQ « signal présenté lors du briefing »
+- [ ] Durée sur place : FAQ « environ 1h45 » ↔ CGV art. 3 « environ deux heures »
+- [ ] CGV art. 17.1 : bons « par nombre de joueurs ou montant libre » ↔ décision du 2 novembre : bons par valeur
 
-## Page « Team building »
+## Bloquant avant mise en ligne (pages légales, surligné sur les pages)
 
-- [ ] **Vidéo du hero** (fichier MP4 court, sans son, en boucle)
-- [ ] Descriptions des trois niveaux d’intensité (faible / standard / extrême) : textes rédigés par nos soins, à valider
-- [ ] Mention « chacun peut demander une pause ou quitter l’expérience à tout moment » : à confirmer avec le fonctionnement réel
-- [ ] Formules entreprises : prix ou fourchettes à afficher, ou rester « sur devis » ?
-- [ ] Capacité maximale (nombre de participants, d’équipes en simultané) et prestataire traiteur pour le cocktail
+- [ ] Mentions légales : siège social « [à confirmer sur le Kbis actualisé] »
+- [ ] Mentions légales, section 13 : récépissé d’entrepreneur de spectacles vivants, s’il existe
+- [ ] CGV art. 17.4 : « [Modalité du solde des bons à confirmer avec 4escape avant publication.] »
+- [ ] Confidentialité : délégué à la protection des données, transferts hors UE (Google, 4escape), durée des journaux de l’hébergeur ; retirer l’encart provisoire une fois validé
+- [ ] Cookies : traceurs du paiement, à relever lors du premier paiement test
+- [ ] Relecture juridique
 
-## Page « FAQ » — règles imaginées, à valider
+## Encore à trancher
 
-Les réponses ont été rédigées pour être cohérentes avec le reste du site, mais plusieurs règles sont inventées :
-
-- [ ] Accueil et briefing : arrivée 15 minutes avant, briefing d’environ 15 minutes
-- [ ] **Mot de sécurité** pour interrompre l’expérience à tout moment
-- [ ] **Contact physique** : aucun aux niveaux faible et standard, contact léger possible (et refusable) au niveau extrême
-- [ ] Les joueurs peuvent être séparés quelques instants selon le scénario
-- [ ] Changement de niveau possible jusqu’à l’accueil
-- [ ] **Modification** jusqu’à 48 h avant, **annulation** remboursable jusqu’à 72 h avant (à aligner sur les CGV et sur 4escape)
-- [ ] Ajout d’un joueur possible (6 maximum), paiement séparé « sur demande »
-- [ ] Âge : interdit aux moins de 12 ans, déconseillé aux moins de 16 ans, mineurs accompagnés d’un adulte participant
-- [ ] Tenue : chaussures plates et fermées, affaires déposées à l’accueil
-- [ ] **Accessibilité** : trois niveaux reliés par des escaliers, accès PMR limité — à confirmer
-- [ ] **Contre-indications** : troubles cardiaques, épilepsie, troubles anxieux, claustrophobie, grossesse, alcool/stupéfiants (y a-t-il des effets stroboscopiques ?)
-- [ ] Transports et parkings à détailler
-
-## Page « Nous contacter »
-
-- [ ] Informations d’accès au bâtiment : entrée, interphone, étage d’accueil
-
-## Pages légales — à compléter (surligné sur les pages)
-
-- [ ] **Mentions légales** : raison sociale, forme juridique, capital, siège, RCS, SIRET, TVA, téléphone, directeur de la publication, prestataire de conception, crédits photo (hébergeur OVH déjà renseigné)
-- [ ] **CGV** : moyens de paiement, tolérance de retard, remboursement ou avoir en cas d’annulation, **médiateur de la consommation** (obligatoire), tribunal compétent — à aligner avec les conditions de 4escape
-- [ ] **Confidentialité** : délégué à la protection des données éventuel, transferts hors UE (selon la réponse de 4escape), durée de conservation des journaux de l’hébergeur (prestataires déjà renseignés : OVH, 4escape, Google)
-- [ ] **Cookies** : traceurs du paiement 4escape (selon la réponse du prestataire) ; outil de mesure d’audience éventuel (→ bandeau de consentement)
-- [ ] Faire relire l’ensemble par un professionnel du droit avant la mise en ligne
-
-## Médias
-
-- [ ] **Photo du hall (hero)** : elle porte le filigrane d’un photographe en bas à gauche → obtenir la licence ou la remplacer par une photo du lieu
-- [ ] **Photos HD pour les bandeaux parallaxe** : les bandeaux utilisent provisoirement des images de la maquette : l’escalier et le hall sur l’accueil, le rideau de dentelle sur Notre histoire. Sur ordinateur, la photo s’affiche en plein écran derrière le bandeau : prévoir au moins 1920 px de large
-- [ ] **Bande-annonce** : lien YouTube de la vidéo
-- [ ] Photos d’archives de l’histoire : libres de droits ?
+- [ ] **Montants des bons cadeaux** (par valeur, 12 mois, envoi par e-mail) : la page Offrir Memoria présente encore des formules par nombre de joueurs, à refaire au branchement du widget 4escape
+- [ ] **Adresse presse@** pour le formulaire presse ?
 
 ## Réservation — réglages dans l’admin 4escape (client)
 
@@ -82,13 +61,14 @@ Le widget est intégré sur l’accueil. Aide officielle : https://help.4escape.
 
 - [ ] **Créneaux** : durée 90 min + pause 30 min = un créneau toutes les 2 h. Fixer la vraie pause entre deux groupes, puis générer le planning réel (onglet « Planning & Prix », jours et heures d’ouverture)
 - [ ] **Date d’ouverture des réservations** : à renseigner si Memoria ouvre à une date précise, pour qu’on ne puisse pas réserver avant
-- [ ] **Arrivée des joueurs** : « Demander l’arrivée X min avant » → 15 (comme la FAQ)
+- [ ] **Arrivée des joueurs** : « Demander l’arrivée X min avant » → 5 (CGV art. 14 et page Contact)
 - [ ] **Adresse** de la salle (rue, code postal, ville) : vide → 45 cours de la Liberté, 69003 Lyon
 - [ ] **URL de la page vitrine** → `https://memoria-experience.fr/` ; **URL publique de réservation (widget)** → `https://memoria-experience.fr/#reservation`
 - [ ] **Nom affiché sur le web** (« Session classique ») et **image de la room** (format 16:9, remplace l’image de coffre-fort) ; vidéo YouTube quand elle existe
-- [ ] **Description** : contient des notes internes (« Blabla à modifier ») avec des **règles absentes du site** : groupes de 2 acceptés sur demande au tarif de 3 joueurs ; jusqu’à 8 joueurs pour des événements, à 35 € par joueur pour 6 à 8. À confirmer : si ces règles valent, il faut les ajouter à la FAQ, aux tarifs et au team building (le site dit « 3 à 6 joueurs »)
+- [x] **Groupes de 2 et jusqu’à 8 joueurs** : règles de la description de la room désormais sur le site (FAQ, CGV art. 4, Team building) ; la description de la room peut être réécrite
+- [ ] **Paiement partagé** : la FAQ annonce que chaque participant peut régler sa part → cocher « Autoriser le paiement partagé » sur la room
 - [ ] **Conditions de paiement** (total en ligne / sur place / acompte) et options **paiement partagé** et **empreinte bancaire** : à trancher, puis compléter l’article 3 des CGV
-- [ ] **Niveau d’intensité** : onglet « Variations » de la room → variation « Niveau d’intensité », type Personnalisé, champ radio, « à choisir » + « choix obligatoire », valeurs Faible / Standard / Extrême (une valeur par défaut). L’affichage dans le widget demande ensuite une intervention de 4escape
+- [ ] **Niveau d’intensité** : onglet « Variations » de la room → variation « Niveau d’intensité », type Personnalisé, champ radio, « à choisir » + « choix obligatoire », valeurs Demi-pensionnaire / Pensionnaire / Jusqu’en enfer ! (Pensionnaire par défaut). L’affichage dans le widget demande ensuite une intervention de 4escape
 - [ ] Idée : une variation obligatoire « Je confirme que tous les participants ont au moins 12 ans et ont lu les contre-indications » (l’aide présente cet usage)
 
 **Ailleurs dans l’admin**

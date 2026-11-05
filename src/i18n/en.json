@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Memoria — Immersive horror experience in Lyon",
-    "description": "Sainte-Lucie boarding school, 1953. Step into Memoria, a 90-minute immersive horror experience with live actors, 200 m² to explore and 3 levels of intensity.",
+    "description": "Pensionnat de la Liberté, 1953. Step into Memoria, a 90-minute immersive horror experience with live actors, 200 m² to explore and 3 levels of intensity.",
     "ogTitle": "Memoria — Dare you cross the boarding school’s gates?",
     "ogLocale": "en_GB",
     "langName": "English"
@@ -26,11 +26,9 @@
     "servicesPresse": "Press & filming"
   },
   "hero": {
-    "surtitreGauche": "Immersive",
-    "surtitreDroite": "experience",
     "titre": "Memoria",
-    "lieu": "Lyon",
-    "accroche": "Sainte-Lucie boarding school, 1953. No one has ever come out.",
+    "lieu": "Immersive experience",
+    "accroche": "Pensionnat de la Liberté. No one has ever come out.",
     "reserver": "Book now",
     "bandeAnnonce": "Watch the trailer",
     "defiler": "Enter if you dare"
@@ -56,7 +54,7 @@
   },
   "bandeaux": {
     "seuil": "Dare to cross the threshold",
-    "memoire": "Sainte-Lucie · 1953"
+    "memoire": "Pensionnat de la Liberté – 1953"
   },
   "tarifs": {
     "titre": "Prices",
@@ -74,11 +72,14 @@
   },
   "histoire": {
     "titre": "Story",
-    "p1": "Built in the early 20<sup>th</sup> century, the Sainte-Lucie boarding school welcomed young ladies from high society.",
-    "p2": "Then, without warning, one day in 1953, the corridors emptied. The doors closed. And Sainte-Lucie was abandoned, taking with it the secrets of those who had lived there.",
-    "p3": "Since then, time has stood still within its walls.",
-    "p4": "And you are the ones who have been chosen:<br>tonight, you will enter Sainte-Lucie.<br>And perhaps even understand why no one has ever come out.",
-    "question": "Will you uncover the truth?",
+    "p1": "Built in the 19<sup>th</sup> century, the Pensionnat de la Liberté had for decades taken in children who came to receive a strict education, far from their families.",
+    "p2": "But one night in 1953, everything changed.",
+    "p3": "Screams tore through the silence. Strange lights burst from the windows. Alerted, the police went to the scene… but what happened there was never revealed.",
+    "p4": "The very next day, the boarding school was closed for good. The case was shelved. The events of that night were buried.",
+    "p5": "Since then, the building has stood abandoned. And its secrets with it.",
+    "p6": "Today, you have decided to reopen the case.",
+    "p7": "Accompanied by our demonologist, you will step through the doors of the Pensionnat de la Liberté to find out what really happened that night.",
+    "conclusion": "But some truths should perhaps have stayed buried.",
     "lienPage": "Discover the full story"
   },
   "infos": {
@@ -87,16 +88,17 @@
     "carteAlt": "Map of the area around cours de la Liberté, Lyon",
     "voirCarte": "View on the map",
     "acces": "Getting here",
-    "accesMetro": "Metro: to be confirmed",
-    "accesBus": "Bus: to be confirmed",
-    "accesParking": "Parking: to be confirmed",
-    "accesVelo": "Vélo’v bikes: to be confirmed",
+    "accesMetro": "Metro D: Guillotière",
+    "accesBus": "Bus C9: Liberté",
+    "accesVelo": "Vélo’v bikes: 32 cours de la Liberté",
     "horaires": "Opening hours",
-    "horairesTexte": "Wednesday to Sunday<br>10:00 am to 11:00 pm",
+    "horairesTexte": "Monday to Sunday<br>10:00 am to midnight",
     "contact": "Contact",
     "telephone": "+33 6 65 71 87 07",
     "telephoneLabel": "Phone",
-    "emailLabel": "Email"
+    "emailLabel": "Email",
+    "accesTram": "Tram T1: Liberté",
+    "accesMetro2": "Metro B: Place Guichard"
   },
   "lampe": {
     "libelle": "Flashlight"
@@ -119,29 +121,29 @@
   "notreHistoire": {
     "meta": {
       "title": "Our story — Memoria, immersive horror experience in Lyon",
-      "description": "Three enthusiasts, years of work and a forgotten boarding school: go behind the scenes of Memoria and discover the dark history of Sainte-Lucie."
+      "description": "One passion, years of work and a forgotten boarding school: go behind the scenes of Memoria and discover the dark story of the Pensionnat de la Liberté."
     },
     "hero": {
       "surtitre": "Memoria",
       "titre": "Our story",
-      "intro": "Two stories meet here. The story of three enthusiasts who gave everything to bring Memoria to life. And the story of Sainte-Lucie boarding school, which no one should ever have reopened.",
+      "intro": "Two stories cross paths here. One about enthusiasts who poured their energy into bringing Memoria to life. And one about the Pensionnat de la Liberté, whose doors should perhaps never have been reopened.",
       "lienCoulisses": "Behind Memoria",
-      "lienPensionnat": "Sainte-Lucie boarding school"
+      "lienPensionnat": "The Pensionnat de la Liberté"
     },
     "attente": {
-      "photo": "Photo coming soon",
-      "nom": "First Last"
+      "photo": "Photo coming soon"
     },
     "coulisses": {
       "partie": "Part I · The true story",
-      "titre": "Three enthusiasts, one obsession",
-      "intro": "Memoria was born from a frustration shared by three friends, die-hard fans of escape games and horror experiences: being scared, yes… but never for long enough, never deeply enough. So they decided to create the experience they had always dreamt of living.",
-      "role1": "Co-founder · Story & direction",
-      "bio1": "He wrote the very first pages of the story and imagined Sainte-Lucie, its boarders and its secrets. He also directs the actors.",
-      "role2": "Co-founder · Sets & construction",
-      "bio2": "A carpenter by trade, he spent two years turning an empty space into a 1953 boarding school, room by room, object by object.",
-      "role3": "Co-founder · Technology & player experience",
-      "bio3": "Sound, lighting, mechanisms, safety: she orchestrates everything you don’t see… and everything that will make you jump."
+      "titre": "One passion, one obsession",
+      "intro": "Memoria was born from a simple desire: to push the limits of immersion. Passionate about escape games, cinema and horror, we dreamed of an experience in which players would no longer be mere spectators, but the true protagonists of their own horror film.",
+      "intro2": "So, rather than wait for such an experience to exist, we decided to create it.",
+      "nom1": "Sylvain",
+      "role1": "Founder · Script, staging and artistic direction",
+      "bio1": "A graduate of the Cours Florent drama school with a passion for theatre, cinema and immersive experiences, Sylvain brings the world of Memoria, its story and its characters to life. From writing the script to directing the actors, he shapes an experience in which every player becomes an actor in their own story.",
+      "nom2": "Alexis",
+      "role2": "Co-founder · Technical direction, design and development",
+      "bio2": "Passionate about games and immersive experiences, Alexis combines technical ingenuity, creativity and a strong sense of organisation, drawing on his experience in project management. From designing the sets to building the mechanisms, he turns ideas into real experiences. He brings his artistic sensibility and plays a key role in steering and developing Memoria."
     },
     "genese": {
       "titre": "From an idea to the first doors",
@@ -149,16 +151,16 @@
       "texte1": "It all started around a table, after yet another escape game. One question kept coming back: what if you could live a real horror film, from the inside, face to face with real actors? The idea never left them.",
       "visuel1": "First concept sketches",
       "titre2": "The story",
-      "texte2": "For months, the story was written, rewritten and tested. A girls’ boarding school, an unexplained closure in 1953, clues hidden in every room: every detail serves the story, every puzzle serves the fear.",
+      "texte2": "For months, the story was written, rewritten and tested. A boarding school, an unexplained closure in 1953, clues hidden in every room: every detail serves the story, every puzzle serves the fear.",
       "visuel2": "The script notebooks",
       "titre3": "The venue",
-      "texte3": "It had to be the right place. After dozens of visits, they found 200 m² over three levels in Lyon: big enough to get lost in, intimate enough to feel watched.",
+      "texte3": "It had to be the right place. After dozens of visits, they found nearly 200 m² spread over three levels in Lyon: big enough to get lost in, intimate enough to feel watched.",
       "visuel3": "The venue before the works",
       "titre4": "The sets",
-      "texte4": "Hand-aged walls, furniture hunted down across the region, period wallpaper, authentic objects from the 1950s: the build took almost two years so that every corner tells a story.",
+      "texte4": "Hand-aged walls, second-hand furniture, antique objects and made-to-measure sets: every room was designed to make you feel that time stopped in 1953. Painstaking work, so that every corner tells a story.",
       "visuel4": "Building the sets",
       "titre5": "The technology",
-      "texte5": "Spatial sound, controlled lighting, hidden mechanisms and real-time effects: the technology becomes invisible so you can only think about one thing… getting out.",
+      "texte5": "Spatial sound, controlled lighting, hidden mechanisms and real-time effects: the technology becomes invisible so you can only think about one thing… surviving.",
       "visuel5": "The sound and light control room",
       "titre6": "The actors",
       "texte6": "At the heart of Memoria are people. Actors trained in improvisation and controlled fear guide you, watch you and adjust the intensity to every group.",
@@ -169,7 +171,7 @@
       "titre1": "Total immersion",
       "texte1": "No screens, no cardboard sets: you are not spectators, you are inside the story.",
       "titre2": "Fear, safely",
-      "texte2": "Three intensity levels, a safe word and a team watching over you at every moment.",
+      "texte2": "Three intensity levels, a safety signal and a team watching over you at every moment.",
       "titre3": "Handmade",
       "texte3": "Sets, props, mechanisms: almost everything was designed and built by us.",
       "titre4": "Unique sessions",
@@ -177,50 +179,59 @@
     },
     "atelier": {
       "titre": "Behind the scenes",
-      "intro": "Sketches, building work, rehearsals: a few images from the birth of Memoria.",
+      "intro": "Building work, sets, sketches, rehearsals: a few images from the birth of Memoria.",
       "legende1": "The whole team",
-      "legende2": "Sketch of the great corridor",
-      "legende3": "Plan of the boarding school",
-      "legende4": "The build, day one",
-      "legende5": "Ageing the walls",
-      "legende6": "Setting up the control room"
+      "legende2": "Sketches and plans",
+      "legende3": "The control room and rehearsals",
+      "alt1": "On the building site, drill in hand, at the foot of a ladder",
+      "alt2": "Fitting partition walls on the building site",
+      "alt3": "Cutting a panel on the building site",
+      "alt4": "Making props for the boarding school",
+      "alt5": "Shelf of old books in the boarding school sets"
     },
     "bandeau": "What if it were all true?",
     "pensionnat": {
       "partie": "Part II · The tale",
-      "titre": "Sainte-Lucie boarding school",
-      "dates": "1902 – 1953",
-      "intro": "What we know about Sainte-Lucie comes down to a few archives, yellowed photographs and a great deal of silence. Here is what we have been able to piece together.",
-      "date1": "1902",
-      "titre1": "The foundation",
-      "texte1": "The widow of a wealthy Lyon silk merchant, Éléonore de Saint-Aubin has the boarding school built in memory of her daughter Lucie, taken by a fever at the age of twelve. She wants to give the young ladies of high society “the finest education there is… and the protection of God”.",
-      "legende1": "The Saint-Aubin family, around 1898",
-      "date2": "1902 – 1948",
-      "titre2": "A life of rules",
-      "texte2": "Up at six, prayers, lessons in French, piano and embroidery, silence in the refectory, curfew at nine. Some forty boarders, aged eight to seventeen, live to the rhythm of the great hall’s bell, under the eye of the headmistress, Mademoiselle Vernier.",
-      "legende2": "The east wing staircase, around 1930",
-      "date3": "1948",
-      "titre3": "Héloïse",
-      "texte3": "Among them is Héloïse Marchand, fourteen, who arrives in the autumn of 1948. Gifted at drawing and solitary, she fills her notebooks with the same motif: a door that no one at the school remembers ever seeing.",
-      "legende3": "Héloïse Marchand, 1949",
-      "date4": "1951",
-      "titre4": "The photographer",
-      "texte4": "As every spring, a photographer comes to take the class portrait. When the film is developed, one figure too many appears in the back row. None of the girls recognises her. As for the photographer, he never sets foot in Sainte-Lucie again.",
-      "legende4": "The photographer, spring 1951",
-      "date5": "1952",
-      "titre5": "Sleepless nights",
-      "texte5": "The incidents multiply: a lullaby hummed in the closed wing, curtains rippling without a breath of air, the great hall clock stopping every night at 3:17. Several families take their daughters away. Mademoiselle Vernier forbids anyone to speak of it.",
-      "legende5": "The curtains of the older girls’ dormitory",
-      "date6": "November 1953",
-      "titre6": "The silence",
-      "texte6": "One November morning, the delivery man finds the gates locked. Inside, the breakfast tables are laid, the beds made, the coats hanging. There is no one left. The investigation leads nowhere and the school is sealed off.",
-      "legende6": "The last known photograph of a boarder",
-      "date7": "Today",
-      "titre7": "The rumours",
-      "texte7": "People say the piano still plays on certain nights, that the clock has started again, that a young girl waits at a window in the east wing. Those who tried to get in all speak of a door that appears on no plan…",
-      "legende7": "The grounds, left to ruin",
+      "titre": "The Pensionnat de la Liberté",
+      "intro": "Of the Pensionnat de la Liberté, all that remains today are a few archives, yellowed photographs and the memory of a night in 1953 that no one seems willing to talk about.<br>Screams, strange lights, a police raid… then silence.<br>Here is what we have been able to piece together.",
+      "date1": "1877",
+      "titre1": "The founding",
+      "texte1": "<p>Born into a prominent Lyon family, Alice de Saint-Symphorien sees her life turned upside down by the loss of her daughter, taken by tuberculosis.</p><p>Deeply marked by her grief, she decides to devote her fortune to founding an institution where every child, whatever their background, could find refuge, receive an education and grow up with respect and kindness.</p><p>And so the Pensionnat de la Liberté is born. Its motto, carved above its doors, will be handed down through the generations:</p><p class=\"evenement__devise\">“Work uplifts, discipline straightens, obedience sets free.”</p>",
+      "legende1": "The Saint-Symphorien family",
+      "date2": "1904",
+      "titre2": "Ashes of the past",
+      "texte2": "<p>A violent fire sweeps through the Pensionnat de la Liberté. The flames devour a large part of the building, taking with them precious archives and several decades of memories. Only a few damaged photographs survive the disaster.</p><p>The head supervisor dies in the fire, whose exact circumstances will never be established.</p><p>Determined to carry on her work, Alice de Saint-Symphorien orders the building to be rebuilt at once. The work allows the boarding school to reopen, but some basement rooms, too badly damaged, are sealed off for good.</p>",
+      "legende2": "Saved from the 1904 fire",
+      "date3": "1915",
+      "titre3": "In the shadow of the Great War",
+      "texte3": "<p>The First World War hits the country hard, and the Pensionnat de la Liberté is not spared.</p><p>Despite shortages, restrictions and the departure of several staff members, the school carries on with its mission. New boarders find refuge there, sometimes separated from their families by the events shaking Europe.</p><p>Driven by Alice de Saint-Symphorien, the boarding school becomes, for many of these children, one of the few places where a semblance of normal life remains.</p>",
+      "legende3": "The boarding school staff, 1915",
+      "date4": "1926",
+      "titre4": "A new wing",
+      "texte4": "<p>After the ordeals of the war, the Pensionnat de la Liberté enjoys a period of prosperity. The number of boarders keeps growing, and the building has to be extended.</p><p>A new wing is built on the east side, making room for more children and improving their living conditions.</p><p>At the same time, major work is carried out in the basements, sealed off since the fire of 1904.</p><p>There, the workmen discover a room miraculously spared by the flames.</p><p>Refitted and opened to the boarders, it becomes a playroom, soon regarded as one of the children’s favourite places.</p>",
+      "legende4": "The basement playroom",
+      "date5": "1941",
+      "titre5": "The dark years",
+      "texte5": "<p>As the Second World War plunges France into one of the darkest periods in its history, the Pensionnat de la Liberté quietly carries on.</p><p>True to its founder’s convictions, the school takes in and protects several children threatened by persecution, hiding their presence from the authorities.</p><p>The basements are refitted to serve as a shelter in case of danger. Old passages are reinforced, some rooms are converted and the windows blacked out.</p><p>Once places of life and play, these spaces gradually become cold, austere and oppressive, silent witnesses to a time when every sound could herald the worst.</p>",
+      "legende5": "The basement turned into a shelter",
+      "date6": "1947",
+      "titre6": "The last legacy",
+      "texte6": "<p>After devoting nearly seventy years of her life to the Pensionnat de la Liberté, Alice de Saint-Symphorien passes away at a great age.</p><p>The running of the school is entrusted to Lucie Fiammetta, a trusted woman devoted to the values of kindness passed on by the founder.</p><p>Keen to preserve this legacy, the new headmistress has a warm office fitted out, full of books, keepsakes and familiar objects. She wants it to be a place of trust where every child can find a listening ear, comfort and protection.</p><p>Yet that same year, strange phenomena begin to be reported.</p><p>Noises echo through empty rooms. Some objects seem to move, and several boarders speak of events they struggle to explain.</p><p>The management tries to reassure the children, but the incidents multiply.</p>",
+      "legende6": "Lucie Fiammetta’s office",
+      "date7": "1951",
+      "titre7": "The new supervisor",
+      "texte7": "<p>A new supervisor takes up his post at the Pensionnat de la Liberté.</p><p>As soon as he arrives, the man expresses the unusual wish to live inside the school itself. After some hesitation, the management agrees and has a room fitted out for him in the basements.</p><p>He quickly settles into his duties and helps look after the boarders every day.</p><p>At the time, unexplained events continue in the building. Some accounts mention noises at night coming from the lower levels.</p><p>No link will ever be officially established between these phenomena and the arrival of the new supervisor.</p>",
+      "legende7": "The new supervisor, 1951",
+      "date8": "1953",
+      "titre8": "The last light",
+      "texte8": "<p>On the night of 17 to 18 February 1953, the calm of the neighbourhood is brutally shattered.</p><p>Terrifying screams ring out inside the boarding school, while intense lights burst from several windows. Alerted by local residents, the police arrive quickly.</p><p>But when they get there, the building seems deserted.</p><p>No trace of the children. No trace of Lucie Fiammetta. No trace of the supervisor.</p><p>The officers enter the building to try to understand what has just happened.</p><p>The next day, the officers who took part in the operation are found in a state of deep madness, their eyes horribly mutilated. None of them will ever be able to give a coherent account of what happened that night.</p><p>Faced with the incomprehensible, the authorities decide to close the investigation. The reports are withheld from the public, the entrances sealed and the Pensionnat de la Liberté closed for good.</p><p>Since that night, none of its occupants has ever been found.</p>",
+      "legende8": "The last class photograph, 1952–1953",
+      "date9": "Today",
+      "titre9": "Whispers of silence",
+      "texte9": "<p>In the midst of Lyon’s bustle, the Pensionnat de la Liberté still stands, almost invisible to those who walk past its walls.</p><p>A forgotten building, with dusty windows and closed doors, that seems to blend into the landscape.</p><p>Yet the people who live nearby sometimes tell strange stories.</p><p>A motionless figure glimpsed behind a window. A few notes of piano drifting from an abandoned room. Distant screams, muffled by the thickness of the walls.</p><p>Some even claim that lights still appear, on certain nights, in the windows of the boarding school.</p><p>No one knows what really happened on 18 February 1953.</p><p>And for more than seventy years, no one has dared to step through its doors again.</p><p class=\"evenement__chute\">Until today.</p>",
+      "legende9": "The boarding school today",
       "appelTitre": "The doors open again",
-      "appelTexte": "Tonight, Sainte-Lucie is waiting for you. Will you uncover the truth?",
+      "appelTexte": "Tonight, the Pensionnat de la Liberté awaits you. Will you uncover the truth?",
       "appelBouton": "Book your session"
     }
   },
@@ -249,7 +260,7 @@
     "hero": {
       "surtitre": "Our services · Gift pack",
       "titre": "Give Memoria",
-      "intro": "A birthday, a celebration, the urge to give someone you love a good scare… Give them a night at Sainte-Lucie.",
+      "intro": "A birthday, a special occasion or simply the urge to give your loved ones the shivers… Give them an experience they will not forget in a hurry.",
       "bouton": "Give MEMORIA",
       "lien": "How does it work?"
     },
@@ -290,7 +301,7 @@
       "carteDe": "From",
       "carteDefautNom": "Your recipient",
       "carteDefautDe": "You",
-      "carteDefautMessage": "Tonight, Sainte-Lucie is waiting for you.",
+      "carteDefautMessage": "Tonight, the Pensionnat de la Liberté is waiting for you.",
       "cartePied": "Valid 12 months · Lyon · No. 1953-0000"
     },
     "etapes": {
@@ -331,29 +342,24 @@
     "hero": {
       "surtitre": "Our services · Tailor-made pack",
       "titre": "An experience made for you",
-      "intro": "An unforgettable birthday, a marriage proposal that gives you chills, a corporate evening like no other: we adapt Sainte-Lucie to your event.",
+      "intro": "An unforgettable birthday, a marriage proposal that gives you chills, a corporate evening like no other: we adapt the Pensionnat de la Liberté to your event.",
       "bouton": "Create my experience",
       "lien": "See the occasions"
     },
     "occasions": {
       "titre": "What’s the occasion?",
       "titre1": "Birthday",
-      "texte1": "A personal welcome and a surprise slipped into the story for the guest of honour.",
-      "titre2": "Stag or hen party",
-      "texte2": "A trial the bride or groom-to-be will remember… for a long time.",
+      "texte1": "What if this year you gave them much more than just a birthday? A personalised welcome, surprises and an experience they will remember for a long time.",
+      "titre2": "Hen or stag party",
+      "texte2": "Before saying “I do” for life, you first have to survive this ordeal… Give the bride- or groom-to-be an unforgettable hen or stag party.",
       "titre3": "Marriage proposal",
-      "texte3": "The boarding school becomes the setting for your question. Chills guaranteed, yes hoped for.",
+      "texte3": "A proposal like no other, in a place no one would expect. Together, let us design a staging as surprising as it is unforgettable for this unique moment.",
       "titre4": "Private hire",
-      "texte4": "The venue just for you and your guests, for an evening or a whole day.",
-      "titre5": "Surprise",
-      "texte5": "You plan everything with us, your loved ones suspect nothing.",
-      "titre6": "Corporate",
-      "texte6": "Team building, seminar, client evening: an experience people will remember.",
-      "titre7": "Special request",
-      "texte7": "A crazy idea? Let’s talk: we love a challenge.",
-      "titre8": "Filming & partnerships",
-      "texte8": "Media, productions, content creators: discover how we can host you.",
-      "lien8": "Press & filming"
+      "texte4": "The Pensionnat de la Liberté all to yourselves. Book the whole venue for a special occasion and enjoy an experience reserved entirely for your group.",
+      "titre5": "Surprise event",
+      "texte5": "Keep the secret until the very last moment. Together we prepare a personalised experience to surprise your loved ones… who will have no idea what awaits them.",
+      "titre6": "Special request",
+      "texte6": "An original idea, a slightly crazy project or an out-of-the-ordinary occasion? Let us talk about it! We love a challenge and dreaming up unique experiences."
     },
     "facteurs": {
       "titre": "What shapes your project",
@@ -384,13 +390,6 @@
       "titre": "Create my experience",
       "intro": "The more you tell us, the more we can surprise you.",
       "type": "Type of event",
-      "type1": "Birthday",
-      "type2": "Stag or hen party",
-      "type3": "Marriage proposal",
-      "type4": "Private hire",
-      "type5": "Surprise",
-      "type6": "Corporate",
-      "type7": "Other request",
       "budget": "Planned budget",
       "budget1": "Under €300",
       "budget2": "€300 to €600",
@@ -399,7 +398,13 @@
       "budget5": "I don’t know yet",
       "demandeExemple": "Describe your idea, the mood you want, the person to surprise…",
       "infosExemple": "Specific constraints, accessibility, timing…",
-      "bouton": "Create my experience"
+      "bouton": "Create my experience",
+      "type1": "Birthday",
+      "type2": "Hen or stag party",
+      "type3": "Marriage proposal",
+      "type4": "Private hire",
+      "type5": "Surprise event",
+      "type6": "Special request"
     }
   },
   "presse": {
@@ -410,9 +415,9 @@
     "hero": {
       "surtitre": "Our services · Press & filming",
       "titre": "Press, filming & creators",
-      "intro": "Journalists, productions, photographers, content creators: Sainte-Lucie opens its doors to you… on a few conditions.",
+      "intro": "Journalists, media, production companies, photographers and content creators: Memoria opens its doors to you. Discover our world and get in touch about your projects, reports or collaborations.",
       "bouton": "Contact our team",
-      "lien": "Press resources"
+      "lien": "Press kit & resources"
     },
     "publics": {
       "titre": "You are…",
@@ -429,7 +434,7 @@
     },
     "concept": {
       "titre": "Memoria at a glance",
-      "texte": "Memoria is an immersive horror experience that plunges players into Sainte-Lucie boarding school, abandoned in 1953. Actors guide each group through a story in which they become the heroes… or the victims.",
+      "texte": "Memoria is an immersive horror experience that plunges players into the Pensionnat de la Liberté, abandoned since 1953. Actors guide each group through a story in which they become the heroes… or the victims.",
       "valeur1": "1h30",
       "libelle1": "of immersion",
       "valeur2": "200 m²",
@@ -464,19 +469,9 @@
       "confidentialite5": "Our actors’ image rights are subject to a specific agreement."
     },
     "ressources": {
-      "titre": "Press resources",
-      "dossierTitre": "Press kit",
-      "dossierTexte": "Overview, key figures, visuals and contacts.",
-      "dossierBouton": "Coming soon",
-      "logosTitre": "Logos",
-      "logosTexte": "Wordmark and emblem, in gold and white versions.",
-      "logoOr": "Gold wordmark",
-      "logoBlanc": "White wordmark",
-      "emblemeOr": "Gold emblem",
-      "emblemeBlanc": "White emblem",
-      "galerieTitre": "Approved photos",
-      "galerieTexte": "A selection of royalty-free images to illustrate your stories, credited © Memoria.",
-      "photoHd": "HD photo coming soon"
+      "titre": "Press kit & resources",
+      "texte1": "Following your visit, shoot or collaboration with Memoria, a press kit and media resources can be made available to you.",
+      "texte2": "It may include a presentation of our experience, our official logos, our promotional visuals and a selection of photographs cleared for publication."
     },
     "contact": {
       "titre": "Contact our team",
@@ -546,7 +541,7 @@
       "titre4": "An unexpected format",
       "texte4": "Far from the chain of puzzles of a classic escape game, the adventure is lived, felt and shared.",
       "titre5": "Three intensity levels",
-      "texte5": "Low, standard or extreme: the intensity adapts to your group.",
+      "texte5": "Day Boarder, Boarder or Straight to Hell! The intensity adapts to your group.",
       "lien": "See the intensity levels"
     },
     "intensite": {
@@ -578,8 +573,8 @@
     },
     "convivial": {
       "titre": "Cocktails & convivial moments",
-      "p1": "Before or after their time in the boarding school, your employees can enjoy a private space or a cocktail service tailored to your event.",
-      "p2": "A welcome coffee, buffet, aperitif or late-evening cocktail: together we build a package that lets your team talk and make the moment last in a friendly setting.",
+      "p1": "The Experience & Cocktail package includes private hire of the venue, so your colleagues can extend the experience after the session. The cocktail reception is prepared by a caterer.",
+      "p2": "The details are set out when the quote is drawn up, in particular:",
       "carteTitre": "On the menu",
       "c1": "Welcome coffee",
       "c2": "Hot drinks",
@@ -591,38 +586,39 @@
       "c8": "Aperitif",
       "c9": "Cocktail",
       "c10": "Evening package",
-      "allergies": "Allergies and dietary requirements: just let us know in your request and we will adapt the service."
+      "allergies": "Allergies and dietary requirements: just let us know in your request and we will adapt the service.",
+      "modalite1": "the number of participants;",
+      "modalite2": "how long the venue is booked for;",
+      "modalite3": "the catering services;",
+      "modalite4": "how the sessions are organised if the group has more than 8 players."
     },
     "formules": {
       "titre": "Our corporate packages",
-      "intro": "Three packages to start with, all adjustable to your group and your goals.",
       "surDevis": "On quotation",
       "bouton": "Request a quote",
-      "nom1": "Experience package",
+      "recommandee": "Recommended",
+      "intro": "Two packages to start with, both tailored to your group and your goals.",
+      "nom1": "Classic package",
       "accroche1": "The essence of Memoria",
-      "f1i1": "The Memoria adventure",
+      "f1i1": "The Memoria immersive experience (90 minutes)",
       "f1i2": "Choice of intensity level",
-      "f1i3": "Welcome for your team",
+      "f1i3": "Personalised welcome for your team",
       "f1i4": "Briefing before the experience",
       "f1i5": "Debriefing after the experience",
-      "f1i6": "Group photo",
+      "f1i6": "Souvenir video included",
       "nom2": "Experience & Cocktail package",
-      "accroche2": "Make the moment last",
-      "f2i1": "The Memoria adventure",
+      "accroche2": "Make the experience last",
+      "f2i1": "The Memoria immersive experience (90 minutes)",
       "f2i2": "Choice of intensity level",
-      "f2i3": "Space reserved for your team",
-      "f2i4": "Cocktail or buffet",
-      "f2i5": "Time to talk",
-      "f2i6": "Group photo",
-      "nom3": "Private hire package",
-      "accroche3": "The venue all to yourselves",
-      "f3i1": "Hire of the venue or several time slots",
-      "f3i2": "Personalised welcome",
-      "f3i3": "The Memoria adventure",
-      "f3i4": "Cocktail or buffet",
-      "f3i5": "Speaking slot if desired",
-      "f3i6": "Organisation adapted to the number of employees",
-      "recommandee": "Recommended"
+      "f2i3": "Personalised welcome for your team",
+      "f2i4": "Souvenir video included",
+      "f2i5": "Private hire of the venue",
+      "f2i6": "Cocktail reception prepared by a caterer after the experience",
+      "f2i7": "Time to talk and unwind in a space reserved for your team",
+      "capaciteTitre": "A team of more than 6 people?",
+      "capacite1": "Memoria usually welcomes groups of 3 to 6 players per session. For corporate events, we can exceptionally welcome up to 8 players in the same session.",
+      "capacite2": "For larger teams, we offer a tailor-made organisation, with the option of spreading participants over several sessions.",
+      "capacite3": "Contact us to organise an experience suited to the size of your team."
     },
     "formulaire": {
       "titre": "Request a quote",
@@ -635,12 +631,6 @@
       "periode": "Preferred date or period",
       "periodeExemple": "E.g. mid-December, a Thursday evening…",
       "formule": "Preferred package",
-      "choix1": "Experience only",
-      "choix2": "Experience and cocktail",
-      "choix3": "Private hire",
-      "choix4": "Custom event",
-      "choix5": "Quote request",
-      "choix6": "Information request",
       "privatisation": "Private hire wanted",
       "cocktail": "Cocktail wanted",
       "oui": "Yes",
@@ -651,19 +641,24 @@
       "demandes": "Special requests",
       "demandesExemple": "Allergies, dietary requirements, accessibility, timing…",
       "message": "Free message",
-      "bouton": "Request a quote"
+      "bouton": "Request a quote",
+      "choix1": "Classic package",
+      "choix2": "Experience & Cocktail package",
+      "choix3": "Custom event",
+      "choix4": "Quote request",
+      "choix5": "Information request"
     }
   },
   "intensite": {
     "titre": "Choose the intensity level",
-    "intro": "So that everyone can enjoy the experience with peace of mind, you choose the intensity level best suited to your group.",
+    "intro": "Every group has its own limits when it comes to fear. It is up to you to choose how far you are ready to go.",
     "niveau": "Level",
-    "nom1": "Low",
-    "nom2": "Standard",
-    "nom3": "Extreme",
+    "nom1": "Day Boarder",
+    "nom2": "Boarder",
+    "nom3": "Straight to Hell!",
     "accroche1": "Shiver without shaking",
     "accroche2": "The Memoria experience",
-    "accroche3": "For the boldest",
+    "accroche3": "At your own risk",
     "texte1": "A disturbing atmosphere and a gripping story, with measured interaction from the actors. Ideal for teams new to horror.",
     "texte2": "The balance between tension, surprises and cooperation, just as we designed it. Recommended for most teams.",
     "texte3": "Relentless immersion, more present actors and more testing situations. For thrill-seekers only.",
@@ -679,7 +674,7 @@
     "hero": {
       "surtitre": "FAQ",
       "titre": "Frequently asked questions",
-      "intro": "Everything you need to know before stepping through the doors of Sainte-Lucie boarding school."
+      "intro": "Everything you need to know before stepping through the doors of the Pensionnat de la Liberté."
     },
     "outils": {
       "recherche": "Search the FAQ",
@@ -690,78 +685,80 @@
     "experience": {
       "titre": "The experience",
       "q1": "What is Memoria?",
-      "r1": "Memoria is an immersive horror experience in Lyon. For 90 minutes, you and your group step into Sainte-Lucie boarding school, abandoned in 1953, and live a disturbing story from the inside, surrounded by professional actors and sets recreated down to the last detail.",
+      "r1": "<p>Memoria is an immersive horror experience in Lyon. For 90 minutes, you and your group enter the Pensionnat de la Liberté, abandoned since 1953, and live a disturbing story from the inside, surrounded by professional actors and sets recreated down to the smallest detail.</p>",
       "q2": "Is it an escape game?",
-      "r2": "Not quite. Memoria borrows some escape game codes (searching, observing, cooperating), but the experience is above all about the story, immersion and interaction with the actors. Here, it is not just about getting out of a room: it is about surviving Sainte-Lucie… and uncovering the truth.",
+      "r2": "<p>No, Memoria is not a traditional escape game, although it borrows some of its codes, such as searching, observing and working together.</p><p>It is above all an immersive experience in which the story, the interactions with the actors and the events unfolding around you take centre stage.</p><p>Here, you are not simply trying to solve puzzles or get out of a room: you are plunged into a terrifying investigation, in the corridors of the Pensionnat de la Liberté.</p>",
       "q3": "How long does the experience last?",
-      "r3": "The adventure lasts 90 minutes. Allow about 15 extra minutes for the welcome and briefing before your session.",
+      "r3": "<p>The immersive experience lasts 90 minutes. Please also allow an extra 15 minutes afterwards for the debriefing and your departure.</p><p>So plan on spending about 1 hour 45 minutes on site.</p>",
       "q4": "How many players can take part?",
-      "r4": "Each session welcomes 3 to 6 players. For larger groups, several sessions can follow one another or the venue can be privately hired: discover our <a href=\"team-building.html\">team building</a> offers and our <a href=\"pack-personnalise.html\">tailor-made pack</a>.",
+      "r4": "<p>Each session usually welcomes 3 to 6 players.</p><p>For special events, birthdays, hen and stag parties or team building, we can exceptionally welcome up to 8 players in the same session.</p><p>These special requests must be made through our <a href=\"contact.html#formulaire\">contact form</a> so that our team can organise your visit.</p><p>For larger groups, several sessions can also be arranged. Discover our <a href=\"team-building.html\">Team building</a> and <a href=\"pack-personnalise.html\">Tailor-made experience</a> offers.</p>",
       "q5": "Are there actors?",
-      "r5": "Yes. Professional actors play the characters of the boarding school. They interact with you, guide you… or put you to the test, and adapt their performance to each group.",
+      "r5": "<p>Yes. Professional actors play the characters of the boarding school. They interact with you, guide you… or put you to the test, and adapt their performance to each group.</p>",
       "q6": "Do I need to be fit?",
-      "r6": "No, no particular level of fitness is required. You will walk, go up and down stairs (the boarding school spreads over three levels) and sometimes crouch, but never run or make any intense effort.",
+      "r6": "<p>No, no particular level of fitness is required. You will walk, go up and down stairs (the boarding school spreads over three levels) and sometimes crouch, but never run or make any intense effort.</p>",
       "q7": "Are there puzzles?",
-      "r7": "Yes, but they serve the story: objects to search, clues to gather, mechanisms to figure out. They are solved as a team and require no particular knowledge, just observation and communication.",
+      "r7": "<p>Not really! Unlike a traditional escape game, Memoria is not mainly about solving puzzles.</p><p>You will mostly search, look for objects, carry out certain actions and react to the events unfolding around you.</p><p>A few moments of thinking and deduction will still be needed. After all, you are taking part in a most perilous investigation… and every discovery could matter.</p>",
       "q8": "Do players stay together?",
-      "r8": "Most of the time, yes. Depending on the story and the intensity level chosen, some passages may separate the group for a few moments, always under the watch of our team.",
+      "r8": "<p>Most of the time, yes. Depending on the story and the intensity level chosen, some passages may separate the group for a few moments, always under the watch of our team.</p>",
       "q9": "Can we stop the experience?",
-      "r9": "Yes, at any time. A safe word is given to you during the briefing: as soon as it is spoken, the experience stops for that person and a team member comes to fetch them."
+      "r9": "<p>Yes, at any time and with no obligation to carry on. Your safety and your consent always come first.</p><p>A safety gesture or signal will be explained to you during the briefing. If the experience becomes too intense, simply use it to stop your participation immediately.</p><p>A member of our team will then come and take you out of the experience.</p>",
+      "q10": "Can we take part with only two players?",
+      "r10": "<p>Memoria is designed for a minimum of 3 players per session.</p><p>It is nevertheless possible to take part with only two people, on prior request to our team.</p><p>In that case, the session is charged at the 3-player rate.</p><p><a href=\"contact.html#formulaire\">Contact us through our form</a> to arrange your visit.</p>"
     },
     "intensite": {
       "titre": "Intensity & fear",
       "q1": "What are the three intensity levels?",
-      "r1": "<strong>Low</strong>: a disturbing atmosphere and measured interactions, ideal if horror is not your thing.<br><strong>Standard</strong>: the balance between tension, surprises and cooperation, just as we designed the experience.<br><strong>Extreme</strong>: relentless immersion and more testing situations, for thrill-seekers only.",
+      "r1": "<p><strong>Day Boarder</strong>: a disturbing atmosphere, surprises and controlled tension. Ideal for discovering the world of Memoria with no physical contact with the actors.</p><p><strong>Boarder</strong>: the balance between tension, chills and interaction with the actors. The experience as we imagined it, with some possible physical contact and more intense immersion.</p><p><strong>Straight to Hell!</strong>: at your own risk. An experience pushed to its maximum intensity, with more interaction, supervised physical contact and gruelling situations. For those who want to push their limits.</p>",
       "q2": "Is there any physical contact?",
-      "r2": "Actors may come very close to you, but there is never any rough or violent contact. At the low and standard levels, they do not touch you. At the extreme level, light contact may happen (a hand on your shoulder, an arm to guide you); you can refuse it by saying so during the briefing.",
+      "r2": "<p>Yes, depending on the intensity level chosen.</p><p>At the Day Boarder level, no physical contact with the actors is planned.</p><p>At the Boarder and Straight to Hell! levels, physical contact may occur as part of the experience.</p><p>However, no rough handling, inappropriate gestures or dangerous behaviour are ever tolerated.</p><p>You can refuse physical contact by saying so during the briefing. Our actors adapt their interactions accordingly.</p>",
       "q3": "Can we change level?",
-      "r3": "The level is chosen when booking and can still be changed at the welcome desk, before the session starts. During the experience, our actors stay attentive and adapt the intensity if a player is struggling.",
-      "q4": "Is the extreme level compulsory?",
-      "r4": "Not at all. Standard is the level we recommend to most groups; extreme is an option reserved for those who choose it.",
+      "r3": "<p>The intensity level is chosen when booking. By default, the Boarder level is selected.</p><p>You can still change your choice when you arrive, before the session starts.</p><p>During the experience, our actors keep a close eye on how participants react and can adjust the intensity if a player is struggling.</p>",
+      "q4": "Is the “Straight to Hell!” level compulsory?",
+      "r4": "<p>Not at all. The Boarder level is the one we recommend to most groups. The Straight to Hell! level is an option for those who want a particularly intense experience.</p>",
       "q5": "Is the experience suitable for sensitive people?",
-      "r5": "Yes, thanks to the low level, designed to let you live the story with a shiver without being overwhelmed. If in doubt, contact us before booking: we will help you choose the level best suited to your group.",
+      "r5": "<p>Yes, thanks to the Day Boarder level, designed to let you live the story with a shiver without being overwhelmed. If in doubt, contact us before booking: we will help you choose the level best suited to your group.</p>",
       "q6": "What happens if a player is too scared?",
-      "r6": "They can ask for a break or leave the experience at any time using the safe word. A team member then comes to fetch them and takes them somewhere calm, while the rest of the group carries on with the adventure. No one is ever forced."
+      "r6": "<p>They can ask for a break or leave the experience at any time using the safety signal explained during the briefing.</p><p>A member of our team then steps in to take them to a quiet space, while the rest of the group carries on with the adventure.</p><p>No one is ever forced to continue.</p>"
     },
     "reservation": {
       "titre": "Booking",
       "q1": "How do I book?",
-      "r1": "Directly online, from the <a href=\"index.html#reservation\">Book your session</a> section: choose a date, a time slot, the number of players and your intensity level. The price depends on the size of the group: from {{PRIX_6}} to {{PRIX_3}} per person.",
+      "r1": "<p>Directly online, from the <a href=\"index.html#reservation\">Book your session</a> section: choose a date, a time slot, the number of players and your intensity level. The price depends on the size of the group: from {{PRIX_6}} to {{PRIX_3}} per person.</p>",
       "q2": "Can I change a booking?",
-      "r2": "Yes, subject to availability, up to 48 hours before your session. Write to us at <a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a> with your booking number.",
+      "r2": "<p>Yes, a booking can be changed up to 48 hours before your session starts, subject to availability.</p><p>For any request, contact us at <a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a> with your booking number and the change you would like.</p><p>After that, changes can no longer be guaranteed.</p>",
       "q3": "Can I cancel?",
-      "r3": "You can cancel up to 72 hours before the session. After that, the booking is no longer refundable, but you can contact us to look at postponing it. Full details are in our <a href=\"cgv.html\">terms of sale</a>.",
+      "r3": "<p>A cancellation request can be made up to 72 hours before your session, for a legitimate and justified reason.</p><p>Every request is reviewed by our team in line with our terms of sale.</p><p>After that, the booking is in principle no longer refundable, but you can contact us to look at the options for postponing it.</p><p>Full details are set out in our <a href=\"cgv.html\">terms of sale</a>.</p>",
       "q4": "Can I add a player?",
-      "r4": "Yes, within the limit of 6 players per session and subject to availability. Contact us: the price per person is adjusted to the final number of players.",
+      "r4": "<p>Yes, within the usual limit of 6 players per session and subject to availability. Contact us: the price per person will be adjusted to the final number of participants.</p><p>For special events, we can exceptionally welcome up to 8 players, only on prior request to our team.</p>",
       "q5": "What happens if we are late?",
-      "r5": "Please arrive 15 minutes before your session starts. If you are running late, let us know as soon as possible: as sessions follow one another, a long delay may shorten your experience.",
+      "r5": "<p>Please arrive a few minutes before the session: there is no briefing or welcome beforehand, and the session starts right on time.</p><p>If you are running late, please let us know as soon as possible.</p><p>As our sessions follow a precise schedule, any delay may shorten your experience, with no change to the price.</p><p>If you are more than 25 minutes late, the session may be cancelled and not take place.</p><p>We therefore recommend allowing plenty of time to reach us.</p>",
       "q6": "Can we pay separately?",
-      "r6": "Payment is made online when booking. If each player wants to pay their share, contact us before booking and we will explain how to proceed.",
+      "r6": "<p>Yes! With our split payment system, each participant can pay their own share of the booking.</p><p>If you have any difficulty or need help organising your payment, do not hesitate to contact our team.</p>",
       "q7": "Can I use a gift voucher?",
-      "r7": "Yes. Enter your voucher code when booking online: its value is deducted automatically. Vouchers are valid for 12 months. Want to give one? Head to the <a href=\"pack-cadeau.html\">Give Memoria</a> page.",
+      "r7": "<p>Yes. Enter your voucher code when booking online: its value is deducted automatically. Vouchers are valid for 12 months. Want to give one? Head to the <a href=\"pack-cadeau.html\">Give Memoria</a> page.</p>",
       "q8": "Can we hire the venue privately?",
-      "r8": "Yes, for a birthday, a corporate event or a special occasion: several time slots or the whole venue can be reserved for you. Discover our <a href=\"pack-personnalise.html\">tailor-made pack</a> and our <a href=\"team-building.html\">team building</a> offers."
+      "r8": "<p>Yes, for a birthday, a corporate event or a special occasion: several time slots or the whole venue can be reserved for you. Discover our <a href=\"pack-personnalise.html\">tailor-made pack</a> and our <a href=\"team-building.html\">team building</a> offers.</p>"
     },
     "pratique": {
       "titre": "Practical information",
       "q1": "What is the minimum age?",
-      "r1": "The experience is not allowed for under-12s and not recommended for under-16s. Minors must be accompanied by an adult taking part in the session.",
+      "r1": "<p>The experience is not allowed for under-12s and not recommended for under-16s. Minors must be accompanied by an adult taking part in the session.</p>",
       "q2": "What should I wear?",
-      "r2": "Comfortable clothes and flat, closed shoes. Avoid delicate or light-coloured clothing: the boarding school was abandoned for a long time… Your personal belongings can be left at the welcome desk.",
+      "r2": "<p>Comfortable clothes and flat, closed shoes. Avoid delicate or light-coloured clothing: the boarding school was abandoned for a long time… Your personal belongings can be left at the welcome desk.</p>",
       "q3": "Where is Memoria?",
-      "r3": "At 45 cours de la Liberté, Lyon. Find the map and our contact details in the <a href=\"index.html#infos\">practical information</a>.",
+      "r3": "<p>At 45 cours de la Liberté, Lyon. Find the map and our contact details in the <a href=\"index.html#infos\">practical information</a>.</p>",
       "q4": "How do I get there?",
-      "r4": "Memoria is easy to reach by public transport and by Vélo’v bike. Details of the nearest lines and stops will be available very soon.",
+      "r4": "<p>Memoria is easy to reach by public transport and Vélo’v bike.</p><ul><li>Metro D: Guillotière</li><li>Metro B: Place Guichard</li><li>Tram T1: Liberté</li><li>Bus C9: Liberté</li><li>Vélo’v: 32 cours de la Liberté</li></ul><p>We recommend using public transport to get here.</p>",
       "q5": "Where can I park?",
-      "r5": "There are several public car parks nearby. We do recommend public transport, which is more convenient in the city centre. Detailed information will be available soon.",
+      "r5": "<p>There are several public car parks nearby. We still recommend public transport, which is more convenient in the city centre.</p>",
       "q6": "Is the venue accessible to people with disabilities?",
-      "r6": "The boarding school spreads over three levels connected by stairs, which currently limits access for people with reduced mobility. For any disability, contact us before booking and we will look at possible adaptations together.",
+      "r6": "<p>The Pensionnat de la Liberté is spread over several levels, some of which can only be reached by stairs. The full route is therefore not accessible to people with reduced mobility.</p><p>However, we want everyone to be able to live the Memoria experience. That is why we offer a personalised, adapted version that lets people with reduced mobility take full part in the adventure, depending on their needs and what can be arranged.</p><p>We also have toilets accessible to people with reduced mobility.</p><p>For any specific request, please <a href=\"contact.html?sujet=accessibilite#formulaire\">contact us</a> before booking, so that we can prepare your visit in the best possible conditions.</p>",
       "q7": "Are there any contraindications?",
-      "r7": "The experience includes sudden sound and light effects, passages in the dark and confined spaces. It is not recommended for people with heart conditions, epilepsy, severe anxiety or claustrophobia, or for pregnant women. Anyone under the influence of alcohol or drugs will be refused entry.",
+      "r7": "<p>The experience includes sudden sound and light effects, passages in the dark and confined spaces. It is not recommended for people with heart conditions, epilepsy, severe anxiety or claustrophobia, or for pregnant women. Anyone under the influence of alcohol or drugs will be refused entry.</p>",
       "q8": "Can I come if I am pregnant?",
-      "r8": "As a precaution, the experience is not recommended for pregnant women, because of the strong emotions, sudden effects and moving around in the dark. The other members of your group are of course welcome to take part.",
+      "r8": "<p>As a precaution, the experience is not recommended for pregnant women, because of the strong emotions, sudden effects and moving around in the dark. The other members of your group are of course welcome to take part.</p>",
       "q9": "Can I take part with a heart or medical condition?",
-      "r9": "People with heart conditions or health problems that could be worsened by intense stress must not take part. If in doubt, ask your doctor for advice and talk to us before booking."
+      "r9": "<p>People with heart conditions or health problems that could be worsened by intense stress must not take part. If in doubt, ask your doctor for advice and talk to us before booking.</p>"
     },
     "contact": {
       "titre": "Didn’t find your answer?",
@@ -811,19 +808,15 @@
     },
     "venir": {
       "titre": "Getting to Memoria",
-      "intro": "Sainte-Lucie boarding school awaits you in the heart of Lyon.",
+      "intro": "The Pensionnat de la Liberté awaits you in the heart of Lyon.",
       "itineraire": "Directions",
       "transportsTitre": "Public transport",
-      "metro": "Metro: line and station to be confirmed",
-      "bus": "Bus and tram: lines and stops to be confirmed",
-      "velo": "Vélo’v bikes: nearest station to be confirmed",
       "stationnementTitre": "Parking",
-      "stationnement1": "Public car parks nearby: addresses to be confirmed.",
+      "stationnement1": "There are several public car parks near cours de la Liberté.",
       "stationnement2": "In the city centre, we recommend public transport.",
       "accesTitre": "Access",
-      "acces1": "Please arrive 15 minutes before your session for the welcome and briefing.",
-      "acces2": "Entrance and building access: details coming soon.",
-      "acces3": "The boarding school spreads over three levels connected by stairs. For any disability, <a href=\"contact.html?sujet=accessibilite#formulaire\">contact us</a> before booking."
+      "acces1": "Please arrive 5 minutes before your session: it cannot start early.",
+      "acces3": "The Pensionnat de la Liberté is spread over several levels, some of which can only be reached by stairs, and has toilets accessible to people with reduced mobility. An adapted version of the experience can be offered: <a href=\"contact.html?sujet=accessibilite#formulaire\">contact us</a> before booking."
     }
   },
   "legal": {
@@ -831,114 +824,204 @@
       "avertissement": "Provisional document: items <span class=\"a-completer\">[in brackets]</span> are to be completed, and the whole text must be approved by Memoria, ideally with the help of a legal professional. The French version of this document prevails.",
       "miseAJour": "Last updated: <span class=\"a-completer\">[date]</span>",
       "sommaire": "Contents",
-      "autres": "Legal information"
+      "autres": "Legal information",
+      "traduction": "This English version is a translation provided for information only. In the event of any discrepancy, the French version prevails."
     },
     "mentions": {
       "titre": "Legal notice",
       "metaTitre": "Legal notice — Memoria",
       "description": "Legal notice for the Memoria website: publisher, publication director, host, intellectual property.",
-      "intro": "In accordance with French law no. 2004-575 of 21 June 2004 on confidence in the digital economy, here is the information about the publisher and host of this website.",
+      "intro": "In accordance with French Law No. 2004-575 of 21 June 2004 on confidence in the digital economy and the applicable texts, this legal notice sets out the identity of the publisher of the website www.memoria-experience.fr, information about its hosting and the conditions for using its content.",
+      "miseAJour": "Last updated: 3 November 2026",
       "s1": {
         "titre": "Website publisher",
-        "contenu": "<p>The memoria-experience.fr website is published by:</p><ul><li><span class=\"a-completer\">[Company name]</span>, <span class=\"a-completer\">[legal form]</span> with a share capital of €<span class=\"a-completer\">[amount]</span></li><li>Registered office: <span class=\"a-completer\">[full address]</span></li><li>Registered with the <span class=\"a-completer\">[city]</span> Trade and Companies Register under number <span class=\"a-completer\">[RCS number]</span></li><li>SIRET: <span class=\"a-completer\">[SIRET number]</span></li><li>EU VAT number: <span class=\"a-completer\">[VAT number]</span></li><li>Phone: <span class=\"a-completer\">[phone number]</span></li><li>Email: <a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a></li></ul>"
+        "contenu": "<p>The website www.memoria-experience.fr is published by:</p><p>MEMORIA EXPERIENCE, a French limited liability company (SARL) with share capital of €500.</p><ul><li>Company name: MEMORIA EXPERIENCE</li><li>Legal form: limited liability company (SARL)</li><li>Share capital: €500</li><li>Registered office: 45 cours de la Liberté, 69003 Lyon, France <span class=\"a-completer\">[to be confirmed on the updated Kbis]</span></li><li>Registration: Lyon Trade and Companies Register (RCS)</li><li>SIREN number: 104 633 532</li><li>SIRET number: 104 633 532 00015</li><li>Intra-community VAT number: FR72 104633532</li><li>Email address: <a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a></li></ul><p>Address of the venue open to the public:</p><p>MEMORIA EXPERIENCE<br>45 cours de la Liberté<br>69003 Lyon, France</p>"
       },
       "s2": {
         "titre": "Publication director",
-        "contenu": "<p><span class=\"a-completer\">[First name Last name]</span>, as <span class=\"a-completer\">[position, e.g. managing director]</span>.</p>"
+        "contenu": "<p>The publication director of the website is:</p><p>Sylvain COCCO, in his capacity as manager of MEMORIA EXPERIENCE.</p><p>Any request concerning the content of the website can be sent to:</p><p><a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a></p>"
       },
       "s3": {
-        "titre": "Hosting",
-        "contenu": "<p>The website is hosted by:</p><ul><li>OVH SAS (OVHcloud)</li><li>2 rue Kellermann, 59100 Roubaix, France</li><li><a href=\"https://www.ovhcloud.com/en/\" target=\"_blank\" rel=\"noopener\">www.ovhcloud.com</a></li></ul><p>The website’s files are stored in a data centre located in France (Gravelines).</p>"
+        "titre": "Website hosting",
+        "contenu": "<p>The website is hosted by:</p><p>OVH SAS (OVHcloud)</p><ul><li>Address: 2 rue Kellermann, 59100 Roubaix, France</li><li>Trade and Companies Register: Lille Métropole 424 761 419</li><li>Website: <a href=\"https://www.ovhcloud.com/en/\" target=\"_blank\" rel=\"noopener\">www.ovhcloud.com</a></li><li>Phone: 1007 (from France) / +33 9 72 10 10 07 (from abroad)</li></ul>"
       },
       "s4": {
         "titre": "Design and development",
-        "contenu": "<p>Website designed and developed by <span class=\"a-completer\">[name of the provider or agency]</span>.</p>"
+        "contenu": "<p>The website www.memoria-experience.fr was designed and developed by:</p><p>Stéphane LAY</p><p>Editorial direction, content and project coordination are provided by MEMORIA EXPERIENCE.</p><p>Artistic credits:</p><ul><li>Photographs: Marie LOPEZ</li><li>Graphic and visual design: Hugo Le Vaguerese</li><li>Other photographs, videos, illustrations and sound creations: MEMORIA EXPERIENCE and their respective authors, according to the applicable credits and permissions.</li></ul>"
       },
       "s5": {
         "titre": "Intellectual property",
-        "contenu": "<p>All elements of the website (texts, wordmarks, emblems, photographs, videos, illustrations, the universe and story of the experience) are the exclusive property of <span class=\"a-completer\">[Company name]</span> or its partners, and are protected by intellectual property law.</p><p>Any reproduction, representation, modification or use, in whole or in part, without prior written permission is prohibited. Logos and visuals offered on the <a href=\"presse.html\">Press</a> page may be used by the media to illustrate a story about Memoria, credited “© Memoria”.</p>"
+        "contenu": "<p>All the elements on the website www.memoria-experience.fr may be protected by the provisions of the French Intellectual Property Code and the applicable international conventions.</p><p>These elements include in particular:</p><ul><li>Texts and editorial content.</li><li>Photographs, illustrations and graphic creations.</li><li>Logotypes, emblems and visual identity elements.</li><li>Videos, trailers and audiovisual content.</li><li>Musical compositions and sound creations.</li><li>The original elements of the MEMORIA narrative universe, including characters, dialogue and scripts.</li><li>Original artistic creations relating to the sets and props of the experience.</li><li>The original elements of the website’s graphic design.</li></ul><p>This content is the property of MEMORIA EXPERIENCE or of its respective rights holders, in accordance with the rights held and the agreements made with authors, service providers and collaborators.</p><p>Any unauthorised reproduction, representation, modification, adaptation, distribution or exploitation of a protected element is prohibited, except for the exceptions provided for by law.</p><p>Any use of the content for commercial, advertising or promotional purposes requires the prior authorisation of the rights holders concerned.</p><h3>Use by the press and media</h3><p>MEMORIA EXPERIENCE may provide journalists, media and partners with official resources including logos, photographs, promotional visuals and presentation documents.</p><p>The conditions of use of this content are communicated when it is made available.</p><p>Providing these resources does not constitute a general authorisation to reproduce, modify or exploit them commercially on an independent basis.</p><p>Any request for authorisation can be sent to: <a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a></p>"
       },
       "s6": {
-        "titre": "Photo credits",
-        "contenu": "<p>Photographs and visuals: <span class=\"a-completer\">[photographers / image banks and licences]</span>.</p>"
+        "titre": "Photo and audiovisual credits",
+        "contenu": "<p>The photographs and visual creations published on the website are produced by MEMORIA EXPERIENCE or by professionals and collaborators involved in the project.</p><p>Photo credits: Marie LOPEZ.</p><p>Graphic design: Hugo Le Vaguerese.</p><p>Any other authors and rights holders are credited where their credit is required by the applicable permissions or contracts.</p><p>Photographs showing identifiable people are published in compliance with the applicable permissions and rights.</p><p>To report a use that may infringe rights, please write to:</p><p><a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a></p>"
       },
       "s7": {
-        "titre": "Liability",
-        "contenu": "<p><span class=\"a-completer\">[Company name]</span> strives to provide accurate and up-to-date information, but cannot guarantee that it is free of errors or omissions. Practical information (opening hours, prices, access) may change: if in doubt, <a href=\"contact.html\">contact us</a>.</p><p>The website may contain links to third-party websites, over which <span class=\"a-completer\">[Company name]</span> has no control and for which it cannot be held responsible.</p>"
+        "titre": "Liability and accuracy of information",
+        "contenu": "<p>MEMORIA EXPERIENCE strives to provide accurate, accessible and regularly updated information on its website.</p><p>Despite the care taken in writing and updating the content, some information may contain errors or omissions.</p><p>Information about services, prices, opening hours, availability and access arrangements may change.</p><p>The characteristics and conditions applicable to a booked service are those communicated to the customer when ordering and set out in the terms of sale.</p><p>MEMORIA EXPERIENCE takes reasonable measures to ensure the availability and security of its website.</p><p>Temporary interruptions may nevertheless occur, in particular during maintenance, updates or technical incidents.</p><p>Any limitations of liability apply within the limits permitted by law.</p>"
       },
       "s8": {
-        "titre": "Personal data and cookies",
-        "contenu": "<p>How we process your personal data is described in our <a href=\"confidentialite.html\">privacy policy</a>, and our use of cookies in our <a href=\"cookies.html\">cookie policy</a>.</p>"
+        "titre": "Hyperlinks and third-party services",
+        "contenu": "<p>The website www.memoria-experience.fr may offer links to websites or services operated by third parties.</p><p>These links may concern in particular:</p><ul><li>The official social networks of MEMORIA.</li><li>Booking and payment platforms.</li><li>Technical service providers.</li><li>Business partners.</li></ul><p>MEMORIA EXPERIENCE does not systematically monitor the content published on these platforms and cannot guarantee their availability or accuracy.</p><p>Consulting and using these external services is subject to their own terms of use and privacy policies.</p>"
       },
       "s9": {
-        "titre": "Governing law",
-        "contenu": "<p>This legal notice is governed by French law.</p>"
+        "titre": "Online bookings and payments",
+        "contenu": "<p>The website www.memoria-experience.fr allows visitors to view the services offered by MEMORIA EXPERIENCE and to book immersive experiences.</p><p>Online bookings and payments are managed using the 4escape solution.</p><p>Contractual information on bookings, payments, changes, cancellations and any refunds is set out in the terms of sale.</p><p>The personal data needed to manage these operations is processed in accordance with the information in the privacy policy.</p>"
+      },
+      "s10": {
+        "titre": "Personal data protection",
+        "contenu": "<p>In the course of operating the website and its activities, MEMORIA EXPERIENCE may process personal data, in particular when a booking, purchase or contact request is made or when certain services are used.</p><p>Personal data processing is governed by the applicable provisions of the General Data Protection Regulation (GDPR) and French law.</p><p>Information on the purposes of processing, legal bases, retention periods, recipients and the rights of data subjects is available in the dedicated section.</p><p>For any request concerning your personal data, you can contact:</p><p><a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a></p><p>You also have the right to lodge a complaint with the French data protection authority (CNIL), under the conditions laid down by the regulations.</p><p><a href=\"confidentialite.html\">Read our privacy policy.</a></p>"
+      },
+      "s11": {
+        "titre": "Cookies and trackers",
+        "contenu": "<p>Information about the cookies and other trackers that may be used on the website, their purposes and how consent is managed is set out in the dedicated section.</p><p><a href=\"cookies.html\">Read our cookie policy.</a></p>"
+      },
+      "s12": {
+        "titre": "Terms of sale",
+        "contenu": "<p>The services offered by MEMORIA EXPERIENCE are subject to the applicable terms of sale.</p><p>These set out in particular the characteristics of the services, the booking, payment, change and cancellation arrangements and the conditions of participation.</p><p><a href=\"cgv.html\">Read our terms of sale.</a></p>"
+      },
+      "s13": {
+        "titre": "Live performance activity",
+        "contenu": "<p>MEMORIA EXPERIENCE creates, produces and operates immersive experiences involving actors.</p><p>Information on the declaration receipts for live performance entrepreneurs serving as a licence, where applicable and actually in force, will be published once their issue and the required details have been confirmed.</p>"
+      },
+      "s14": {
+        "titre": "Applicable law",
+        "contenu": "<p>This legal notice is governed by French law.</p><p>Any dispute concerning the use of the website will be examined in accordance with the applicable legal provisions, without prejudice to the rights granted to consumers.</p><p>For any question or complaint, users can contact MEMORIA EXPERIENCE:</p><p><a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a></p><p>Information on consumer mediation is set out in the terms of sale, in accordance with the applicable obligations.</p>"
+      },
+      "s15": {
+        "titre": "Changes to the legal notice",
+        "contenu": "<p>MEMORIA EXPERIENCE may update this legal notice to take account of any legislative, regulatory, technical or organisational change.</p><p>The date of the last update is shown at the top of the page.</p>"
       }
     },
     "cgv": {
       "titre": "Terms of sale",
       "metaTitre": "Terms of sale — Memoria",
       "description": "Memoria terms of sale: booking, payment, cancellation, gift vouchers, conditions of participation.",
-      "intro": "These general terms of sale apply to any booking of a Memoria session, any purchase of a gift voucher and any tailor-made service. Any booking implies their unreserved acceptance.",
+      "miseAJour": "Last updated: 4 November 2026",
       "s1": {
-        "titre": "Article 1 — Purpose and seller",
-        "contenu": "<p>The services are offered by <span class=\"a-completer\">[Company name]</span>, <span class=\"a-completer\">[legal form]</span>, <span class=\"a-completer\">[registered office address]</span>, RCS <span class=\"a-completer\">[city and number]</span> (hereinafter “Memoria”).</p><p>Memoria offers an immersive horror experience lasting about 90 minutes, for groups of 3 to 6 players, with live actors, at 45 cours de la Liberté in Lyon.</p>"
+        "titre": "Article 1 — Identity of the provider",
+        "contenu": "<p>These General Terms of Sale, hereinafter the “Terms”, are drawn up by:</p><p>MEMORIA EXPERIENCE, a French limited liability company (SARL) with share capital of €500.</p><ul><li>Registered office: 45 cours de la Liberté, 69003 Lyon, France</li><li>Lyon Trade and Companies Register: 104 633 532</li><li>SIRET: 104 633 532 00015</li><li>Intra-community VAT number: FR72 104633532</li><li>Email address: <a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a></li><li>Website: www.memoria-experience.fr</li></ul><p>Hereinafter “MEMORIA” or “the Provider”.</p><p>The experience is offered to the public at the following address:</p><p>45 cours de la Liberté, 69003 Lyon, France.</p>"
       },
       "s2": {
-        "titre": "Article 2 — Prices",
-        "contenu": "<p>Prices are shown in euros, including all taxes, per person, and depend on the number of players in the session:</p><ul><li>3 players: {{PRIX_3}} per person</li><li>4 players: {{PRIX_4}} per person</li><li>5 players: {{PRIX_5}} per person</li><li>6 players: {{PRIX_6}} per person</li></ul><p>The applicable price is the one in force at the time of booking. Tailor-made services (team building, private hire, tailor-made pack) are subject to a quote.</p>"
+        "titre": "Article 2 — Purpose and scope",
+        "contenu": "<p>These Terms set out the conditions under which MEMORIA sells and provides its services.</p><p>They apply in particular to:</p><ul><li>Bookings of individual or group sessions.</li><li>Purchases and use of gift vouchers.</li><li>Tailor-made services.</li><li>Birthdays, hen and stag parties, marriage proposals and private events.</li><li>Services for businesses, in particular team building.</li><li>Private hire and services including a cocktail reception.</li><li>Additional services offered at the time of booking.</li></ul><p>They apply to consumer customers and, subject to specific provisions, to business customers.</p><p>Any order implies acceptance of these Terms, once they have been made available to the customer before payment.</p><p>Acceptance is obtained by means of a dedicated tick box when booking online or, for services provided on the basis of a quote, when the contract is accepted.</p><p>In the event of a conflict between these Terms and specific conditions expressly accepted in a quote, the latter prevail for the matters concerned, subject to mandatory legal provisions.</p><p>The applicable version is the one communicated to the customer and accepted when the contract is concluded.</p>"
       },
       "s3": {
-        "titre": "Article 3 — Booking and payment",
-        "contenu": "<p>Bookings are made online via the 4escape platform. A booking is only final once paid in full by <span class=\"a-completer\">[accepted payment methods]</span> on a secure interface. A confirmation email summarising the date, time, number of players and intensity level is then sent to the customer.</p>"
+        "titre": "Article 3 — Description of the experience",
+        "contenu": "<p>MEMORIA offers an immersive horror experience combining live theatre, interactive storytelling, sets, technical effects and actors.</p><p>Participants are plunged into a fiction set in the Pensionnat de la Liberté, a fictional boarding school abandoned since 1953.</p><p>The experience is not a traditional escape game.</p><p>It relies mainly on immersion, interaction, exploration, observation and the players’ active participation in a scripted investigation.</p><p>Actions, searches and moments of reflection may be needed for the adventure to unfold.</p><p>The usual length of the experience is 90 minutes.</p><p>The customer should also allow:</p><ul><li>About 15 minutes after the session for the debriefing and departure.</li></ul><p>The total recommended time on the premises is therefore about two hours.</p><p>The 90 minutes correspond to the planned length of the immersive route. This length may be affected by the group arriving late, an interruption requested by a participant or a safety requirement.</p><p>MEMORIA undertakes to provide a service that complies with the characteristics announced and the applicable contractual conditions.</p><p>The subjective perception of fear, of the emotions felt or of how difficult the events are does not in itself constitute a lack of conformity of the service.</p>"
       },
       "s4": {
-        "titre": "Article 4 — Conditions of participation",
-        "contenu": "<ul><li>The experience is not allowed for under-12s and not recommended for under-16s. Minors must be accompanied by an adult taking part in the session.</li><li>It is not recommended for people with heart conditions, epilepsy, severe anxiety or claustrophobia, or for pregnant women. Each participant undertakes not to take part if a contraindication applies.</li><li>Participants must follow the instructions given during the briefing and respect the sets, props and actors.</li><li>Memoria reserves the right to refuse entry to, or stop the session of, anyone under the influence of alcohol or drugs, or whose behaviour endangers their own safety or that of others, without refund.</li><li>A safe word, given during the briefing, allows any participant to stop the experience at any time.</li></ul>"
+        "titre": "Article 4 — Capacity and group size",
+        "contenu": "<h3>4.1. Standard sessions</h3><p>Each session usually welcomes between 3 and 6 players.</p><p>The number of participants is set when booking.</p><h3>4.2. Taking part with two players</h3><p>A session may exceptionally be arranged for two people, subject to a prior request and MEMORIA’s agreement.</p><p>In that case, the price charged is that of a three-player session.</p><h3>4.3. Groups of 7 or 8 players</h3><p>For special events, birthdays, hen and stag parties and team building services, MEMORIA may exceptionally welcome up to 8 players in the same session.</p><p>These bookings cannot be made automatically in the standard calendar.</p><p>They require a prior request through the contact form and MEMORIA’s express confirmation.</p><p>The price and specific conditions are communicated before the order is confirmed.</p><h3>4.4. Groups of more than eight people</h3><p>Groups of more than eight participants can benefit from a specific organisation, in particular by spreading the players over several sessions.</p><p>The schedule, times, capacities and prices are set in advance in a quote.</p><h3>4.5. Absence of a participant</h3><p>A booking is for a set number of places.</p><p>If one or more participants do not attend, the places booked remain payable, unless a change has been accepted under the conditions of Article 12 or the law provides otherwise.</p><p>A change in the number of participants does not automatically entitle the customer to a recalculation of the price or a refund of unused places.</p>"
       },
       "s5": {
-        "titre": "Article 5 — Late arrival",
-        "contenu": "<p>Participants must arrive 15 minutes before the session time. If they are late, the experience may be shortened accordingly; beyond <span class=\"a-completer\">[number]</span> minutes late, the session may be cancelled without refund.</p>"
+        "titre": "Article 5 — Prices",
+        "contenu": "<p>Prices for standard sessions are expressed in euros, including all taxes.</p><p>The applicable prices are as follows:</p><div class=\"tableau-defilant\"><table class=\"legal__tableau\"><thead><tr><th scope=\"col\">Participants</th><th scope=\"col\">Price per person</th><th scope=\"col\">Total</th></tr></thead><tbody><tr><td>3 players</td><td>{{PRIX_3}}</td><td>{{TOTAL_3}}</td></tr><tr><td>4 players</td><td>{{PRIX_4}}</td><td>{{TOTAL_4}}</td></tr><tr><td>5 players</td><td>{{PRIX_5}}</td><td>{{TOTAL_5}}</td></tr><tr><td>6 players</td><td>{{PRIX_6}}</td><td>{{TOTAL_6}}</td></tr></tbody></table></div><p>For sessions exceptionally arranged with seven or eight players, the price is specified when the quote or commercial proposal is drawn up.</p><p>The prices shown include the immersive experience, the actors’ supervision and the souvenir photograph offered at the end of the session.</p><p>The souvenir video is an additional service unless it is expressly included in the package booked.</p><p>Prices for tailor-made services, private hire, business services and cocktail receptions are provided on a quote basis.</p><p>The applicable price is the one displayed and accepted when the booking is concluded.</p><p>MEMORIA may change its prices for future orders, without unilaterally changing the price of services already contracted.</p><p>Any promotions are subject to the conditions expressly stated when they are presented.</p><p>No additional charge may be invoiced unless the customer has been informed beforehand and has agreed to it under the applicable legal conditions.</p>"
       },
       "s6": {
-        "titre": "Article 6 — Changes and cancellation by the customer",
-        "contenu": "<ul><li>A booking may be changed, subject to availability, up to 48 hours before the session.</li><li>A cancellation made up to 72 hours before the session entitles the customer to <span class=\"a-completer\">[a full refund / a credit note]</span>.</li><li>After this deadline, or in case of no-show, no refund is due.</li></ul><p>Requests must be sent by email to <a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a>.</p>"
+        "titre": "Article 6 — Booking and conclusion of the contract",
+        "contenu": "<p>Standard bookings are mainly made online via the website www.memoria-experience.fr, using the 4escape solution.</p><p>The customer selects in particular:</p><ul><li>The date of participation.</li><li>The session time.</li><li>The number of players.</li><li>The intensity level.</li><li>Any additional services offered.</li></ul><p>Before final confirmation, the customer must be able to check the order summary, the total price and the information needed to carry out the order.</p><p>The customer must be able to correct any errors before confirming the purchase.</p><p>Confirming the order must clearly indicate that it entails an obligation to pay.</p><p>The booking becomes firm once the payment due has been validated, subject to the confirmation sent by MEMORIA or its booking system.</p><p>A summary email is sent to the address provided by the customer.</p><p>It sets out in particular the essential information about the booking.</p><p>The customer is responsible for the accuracy of the contact details provided.</p><p>If no confirmation is received or a payment issue occurs, the customer is asked to contact MEMORIA before placing a new order.</p><p>The booking is for the session, date and time shown in the confirmation.</p><p>Any later change is subject to the conditions set out in these Terms.</p>"
       },
       "s7": {
-        "titre": "Article 7 — Cancellation by Memoria",
-        "contenu": "<p>If Memoria is unable to run a session (force majeure, technical problem, actor unavailable…), it will inform the customer as soon as possible and offer a new date or a full refund of the sums paid, excluding any other compensation.</p>"
+        "titre": "Article 7 — Payment",
+        "contenu": "<p>Online bookings are paid using the 4escape solution and its associated payment systems.</p><p>The payment methods actually accepted are shown to the customer before the order is confirmed.</p><p>For standard sessions, full payment is required when booking, unless a specific arrangement is expressly offered.</p><h3>Split payment</h3><p>Where this feature is offered by the booking system, participants can split the payment.</p><p>Each player can then pay their share according to the terms communicated by the platform.</p><p>The booking is only finally confirmed once the required payment conditions have been met.</p><p>The precise terms for splitting payments, any deadlines and how incomplete payments are handled are those shown before the order is confirmed.</p><p>In case of difficulty, the customer can contact MEMORIA at <a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a>.</p><p>For business or tailor-made services, payment deadlines are set in the accepted quote.</p>"
       },
       "s8": {
-        "titre": "Article 8 — No right of withdrawal",
-        "contenu": "<p>In accordance with article L.221-28 12° of the French Consumer Code, the right of withdrawal does not apply to leisure services provided on a specific date or during a specific period.</p>"
+        "titre": "Article 8 — Intensity levels",
+        "contenu": "<p>MEMORIA offers three intensity levels so that the interactions and fear effects can be adapted to the group’s sensitivity.</p><h3>8.1. Day Boarder (Demi-pensionnaire)</h3><p>This level focuses on a disturbing atmosphere, psychological tension and measured interaction.</p><p>No deliberate physical contact between actors and players is planned as part of the staging.</p><h3>8.2. Boarder (Pensionnaire)</h3><p>This level corresponds to the standard experience recommended by MEMORIA.</p><p>It offers more intense immersion, with tense situations, surprises and stronger interaction.</p><p>Non-violent physical contact may occur as part of the staging, with respect for the participants’ consent.</p><h3>8.3. Straight to Hell! (Jusqu’en enfer !)</h3><p>This level corresponds to the maximum intensity offered by MEMORIA.</p><p>It includes more sustained fear situations, more direct interaction and supervised physical contact.</p><p>No intensity level permits rough handling, violence, humiliation, inappropriate gestures or dangerous behaviour.</p><h3>8.4. Choosing the level</h3><p>The intensity level is selected when booking.</p><p>By default, the Boarder level is offered.</p><p>The choice can be changed before the session starts, subject to organisational and safety conditions.</p><p>During the experience, the actors may adapt their interactions if a participant’s condition or reactions require it.</p><p>Choosing an intensity level never amounts to a waiver of participants’ fundamental rights or to general consent to any physical contact.</p>"
       },
       "s9": {
-        "titre": "Article 9 — Gift vouchers",
-        "contenu": "<ul><li>Gift vouchers are valid for 12 months from the date of purchase; the expiry date is printed on the voucher.</li><li>They can be used once, cannot be refunded or exchanged for cash, and can only be extended after expiry at Memoria’s discretion.</li><li>If the price of the session booked exceeds the value of the voucher, the difference is paid when booking.</li></ul>"
+        "titre": "Article 9 — Age requirements",
+        "contenu": "<p>The MEMORIA experience is not permitted for people under 12.</p><p>It is not recommended for minors under 16 because of its horror nature and the emotional intensity of some sequences.</p><p>Any minor participant must be accompanied by an adult who actually takes part in the session.</p><p>Where the accompanying adult does not hold parental authority, they must have the necessary authorisation for the minor to take part.</p><p>MEMORIA may ask for appropriate proof where necessary to check that these conditions are met.</p><p>The accompanying adult must ensure that the minors in their care follow the instructions, without prejudice to MEMORIA’s safety obligations.</p><p>The intensity level must be suited to the participants’ age and sensitivity.</p><p>MEMORIA may refuse an intensity level that is clearly unsuitable for a participant, on objective safety grounds.</p>"
       },
       "s10": {
-        "titre": "Article 10 — Tailor-made and corporate services",
-        "contenu": "<p>Team building, private hire and custom events are subject to a detailed quote. Their specific conditions (deposit, cancellation deadline, number of participants) prevail over these terms of sale.</p>"
+        "titre": "Article 10 — Health, warnings and physical conditions",
+        "contenu": "<p>The experience includes in particular:</p><ul><li>Sometimes sudden or intense sound effects.</li><li>Significant variations in lighting.</li><li>Passages in semi-darkness.</li><li>Visual and lighting effects that may be startling.</li><li>Situations of fear and psychological tension.</li><li>Moving around in fitted-out spaces.</li><li>Stairs and some confined spaces.</li><li>Close interaction with actors.</li></ul><p>Participation is not recommended for people who are particularly sensitive to strong emotions, certain light or sound effects, confined spaces or intense stress.</p><p>Particular caution is recommended for people with heart conditions, photosensitivity (in particular linked to certain forms of epilepsy) or health problems that may be aggravated by the experience.</p><p>As a precaution, MEMORIA also advises pregnant women not to take part.</p><p>If in doubt about their fitness to take part, the people concerned are invited to seek medical advice before booking.</p><p>No particular physical fitness is required for the standard route.</p><p>However, it may be necessary to walk, bend down or use stairs.</p><p>Players are never asked to run.</p><p>The customer is asked to inform the other participants of the main characteristics and warnings of the experience before the session.</p><p>Any request for adjustments must be sent to MEMORIA before booking.</p><p>Participants are not asked to give MEMORIA a detailed medical diagnosis. Only the information strictly necessary to consider an adjustment or for safety should be requested, in compliance with the regulations on personal data.</p>"
       },
       "s11": {
-        "titre": "Article 11 — Liability",
-        "contenu": "<p>Participants are liable for any damage they deliberately cause to the sets, props and equipment. Memoria cannot be held responsible for the loss or theft of personal belongings, which may be left at the welcome desk.</p>"
+        "titre": "Article 11 — Safety and interruptions",
+        "contenu": "<h3>11.1. Safety briefing</h3><p>A compulsory safety briefing is held before each session.</p><p>It covers in particular:</p><ul><li>The characteristics of the route and its main risks.</li><li>The rules for moving around the building.</li><li>The ban on running.</li><li>Precautions regarding the stairs, sets and technical installations.</li><li>The rules applying to interaction with the actors.</li><li>The limits of physical contact.</li><li>How to stop the experience voluntarily.</li><li>The safety signal for calling the team.</li><li>The instructions in the event of an incident or evacuation.</li></ul><p>These instructions are adapted to the characteristics of the experience, the intensity level chosen and, where necessary, the audience concerned.</p><p>The main safety rules are also displayed in writing on the premises.</p><p>Each participant must attend the briefing and follow the instructions given.</p><p>A certificate of attendance at the briefing and acknowledgement of the instructions may be collected individually before the session starts.</p><p>This certificate does not constitute a waiver of liability in favour of MEMORIA.</p><h3>11.2. Safety signal</h3><p>A safety gesture or signal is given to the players during the briefing.</p><p>This signal allows any participant to ask to stop taking part when the experience becomes too intense or when they wish to stop.</p><p>Using it brings the team to intervene as quickly as safety allows.</p><p>The person concerned is taken to a suitable area.</p><h3>11.3. Freedom to stop the experience</h3><p>No participant is obliged to continue the experience against their will.</p><p>They may ask to leave at any time.</p><p>One participant stopping does not necessarily end the session for the other players.</p><p>Where a participant leaves of their own accord, through no fault of MEMORIA, this does not automatically give rise to a refund, subject to the applicable legal provisions.</p><h3>11.4. Physical contact</h3><p>Physical contact is strictly supervised.</p><p>It may be offered at the Boarder and Straight to Hell! levels, but must always remain compatible with the participants’ safety, dignity and consent.</p><p>Any player may refuse physical contact by saying so during the briefing or during the experience.</p><p>The actors must respect this refusal.</p><h3>11.5. Interruption for safety reasons</h3><p>MEMORIA may temporarily interrupt a sequence, adapt the route or end a session if a situation poses a serious risk to participants or staff.</p><p>Where this situation results from a participant’s behaviour, the provisions of Article 23 apply.</p><p>The contractual consequences of an interruption not attributable to the participants are assessed in accordance with the customer’s legal rights.</p>"
       },
       "s12": {
-        "titre": "Article 12 — Image rights",
-        "contenu": "<p>A group photo may be taken at the end of the experience. It is only published (website, social media) with the express consent of the people photographed. Filming or taking photos during the experience is prohibited.</p>"
+        "titre": "Article 12 — Changing a booking",
+        "contenu": "<p>A request to change a booking can be made up to 48 hours before the scheduled session time.</p><p>Changes remain subject to slot availability and MEMORIA’s agreement.</p><p>The request must be sent to:</p><p><a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a></p><p>It must state the booking number and the change requested.</p><p>A change only takes effect once MEMORIA has confirmed it in writing.</p><p>If no new slot can be agreed, the original booking remains in force, unless otherwise agreed or a legal right to terminate applies.</p><p>After the 48-hour deadline, a change request may be considered on an exceptional basis, with no guarantee that it will be accepted.</p><p>Accepted changes may lead to a price adjustment where they alter the characteristics of the service. This adjustment must be communicated and accepted before confirmation.</p>"
       },
       "s13": {
-        "titre": "Article 13 — Personal data",
-        "contenu": "<p>Data collected when booking is processed in accordance with our <a href=\"confidentialite.html\">privacy policy</a>.</p>"
+        "titre": "Article 13 — Cancellation by the customer",
+        "contenu": "<h3>13.1. Requests made at least 72 hours before the session</h3><p>A cancellation request can be made at least 72 hours before the scheduled session time, for a legitimate and justified reason.</p><p>The following may in particular be considered legitimate reasons:</p><ul><li>An illness or accident actually preventing participation.</li><li>A death or serious family event.</li><li>An exceptional, unforeseeable circumstance beyond the customer’s control making participation impossible.</li><li>An objectively established inability to travel, in exceptional circumstances.</li></ul><p>This list is not exhaustive.</p><p>The request must be accompanied by proportionate supporting documents strictly necessary to assess its merits.</p><p>MEMORIA does not require detailed medical information where less intrusive documents can establish the impediment.</p><p>Where a cancellation is accepted under these conditions, MEMORIA refunds in full the sums paid for the booking concerned.</p><p>The commercial refund is made within a maximum of 14 days of the written acceptance of the cancellation, unless otherwise agreed with the customer.</p><h3>13.2. Requests made less than 72 hours before the session</h3><p>A cancellation requested less than 72 hours before the session starts does not automatically give rise to a refund.</p><p>MEMORIA may nevertheless consider exceptional circumstances put forward by the customer and offer an amicable solution, in particular a postponement.</p><p>A postponement may be considered, on presentation of appropriate proof, where a serious or unforeseeable event prevents participation.</p><p>Acceptance of a postponement remains subject to MEMORIA’s organisational possibilities, without prejudice to the customer’s legal rights.</p><h3>13.3. Cancellation without an admissible reason</h3><p>Where the customer gives up their booking without a reason meeting the accepted cancellation conditions, no commercial refund is guaranteed.</p><p>This rule does not deprive the customer of any rights they may have under the applicable law.</p><h3>13.4. Absence on the day of the session</h3><p>If the group does not attend without a cancellation having been accepted beforehand, the service booked remains payable, subject to the applicable legal provisions.</p><p>Any cancellation request must be sent to:</p><p><a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a></p>"
       },
       "s14": {
-        "titre": "Article 14 — Complaints and mediation",
-        "contenu": "<p>Any complaint may be sent to <a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a>. If a dispute remains unresolved, the customer may use the consumer mediator free of charge: <span class=\"a-completer\">[mediator name and contact details]</span>.</p>"
+        "titre": "Article 14 — Late arrival",
+        "contenu": "<p>Participants must arrive 5 minutes before the scheduled start of their session.</p><p>This allows time for the welcome, the briefing and the preparation of the experience.</p><p>If running late, participants must inform MEMORIA as soon as possible.</p><p>As sessions follow precise time slots, a delay attributable to the participants may shorten their experience.</p><p>If the group is more than 25 minutes late compared with the scheduled start of the session, MEMORIA may refuse to start the experience.</p><p>This decision takes into account in particular organisational constraints, the following bookings and safety conditions.</p><p>Where the session cannot take place because of a delay attributable to the customer, no commercial refund is guaranteed, subject to mandatory legal provisions.</p><p>MEMORIA may offer an exceptional postponement where circumstances allow.</p><p>Lateness is measured against the session start time shown in the confirmation, not the recommended arrival time for the briefing.</p>"
       },
       "s15": {
-        "titre": "Article 15 — Governing law",
-        "contenu": "<p>These terms of sale are governed by French law. Failing an amicable settlement, the competent courts shall be those of <span class=\"a-completer\">[city]</span>, subject to the mandatory rules applicable to consumers.</p>"
+        "titre": "Article 15 — Cancellation or change by MEMORIA",
+        "contenu": "<p>MEMORIA may have to cancel or postpone a session when it cannot be carried out under the agreed conditions.</p><p>This may result in particular from:</p><ul><li>A technical incident preventing normal operation of the route.</li><li>A safety problem.</li><li>The unforeseen unavailability of an actor essential to the service.</li><li>An administrative closure.</li><li>A force majeure event.</li><li>Any other circumstance actually preventing the planned service from being performed.</li></ul><p>MEMORIA informs the customer as soon as it becomes aware that the session cannot take place.</p><p>Where the service cannot be performed, the customer may accept a postponement to another date.</p><p>Failing agreement on a postponement, and where the contract is terminated in accordance with the applicable provisions, the sums paid for the service not performed are refunded within the legal time limits.</p><p>Cancellation or change attributable to MEMORIA does not deprive the customer of their other legal rights, in particular where the conditions for compensation are met.</p><p>A substantial change to the service cannot be imposed unilaterally on the customer outside the cases permitted by law.</p>"
+      },
+      "s16": {
+        "titre": "Article 16 — Right of withdrawal",
+        "contenu": "<h3>16.1. Bookings for a specific date</h3><p>In accordance with Article L.221-28, 12° of the French Consumer Code, the right of withdrawal does not apply to contracts for leisure activities to be provided on a specific date or during a specific period.</p><p>Consequently, bookings of MEMORIA sessions for a specific date do not benefit from the 14-day legal withdrawal period.</p><p>The options for changing and commercially cancelling a booking are those set out in these Terms.</p><h3>16.2. Purchase of gift vouchers without a set session date</h3><p>The distance purchase of a gift voucher without a simultaneous booking of a service on a specific date may be covered by the legal right of withdrawal.</p><p>Where applicable, the consumer customer has 14 days from the conclusion of the contract to exercise this right, without having to give a reason.</p><p>Withdrawal can be exercised using the form in the appendix, an unambiguous statement or the online withdrawal feature made available in accordance with the regulations.</p><p>The refund is made according to the terms and time limits set by the French Consumer Code.</p><p>Where a voucher has been used or a service has begun during the withdrawal period, the consequences are assessed in light of the applicable legal provisions and the information given to the consumer before ordering.</p><h3>16.3. Additional digital content</h3><p>Where MEMORIA sells a video or other digital content separately, the rules on the right of withdrawal depend on the nature of the service, its personalisation and the conditions under which its supply begins.</p><p>Any exception to or loss of this right must meet the applicable legal conditions and be subject to the information and, where necessary, the express agreements required.</p>"
+      },
+      "s17": {
+        "titre": "Article 17 — Gift vouchers",
+        "contenu": "<h3>17.1. Nature of gift vouchers</h3><p>MEMORIA offers gift vouchers for giving an immersive experience.</p><p>These vouchers may correspond to a package for a set number of players or to a free amount.</p><h3>17.2. Validity</h3><p>Gift vouchers are valid for 12 months from their date of purchase.</p><p>The expiry date is shown on the voucher or in the confirmation email.</p><p>The precise conditions for booking before the voucher expires must be communicated to the recipient.</p><h3>17.3. Use</h3><p>The recipient makes a booking according to the availability offered by MEMORIA.</p><p>They must enter the gift voucher code when booking or follow the procedure communicated when it was issued.</p><p>A gift voucher does not guarantee the availability of a particular slot.</p><p>The recipient is therefore invited to book well in advance.</p><h3>17.4. Price difference</h3><p>Where the price of the service booked is higher than the value of the gift voucher, the recipient must pay the difference before the booking is confirmed.</p><p>Where the voucher has a monetary value higher than the price of the service selected, the terms for using the balance are those clearly stated at the time of purchase.</p><p><span class=\"a-completer\">[How voucher balances are handled to be confirmed with 4escape before publication.]</span></p><h3>17.5. Refund and extension</h3><p>Gift vouchers cannot be exchanged for cash, except where a refund is due under a legal right or the applicable contractual conditions.</p><p>After expiry, an extension may be granted by MEMORIA on an exceptional basis.</p><p>It is not automatic.</p><p>The consumer’s legal rights, in particular where a right of withdrawal applies or in the event of non-performance attributable to MEMORIA, remain reserved.</p><h3>17.6. Loss or fraudulent use</h3><p>The recipient must keep their gift voucher code confidential.</p><p>In the event of loss, theft or suspected fraudulent use, they must contact MEMORIA as soon as possible.</p><p>The team will look into the possibility of identifying or deactivating the voucher, depending on the features of the booking system.</p>"
+      },
+      "s18": {
+        "titre": "Article 18 — Business services and team building",
+        "contenu": "<p>MEMORIA offers services for businesses and professional groups.</p><p>Two main packages are offered.</p><h3>18.1. Classic package</h3><p>This package includes in particular:</p><ul><li>The 90-minute MEMORIA immersive experience.</li><li>The choice of intensity level.</li><li>A personalised welcome for the team.</li><li>The briefing before the experience.</li><li>The debriefing after the experience.</li><li>The souvenir video included.</li></ul><h3>18.2. Experience & Cocktail package</h3><p>This package includes in particular:</p><ul><li>The 90-minute MEMORIA immersive experience.</li><li>The choice of intensity level.</li><li>A personalised welcome for the team.</li><li>The souvenir video included.</li><li>Private hire of the venue under the conditions set out in the quote.</li><li>A cocktail reception prepared by a caterer.</li><li>Time to talk after the experience, in the space made available to the group.</li></ul><p>The length of the private hire, the number of participants, the content of the cocktail reception and the caterer’s services are specified in the accepted quote.</p><h3>18.3. Capacity and organisation</h3><p>Groups of 7 or 8 participants may exceptionally share a session, on prior request.</p><p>For larger groups, several sessions can be arranged.</p><h3>18.4. Quote and contractual commitment</h3><p>Business services are the subject of a detailed quote specifying in particular:</p><ul><li>The nature of the service.</li><li>The date and times.</li><li>The number of participants.</li><li>The length of the private hire.</li><li>The total price and applicable taxes.</li><li>Any catering services.</li><li>The payment terms.</li><li>The specific conditions for changes or cancellation.</li></ul><p>The contract is concluded once the quote has been accepted in accordance with its terms.</p><p>Additional requests or substantial changes may give rise to an additional quote.</p><h3>18.5. Payment between professionals</h3><p>The payment deadlines applicable to business customers are shown on the quote and invoice, in accordance with the regulations.</p><p>Unless more specific terms apply, late payment penalties are calculated at the applicable European Central Bank refinancing rate plus ten percentage points, in accordance with the legal provisions in force.</p><p>A fixed indemnity of €40 for recovery costs is due in the situations provided for by the French Commercial Code.</p><p>No discount is granted for early payment, unless expressly stated in the quote.</p>"
+      },
+      "s19": {
+        "titre": "Article 19 — Tailor-made services and private hire",
+        "contenu": "<p>MEMORIA may offer services adapted to particular events:</p><ul><li>Birthdays.</li><li>Hen and stag parties.</li><li>Marriage proposals.</li><li>Surprise events.</li><li>Private hire.</li><li>Special requests.</li></ul><p>These services are considered individually.</p><p>Any personalisation must be expressly accepted by MEMORIA before the contract is concluded.</p><p>The service actually due is the one described in the quote or written confirmation.</p><p>Special requests remain subject to the technical, artistic, material and safety constraints of the venue.</p><p>MEMORIA does not guarantee that every personalisation request will be accepted.</p>"
+      },
+      "s20": {
+        "titre": "Article 20 — Cocktail receptions and catering",
+        "contenu": "<p>Where the service includes a cocktail reception or catering, the conditions of supply are specified in the quote.</p><p>Food and drinks are prepared or supplied by a caterer or service provider appointed for the event.</p><p>Information about food allergies, intolerances or special diets must be communicated early enough to allow the possible adjustments to be considered.</p><p>The services actually available and any supplements are confirmed in writing.</p><p>The liability of each party is assessed according to its role, its contractual obligations and the applicable legal provisions.</p><p>MEMORIA remains liable to its customer for the obligations it has itself undertaken, under the conditions provided for by law.</p>"
+      },
+      "s21": {
+        "titre": "Article 21 — Souvenir photographs and videos",
+        "contenu": "<h3>21.1. Souvenir photographs</h3><p>A souvenir photograph is included in the experience.</p><p>It may in particular be taken at the end of the session.</p><p>Taking or handing over a photograph does not constitute authorisation for MEMORIA to publish it for commercial or promotional purposes.</p><h3>21.2. Souvenir videos</h3><p>A souvenir video may be offered as an option or included in certain packages, in particular business services.</p><p>Where it is charged separately, its price and essential characteristics are communicated before purchase.</p><p>The terms of production and delivery are specified when ordering.</p><p>Where a video is supplied as digital content, MEMORIA complies with the applicable legal conformity obligations, in particular those of Articles L.224-25-12 et seq. of the French Consumer Code.</p><p>For a one-off supply, the legal guarantee of conformity covers defects existing at the time of supply and appearing within two years.</p><p>In the event of a lack of conformity, the consumer may ask for the content to be brought into conformity under the conditions provided for by law.</p><p>Where the legal conditions are met, they may also obtain a price reduction or the termination of the contract.</p><p>These rights are exercised free of charge under the applicable legal conditions.</p><p>If a paid video cannot be supplied for a reason attributable to MEMORIA, the customer benefits from the legal rights attached to the non-performance of this service, in particular, where the conditions are met, a refund of the corresponding amount.</p><h3>21.3. Image rights</h3><p>Publishing a photograph or video in which a participant can be identified on MEMORIA’s website, social networks or promotional materials requires the appropriate authorisations.</p><p>These authorisations are separate from the acceptance of these Terms.</p><p>They must in particular specify the intended uses and comply with the requirements applicable to minors.</p><p>Refusing the promotional use of one’s image cannot in itself prevent a customer from taking part in a service that does not require such use.</p><h3>21.4. Recordings linked to the experience</h3><p>Where images or videos are recorded for the purposes of the experience or a souvenir service, participants are informed of the purposes of these recordings and how their personal data is processed.</p><p>Further information is set out in the privacy policy.</p>"
+      },
+      "s22": {
+        "titre": "Article 22 — Accessibility and adaptation of the route",
+        "contenu": "<p>The Pensionnat de la Liberté is spread over several levels, some of which are connected by stairs.</p><p>The full standard route is not accessible to people with reduced mobility.</p><p>MEMORIA is nevertheless willing to consider personalised adaptations so that the people concerned can enjoy an immersive experience compatible with their needs and with safety conditions.</p><p>The venue has toilets adapted for people with reduced mobility.</p><p>Any request for adaptation must be sent to MEMORIA before booking, through the contact form or by email.</p><p>After discussing it with the customer, MEMORIA specifies the adjustments actually possible and the characteristics of the route offered.</p><p>An adaptation is confirmed in writing before the corresponding booking is concluded.</p><p>No service or area that is not actually accessible may be presented as accessible.</p>"
+      },
+      "s23": {
+        "titre": "Article 23 — Rules of conduct, exclusion and ending a session",
+        "contenu": "<p>Participants undertake to respect the safety rules, the actors, the staff, the other players, the premises and the equipment.</p><p>The following are prohibited in particular:</p><ul><li>Physical violence and threats.</li><li>Insults, intimidation and discriminatory or harassing behaviour.</li><li>Non-consensual physical contact with staff or other participants.</li><li>Deliberate damage to sets and props.</li><li>Unauthorised handling of technical installations.</li><li>Bringing in dangerous objects.</li><li>Any behaviour likely to endanger others.</li></ul><h3>23.1. Alcohol and drugs</h3><p>It is forbidden to bring in or consume alcohol, drugs or any other psychoactive substance for unauthorised use on the premises.</p><p>An exception may be made for alcoholic drinks served by MEMORIA or its caterer as part of a Cocktail service, exclusively after the end of the immersive experience, under the conditions applicable to that service.</p><p>Participants must follow the consumption and safety rules communicated by the venue.</p><p>No participant showing clear signs of intoxication or impairment by a psychoactive substance may take part in the experience where their condition is incompatible with it being carried out safely.</p><h3>23.2. Refusal of access to the experience</h3><p>MEMORIA may refuse access to anyone who:</p><ul><li>Shows clear signs of intoxication or of being under the influence of drugs or other psychoactive substances incompatible with taking part safely.</li><li>Behaves violently, threateningly or in a seriously insulting manner towards other participants or staff.</li><li>Refuses to attend the compulsory safety briefing.</li><li>Refuses to follow the essential safety instructions after they have been clearly explained.</li></ul><p>The decision to refuse access is based on objective grounds, assessed in light of the facts observed and the safety requirements of the activity.</p><h3>23.3. Exclusion and ending the session</h3><p>The session manager may at any time exclude one or more participants or, if safety requires, end the session for the whole group where a participant:</p><ul><li>Commits violence, makes threats or imposes non-consensual physical contact on an actor, a member of staff or another player.</li><li>Is clearly under the influence of alcohol or drugs, in a way incompatible with the safety of the experience.</li><li>Deliberately damages the sets, props or technical installations.</li><li>Persists in breaching the essential safety instructions despite a warning from the team.</li><li>Seriously endangers their own safety or that of others.</li></ul><p>Except in the event of violence, a serious threat or immediate danger, a warning is given before exclusion.</p><p>Where only one participant’s behaviour is at issue, MEMORIA favours excluding that person and continuing the session for the other players, where safety and organisational conditions allow.</p><p>If a participant’s behaviour makes it impossible to continue the session safely for the whole group, the manager may decide to stop the experience for good.</p><p>MEMORIA may call the police if the situation warrants it.</p><h3>23.4. Financial consequences</h3><p>Where a refusal of access, exclusion or interruption is directly attributable to a participant’s serious breach of these rules, that participant is not automatically entitled to a refund or postponement.</p><p>In the absence of any breach attributable to MEMORIA, no commercial refund is guaranteed to the participant responsible, subject to the applicable legal provisions.</p><p>Where a whole session is stopped because of the behaviour of a single participant, the financial consequences are examined by distinguishing the situation of the participant responsible from that of the other players.</p><p>Participants who have committed no breach retain their legal rights relating to the service not performed.</p><p>A postponement, a refund corresponding to the service not performed or another amicable solution may be offered to them depending on the circumstances and the applicable obligations.</p><p>Material damage or bodily injury caused by a participant may give rise to their personal liability under the conditions provided for by law.</p><p>These provisions do not affect customers’ rights in the event of MEMORIA failing to meet its own obligations.</p>"
+      },
+      "s24": {
+        "titre": "Article 24 — Liability and compliance with safety instructions",
+        "contenu": "<p>MEMORIA is required to perform the services in accordance with the contract and its legal obligations.</p><p>It takes the measures necessary for the safety of participants and the smooth running of the activities offered.</p><h3>24.1. Safety instructions</h3><p>The safety instructions necessary for the activity are presented to each participant during the prior briefing.</p><p>They are adapted to the characteristics of the route, the audience concerned and the reasonably foreseeable risks.</p><p>The essential instructions are also displayed in writing on the premises.</p><p>Each participant undertakes to follow these instructions and the directions given by the team throughout their time on the premises.</p><p>A participant who breaches the safety instructions or behaves wrongfully may be held liable for the damage they cause to other participants, staff or installations.</p><p>Where their fault has contributed to their own damage, this may result in MEMORIA being fully or partly exempted from liability, only under the conditions provided for by law.</p><p>This liability is assessed taking into account in particular MEMORIA’s safety, information and prevention obligations.</p><h3>24.2. Material damage</h3><p>Participants must respect the installations and equipment made available to them.</p><p>Damage caused intentionally or through fault may give rise to the liability of its author under ordinary law.</p><p>MEMORIA may claim compensation for material damage actually suffered, provided it can prove its reality and amount.</p><h3>24.3. Personal belongings</h3><p>Participants are advised not to bring valuables.</p><p>Any arrangements for leaving personal belongings are explained by the team on site.</p><p>MEMORIA’s liability in the event of loss, theft or damage is assessed in accordance with the applicable legal rules and the circumstances.</p><h3>24.4. Legal limits</h3><p>No provision of these Terms may have the effect of excluding or limiting a liability that the law prohibits from being excluded or limited.</p><p>These Terms do not constitute a waiver of liability regarding the safety of persons.</p><p>Taking part in the experience and accepting these conditions do not entail any advance waiver of a legally recognised right to compensation.</p>"
+      },
+      "s25": {
+        "titre": "Article 25 — Force majeure",
+        "contenu": "<p>Force majeure situations are assessed in accordance with Article 1218 of the French Civil Code.</p><p>Where an event meeting the legal conditions of force majeure temporarily prevents the performance of a contractual obligation, the consequences are determined in accordance with the applicable legal provisions.</p><p>Where the impediment is permanent, the contract may be terminated under the conditions provided for by law, with the corresponding restitution.</p><p>A technical, organisational or financial difficulty does not automatically constitute force majeure.</p><p>The party invoking a force majeure event informs the other party as quickly as reasonably possible.</p>"
+      },
+      "s26": {
+        "titre": "Article 26 — Complaints",
+        "contenu": "<p>Any complaint about a booking, a service or its performance can be sent to:</p><p>MEMORIA EXPERIENCE<br>45 cours de la Liberté<br>69003 Lyon, France</p><p>Email: <a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a></p><p>The customer is asked to specify the nature of the complaint, the booking number and any information useful for examining it.</p><p>MEMORIA undertakes to examine complaints and respond within a reasonable time.</p><p>Contacting customer service does not prevent the consumer from exercising the rights granted to them by law.</p>"
+      },
+      "s27": {
+        "titre": "Article 27 — Consumer mediation",
+        "contenu": "<p>In accordance with Articles L.612-1 et seq. and L.616-1 of the French Consumer Code, any customer who is a consumer has the right to use a consumer mediator free of charge to seek an amicable resolution of a dispute with MEMORIA EXPERIENCE.</p><p>MEMORIA EXPERIENCE has appointed the following consumer mediator:</p><p>CM2C — Centre de la Médiation de la Consommation de Conciliateurs de Justice</p><ul><li>Postal address: 49 rue de Ponthieu, 75008 Paris, France</li><li>Phone: +33 1 89 47 00 14</li><li>Website: <a href=\"https://www.cm2c.net\" target=\"_blank\" rel=\"noopener\">www.cm2c.net</a></li><li>Online referral: <a href=\"https://www.cm2c.net/declarer-un-litige.php\" target=\"_blank\" rel=\"noopener\">https://www.cm2c.net/declarer-un-litige.php</a></li></ul><p>MEMORIA EXPERIENCE’s membership of the CM2C scheme is valid until 4 November 2029.</p><h3>Conditions for using mediation</h3><p>Before referring a dispute to the mediator, the consumer must first have sent a written complaint to MEMORIA EXPERIENCE in an attempt to resolve the dispute directly.</p><p>Where this has not led to a satisfactory solution, the consumer may refer the matter to CM2C free of charge, subject to the admissibility conditions laid down by the regulations.</p><p>The referral must in particular be made within one year of the written complaint sent to the professional.</p><p>Using mediation is optional for the consumer.</p><p>It does not deprive them of the right to bring the matter before a competent court.</p><p>The mediation procedure is free for the consumer, apart from any costs they may choose to incur to be assisted or represented.</p>"
+      },
+      "s28": {
+        "titre": "Article 28 — Personal data",
+        "contenu": "<p>Personal data collected in connection with bookings, payments, contacts, gift vouchers, recordings and services is processed under the conditions described in the privacy policy.</p><p>Detailed information on purposes, legal bases, recipients, retention periods and the rights of data subjects is available in that section.</p><p>For any request concerning personal data:</p><p><a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a></p><p><a href=\"confidentialite.html\">Read the privacy policy.</a></p>"
+      },
+      "s29": {
+        "titre": "Article 29 — Applicable law and disputes",
+        "contenu": "<p>These Terms are governed by French law.</p><p>In the event of a dispute, the parties are invited to seek an amicable solution first.</p><p>Consumer customers may bring proceedings before the competent courts according to the legal rules applicable to them.</p><p>No clause of these Terms deprives a consumer of the mandatory rules of jurisdiction or protection from which they benefit.</p><p>For contracts between professionals, any specific provisions on disputes and jurisdiction are set out in the contract or accepted quote, within the limits permitted by law.</p>"
+      },
+      "s30": {
+        "titre": "Article 30 — Changes to the Terms",
+        "contenu": "<p>MEMORIA may change these Terms for future contracts to take account of changes in its activity, its services or the regulations.</p><p>Changes do not apply retroactively to contracts already concluded, unless the law provides otherwise or the parties agree.</p><p>The version of the Terms applicable to an order is the one communicated and accepted when it is concluded.</p>"
+      },
+      "s31": {
+        "titre": "Appendix — Model withdrawal form",
+        "contenu": "<p>To be used only for purchases that legally carry a right of withdrawal, in particular certain gift vouchers bought at a distance with no set service date.</p><p>For the attention of:</p><p>MEMORIA EXPERIENCE<br>45 cours de la Liberté<br>69003 Lyon, France</p><p><a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a></p><p>I hereby give notice that I withdraw from the contract for the following order:</p><ul><li>Nature of the order:</li><li>Order number:</li><li>Order date:</li><li>Consumer’s first and last name:</li><li>Consumer’s address:</li><li>Email address:</li></ul><p>Date:</p><p>Consumer’s signature (only if notified on paper):</p><p>This form may be sent by email or post.</p><p>Where legally required, the online withdrawal feature must also be accessible from the interface concerned.</p>"
       }
     },
     "confidentialite": {
@@ -948,7 +1031,7 @@
       "intro": "Memoria takes the protection of your personal data very seriously. This policy explains what data we collect, why, how long we keep it and how to exercise your rights, in accordance with the General Data Protection Regulation (GDPR) and the French Data Protection Act.",
       "s1": {
         "titre": "Data controller",
-        "contenu": "<p><span class=\"a-completer\">[Company name]</span>, <span class=\"a-completer\">[registered office address]</span>, who can be reached at <a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a>.</p><p>Data protection officer: <span class=\"a-completer\">[name and contact details, or “not appointed”]</span>.</p>"
+        "contenu": "<p>MEMORIA EXPERIENCE, a limited liability company (SARL) with share capital of €500, 45 cours de la Liberté, 69003 Lyon, France, which can be reached at <a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a>.</p><p>Data protection officer: <span class=\"a-completer\">[name and contact details, or “not appointed”]</span>.</p>"
       },
       "s2": {
         "titre": "Data collected",
@@ -1006,7 +1089,7 @@
       },
       "s4": {
         "titre": "Audience measurement",
-        "contenu": "<p><span class=\"a-completer\">[If an audience measurement tool is added (Google Analytics, Matomo…): name of the tool, purpose, retention period, and a consent banner where the tool requires one.]</span></p>"
+        "contenu": "<p>The website does not use any audience measurement tool. If such a tool were added, this policy would be updated and your consent obtained where the regulations require it.</p>"
       },
       "s5": {
         "titre": "Managing your preferences",
