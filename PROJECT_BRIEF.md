@@ -2,7 +2,7 @@
 
 ## Objectif
 
-Site vitrine statique et bilingue (FR / EN) pour **Memoria**, une expérience immersive d’horreur qui ouvre prochainement à Lyon : le pensionnat Sainte-Lucie, abandonné en 1953. Durée 1h30, 200 m², comédiens, 3 niveaux d’intensité, de 3 à 6 joueurs.
+Site vitrine statique et bilingue (FR / EN) pour **Memoria**, une expérience immersive d’horreur qui ouvre prochainement à Lyon : le Pensionnat de la Liberté, abandonné en 1953. Durée 1h30, 200 m², comédiens, 3 niveaux d’intensité, de 3 à 6 joueurs.
 
 ## Références de design
 
@@ -46,7 +46,7 @@ Inventaire des éléments du site liés à 4escape (au 2 novembre 2026) :
 
 ## Contenu final du client (4-5 novembre 2026)
 
-Le client a fourni une fiche de contenus (`contenu-client/Contenu Site MEMORIA EXPERIENCE.pdf`, hors git) et 20 photos (`contenu-client/photos/`). Tout a été intégré le 5 novembre en FR / EN : nouveau nom du lieu (**Pensionnat de la Liberté**, à la place de Sainte-Lucie), nouvelle histoire et chronologie (1877 → aujourd’hui), deux fondateurs (Sylvain, Alexis), niveaux d’intensité renommés, horaires (7 j/7, 10 h – 00 h), transports, FAQ réécrite, deux formules team building, six occasions sur mesure, ressources presse simplifiées, mentions légales et CGV définitives (médiateur CM2C). Les écarts et décisions sont suivis dans QUESTIONS_CLIENT.
+Le client a fourni une fiche de contenus (`contenu-client/Contenu Site MEMORIA EXPERIENCE.pdf`, hors git) et 20 photos (`contenu-client/photos/`). Tout a été intégré le 5 novembre en FR / EN : nouveau nom du lieu (**Pensionnat de la Liberté**, à la place de Sainte-Lucie), nouvelle histoire et chronologie (1877 → aujourd’hui), deux fondateurs (Sylvain, Alexis), niveaux d’intensité renommés, horaires (7 j/7, 10 h – 00 h), transports, FAQ réécrite, deux formules team building, six occasions sur mesure, ressources presse simplifiées, mentions légales et CGV définitives (médiateur CM2C). Les écarts et décisions sont suivis dans QUESTIONS_CLIENT. Après l’appel du 5 novembre : « signal de sécurité » partout, ni accueil ni briefing (CGV alignées), 1h45 sur place, bons cadeaux par nombre de joueurs (montant libre supprimé), lampe torche supprimée, image sans droits retirée (réservation, hero Offrir, bandeau Team building) ; le client fournira un GIF animé pour le hero de l’accueil, une photo par hero des autres pages, les photos des bandeaux et le fond de la réservation.
 
 ## Pages
 

@@ -4,19 +4,25 @@ Rien de ce qui suit n’est bloquant pour avancer sur le design ; ce sont les co
 
 ## Contenu final intégré le 5 novembre — reste à fournir
 
-- [ ] **Fond animé du haut de l’accueil** : vidéo MP4 courte, sans son, en boucle (moins de 5 Mo), plutôt qu’un GIF
+- [ ] **Hero de l’accueil : GIF animé** (décidé le 5 novembre). Si le fichier est lourd (plus de 5 Mo), nous le convertirons en vidéo en boucle sans son, bien plus légère à l’affichage
+- [ ] **Hero des autres pages : une photo par page** (Notre histoire, Offrir, Expérience sur mesure, Presse, Team building, FAQ, Contact, pages légales). Le hero de la page Offrir est **sans image** en attendant (image sans droits retirée)
+- [ ] **Photo de fond du module de réservation** (accueil) : l’image sans droits a été retirée ; fond rouge uni en attendant
+- [ ] **Photos des bandeaux de transition en parallaxe** : 4 bandeaux (2 sur l’accueil, 1 sur Notre histoire, 1 sur Team building). Le bandeau Team building est **sans photo** en attendant (image sans droits retirée) ; idéalement 1920 px de large au minimum
 - [ ] **Bande-annonce** : lien YouTube
 - [ ] **Pictogrammes de Hugo** pour « Votre expérience Memoria » : annoncés « fournis avec la fiche », absents du PDF et du dossier photos
-- [ ] **Photos** : portraits de Sylvain et d’Alexis ; photo d’équipe ; croquis et plans ; régie technique et répétitions ; étapes 01 (l’étincelle), 02 (le scénario), 05 (la technique) et 06 (les comédiens) de la genèse ; photo « Aujourd’hui » de la chronologie (provisoire : les toits) ; 2 ou 3 photos pour l’histoire de l’accueil (5 emplacements reprennent pour l’instant des photos de la chronologie)
+- [ ] **Photos** : portraits de Sylvain et d’Alexis ; photo d’équipe ; croquis et plans ; régie technique et répétitions ; étapes 01 (l’étincelle), 02 (le scénario), 05 (la technique) et 06 (les comédiens) de la genèse ; photo « Aujourd’hui » de la chronologie (retirée en attendant la bonne) ; 2 ou 3 photos pour l’histoire de l’accueil (5 emplacements reprennent pour l’instant des photos de la chronologie)
 - [ ] **Vidéo du hero Team building**
 - [ ] **Liens des réseaux sociaux**
-- [ ] **Photo du hall (hero)** : filigrane d’un photographe → licence ou remplacement
+- [ ] **Images provisoires dont les droits ne sont pas acquis**, encore en ligne en attendant les photos du client : photo du hall avec filigrane d’un photographe (hero de l’accueil et de 8 autres pages, bandeau « Pensionnat de la Liberté – 1953 » de l’accueil), œil (hero Contact et Presse), escalier (bandeau « Osez franchir le seuil ») et rideau (bandeau de Notre histoire). À remplacer **avant la mise en ligne**, ou à retirer comme l’image fantôme si les photos n’arrivent pas à temps
 - [ ] **Entrée et accès au bâtiment** (interphone, étage…) : la ligne « informations à venir » a été retirée de la page Contact faute d’information
 
 ## Décisions prises en intégrant la fiche (à valider)
 
-- [ ] **« Signal de sécurité » partout** (Notre histoire, FAQ, CGV) : la fiche demandait « mot de sécurité » pour Notre histoire, mais la FAQ et les CGV fournies disent « geste ou signal » et la note de fin de fiche demande un seul terme
-- [ ] Photo de classe « 1952-1953 » placée sur **1953** (fichier nommé « 1957 », coquille supposée) ; photo « bibliothèque » placée sur **1947** (le bureau de Lucie Fiammetta)
+- [x] **« Signal de sécurité » partout** (Notre histoire, FAQ, CGV) : validé le 5 novembre ; « geste ou signal » remplacé par « signal »
+- [x] Photo de classe « 1952-1953 » sur **1953** : validé, affichée plus grande (5 novembre)
+- [x] **1947** : la photo de femme (« Photo accueil 2 (2) ») remplace le bureau, qui passe dans les photos de l’accueil (5 novembre)
+- [ ] Légende de 1947 rédigée par nos soins : « Lucie Fiammetta, directrice du pensionnat » (la femme de la photo est supposée être Lucie Fiammetta)
+- [x] « Sous-sol » au singulier partout (légendes « La salle de jeux du sous-sol », « Le sous-sol aménagé en abri » et récit 1926, 1941, 1951)
 - [ ] Légendes des photos de la chronologie rédigées par nos soins
 - [ ] Fin de Notre histoire : « Ce soir, le Pensionnat de la Liberté vous attend… » (la fiche indiquait « Sainte-Lucie », l’ancien nom)
 - [ ] « Expérience immersive » déplacé sous le logo (il figurait déjà au-dessus : pas de doublon)
@@ -28,24 +34,26 @@ Rien de ce qui suit n’est bloquant pour avancer sur le design ; ce sont les co
 - [ ] Mentions légales : « Hugo Le Vaguerese » (donné en section 6) repris en section 4
 - [ ] Mentions légales et CGV en anglais : traduction par nos soins, avec la mention « la version française prévaut »
 
-## Incohérences relevées dans la fiche (laissées telles quelles)
+## Incohérences relevées dans la fiche (tranchées le 5 novembre)
 
-- [ ] FAQ « retard » : « il n’y a ni briefing, ni accueil » ↔ CGV art. 11 et 14 (briefing de sécurité obligatoire, arrivée 5 minutes avant pour l’accueil et le briefing) et FAQ « signal présenté lors du briefing »
-- [ ] Durée sur place : FAQ « environ 1h45 » ↔ CGV art. 3 « environ deux heures »
-- [ ] CGV art. 17.1 : bons « par nombre de joueurs ou montant libre » ↔ décision du 2 novembre : bons par valeur
+- [x] **Ni accueil ni briefing** : retirés des CGV (art. 11 « Consignes de sécurité », 14, 23, 24) et de la FAQ. Le signal de sécurité et les consignes sont désormais « présentés au début de l’expérience »
+- [ ] **À confirmer** : comment le signal et les consignes de sécurité sont-ils présentés aux joueurs, puisqu’il n’y a pas de briefing (par un comédien en début de partie, par écrit à l’entrée…) ? La formulation « au début de l’expérience » couvre ces cas
+- [ ] **À confirmer** : la formule team building « Classique » annonce toujours « Accueil personnalisé » et « Briefing avant l’expérience » (page Team building et CGV art. 18). Laissé tel quel, car c’est une prestation propre aux entreprises : à retirer aussi ?
+- [x] **Durée sur place : 1h45** partout (CGV art. 3 aligné sur la FAQ)
+- [x] **Bons cadeaux par nombre de joueurs** : CGV art. 17.1 et 17.4 alignés, option « montant libre » retirée de la page Offrir
 
 ## Bloquant avant mise en ligne (pages légales, surligné sur les pages)
 
 - [ ] Mentions légales : siège social « [à confirmer sur le Kbis actualisé] »
 - [ ] Mentions légales, section 13 : récépissé d’entrepreneur de spectacles vivants, s’il existe
-- [ ] CGV art. 17.4 : « [Modalité du solde des bons à confirmer avec 4escape avant publication.] »
+- [ ] CGV art. 17.4 : « [Cas d’une réservation pour moins de joueurs que prévu par le bon : à confirmer avec 4escape avant publication.] » (remplace l’ancienne question sur le solde). La page Offrir indique déjà « le bon s’utilise en une seule fois » : si c’est la règle, il suffit de l’écrire ici
 - [ ] Confidentialité : délégué à la protection des données, transferts hors UE (Google, 4escape), durée des journaux de l’hébergeur ; retirer l’encart provisoire une fois validé
 - [ ] Cookies : traceurs du paiement, à relever lors du premier paiement test
 - [ ] Relecture juridique
 
 ## Encore à trancher
 
-- [ ] **Montants des bons cadeaux** (par valeur, 12 mois, envoi par e-mail) : la page Offrir Memoria présente encore des formules par nombre de joueurs, à refaire au branchement du widget 4escape
+- [x] **Bons cadeaux** (5 novembre) : **par nombre de joueurs** (3, 4, 5 ou 6 joueurs : 147 / 172 / 195 / 210 €), validité 12 mois, envoi par e-mail ; montant libre supprimé. Reste à brancher la page Offrir sur le produit 4escape une fois celui-ci configuré
 - [ ] **Adresse presse@** pour le formulaire presse ?
 
 ## Réservation — réglages dans l’admin 4escape (client)
@@ -74,7 +82,7 @@ Le widget est intégré sur l’accueil. Aide officielle : https://help.4escape.
 **Ailleurs dans l’admin**
 
 - [ ] **Profil → Société → Site internet** : `http://memoria-experience.fr/` → `https://memoria-experience.fr`
-- [ ] **Bon cadeau** (test du 2 novembre) : produit « Bon cadeau memoria » créé (ID `6ae8a098aa0dcf48cd98d57c`, envoi par e-mail, 147 € pour 3 joueurs). **Aucun widget spécial n’est nécessaire** : le widget de réservation l’ouvre directement (`data-redirect-route="/product/6ae8a098aa0dcf48cd98d57c"`), avec quantité, mode d’envoi (j’imprime / envoi au destinataire), « Offert par », « Pour », message (80 caractères) et e-mail du destinataire. Il manque le **modèle PDF** du bon (Admin → Paramétrages → PDF - Gestion des PDF → « Bon cadeau ») : sans lui, « Ajouter au panier » reste bloqué. Modèle retenu par le client : `maquette/bon-cadeau-memoria.pdf` (A5, 123 Ko ; source `maquette/bon-cadeau-memoria.html`). **Décidé le 2 novembre** : bon **par valeur** (pas par nombre de joueurs ; montants à fixer), **validité 12 mois**, **envoi par e-mail** uniquement. La page Pack cadeau du site devra suivre (formules par montant). L’envoi du bon par e-mail passe par Mailjet et deux workflows « gift-voucher:booked »
+- [ ] **Bon cadeau** (test du 2 novembre) : produit « Bon cadeau memoria » créé (ID `6ae8a098aa0dcf48cd98d57c`, envoi par e-mail, 147 € pour 3 joueurs). **Aucun widget spécial n’est nécessaire** : le widget de réservation l’ouvre directement (`data-redirect-route="/product/6ae8a098aa0dcf48cd98d57c"`), avec quantité, mode d’envoi (j’imprime / envoi au destinataire), « Offert par », « Pour », message (80 caractères) et e-mail du destinataire. Il manque le **modèle PDF** du bon (Admin → Paramétrages → PDF - Gestion des PDF → « Bon cadeau ») : sans lui, « Ajouter au panier » reste bloqué. Modèle retenu par le client : `maquette/bon-cadeau-memoria.pdf` (A5 ; source `maquette/bon-cadeau-memoria.html`). **Revu le 5 novembre** : bon **par nombre de joueurs** (une déclinaison par formule : 3, 4, 5 et 6 joueurs à 147 / 172 / 195 / 210 €, sans montant libre), **validité 12 mois**, **envoi par e-mail** uniquement. Le modèle PDF porte désormais un champ « Nombre de joueurs » au lieu de « Valeur » (760 Ko). L’envoi du bon par e-mail passe par Mailjet et deux workflows « gift-voucher:booked »
 - [ ] **Annulation** : modification réglée à 48 h dans 4escape, comme sur le site ; aligner le délai d’annulation (72 h sur le site)
 - [ ] **Templates** facture, avoir, devis, reçu : informations légales
 - [ ] **CGV et confidentialité au paiement** : le widget affiche déjà une case « Je confirme avoir pris connaissance et accepté les CGV et la Politique de confidentialité » ; renseigner les textes ou liens (`/cgv.html`, `/confidentialite.html`) dans Admin → Société → Confidentialité (RGPD), une fois les pages légales finalisées
