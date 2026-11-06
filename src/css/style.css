@@ -3638,17 +3638,6 @@ a.coordonnee__valeur:hover { color: var(--or); }
 
 .legal__document { font-size: clamp(1.1rem, 1rem + .3vw, 1.3rem); }
 
-.legal__avertissement {
-  margin: 0 0 1.2rem;
-  padding: 1rem 1.2rem;
-  border: 1px dashed rgba(240, 192, 94, .55);
-  border-radius: 8px;
-  background: rgba(240, 192, 94, .06);
-  color: var(--ivoire);
-  font-size: 1.02rem;
-  line-height: 1.32;
-}
-
 .legal__maj { margin: 0 0 1.6rem; color: var(--gris); font-size: .98rem; }
 
 .legal__traduction { margin: 0 0 1.2rem; color: var(--gris); font-size: .92em; font-style: italic; }
@@ -3709,14 +3698,6 @@ a.coordonnee__valeur:hover { color: var(--or); }
   aspect-ratio: 1;
   background: var(--or);
   rotate: 45deg;
-}
-
-.a-completer {
-  padding: 0 .25em;
-  border-bottom: 1px dashed var(--or);
-  border-radius: 3px;
-  background: rgba(240, 192, 94, .13);
-  color: #ffe2a3;
 }
 
 .tableau-defilant { overflow-x: auto; margin: 1rem 0 1.2rem; }

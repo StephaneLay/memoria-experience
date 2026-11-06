@@ -818,8 +818,7 @@
   },
   "legal": {
     "commun": {
-      "avertissement": "Document provisoire : les éléments <span class=\"a-completer\">[entre crochets]</span> sont à compléter, et l’ensemble du texte doit être validé par Memoria, idéalement avec l’aide d’un professionnel du droit.",
-      "miseAJour": "Dernière mise à jour : <span class=\"a-completer\">[date]</span>",
+      "miseAJour": "Dernière mise à jour : 6 novembre 2026",
       "sommaire": "Sommaire",
       "autres": "Informations légales",
       "traduction": ""
@@ -829,10 +828,10 @@
       "metaTitre": "Mentions légales — Memoria",
       "description": "Mentions légales du site Memoria : éditeur, directeur de la publication, hébergeur, propriété intellectuelle.",
       "intro": "Conformément aux dispositions de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l’économie numérique et aux textes applicables, les présentes mentions légales précisent l’identité de l’éditeur du site www.memoria-experience.fr, les informations relatives à son hébergement ainsi que les conditions d’utilisation de ses contenus.",
-      "miseAJour": "Dernière mise à jour : 3 novembre 2026",
+      "miseAJour": "Dernière mise à jour : 6 novembre 2026",
       "s1": {
         "titre": "Éditeur du site",
-        "contenu": "<p>Le site internet www.memoria-experience.fr est édité par :</p><p>MEMORIA EXPERIENCE, société à responsabilité limitée (SARL), au capital social de 500 €.</p><ul><li>Dénomination sociale : MEMORIA EXPERIENCE</li><li>Forme juridique : Société à responsabilité limitée (SARL)</li><li>Capital social : 500 €</li><li>Siège social : 45 cours de la Liberté, 69003 Lyon, France <span class=\"a-completer\">[à confirmer sur le Kbis actualisé]</span></li><li>Immatriculation : RCS de Lyon</li><li>Numéro SIREN : 104 633 532</li><li>Numéro SIRET : 104 633 532 00015</li><li>Numéro de TVA intracommunautaire : FR72 104633532</li><li>Adresse électronique : <a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a></li></ul><p>Adresse de l’établissement accueillant le public :</p><p>MEMORIA EXPERIENCE<br>45 cours de la Liberté<br>69003 Lyon, France</p>"
+        "contenu": "<p>Le site internet www.memoria-experience.fr est édité par :</p><p>MEMORIA EXPERIENCE, société à responsabilité limitée (SARL), au capital social de 500 €.</p><ul><li>Dénomination sociale : MEMORIA EXPERIENCE</li><li>Forme juridique : Société à responsabilité limitée (SARL)</li><li>Capital social : 500 €</li><li>Siège social : 1 rue Henri Moissan, 69360 Saint-Symphorien-d’Ozon, France</li><li>Immatriculation : RCS de Lyon</li><li>Numéro SIREN : 104 633 532</li><li>Numéro SIRET : 104 633 532 00015</li><li>Code APE : 90.01Z (arts du spectacle vivant)</li><li>Numéro de TVA intracommunautaire : FR72 104633532</li><li>Adresse électronique : <a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a></li></ul><p>Adresse de l’établissement accueillant le public :</p><p>MEMORIA EXPERIENCE<br>45 cours de la Liberté<br>69003 Lyon, France</p>"
       },
       "s2": {
         "titre": "Directeur de la publication",
@@ -895,10 +894,10 @@
       "titre": "Conditions générales de vente",
       "metaTitre": "Conditions générales de vente — Memoria",
       "description": "Conditions générales de vente de Memoria : réservation, paiement, annulation, bons cadeaux, conditions de participation.",
-      "miseAJour": "Dernière mise à jour : 4 novembre 2026",
+      "miseAJour": "Dernière mise à jour : 6 novembre 2026",
       "s1": {
         "titre": "Article 1 — Identité du prestataire",
-        "contenu": "<p>Les présentes Conditions Générales de Vente, ci-après désignées « CGV », sont établies par :</p><p>MEMORIA EXPERIENCE, société à responsabilité limitée (SARL), au capital social de 500 €.</p><ul><li>Siège social : 45 cours de la Liberté, 69003 Lyon, France</li><li>RCS Lyon : 104 633 532</li><li>SIRET : 104 633 532 00015</li><li>TVA intracommunautaire : FR72 104633532</li><li>Adresse électronique : <a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a></li><li>Site internet : www.memoria-experience.fr</li></ul><p>Ci-après désignée « MEMORIA » ou « le Prestataire ».</p><p>L’expérience est proposée au public à l’adresse suivante :</p><p>45 cours de la Liberté, 69003 Lyon, France.</p>"
+        "contenu": "<p>Les présentes Conditions Générales de Vente, ci-après désignées « CGV », sont établies par :</p><p>MEMORIA EXPERIENCE, société à responsabilité limitée (SARL), au capital social de 500 €.</p><ul><li>Siège social : 1 rue Henri Moissan, 69360 Saint-Symphorien-d’Ozon, France</li><li>RCS Lyon : 104 633 532</li><li>SIRET : 104 633 532 00015</li><li>TVA intracommunautaire : FR72 104633532</li><li>Adresse électronique : <a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a></li><li>Site internet : www.memoria-experience.fr</li></ul><p>Ci-après désignée « MEMORIA » ou « le Prestataire ».</p><p>L’expérience est proposée au public à l’adresse suivante :</p><p>45 cours de la Liberté, 69003 Lyon, France.</p>"
       },
       "s2": {
         "titre": "Article 2 — Objet et champ d’application",
@@ -962,7 +961,7 @@
       },
       "s17": {
         "titre": "Article 17 — Bons cadeaux",
-        "contenu": "<h3>17.1. Nature des bons cadeaux</h3><p>MEMORIA propose des bons cadeaux permettant d’offrir une expérience immersive.</p><p>Ces bons correspondent à une formule définie pour un nombre déterminé de joueurs.</p><h3>17.2. Validité</h3><p>Les bons cadeaux sont valables 12 mois à compter de leur date d’achat.</p><p>La date limite de validité est indiquée sur le bon ou dans le courriel de confirmation.</p><p>Les conditions précises de réservation avant l’expiration du bon doivent être communiquées au bénéficiaire.</p><h3>17.3. Utilisation</h3><p>Le bénéficiaire procède à une réservation selon les disponibilités proposées par MEMORIA.</p><p>Il doit saisir le code du bon cadeau lors de la réservation ou suivre la procédure communiquée lors de son émission.</p><p>Un bon cadeau ne garantit pas la disponibilité d’un créneau particulier.</p><p>Le bénéficiaire est donc invité à réserver suffisamment à l’avance.</p><h3>17.4. Différence de prix</h3><p>Lorsque la réservation porte sur un nombre de joueurs supérieur à celui prévu par le bon cadeau, le bénéficiaire doit régler le complément avant la confirmation de sa réservation.</p><p><span class=\"a-completer\">[Cas d’une réservation pour moins de joueurs que prévu par le bon : à confirmer avec 4escape avant publication.]</span></p><h3>17.5. Remboursement et prolongation</h3><p>Les bons cadeaux ne sont pas échangeables contre des espèces, sauf lorsqu’un remboursement est dû en application d’un droit légal ou des conditions contractuelles applicables.</p><p>Après expiration, une prolongation peut être accordée à titre exceptionnel par MEMORIA.</p><p>Elle n’est pas automatique.</p><p>Les droits légaux du consommateur, notamment lorsqu’un droit de rétractation s’applique ou en cas d’inexécution imputable à MEMORIA, demeurent réservés.</p><h3>17.6. Perte ou utilisation frauduleuse</h3><p>Le bénéficiaire doit préserver la confidentialité de son code de bon cadeau.</p><p>En cas de perte, de vol ou de suspicion d’utilisation frauduleuse, il doit contacter MEMORIA dès que possible.</p><p>L’équipe étudiera les possibilités d’identification ou de désactivation du bon, selon les fonctionnalités du système de réservation.</p>"
+        "contenu": "<h3>17.1. Nature des bons cadeaux</h3><p>MEMORIA propose des bons cadeaux permettant d’offrir une expérience immersive.</p><p>Ces bons correspondent à une formule définie pour un nombre déterminé de joueurs.</p><h3>17.2. Validité</h3><p>Les bons cadeaux sont valables 12 mois à compter de leur date d’achat.</p><p>La date limite de validité est indiquée sur le bon ou dans le courriel de confirmation.</p><p>Les conditions précises de réservation avant l’expiration du bon doivent être communiquées au bénéficiaire.</p><h3>17.3. Utilisation</h3><p>Le bénéficiaire procède à une réservation selon les disponibilités proposées par MEMORIA.</p><p>Il doit saisir le code du bon cadeau lors de la réservation ou suivre la procédure communiquée lors de son émission.</p><p>Un bon cadeau ne garantit pas la disponibilité d’un créneau particulier.</p><p>Le bénéficiaire est donc invité à réserver suffisamment à l’avance.</p><h3>17.4. Différence de prix</h3><p>Lorsque la réservation porte sur un nombre de joueurs supérieur à celui prévu par le bon cadeau, le bénéficiaire doit régler le complément avant la confirmation de sa réservation.</p><p>Le bon cadeau s’utilise en une seule fois. Lorsque la réservation porte sur un nombre de joueurs inférieur à celui prévu par le bon, la différence n’est ni remboursée ni conservée.</p><h3>17.5. Remboursement et prolongation</h3><p>Les bons cadeaux ne sont pas échangeables contre des espèces, sauf lorsqu’un remboursement est dû en application d’un droit légal ou des conditions contractuelles applicables.</p><p>Après expiration, une prolongation peut être accordée à titre exceptionnel par MEMORIA.</p><p>Elle n’est pas automatique.</p><p>Les droits légaux du consommateur, notamment lorsqu’un droit de rétractation s’applique ou en cas d’inexécution imputable à MEMORIA, demeurent réservés.</p><h3>17.6. Perte ou utilisation frauduleuse</h3><p>Le bénéficiaire doit préserver la confidentialité de son code de bon cadeau.</p><p>En cas de perte, de vol ou de suspicion d’utilisation frauduleuse, il doit contacter MEMORIA dès que possible.</p><p>L’équipe étudiera les possibilités d’identification ou de désactivation du bon, selon les fonctionnalités du système de réservation.</p>"
       },
       "s18": {
         "titre": "Article 18 — Prestations pour entreprises et team buildings",
@@ -1028,7 +1027,7 @@
       "intro": "Memoria attache une grande importance à la protection de vos données personnelles. Cette politique explique quelles données nous collectons, pourquoi, combien de temps nous les conservons et comment exercer vos droits, conformément au Règlement général sur la protection des données (RGPD) et à la loi Informatique et Libertés.",
       "s1": {
         "titre": "Responsable du traitement",
-        "contenu": "<p>MEMORIA EXPERIENCE, SARL au capital de 500 €, 45 cours de la Liberté, 69003 Lyon, joignable à <a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a>.</p><p>Délégué à la protection des données : <span class=\"a-completer\">[nom et coordonnées, ou « non désigné »]</span>.</p>"
+        "contenu": "<p>MEMORIA EXPERIENCE, SARL au capital de 500 €, dont le siège social est situé 1 rue Henri Moissan, 69360 Saint-Symphorien-d’Ozon, joignable à <a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a>.</p><p>Délégué à la protection des données : non désigné, sa désignation n’étant pas obligatoire pour Memoria. Pour toute question : <a href=\"mailto:contact@memoria-experience.fr\">contact@memoria-experience.fr</a>.</p>"
       },
       "s2": {
         "titre": "Données collectées",
@@ -1040,15 +1039,15 @@
       },
       "s4": {
         "titre": "Destinataires",
-        "contenu": "<p>Vos données sont destinées à l’équipe de Memoria. Elles peuvent être transmises à nos prestataires techniques, dans la limite de leurs missions : hébergement du site et envoi des formulaires (OVHcloud, en France), réservation, paiement et e-mails de confirmation (4escape), messagerie de l’équipe (Google). Elles ne sont jamais vendues ni cédées à des tiers à des fins commerciales.</p>"
+        "contenu": "<p>Vos données sont destinées à l’équipe de Memoria. Elles peuvent être transmises à nos prestataires techniques, dans la limite de leurs missions : hébergement du site et envoi des formulaires (OVHcloud, en France), réservation et e-mails de confirmation (4escape, avec Mailjet pour l’envoi des e-mails), paiement (Adyen, via 4escape Pay), messagerie de l’équipe (Google). Elles ne sont jamais vendues ni cédées à des tiers à des fins commerciales.</p>"
       },
       "s5": {
         "titre": "Transferts hors de l’Union européenne",
-        "contenu": "<p><span class=\"a-completer\">[À compléter selon les prestataires retenus : absence de transfert, ou transfert encadré par des clauses contractuelles types de la Commission européenne.]</span></p>"
+        "contenu": "<p>Le site, la réservation, le paiement et l’envoi des e-mails sont hébergés dans l’Union européenne (OVHcloud, 4escape, Adyen, Mailjet). La messagerie de l’équipe est fournie par Google, qui peut transférer certaines données vers les États-Unis : ces transferts sont encadrés par le cadre de protection des données UE–États-Unis et par les clauses contractuelles types de la Commission européenne.</p>"
       },
       "s6": {
         "titre": "Durées de conservation",
-        "contenu": "<ul><li>Demandes de contact et de devis sans suite : 3 ans à compter du dernier échange.</li><li>Données clients : pendant la relation commerciale, puis 3 ans à des fins de prospection.</li><li>Factures et pièces comptables : 10 ans, conformément au Code de commerce.</li><li>Données de navigation de l’hébergeur : <span class=\"a-completer\">[durée]</span>.</li></ul>"
+        "contenu": "<ul><li>Demandes de contact et de devis sans suite : 3 ans à compter du dernier échange.</li><li>Données clients : pendant la relation commerciale, puis 3 ans à des fins de prospection.</li><li>Factures et pièces comptables : 10 ans, conformément au Code de commerce.</li><li>Données de navigation de l’hébergeur : 12 mois, durée légale de conservation des données de connexion.</li></ul>"
       },
       "s7": {
         "titre": "Vos droits",
@@ -1082,7 +1081,7 @@
       },
       "s3": {
         "titre": "Services tiers",
-        "contenu": "<ul><li><strong>Google Maps</strong> : le plan affiché sur le site est une simple image ; aucun cookie Google n’est déposé tant que vous ne cliquez pas sur « Voir sur la carte » ou « Itinéraire », qui vous redirigent vers Google Maps.</li><li><strong>YouTube</strong> : la bande-annonce est intégrée en mode « confidentialité renforcée » et ne se charge que lorsque vous lancez la vidéo. YouTube peut alors déposer ses propres cookies.</li><li><strong>Réservation en ligne</strong> : le module de réservation et de paiement est fourni par 4escape (memoria-experience.4escape.io, hébergé en France). Il ne se charge que sur la page d’accueil, à l’approche de la section de réservation. Lors du paiement, son prestataire de paiement peut déposer des cookies nécessaires à la sécurité de la transaction et à la prévention de la fraude. <span class=\"a-completer\">[Liste des traceurs du paiement à relever lors du premier paiement test.]</span></li></ul>"
+        "contenu": "<ul><li><strong>Google Maps</strong> : le plan affiché sur le site est une simple image ; aucun cookie Google n’est déposé tant que vous ne cliquez pas sur « Voir sur la carte » ou « Itinéraire », qui vous redirigent vers Google Maps.</li><li><strong>YouTube</strong> : la bande-annonce est intégrée en mode « confidentialité renforcée » et ne se charge que lorsque vous lancez la vidéo. YouTube peut alors déposer ses propres cookies.</li><li><strong>Réservation en ligne</strong> : le module de réservation et de paiement est fourni par 4escape (memoria-experience.4escape.io, hébergé en France). Il ne se charge que sur la page d’accueil, à l’approche de la section de réservation. Lors du paiement, son prestataire de paiement Adyen (via 4escape Pay) peut déposer des cookies nécessaires à la sécurité de la transaction et à la prévention de la fraude : strictement nécessaires au paiement, ils ne requièrent pas votre consentement.</li></ul>"
       },
       "s4": {
         "titre": "Mesure d’audience",
