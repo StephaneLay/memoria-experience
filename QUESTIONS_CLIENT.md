@@ -11,7 +11,7 @@ Rien de ce qui suit n’est bloquant pour avancer sur le design ; ce sont les co
 - [ ] **Bande-annonce** : lien YouTube
 - [x] **Pictogrammes de Hugo** reçus le 6 novembre et intégrés (accueil et Team building), variante dorée des niveaux (la rouge, plus sombre, ressortait moins sur le fond noir)
 - [x] **Reçues le 6 novembre et intégrées** : portraits des fondateurs, étape 05 « La technique », quatre photos pour l’histoire de l’accueil
-- [ ] **À confirmer : qui est qui sur les portraits ?** Les fichiers s’appellent IMG_2428 (polaire bleue) et IMG_2435 (veste en cuir) ; placés provisoirement dans cet ordre, IMG_2428 sur Sylvain et IMG_2435 sur Alexis
+- [x] **Portraits** : Sylvain = IMG_2435 (veste en cuir), Alexis = IMG_2428 (polaire bleue), confirmé le 6 novembre
 - [ ] **Photos encore attendues** : photo d’équipe ; croquis et plans ; régie technique et répétitions ; étapes 01 (l’étincelle), 02 (le scénario) et 06 (les comédiens) de la genèse ; photo « Aujourd’hui » de la chronologie (retirée en attendant la bonne) ; une photo pour le dernier emplacement de l’histoire de l’accueil (il reprend encore la photo de 1926)
 - [ ] **Vidéo du hero Team building**
 - [ ] **Liens des réseaux sociaux**
