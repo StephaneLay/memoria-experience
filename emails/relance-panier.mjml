@@ -1,0 +1,30 @@
+<mjml lang="fr">
+  <mj-head>
+    <mj-title>Votre réservation Memoria vous attend</mj-title>
+    <mj-preview>Votre session n’est pas encore réservée : le pensionnat vous attend toujours.</mj-preview>
+    <mj-include path="./_tete.mjml" />
+  </mj-head>
+  <mj-body background-color="#0b0b0b" width="600px">
+    <mj-include path="./_entete.mjml" />
+    <mj-wrapper background-color="#141111" border-top="3px solid #8a1316" padding="0">
+      <mj-section>
+        <mj-column>
+          <mj-image src="https://memoria-experience.fr/images/mails/bandeau-pensionnat.jpg" alt="" padding="0" />
+          <mj-text mj-class="titre">LE PENSIONNAT VOUS ATTEND TOUJOURS</mj-text>
+          <mj-divider border-color="#a9851a" border-width="1px" width="70px" padding="6px 0 24px" />
+          <mj-text>Bonjour {{var:order.customer.user.name.given_name:""}},</mj-text>
+          <mj-text padding="12px 32px 0">Vous avez commencé à réserver votre session au Pensionnat de la Liberté… sans aller jusqu’au bout. Vos créneaux ne sont pas encore bloqués, et les places partent vite.</mj-text>
+          <mj-text padding="12px 32px 0">Vous hésitez encore ? Les portes ne s’ouvrent qu’à ceux qui osent.</mj-text>
+          <mj-button href="{{var:orderRemarketingCartLink}}" padding="20px 32px 6px" align="left">Reprendre ma réservation</mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="10px 0 34px">
+        <mj-column>
+          <mj-text>Une question ? Appelez-nous au <a href="tel:+33665718707">06&nbsp;65&nbsp;71&nbsp;87&nbsp;07</a> ou écrivez-nous à <a href="mailto:contact@memoria-experience.fr">contact@memoria-experience.fr</a>.</mj-text>
+          <mj-text padding="12px 32px 0" font-family="Metamorphous, Georgia, serif" color="#ece6da">L’équipe Memoria</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <mj-include path="./_pied.mjml" />
+  </mj-body>
+</mjml>

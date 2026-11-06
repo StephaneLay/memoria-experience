@@ -14,7 +14,9 @@ Rien de ce qui suit n’est bloquant pour avancer sur le design ; ce sont les co
 - [x] **Portraits** : Sylvain = IMG_2435 (veste en cuir), Alexis = IMG_2428 (polaire bleue), confirmé le 6 novembre
 - [x] **Reçues le 6 novembre au soir** : comédiens en costume (étape 06 de la genèse), sous-sol en chantier (galerie des coulisses, case de la photo d’équipe), « De nos jours » (photo « Aujourd’hui » de la chronologie)
 - [x] **Dernières photos** (6 novembre, 18 h) : étapes 01 « L’étincelle » et 02 « Le scénario » (photo « conception ») de la genèse, « Régie technique » dans la galerie. La photo nommée « Croquis et plans » est le même fichier que le sous-sol en chantier : elle est désormais dans la case « Croquis et plans » (et non plus à la place de la photo d’équipe), pour ne pas apparaître deux fois
-- [ ] **Photo encore attendue** : « L’équipe au complet » (galerie des coulisses). La photo « Régie technique » (trois personnes) pourrait aussi y aller si le client préfère. Photos dédiées des héros, des bandeaux et du fond de la réservation : à ajouter après la mise en ligne
+- [x] **Contenu photo complet** (6 novembre au soir) : la case « L’équipe au complet » est retirée, la galerie des coulisses est réorganisée sur 7 photos. Les photos dédiées des héros, des bandeaux et du fond de la réservation pourront remplacer plus tard les photos provisoires
+- [x] **Facebook retiré** (pas de page Facebook)
+- [ ] **Après le déploiement : liens des réseaux sociaux** (Instagram, YouTube, TikTok), toujours en `#` dans l’en-tête, la colonne Contact de l’accueil et la page Contact
 - [ ] **Vidéo du hero Team building**
 - [ ] **Liens des réseaux sociaux**
 - [x] **Images sans droits retirées** (6 novembre) : photo du hall avec filigrane, œil, escalier et rideau sont supprimés du site. Les bandeaux et la vignette de la bande-annonce utilisent des photos du client (sous-sol 1941, surveillant 1951, bibliothèque du décor, infirmières 1915, poupée 1904), en attendant les photos dédiées
@@ -73,6 +75,7 @@ Le widget est intégré sur l’accueil. Aide officielle : https://help.4escape.
 **Fiche de la session « Session classique » (Menu → Rooms → la room → Modifier)**
 
 - [x] **Créneaux** (dont celui de minuit) : vérifiés et validés par le client le 6 novembre
+- [ ] **Créneau de minuit affiché deux fois** (en haut de la journée pour la nuit précédente, en bas pour la nuit suivante) : réglage par défaut de 4escape (journée affichée de 00 h 00 à 24 h 00). Correction dans Admin → Personnalisation → Calendrier : « Afficher une journée en ligne à partir de X minutes » = 540 (9 h) et « Une journée en ligne dure X minutes » = 1500 (fin à 1 h le lendemain). Le créneau de minuit n’apparaît alors qu’une fois, à la fin de la soirée à laquelle il appartient (article d’aide « Afficher mon planning après minuit »)
 - [ ] **Créneaux** : durée 90 min + pause 30 min = un créneau toutes les 2 h. Fixer la vraie pause entre deux groupes, puis générer le planning réel (onglet « Planning & Prix », jours et heures d’ouverture)
 - [ ] **Date d’ouverture des réservations** : à renseigner si Memoria ouvre à une date précise, pour qu’on ne puisse pas réserver avant
 - [ ] **Arrivée des joueurs** : « Demander l’arrivée X min avant » → 5 (CGV art. 14 et page Contact)

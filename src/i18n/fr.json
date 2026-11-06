@@ -127,9 +127,6 @@
       "lienCoulisses": "Les coulisses de Memoria",
       "lienPensionnat": "Le Pensionnat de la Liberté"
     },
-    "attente": {
-      "photo": "Photo à venir"
-    },
     "coulisses": {
       "partie": "Partie I · La véritable histoire",
       "titre": "Une passion, une obsession",
@@ -185,7 +182,6 @@
       "alt4": "Fabrication des accessoires du pensionnat",
       "alt5": "Rayonnage de livres anciens dans les décors du pensionnat",
       "alt6": "Le sous-sol en plein chantier",
-      "legende1": "L’équipe au complet",
       "alt7": "L’équipe de la régie technique dans les décors"
     },
     "bandeau": "Et si tout était vrai ?",
