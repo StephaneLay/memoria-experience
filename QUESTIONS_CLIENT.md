@@ -4,13 +4,15 @@ Rien de ce qui suit n’est bloquant pour avancer sur le design ; ce sont les co
 
 ## Contenu final intégré le 5 novembre — reste à fournir
 
-- [ ] **Hero de l’accueil : GIF animé** (décidé le 5 novembre). Si le fichier est lourd (plus de 5 Mo), nous le convertirons en vidéo en boucle sans son, bien plus légère à l’affichage
+- [x] **Hero de l’accueil** : vidéo « HERO SECTION V1 » reçue le 6 novembre (4K, 288 Mo) et intégrée, réencodée sans le son (5 Mo sur ordinateur, 2,5 Mo sur mobile)
 - [ ] **Hero des autres pages : une photo par page** (Notre histoire, Offrir, Expérience sur mesure, Presse, Team building, FAQ, Contact, pages légales). Le hero de la page Offrir est **sans image** en attendant (image sans droits retirée)
 - [ ] **Photo de fond du module de réservation** (accueil) : l’image sans droits a été retirée ; fond rouge uni en attendant
 - [ ] **Photos des bandeaux de transition en parallaxe** : 4 bandeaux (2 sur l’accueil, 1 sur Notre histoire, 1 sur Team building). Le bandeau Team building est **sans photo** en attendant (image sans droits retirée) ; idéalement 1920 px de large au minimum
 - [ ] **Bande-annonce** : lien YouTube
-- [ ] **Pictogrammes de Hugo** pour « Votre expérience Memoria » : annoncés « fournis avec la fiche », absents du PDF et du dossier photos
-- [ ] **Photos** : portraits de Sylvain et d’Alexis ; photo d’équipe ; croquis et plans ; régie technique et répétitions ; étapes 01 (l’étincelle), 02 (le scénario), 05 (la technique) et 06 (les comédiens) de la genèse ; photo « Aujourd’hui » de la chronologie (retirée en attendant la bonne) ; 2 ou 3 photos pour l’histoire de l’accueil (5 emplacements reprennent pour l’instant des photos de la chronologie)
+- [x] **Pictogrammes de Hugo** reçus le 6 novembre et intégrés (accueil et Team building), variante dorée des niveaux (la rouge, plus sombre, ressortait moins sur le fond noir)
+- [x] **Reçues le 6 novembre et intégrées** : portraits des fondateurs, étape 05 « La technique », quatre photos pour l’histoire de l’accueil
+- [ ] **À confirmer : qui est qui sur les portraits ?** Les fichiers s’appellent IMG_2428 (polaire bleue) et IMG_2435 (veste en cuir) ; placés provisoirement dans cet ordre, IMG_2428 sur Sylvain et IMG_2435 sur Alexis
+- [ ] **Photos encore attendues** : photo d’équipe ; croquis et plans ; régie technique et répétitions ; étapes 01 (l’étincelle), 02 (le scénario) et 06 (les comédiens) de la genèse ; photo « Aujourd’hui » de la chronologie (retirée en attendant la bonne) ; une photo pour le dernier emplacement de l’histoire de l’accueil (il reprend encore la photo de 1926)
 - [ ] **Vidéo du hero Team building**
 - [ ] **Liens des réseaux sociaux**
 - [ ] **Images provisoires dont les droits ne sont pas acquis**, encore en ligne en attendant les photos du client : photo du hall avec filigrane d’un photographe (hero de l’accueil et de 8 autres pages, bandeau « Pensionnat de la Liberté – 1953 » de l’accueil), œil (hero Contact et Presse), escalier (bandeau « Osez franchir le seuil ») et rideau (bandeau de Notre histoire). À remplacer **avant la mise en ligne**, ou à retirer comme l’image fantôme si les photos n’arrivent pas à temps
@@ -67,6 +69,7 @@ Le widget est intégré sur l’accueil. Aide officielle : https://help.4escape.
 
 **Fiche de la session « Session classique » (Menu → Rooms → la room → Modifier)**
 
+- [ ] **Créneau de minuit** : toujours proposé (test du 6 novembre : 00:00 en début et en fin de journée), alors que Memoria ferme à minuit → le supprimer
 - [ ] **Créneaux** : durée 90 min + pause 30 min = un créneau toutes les 2 h. Fixer la vraie pause entre deux groupes, puis générer le planning réel (onglet « Planning & Prix », jours et heures d’ouverture)
 - [ ] **Date d’ouverture des réservations** : à renseigner si Memoria ouvre à une date précise, pour qu’on ne puisse pas réserver avant
 - [ ] **Arrivée des joueurs** : « Demander l’arrivée X min avant » → 5 (CGV art. 14 et page Contact)
@@ -94,12 +97,13 @@ Le widget est intégré sur l’accueil. Aide officielle : https://help.4escape.
 
 C’est le client qui écrit à 4escape (décidé le 2 novembre). Aucun nouveau widget à demander.
 
-- [ ] **4escape Pay** : activation et calendrier de validation (via Andrea)
-- [ ] **Mailjet** : intégration (via Andrea)
-- [ ] **Variation « Niveau d’intensité »** : l’afficher dans le widget de la room (préciser la room et le nom de la variation)
-- [ ] **Anglais** : activer la langue sur le compte (sur demande au support), puis traduire room, catégorie de joueurs, variation et produits
+- [ ] **4escape Pay** : demandé ; activation annoncée sous 48 à 96 h (réponse du 6 novembre). Le test de réservation complet attend cette activation
+- [ ] **Mailjet** : configuration annoncée pour le 6 novembre ; à vérifier lors du premier test de réservation (e-mail de confirmation reçu ?)
+- [ ] **Variation « Niveau d’intensité »** : 4escape s’en charge (réponse du 6 novembre). Créer ou renommer la variation dans l’admin ne suffit pas : avec les widgets, c’est l’équipe 4escape qui l’ajoute au widget (article d’aide « Afficher une variation sur un widget »). Test du 6 novembre : aucun choix d’intensité n’apparaît encore après la sélection du créneau
+- [x] **Anglais** activé (vérifié le 6 novembre sur la page anglaise : calendrier, dates et boutons en anglais)
+- [ ] **Traductions anglaises à saisir dans l’admin** : le nom de la session (« Session classique »), la catégorie de joueurs (« Joueur(s) »), les valeurs de la variation d’intensité (Day Boarder / Boarder / Straight to Hell!) et le produit bon cadeau ; le bouton anglais affiche encore « ADD TO CART » → « BOOK »
 - [ ] **Bon cadeau** : pas de widget à demander (le produit s’ouvre dans le widget existant). Reste à faire configurer avec Mailjet les e-mails d’envoi du bon (workflows « gift-voucher:booked », envoi à l’acheteur et au destinataire)
-- [ ] **Traductions personnalisées** en erreur (« Can't parse fr custom translations ») ; ensuite renommer « Ajouter au panier » en « Réserver »
+- [x] **« Ajouter au panier » → « Réserver »** en français (vérifié le 6 novembre)
 - Historique du navigateur : deux entrées ajoutées à l’ouverture du widget (le bouton « Retour » demande trois clics pour quitter la page) ; gêne mineure, retirée du message du client le 2 novembre
 - Pages légales : plus de question à poser. `forescapeAnalytics` mémorise utm_source / utm_medium / gclid (lu dans le code du widget) ; plateforme et widgets hébergés chez OVHcloud à Gravelines (adresses IP) ; traceurs du paiement à relever nous-mêmes lors du premier paiement test
 - [ ] Optionnel : check-in en ligne (décharge signée) et « Manage your booking » : réservés à l’abonnement WEB PREMIUM d’après l’aide ; quel abonnement a le client ?

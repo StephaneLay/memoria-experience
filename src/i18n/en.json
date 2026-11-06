@@ -140,7 +140,9 @@
       "bio1": "A graduate of the Cours Florent drama school with a passion for theatre, cinema and immersive experiences, Sylvain brings the world of Memoria, its story and its characters to life. From writing the script to directing the actors, he shapes an experience in which every player becomes an actor in their own story.",
       "nom2": "Alexis",
       "role2": "Co-founder · Technical direction, design and development",
-      "bio2": "Passionate about games and immersive experiences, Alexis combines technical ingenuity, creativity and a strong sense of organisation, drawing on his experience in project management. From designing the sets to building the mechanisms, he turns ideas into real experiences. He brings his artistic sensibility and plays a key role in steering and developing Memoria."
+      "bio2": "Passionate about games and immersive experiences, Alexis combines technical ingenuity, creativity and a strong sense of organisation, drawing on his experience in project management. From designing the sets to building the mechanisms, he turns ideas into real experiences. He brings his artistic sensibility and plays a key role in steering and developing Memoria.",
+      "portrait1": "Portrait of Sylvain",
+      "portrait2": "Portrait of Alexis"
     },
     "genese": {
       "titre": "From an idea to the first doors",
@@ -158,7 +160,7 @@
       "visuel4": "Building the sets",
       "titre5": "The technology",
       "texte5": "Spatial sound, controlled lighting, hidden mechanisms and real-time effects: the technology becomes invisible so you can only think about one thing… surviving.",
-      "visuel5": "The sound and light control room",
+      "visuel5": "Fitting a light effect into a wall of the set",
       "titre6": "The actors",
       "texte6": "At the heart of Memoria are people. Actors trained in improvisation and controlled fear guide you, watch you and adjust the intensity to every group.",
       "visuel6": "Actors in rehearsal"

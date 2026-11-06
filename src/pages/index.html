@@ -14,8 +14,7 @@
   <link rel="icon" href="{{ROOT}}images/favicon.png" type="image/png">
   <link rel="preload" href="{{ROOT}}fonts/metamorphous-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="{{ROOT}}fonts/gemunulibre-latin.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="{{ROOT}}images/hero-hall-1920.webp" as="image" type="image/webp" media="(min-width: 1025px)">
-  <link rel="preload" href="{{ROOT}}images/hero-hall-1024.webp" as="image" type="image/webp" media="(max-width: 1024px)">
+  <link rel="preload" href="{{ROOT}}images/hero-accueil-poster.webp" as="image" type="image/webp">
   <link rel="stylesheet" href="{{ROOT}}css/style.css">
 </head>
 <body>
@@ -24,10 +23,10 @@
   <section class="hero" id="accueil" aria-labelledby="hero-titre" data-hero>
     <div class="hero__fond">
       <div class="hero__media" data-hero-media>
-        <picture>
-          <source media="(max-width: 1024px)" srcset="{{ROOT}}images/hero-hall-1024.webp">
-          <img src="{{ROOT}}images/hero-hall-1920.webp" alt="" width="1920" height="1278" fetchpriority="high">
-        </picture>
+        <video class="hero__video" autoplay muted loop playsinline preload="auto" poster="{{ROOT}}images/hero-accueil-poster.webp" aria-hidden="true" data-video-fond>
+          <source src="{{ROOT}}videos/hero-accueil-720.mp4" type="video/mp4" media="(max-width: 1024px)">
+          <source src="{{ROOT}}videos/hero-accueil-1080.mp4" type="video/mp4">
+        </video>
       </div>
       <canvas class="hero__poussiere" aria-hidden="true" data-poussiere></canvas>
       <div class="hero__voile" aria-hidden="true"></div>
@@ -70,22 +69,22 @@
       <h2 class="titre-orne" id="experience-titre" data-reveal><span>{{t:experience.titre}}</span></h2>
       <ul class="experience__liste">
         <li class="experience__item" data-reveal>
-          <img class="experience__picto" src="{{ROOT}}images/picto-horloge.svg" alt="" width="126" height="126" loading="lazy">
+          <img class="experience__picto" src="{{ROOT}}images/picto-duree.webp" alt="" width="425" height="320" loading="lazy">
           <p class="experience__valeur">{{t:experience.dureeValeur}}</p>
           <p class="experience__label">{{t:experience.dureeLabel}}</p>
         </li>
         <li class="experience__item" data-reveal>
-          <img class="experience__picto" src="{{ROOT}}images/picto-arche.svg" alt="" width="134" height="126" loading="lazy">
+          <img class="experience__picto" src="{{ROOT}}images/picto-surface.webp" alt="" width="290" height="320" loading="lazy">
           <p class="experience__valeur">{{t:experience.surfaceValeur}}</p>
           <p class="experience__label">{{t:experience.surfaceLabel}}</p>
         </li>
         <li class="experience__item" data-reveal>
-          <img class="experience__picto experience__picto--porte" src="{{ROOT}}images/picto-porte.webp" alt="" width="300" height="582" loading="lazy">
+          <img class="experience__picto" src="{{ROOT}}images/picto-immersion.webp" alt="" width="225" height="320" loading="lazy">
           <p class="experience__valeur">{{t:experience.immersionValeur}}</p>
           <p class="experience__label">{{t:experience.immersionLabel}}</p>
         </li>
         <li class="experience__item" data-reveal>
-          <img class="experience__picto" src="{{ROOT}}images/picto-niveaux.svg" alt="" width="157" height="128" loading="lazy">
+          <img class="experience__picto" src="{{ROOT}}images/picto-niveaux.webp" alt="" width="263" height="320" loading="lazy">
           <p class="experience__valeur">{{t:experience.niveauxValeur}}</p>
           <p class="experience__label">{{t:experience.niveauxLabel}}</p>
         </li>
@@ -197,10 +196,10 @@
       <figure class="souvenir souvenir--6"><img src="{{ROOT}}images/pensionnat-1926.webp" alt="" width="640" height="966" loading="lazy"></figure>
       <figure class="souvenir souvenir--7"><img src="{{ROOT}}images/souvenir-bureau.webp" alt="" width="720" height="1126" loading="lazy"></figure>
       <figure class="souvenir souvenir--8"><img src="{{ROOT}}images/souvenir-fillettes.webp" alt="" width="720" height="968" loading="lazy"></figure>
-      <figure class="souvenir souvenir--9"><img src="{{ROOT}}images/pensionnat-1915.webp" alt="" width="640" height="800" loading="lazy"></figure>
-      <figure class="souvenir souvenir--10"><img src="{{ROOT}}images/pensionnat-1941.webp" alt="" width="640" height="708" loading="lazy"></figure>
-      <figure class="souvenir souvenir--11"><img src="{{ROOT}}images/pensionnat-1904.webp" alt="" width="640" height="960" loading="lazy"></figure>
-      <figure class="souvenir souvenir--12"><img src="{{ROOT}}images/pensionnat-1951.webp" alt="" width="640" height="910" loading="lazy"></figure>
+      <figure class="souvenir souvenir--9"><img src="{{ROOT}}images/souvenir-sanglier.webp" alt="" width="900" height="655" loading="lazy"></figure>
+      <figure class="souvenir souvenir--10"><img src="{{ROOT}}images/souvenir-radio.webp" alt="" width="900" height="660" loading="lazy"></figure>
+      <figure class="souvenir souvenir--11"><img src="{{ROOT}}images/souvenir-tableau.webp" alt="" width="720" height="984" loading="lazy"></figure>
+      <figure class="souvenir souvenir--12"><img src="{{ROOT}}images/souvenir-piano.webp" alt="" width="720" height="990" loading="lazy"></figure>
     </div>
     <div class="conteneur histoire__corps">
       <img class="histoire__embleme" src="{{ROOT}}images/embleme-or.webp" alt="" width="400" height="482" loading="lazy" data-reveal>

@@ -140,7 +140,9 @@
       "bio1": "Issu du Cours Florent et passionné de théâtre, de cinéma et d’expériences immersives, Sylvain donne vie à l’univers de Memoria, à son histoire et à ses personnages. De l’écriture du scénario à la direction des comédiens, il façonne une expérience où chaque joueur devient acteur de sa propre histoire.",
       "nom2": "Alexis",
       "role2": "Cofondateur · Direction technique, conception et développement",
-      "bio2": "Passionné de jeux et d’expériences immersives, Alexis allie ingéniosité technique, créativité et sens de l’organisation, fort de son expérience en gestion de projet. De la conception des décors à la réalisation des mécanismes, il transforme les idées en expériences concrètes. Il apporte sa sensibilité artistique et joue un rôle essentiel dans la direction et le développement de Memoria."
+      "bio2": "Passionné de jeux et d’expériences immersives, Alexis allie ingéniosité technique, créativité et sens de l’organisation, fort de son expérience en gestion de projet. De la conception des décors à la réalisation des mécanismes, il transforme les idées en expériences concrètes. Il apporte sa sensibilité artistique et joue un rôle essentiel dans la direction et le développement de Memoria.",
+      "portrait1": "Portrait de Sylvain",
+      "portrait2": "Portrait d’Alexis"
     },
     "genese": {
       "titre": "De l’idée aux premières portes",
@@ -158,7 +160,7 @@
       "visuel4": "Le chantier des décors",
       "titre5": "La technique",
       "texte5": "Son spatialisé, lumières pilotées, mécanismes cachés et effets déclenchés en temps réel : la technique se fait invisible pour que vous ne pensiez qu’à une seule chose… survivre.",
-      "visuel5": "La régie son et lumière",
+      "visuel5": "Installation d’un effet lumineux dans un mur du décor",
       "titre6": "Les comédiens",
       "texte6": "Au cœur de Memoria, il y a l’humain. Des comédiens formés à l’improvisation et à la peur maîtrisée vous accompagnent, vous observent et ajustent l’intensité à chaque groupe.",
       "visuel6": "Répétition des comédiens"

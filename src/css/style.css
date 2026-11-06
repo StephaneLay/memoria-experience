@@ -509,13 +509,13 @@ sup { font-size: .6em; line-height: 0; }
   will-change: transform;
 }
 
-.hero__media img {
+.hero__video {
+  display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 38%;
-  filter: saturate(.5) contrast(1.12) brightness(.6);
-  animation: souffle 26s ease-in-out infinite alternate, vacillement 9s steps(1) infinite;
+  filter: saturate(.75) contrast(1.08) brightness(.62);
+  animation: souffle 26s ease-in-out infinite alternate;
 }
 
 .hero__fond {
@@ -724,8 +724,11 @@ sup { font-size: .6em; line-height: 0; }
 }
 
 .experience__picto {
+  --picto-h: clamp(4.4rem, 2.8rem + 4.2vw, 7.9rem);
   width: auto;
-  height: clamp(4.4rem, 2.8rem + 4.2vw, 7.9rem);
+  max-width: calc(var(--picto-h) * 1.1);
+  height: var(--picto-h);
+  object-fit: contain;
   filter: drop-shadow(0 0 14px rgba(240, 192, 94, .15));
   transition: transform .6s var(--ease), filter .6s;
 }
@@ -1118,7 +1121,7 @@ html .forescape .f-btn-primary {
 .souvenir--7 { left: 86.5%; top: -1%; width: 18%; rotate: 2deg; z-index: 1; }
 .souvenir--8 { left: 73%; top: 9%; width: 16.8%; rotate: 9deg; z-index: 2; }
 .souvenir--9 { left: 68.6%; top: 36%; width: 18.3%; rotate: 0deg; z-index: 4; }
-.souvenir--10 { left: 81.5%; top: 42%; width: 19%; rotate: 18deg; z-index: 3; }
+.souvenir--10 { left: 81.5%; top: 48%; width: 19%; rotate: 18deg; z-index: 3; }
 .souvenir--11 { left: 70.5%; top: 66%; width: 12.3%; rotate: 29deg; z-index: 5; }
 .souvenir--12 { left: 80.7%; top: 73%; width: 13.1%; rotate: 4deg; z-index: 6; }
 
@@ -1748,9 +1751,14 @@ html .forescape .f-btn-primary {
 .equipe--duo { grid-template-columns: repeat(2, minmax(0, 1fr)); max-width: 46rem; }
 
 .membre { text-align: center; }
-.membre .photo-attente { margin-bottom: 1.5rem; rotate: -2deg; }
-.membre:nth-child(2) .photo-attente { rotate: 1.5deg; }
-.membre:nth-child(3) .photo-attente { rotate: -1deg; }
+.membre__photo {
+  aspect-ratio: 4 / 5;
+  margin: 0 0 1.5rem;
+  rotate: -2deg;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, .65);
+}
+.membre:nth-child(2) .membre__photo { rotate: 1.5deg; }
+.membre__photo img { width: 100%; height: 100%; object-fit: cover; }
 
 .membre__nom {
   margin: 0 0 .35rem;
@@ -2726,7 +2734,9 @@ html .forescape .f-btn-primary {
 
 .chiffre-carte__picto {
   width: auto;
+  max-width: 4.6rem;
   height: 4.2rem;
+  object-fit: contain;
   margin-bottom: .5rem;
   filter: drop-shadow(0 0 14px rgba(240, 192, 94, .22));
 }
@@ -3827,12 +3837,6 @@ a.coordonnee__valeur:hover { color: var(--or); }
 @keyframes souffle {
   from { transform: scale(1.04); }
   to { transform: scale(1.12) translateY(-1.5%); }
-}
-
-@keyframes vacillement {
-  0%, 61%, 63%, 65%, 100% { opacity: 1; }
-  62% { opacity: .55; }
-  64% { opacity: .78; }
 }
 
 @keyframes roulette {
