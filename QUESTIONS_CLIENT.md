@@ -16,7 +16,7 @@ Rien de ce qui suit n’est bloquant pour avancer sur le design ; ce sont les co
 - [ ] **Vidéo du hero Team building**
 - [ ] **Liens des réseaux sociaux**
 - [x] **Images sans droits retirées** (6 novembre) : photo du hall avec filigrane, œil, escalier et rideau sont supprimés du site. Les bandeaux et la vignette de la bande-annonce utilisent des photos du client (sous-sol 1941, surveillant 1951, bibliothèque du décor, infirmières 1915, poupée 1904), en attendant les photos dédiées
-- [ ] **Plan d’accès** (accueil et Contact) : c’est une capture de Google Maps, sans attribution, ce que les conditions de Google interdisent ; elle affiche en plus le repère d’un concurrent (« Escape game Lyon - Enigmatic »). À remplacer par un plan libre de droits (OpenStreetMap avec mention « © OpenStreetMap ») ou par une carte intégrée
+- [x] **Plan d’accès** (accueil et Contact) : la capture Google Maps (sans attribution, avec le repère d’un concurrent) est remplacée le 6 novembre par un plan OpenStreetMap au même rendu et au même cadrage. Mention « © OpenStreetMap · © OpenMapTiles » sur l’image et dans les crédits des mentions légales (section 4) ; le repère rouge pointe désormais exactement sur le 45 cours de la Liberté
 - [ ] **Entrée et accès au bâtiment** (interphone, étage…) : la ligne « informations à venir » a été retirée de la page Contact faute d’information
 
 ## Décisions prises en intégrant la fiche (à valider)
@@ -75,7 +75,7 @@ Le widget est intégré sur l’accueil. Aide officielle : https://help.4escape.
 - [ ] **Date d’ouverture des réservations** : à renseigner si Memoria ouvre à une date précise, pour qu’on ne puisse pas réserver avant
 - [ ] **Arrivée des joueurs** : « Demander l’arrivée X min avant » → 5 (CGV art. 14 et page Contact)
 - [ ] **Adresse** de la salle (rue, code postal, ville) : vide → 45 cours de la Liberté, 69003 Lyon
-- [ ] **URL de la page vitrine** → `https://memoria-experience.fr/` ; **URL publique de réservation (widget)** → `https://memoria-experience.fr/#reservation`
+- [ ] **URL de la page vitrine** → `https://memoria-experience.fr/` ; **URL publique de réservation (widget)** → `https://memoria-experience.fr/#reservation` (toujours vides le 6 novembre)
 - [ ] **Nom affiché sur le web** (« Session classique ») et **image de la room** (format 16:9, remplace l’image de coffre-fort) ; vidéo YouTube quand elle existe
 - [x] **Groupes de 2 et jusqu’à 8 joueurs** : règles de la description de la room désormais sur le site (FAQ, CGV art. 4, Team building) ; la description de la room peut être réécrite
 - [ ] **Paiement partagé** : la FAQ annonce que chaque participant peut régler sa part → cocher « Autoriser le paiement partagé » sur la room
@@ -85,7 +85,7 @@ Le widget est intégré sur l’accueil. Aide officielle : https://help.4escape.
 
 **Ailleurs dans l’admin**
 
-- [ ] **Profil → Société → Site internet** : `http://memoria-experience.fr/` → `https://memoria-experience.fr`
+- [x] **Profil → Société → Site internet** : `https://memoria-experience.fr/` (vérifié le 6 novembre)
 - [ ] **Bon cadeau, test du 6 novembre : pas encore achetable**. « Choisissez un modèle » est vide (aucun modèle PDF chargé), donc « Réserver » reste grisé. Le produit n’a qu’un prix (3 joueurs, 147 €) : ajouter 4, 5 et 6 joueurs (172 / 195 / 210 €), une image et les textes anglais. La page Offrir du site reste en « bientôt disponible » pour la mise en ligne ; il faudra la brancher sur le produit une fois prêt
 - [ ] **Bon cadeau** (test du 2 novembre) : produit « Bon cadeau memoria » créé (ID `6ae8a098aa0dcf48cd98d57c`, envoi par e-mail, 147 € pour 3 joueurs). **Aucun widget spécial n’est nécessaire** : le widget de réservation l’ouvre directement (`data-redirect-route="/product/6ae8a098aa0dcf48cd98d57c"`), avec quantité, mode d’envoi (j’imprime / envoi au destinataire), « Offert par », « Pour », message (80 caractères) et e-mail du destinataire. Il manque le **modèle PDF** du bon (Admin → Paramétrages → PDF - Gestion des PDF → « Bon cadeau ») : sans lui, « Ajouter au panier » reste bloqué. Modèle retenu par le client : `maquette/bon-cadeau-memoria.pdf` (A5 ; source `maquette/bon-cadeau-memoria.html`). **Revu le 5 novembre** : bon **par nombre de joueurs** (une déclinaison par formule : 3, 4, 5 et 6 joueurs à 147 / 172 / 195 / 210 €, sans montant libre), **validité 12 mois**, **envoi par e-mail** uniquement. Le modèle PDF porte désormais un champ « Nombre de joueurs » au lieu de « Valeur » (760 Ko). L’envoi du bon par e-mail passe par Mailjet et deux workflows « gift-voucher:booked »
 - [ ] **Annulation** : modification réglée à 48 h dans 4escape, comme sur le site ; aligner le délai d’annulation (72 h sur le site)
