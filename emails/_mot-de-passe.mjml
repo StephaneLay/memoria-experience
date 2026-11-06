@@ -1,0 +1,10 @@
+<mj-section padding="0 32px 24px">
+  <mj-column background-color="#100d0c" border="1px solid #a9851a" padding="26px 22px 24px">
+    <mj-text align="center" padding="0" font-size="13px" letter-spacing="4px" color="#f0c05e">LE MOT DE PASSE</mj-text>
+    <mj-text align="center" padding="14px 0 0" font-family="Metamorphous, Georgia, serif" font-size="32px" line-height="1.2" letter-spacing="3px" color="#ece6da">Memento Mori</mj-text>
+    <mj-text align="center" padding="6px 0 0" font-size="15px" color="#9d978d"><em>« Souviens-toi que tu vas mourir. »</em></mj-text>
+    <mj-divider border-color="#8a1316" border-width="1px" width="50px" padding="18px 0" />
+    <mj-text align="center" padding="0" font-size="16px">Présentez-vous au 45 cours de la Liberté <strong>5 minutes avant votre créneau</strong>. Le démonologue vous y attendra.</mj-text>
+    <mj-text align="center" padding="10px 0 0" font-size="16px">Prononcez ces deux mots devant lui : c’est ainsi qu’il saura que c’est vous qu’il a appelés. D’ici là, gardez-les pour vous.</mj-text>
+  </mj-column>
+</mj-section>

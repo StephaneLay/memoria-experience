@@ -2,6 +2,6 @@
   <mj-column background-color="#241011" border-left="3px solid #c31c20" padding="20px 22px">
     <mj-text padding="0" font-size="13px" letter-spacing="2px" color="#f0c05e">VOTRE NIVEAU D’INTENSITÉ</mj-text>
     <mj-text padding="10px 0 0" font-family="Metamorphous, Georgia, serif" font-size="20px" color="#ece6da">{{var:bookingVariations.intensity.value:"Pensionnaire"}}</mj-text>
-    <mj-text padding="10px 0 0" font-size="16px">Envie d’en changer ? Appelez-nous au <a href="tel:+33665718707">06 65 71 87 07</a> ou écrivez-nous à <a href="mailto:contact@memoria-experience.fr">contact@memoria-experience.fr</a> avant votre session, en précisant votre numéro de commande.</mj-text>
+    <mj-text padding="10px 0 0" font-size="16px">Envie d’en changer ? Appelez-nous au <a href="tel:+33665718707">06&nbsp;65&nbsp;71&nbsp;87&nbsp;07</a> ou écrivez-nous à <a href="mailto:contact@memoria-experience.fr">contact@memoria-experience.fr</a> avant votre session, en précisant votre numéro de commande.</mj-text>
   </mj-column>
 </mj-section>

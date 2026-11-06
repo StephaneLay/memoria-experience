@@ -25,6 +25,7 @@
           </mj-text>
         </mj-column>
       </mj-section>
+      <mj-include path="./_mot-de-passe.mjml" />
       <mj-include path="./_intensite.mjml" />
       <mj-include path="./_pratique.mjml" />
       <mj-section padding="22px 0 34px">
