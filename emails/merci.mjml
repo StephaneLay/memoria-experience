@@ -1,0 +1,32 @@
+<mjml lang="fr">
+  <mj-head>
+    <mj-title>Merci d’avoir franchi le seuil</mj-title>
+    <mj-preview>Merci d’avoir vécu Memoria avec nous.</mj-preview>
+    <mj-include path="./_tete.mjml" />
+  </mj-head>
+  <mj-body background-color="#0b0b0b" width="600px">
+    <mj-include path="./_entete.mjml" />
+    <mj-wrapper background-color="#141111" border-top="3px solid #8a1316" padding="0">
+      <mj-section>
+        <mj-column>
+          <mj-image src="https://memoria-experience.fr/images/mails/bandeau-pensionnat.jpg" alt="" padding="0" />
+          <mj-text mj-class="titre">MERCI D’AVOIR OSÉ</mj-text>
+          <mj-divider border-color="#a9851a" border-width="1px" width="70px" padding="6px 0 24px" />
+          <mj-text>Bonjour {{var:booking.customer.user.name.given_name:""}},</mj-text>
+          <mj-text padding="12px 32px 0">Vous avez franchi les portes du Pensionnat de la Liberté… et vous en êtes ressortis. Toute l’équipe vous remercie d’avoir vécu Memoria avec nous.</mj-text>
+          <mj-text padding="12px 32px 0">Un service : <strong>ne racontez rien</strong> de ce que vous avez vu. Les prochains pensionnaires comptent sur votre silence.</mj-text>
+          <mj-text padding="12px 32px 0">Votre avis nous est précieux : répondez simplement à cet e-mail pour nous raconter votre expérience.</mj-text>
+          <mj-text padding="18px 32px 0">Envie de faire frissonner vos proches, votre équipe ou de fêter un anniversaire au pensionnat ?</mj-text>
+          <mj-button href="https://memoria-experience.fr/pack-personnalise.html" padding="16px 32px 0" align="left">Une expérience sur mesure</mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="22px 0 34px">
+        <mj-column>
+          <mj-text>À bientôt… peut-être.</mj-text>
+          <mj-text padding="12px 32px 0" font-family="Metamorphous, Georgia, serif" color="#ece6da">L’équipe Memoria</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <mj-include path="./_pied.mjml" />
+  </mj-body>
+</mjml>

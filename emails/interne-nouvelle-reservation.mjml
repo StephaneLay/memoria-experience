@@ -1,0 +1,25 @@
+<mjml lang="fr">
+  <mj-head>
+    <mj-title>Nouvelle réservation</mj-title>
+    <mj-preview>Nouvelle réservation le {{var:bookingStartDate:""}} à {{var:bookingStartTime:""}}.</mj-preview>
+    <mj-include path="./_tete.mjml" />
+  </mj-head>
+  <mj-body background-color="#0b0b0b" width="600px">
+    <mj-include path="./_entete.mjml" />
+    <mj-wrapper background-color="#141111" border-top="3px solid #8a1316" padding="0">
+      <mj-section>
+        <mj-column>
+          <mj-text mj-class="titre">NOUVELLE RÉSERVATION</mj-text>
+          <mj-divider border-color="#a9851a" border-width="1px" width="70px" padding="6px 0 24px" />
+          <mj-text mj-class="date" padding="0 32px 22px">{{var:bookingStartDateFull:""}}<br>à {{var:bookingStartTime:""}}</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0 32px 22px">
+        <mj-column background-color="#1a1515" padding="18px 22px">
+          <mj-text padding="0" font-size="16px" line-height="1.7"><span class="libelle">Session</span>&nbsp;&nbsp;{{var:booking.room.name:""}}<br><span class="libelle">Joueurs</span>&nbsp;&nbsp;{{var:booking.room_players:""}}<br><span class="libelle">Client</span>&nbsp;&nbsp;{{var:booking.customer.user.name.full:""}}<br><span class="libelle">E-mail</span>&nbsp;&nbsp;{{var:booking.customer.user.email:""}}<br><span class="libelle">Téléphone</span>&nbsp;&nbsp;{{var:booking.customer.user.phone_mobile:""}} {{var:booking.customer.user.phone:""}}<br><span class="libelle">Commande</span>&nbsp;&nbsp;{{var:booking.order.reference:""}}<br><span class="libelle">Montant</span>&nbsp;&nbsp;{{var:bookingAmountChargedFormatted:""}}<br><span class="libelle">Payé</span>&nbsp;&nbsp;{{var:sumAmountPaymentsFormatted:""}}<br><span class="libelle">Intensité</span>&nbsp;&nbsp;{{var:bookingVariations.intensity.value:"non choisie en ligne (Pensionnaire par défaut)"}}<br><span class="libelle">Remarque</span>&nbsp;&nbsp;{{var:booking.order.public_observations:""}}</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <mj-include path="./_pied.mjml" />
+  </mj-body>
+</mjml>

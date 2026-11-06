@@ -1,0 +1,68 @@
+<mjml lang="fr">
+  <mj-head>
+    <mj-title>Votre bon cadeau Memoria</mj-title>
+    <mj-preview>Votre bon cadeau Memoria est prêt : il est joint à cet e-mail.</mj-preview>
+  <mj-font name="Metamorphous" href="https://fonts.googleapis.com/css2?family=Metamorphous&amp;display=swap" />
+  <mj-font name="Gemunu Libre" href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@400;600&amp;display=swap" />
+  <mj-attributes>
+    <mj-all font-family="'Gemunu Libre', 'Arial Narrow', Arial, sans-serif" />
+    <mj-section padding="0" />
+    <mj-column padding="0" />
+    <mj-text color="#d9d3c7" font-size="17px" line-height="1.55" padding="0 32px" />
+    <mj-button background-color="#8a1316" color="#ece6da" font-family="Metamorphous, Georgia, serif" font-size="17px" letter-spacing="1px" border-radius="4px" inner-padding="13px 26px" padding="8px 32px" />
+    <mj-class name="titre" font-family="Metamorphous, Georgia, serif" font-size="27px" line-height="1.25" color="#ece6da" letter-spacing="1.5px" align="center" padding="34px 32px 6px" />
+    <mj-class name="surtitre" font-size="13px" letter-spacing="4px" color="#f0c05e" align="center" padding="0 32px" />
+    <mj-class name="date" font-family="Metamorphous, Georgia, serif" font-size="23px" line-height="1.35" color="#ece6da" align="center" padding="6px 32px 18px" />
+    <mj-class name="petit" font-size="14px" line-height="1.5" color="#9d978d" />
+  </mj-attributes>
+  <mj-style>
+    a { color: #f0c05e; }
+    .encadre-rouge td { border-left: 3px solid #c31c20; }
+    strong { color: #ece6da; font-weight: 600; }
+    .libelle { color: #f0c05e; font-size: 13px; letter-spacing: 2px; text-transform: uppercase; }
+  </mj-style>
+  </mj-head>
+  <mj-body background-color="#0b0b0b" width="600px">
+<mj-section padding="30px 0 22px">
+  <mj-column>
+    <mj-image src="https://memoria-experience.fr/images/mails/embleme-memoria.png" width="62px" alt="" padding="0 0 14px" />
+    <mj-image src="https://memoria-experience.fr/images/mails/logotype-memoria.png" width="250px" alt="MEMORIA" href="https://memoria-experience.fr/" padding="0" />
+  </mj-column>
+</mj-section>
+    <mj-wrapper background-color="#141111" border-top="3px solid #8a1316" padding="0">
+      <mj-section>
+        <mj-column>
+          <mj-image src="https://memoria-experience.fr/images/mails/bandeau-pensionnat.jpg" alt="" padding="0" />
+          <mj-text mj-class="titre">UN CADEAU QUI NE S’OUBLIE PAS</mj-text>
+          <mj-divider border-color="#a9851a" border-width="1px" width="70px" padding="6px 0 24px" />
+          <mj-text>Bonjour {{var:price.customer.user.name.given_name:""}},</mj-text>
+          <mj-text padding="12px 32px 0">Merci pour votre achat ! Votre bon cadeau est joint à cet e-mail, au format PDF, prêt à être offert.</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0 32px 22px">
+        <mj-column background-color="#1a1515" padding="18px 22px">
+          <mj-text padding="0" font-size="16px" line-height="1.7"><span class="libelle">Code</span>&nbsp;&nbsp;{{var:price.reference:""}}<br><span class="libelle">Valable pour</span>&nbsp;&nbsp;{{var:price.room_players:""}} joueurs<br><span class="libelle">Jusqu’au</span>&nbsp;&nbsp;{{var:endFormatted:""}}</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0 0 6px">
+        <mj-column>
+          <mj-text padding="0 32px 0" font-size="13px" letter-spacing="2px" color="#f0c05e">COMMENT L’UTILISER</mj-text>
+          <mj-text padding="8px 32px 0">Le bénéficiaire réserve sa session sur <a href="https://memoria-experience.fr/#reservation">memoria-experience.fr</a> et saisit le code du bon au moment du paiement. Le bon s’utilise en une seule fois et n’est ni remboursable ni échangeable contre des espèces (<a href="https://memoria-experience.fr/cgv.html">CGV, article 17</a>).</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="22px 0 34px">
+        <mj-column>
+          <mj-text>Le Pensionnat de la Liberté attend vos invités…</mj-text>
+          <mj-text padding="12px 32px 0" font-family="Metamorphous, Georgia, serif" color="#ece6da">L’équipe Memoria</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+<mj-section padding="34px 32px 10px">
+  <mj-column>
+    <mj-divider border-color="#3a2f22" border-width="1px" padding="0 0 22px" />
+    <mj-text align="center" font-size="14px" line-height="1.6" color="#9d978d" padding="0">MEMORIA EXPERIENCE · 45 cours de la Liberté, 69003 Lyon<br><a href="tel:+33665718707">06 65 71 87 07</a> · <a href="mailto:contact@memoria-experience.fr">contact@memoria-experience.fr</a></mj-text>
+    <mj-text align="center" font-size="14px" color="#9d978d" padding="10px 0 34px"><a href="https://memoria-experience.fr/">memoria-experience.fr</a> · <a href="https://memoria-experience.fr/cgv.html">Conditions générales de vente</a> · <a href="https://memoria-experience.fr/faq.html">FAQ</a></mj-text>
+  </mj-column>
+</mj-section>
+  </mj-body>
+</mjml>

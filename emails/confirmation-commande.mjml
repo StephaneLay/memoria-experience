@@ -1,0 +1,39 @@
+<mjml lang="fr">
+  <mj-head>
+    <mj-title>Votre commande Memoria est confirmée</mj-title>
+    <mj-preview>Merci pour votre commande : voici son récapitulatif.</mj-preview>
+    <mj-include path="./_tete.mjml" />
+  </mj-head>
+  <mj-body background-color="#0b0b0b" width="600px">
+    <mj-include path="./_entete.mjml" />
+    <mj-wrapper background-color="#141111" border-top="3px solid #8a1316" padding="0">
+      <mj-section>
+        <mj-column>
+          <mj-image src="https://memoria-experience.fr/images/mails/bandeau-pensionnat.jpg" alt="" padding="0" />
+          <mj-text mj-class="titre">MERCI POUR VOTRE COMMANDE</mj-text>
+          <mj-divider border-color="#a9851a" border-width="1px" width="70px" padding="6px 0 24px" />
+          <mj-text>Bonjour {{var:order.customer.user.name.given_name:""}},</mj-text>
+          <mj-text padding="12px 32px 0">Nous vous confirmons votre commande n° <strong>{{var:order.reference:""}}</strong>. En voici le détail :</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="18px 32px 22px">
+        <mj-column background-color="#1a1515" padding="18px 22px">
+          <mj-text padding="0" font-size="16px" line-height="1.7">
+            {% if var:hasBookings %}{% for booking in var:bookings %}<p style="margin:0 0 6px;"><span class="libelle">Session</span>&nbsp;&nbsp;le {{ booking.bookingStartDate }} à {{ booking.bookingStartTime }}, pour {{ booking.room_players }} joueurs</p>{% endfor %}{% endif %}
+            {% if var:hasProducts %}{% for line in var:order.lines %}{% if line.is_product %}<p style="margin:0 0 6px;"><span class="libelle">Article</span>&nbsp;&nbsp;{{ line.price.name }}</p>{% endif %}{% endfor %}{% endif %}
+            <p style="margin:8px 0 0;"><span class="libelle">Montant payé</span>&nbsp;&nbsp;{{var:paymentAmountFormatted:""}}</p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-include path="./_intensite.mjml" />
+      <mj-include path="./_pratique.mjml" />
+      <mj-section padding="22px 0 34px">
+        <mj-column>
+          <mj-text>Personne n’en est jamais ressorti… À très vite au pensionnat.</mj-text>
+          <mj-text padding="12px 32px 0" font-family="Metamorphous, Georgia, serif" color="#ece6da">L’équipe Memoria</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <mj-include path="./_pied.mjml" />
+  </mj-body>
+</mjml>

@@ -1,0 +1,39 @@
+<mjml lang="fr">
+  <mj-head>
+    <mj-title>Votre bon cadeau Memoria</mj-title>
+    <mj-preview>Votre bon cadeau Memoria est prêt : il est joint à cet e-mail.</mj-preview>
+    <mj-include path="./_tete.mjml" />
+  </mj-head>
+  <mj-body background-color="#0b0b0b" width="600px">
+    <mj-include path="./_entete.mjml" />
+    <mj-wrapper background-color="#141111" border-top="3px solid #8a1316" padding="0">
+      <mj-section>
+        <mj-column>
+          <mj-image src="https://memoria-experience.fr/images/mails/bandeau-pensionnat.jpg" alt="" padding="0" />
+          <mj-text mj-class="titre">UN CADEAU QUI NE S’OUBLIE PAS</mj-text>
+          <mj-divider border-color="#a9851a" border-width="1px" width="70px" padding="6px 0 24px" />
+          <mj-text>Bonjour {{var:price.customer.user.name.given_name:""}},</mj-text>
+          <mj-text padding="12px 32px 0">Merci pour votre achat ! Votre bon cadeau est joint à cet e-mail, au format PDF, prêt à être offert.</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0 32px 22px">
+        <mj-column background-color="#1a1515" padding="18px 22px">
+          <mj-text padding="0" font-size="16px" line-height="1.7"><span class="libelle">Code</span>&nbsp;&nbsp;{{var:price.reference:""}}<br><span class="libelle">Valable pour</span>&nbsp;&nbsp;{{var:price.room_players:""}} joueurs<br><span class="libelle">Jusqu’au</span>&nbsp;&nbsp;{{var:endFormatted:""}}</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0 0 6px">
+        <mj-column>
+          <mj-text padding="0 32px 0" font-size="13px" letter-spacing="2px" color="#f0c05e">COMMENT L’UTILISER</mj-text>
+          <mj-text padding="8px 32px 0">Le bénéficiaire réserve sa session sur <a href="https://memoria-experience.fr/#reservation">memoria-experience.fr</a> et saisit le code du bon au moment du paiement. Le bon s’utilise en une seule fois et n’est ni remboursable ni échangeable contre des espèces (<a href="https://memoria-experience.fr/cgv.html">CGV, article 17</a>).</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="22px 0 34px">
+        <mj-column>
+          <mj-text>Le Pensionnat de la Liberté attend vos invités…</mj-text>
+          <mj-text padding="12px 32px 0" font-family="Metamorphous, Georgia, serif" color="#ece6da">L’équipe Memoria</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <mj-include path="./_pied.mjml" />
+  </mj-body>
+</mjml>

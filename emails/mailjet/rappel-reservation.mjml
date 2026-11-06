@@ -1,0 +1,89 @@
+<mjml lang="fr">
+  <mj-head>
+    <mj-title>Votre session Memoria approche</mj-title>
+    <mj-preview>Le Pensionnat de la Liberté vous attend le {{var:bookingStartDateFull:""}} à {{var:bookingStartTime:""}}.</mj-preview>
+  <mj-font name="Metamorphous" href="https://fonts.googleapis.com/css2?family=Metamorphous&amp;display=swap" />
+  <mj-font name="Gemunu Libre" href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@400;600&amp;display=swap" />
+  <mj-attributes>
+    <mj-all font-family="'Gemunu Libre', 'Arial Narrow', Arial, sans-serif" />
+    <mj-section padding="0" />
+    <mj-column padding="0" />
+    <mj-text color="#d9d3c7" font-size="17px" line-height="1.55" padding="0 32px" />
+    <mj-button background-color="#8a1316" color="#ece6da" font-family="Metamorphous, Georgia, serif" font-size="17px" letter-spacing="1px" border-radius="4px" inner-padding="13px 26px" padding="8px 32px" />
+    <mj-class name="titre" font-family="Metamorphous, Georgia, serif" font-size="27px" line-height="1.25" color="#ece6da" letter-spacing="1.5px" align="center" padding="34px 32px 6px" />
+    <mj-class name="surtitre" font-size="13px" letter-spacing="4px" color="#f0c05e" align="center" padding="0 32px" />
+    <mj-class name="date" font-family="Metamorphous, Georgia, serif" font-size="23px" line-height="1.35" color="#ece6da" align="center" padding="6px 32px 18px" />
+    <mj-class name="petit" font-size="14px" line-height="1.5" color="#9d978d" />
+  </mj-attributes>
+  <mj-style>
+    a { color: #f0c05e; }
+    .encadre-rouge td { border-left: 3px solid #c31c20; }
+    strong { color: #ece6da; font-weight: 600; }
+    .libelle { color: #f0c05e; font-size: 13px; letter-spacing: 2px; text-transform: uppercase; }
+  </mj-style>
+  </mj-head>
+  <mj-body background-color="#0b0b0b" width="600px">
+<mj-section padding="30px 0 22px">
+  <mj-column>
+    <mj-image src="https://memoria-experience.fr/images/mails/embleme-memoria.png" width="62px" alt="" padding="0 0 14px" />
+    <mj-image src="https://memoria-experience.fr/images/mails/logotype-memoria.png" width="250px" alt="MEMORIA" href="https://memoria-experience.fr/" padding="0" />
+  </mj-column>
+</mj-section>
+    <mj-wrapper background-color="#141111" border-top="3px solid #8a1316" padding="0">
+      <mj-section>
+        <mj-column>
+          <mj-image src="https://memoria-experience.fr/images/mails/bandeau-pensionnat.jpg" alt="" padding="0" />
+          <mj-text mj-class="titre">LE PENSIONNAT VOUS ATTEND</mj-text>
+          <mj-divider border-color="#a9851a" border-width="1px" width="70px" padding="6px 0 24px" />
+          <mj-text>Bonjour {{var:booking.customer.user.name.given_name:""}},</mj-text>
+          <mj-text padding="12px 32px 0">Le grand jour approche. Votre session est prévue le :</mj-text>
+          <mj-text mj-class="date" padding="18px 32px 22px">{{var:bookingStartDateFull:""}}<br>à {{var:bookingStartTime:""}}</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0 32px 22px">
+        <mj-column background-color="#1a1515" padding="18px 22px">
+          <mj-text padding="0" font-size="16px" line-height="1.7"><span class="libelle">Joueurs</span>&nbsp;&nbsp;{{var:booking.room_players:""}}<br><span class="libelle">Au nom de</span>&nbsp;&nbsp;{{var:booking.customer.user.name.full:""}}<br><span class="libelle">Commande</span>&nbsp;&nbsp;{{var:booking.order.reference:""}}</mj-text>
+          <mj-button href='{{var:bookingResumeLink:"https://memoria-experience.fr/"}}' padding="16px 0 0" align="left">Voir ma réservation</mj-button>
+        </mj-column>
+      </mj-section>
+<mj-section padding="6px 32px 22px">
+  <mj-column background-color="#241011" border-left="3px solid #c31c20" padding="20px 22px">
+    <mj-text padding="0" font-size="13px" letter-spacing="2px" color="#f0c05e">VOTRE NIVEAU D’INTENSITÉ</mj-text>
+    <mj-text padding="10px 0 0" font-size="16px">Le choix du niveau d’intensité n’est pas encore proposé lors de la réservation en ligne. Sans demande de votre part, votre session se déroulera au niveau <strong>Pensionnaire</strong>, l’expérience telle que nous l’avons imaginée.</mj-text>
+    <mj-text padding="10px 0 0" font-size="16px">Vous préférez <strong>Demi-pensionnaire</strong>, sans contact physique avec les comédiens, ou <strong>Jusqu’en enfer !</strong>, l’intensité maximale ? Appelez-nous au <a href="tel:+33665718707">06 65 71 87 07</a> ou écrivez-nous à <a href="mailto:contact@memoria-experience.fr">contact@memoria-experience.fr</a> avant votre session, en précisant votre numéro de commande.</mj-text>
+  </mj-column>
+</mj-section>
+<mj-section padding="4px 32px 6px">
+  <mj-column>
+    <mj-text padding="0 0 8px" font-size="13px" letter-spacing="2px" color="#f0c05e">AVANT DE VENIR</mj-text>
+    <mj-text padding="0" font-size="16px">
+      <p style="margin:0 0 8px;">• <strong>Arrivez 5 minutes avant</strong> l’heure de votre session : il n’y a ni accueil ni briefing, la séance commence à l’heure. En cas de retard, prévenez-nous au plus vite.</p>
+      <p style="margin:0 0 8px;">• Prévoyez <strong>environ 1h45 sur place</strong>.</p>
+      <p style="margin:0 0 8px;">• Expérience <strong>interdite aux moins de 12 ans</strong> et déconseillée aux moins de 16 ans. Les mineurs doivent être accompagnés d’un adulte qui participe.</p>
+      <p style="margin:0;">• Tenue confortable et chaussures plates et fermées : le pensionnat est resté longtemps abandonné…</p>
+    </mj-text>
+  </mj-column>
+</mj-section>
+<mj-section padding="22px 32px 10px">
+  <mj-column background-color="#1a1515" padding="18px 22px">
+    <mj-text padding="0 0 8px" font-size="13px" letter-spacing="2px" color="#f0c05e">NOUS TROUVER</mj-text>
+    <mj-text padding="0" font-size="16px"><strong>45 cours de la Liberté, 69003 Lyon</strong><br>Tramway T1 et bus C9 : Liberté · Métro D : Guillotière · Métro B : Place Guichard · Vélo’v : 32 cours de la Liberté</mj-text>
+    <mj-button href="https://www.google.com/maps/dir/?api=1&amp;destination=45%20cours%20de%20la%20Libert%C3%A9%2C%2069003%20Lyon" background-color="transparent" border="1px solid #a9851a" color="#f0c05e" font-family="'Gemunu Libre', Arial, sans-serif" font-size="15px" letter-spacing="2px" inner-padding="10px 20px" padding="14px 0 0" align="left">ITINÉRAIRE</mj-button>
+  </mj-column>
+</mj-section>
+      <mj-section padding="22px 0 34px">
+        <mj-column>
+          <mj-text>Respirez profondément. Et surtout… restez groupés.</mj-text>
+          <mj-text padding="12px 32px 0" font-family="Metamorphous, Georgia, serif" color="#ece6da">L’équipe Memoria</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+<mj-section padding="34px 32px 10px">
+  <mj-column>
+    <mj-divider border-color="#3a2f22" border-width="1px" padding="0 0 22px" />
+    <mj-text align="center" font-size="14px" line-height="1.6" color="#9d978d" padding="0">MEMORIA EXPERIENCE · 45 cours de la Liberté, 69003 Lyon<br><a href="tel:+33665718707">06 65 71 87 07</a> · <a href="mailto:contact@memoria-experience.fr">contact@memoria-experience.fr</a></mj-text>
+    <mj-text align="center" font-size="14px" color="#9d978d" padding="10px 0 34px"><a href="https://memoria-experience.fr/">memoria-experience.fr</a> · <a href="https://memoria-experience.fr/cgv.html">Conditions générales de vente</a> · <a href="https://memoria-experience.fr/faq.html">FAQ</a></mj-text>
+  </mj-column>
+</mj-section>
+  </mj-body>
+</mjml>

@@ -163,7 +163,7 @@
       "visuel5": "Fitting a light effect into a wall of the set",
       "titre6": "The actors",
       "texte6": "At the heart of Memoria are people. Actors trained in improvisation and controlled fear guide you, watch you and adjust the intensity to every group.",
-      "visuel6": "Actors in rehearsal"
+      "visuel6": "Two actors in costume on the boarding school set"
     },
     "valeurs": {
       "titre": "What drives us",
@@ -179,14 +179,14 @@
     "atelier": {
       "titre": "Behind the scenes",
       "intro": "Building work, sets, sketches, rehearsals: a few images from the birth of Memoria.",
-      "legende1": "The whole team",
       "legende2": "Sketches and plans",
       "legende3": "The control room and rehearsals",
       "alt1": "On the building site, drill in hand, at the foot of a ladder",
       "alt2": "Fitting partition walls on the building site",
       "alt3": "Cutting a panel on the building site",
       "alt4": "Making props for the boarding school",
-      "alt5": "Shelf of old books in the boarding school sets"
+      "alt5": "Shelf of old books in the boarding school sets",
+      "alt6": "The basement in the middle of the works"
     },
     "bandeau": "What if it were all true?",
     "pensionnat": {
@@ -230,7 +230,8 @@
       "texte9": "<p>In the midst of Lyon’s bustle, the Pensionnat de la Liberté still stands, almost invisible to those who walk past its walls.</p><p>A forgotten building, with dusty windows and closed doors, that seems to blend into the landscape.</p><p>Yet the people who live nearby sometimes tell strange stories.</p><p>A motionless figure glimpsed behind a window. A few notes of piano drifting from an abandoned room. Distant screams, muffled by the thickness of the walls.</p><p>Some even claim that lights still appear, on certain nights, in the windows of the boarding school.</p><p>No one knows what really happened on 18 February 1953.</p><p>And for more than seventy years, no one has dared to step through its doors again.</p><p class=\"evenement__chute\">Until today.</p>",
       "appelTitre": "The doors open again",
       "appelTexte": "Tonight, the Pensionnat de la Liberté awaits you. Will you uncover the truth?",
-      "appelBouton": "Book your session"
+      "appelBouton": "Book your session",
+      "legende9": "The present day"
     }
   },
   "formulaire": {

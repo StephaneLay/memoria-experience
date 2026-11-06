@@ -1,0 +1,18 @@
+<mj-section padding="4px 32px 6px">
+  <mj-column>
+    <mj-text padding="0 0 8px" font-size="13px" letter-spacing="2px" color="#f0c05e">AVANT DE VENIR</mj-text>
+    <mj-text padding="0" font-size="16px">
+      <p style="margin:0 0 8px;">• <strong>Arrivez 5 minutes avant</strong> l’heure de votre session : il n’y a ni accueil ni briefing, la séance commence à l’heure. En cas de retard, prévenez-nous au plus vite.</p>
+      <p style="margin:0 0 8px;">• Prévoyez <strong>environ 1h45 sur place</strong>.</p>
+      <p style="margin:0 0 8px;">• Expérience <strong>interdite aux moins de 12 ans</strong> et déconseillée aux moins de 16 ans. Les mineurs doivent être accompagnés d’un adulte qui participe.</p>
+      <p style="margin:0;">• Tenue confortable et chaussures plates et fermées : le pensionnat est resté longtemps abandonné…</p>
+    </mj-text>
+  </mj-column>
+</mj-section>
+<mj-section padding="22px 32px 10px">
+  <mj-column background-color="#1a1515" padding="18px 22px">
+    <mj-text padding="0 0 8px" font-size="13px" letter-spacing="2px" color="#f0c05e">NOUS TROUVER</mj-text>
+    <mj-text padding="0" font-size="16px"><strong>45 cours de la Liberté, 69003 Lyon</strong><br>Tramway T1 et bus C9 : Liberté · Métro D : Guillotière · Métro B : Place Guichard · Vélo’v : 32 cours de la Liberté</mj-text>
+    <mj-button href="https://www.google.com/maps/dir/?api=1&amp;destination=45%20cours%20de%20la%20Libert%C3%A9%2C%2069003%20Lyon" background-color="transparent" border="1px solid #a9851a" color="#f0c05e" font-family="'Gemunu Libre', Arial, sans-serif" font-size="15px" letter-spacing="2px" inner-padding="10px 20px" padding="14px 0 0" align="left">ITINÉRAIRE</mj-button>
+  </mj-column>
+</mj-section>

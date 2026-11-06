@@ -907,6 +907,15 @@ sup { font-size: .6em; line-height: 0; }
   pointer-events: none;
 }
 
+.reservation__decor::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: url('../images/embleme-or.webp') center 52% / auto 82% no-repeat;
+  opacity: .07;
+  filter: grayscale(1) brightness(3);
+}
+
 .reservation__contenu { position: relative; }
 
 .reservation__intro {
@@ -2612,6 +2621,7 @@ html .forescape .f-btn-primary {
   .regles__grille,
   .demande__grille { grid-template-columns: 1fr; }
   .bon { position: static; width: min(100%, 26rem); margin-inline: auto; }
+  .reservation__decor::after { background-position: center 22%; background-size: 92% auto; }
 }
 
 @media (max-width: 560px) {

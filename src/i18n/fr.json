@@ -163,7 +163,7 @@
       "visuel5": "Installation d’un effet lumineux dans un mur du décor",
       "titre6": "Les comédiens",
       "texte6": "Au cœur de Memoria, il y a l’humain. Des comédiens formés à l’improvisation et à la peur maîtrisée vous accompagnent, vous observent et ajustent l’intensité à chaque groupe.",
-      "visuel6": "Répétition des comédiens"
+      "visuel6": "Deux comédiens en costume dans les décors du pensionnat"
     },
     "valeurs": {
       "titre": "Ce qui nous anime",
@@ -179,14 +179,14 @@
     "atelier": {
       "titre": "Dans les coulisses",
       "intro": "Chantier, décors, croquis, répétitions : quelques images de la naissance de Memoria.",
-      "legende1": "L’équipe au complet",
       "legende2": "Croquis et plans",
       "legende3": "La régie technique et les répétitions",
       "alt1": "Sur le chantier, perceuse en main, au pied d’une échelle",
       "alt2": "Pose des cloisons sur le chantier",
       "alt3": "Découpe d’un panneau sur le chantier",
       "alt4": "Fabrication des accessoires du pensionnat",
-      "alt5": "Rayonnage de livres anciens dans les décors du pensionnat"
+      "alt5": "Rayonnage de livres anciens dans les décors du pensionnat",
+      "alt6": "Le sous-sol en plein chantier"
     },
     "bandeau": "Et si tout était vrai ?",
     "pensionnat": {
@@ -230,7 +230,8 @@
       "texte9": "<p>Au milieu de l’agitation lyonnaise, le Pensionnat de la Liberté se dresse toujours, presque invisible aux yeux de ceux qui passent devant ses murs.</p><p>Un bâtiment oublié, aux fenêtres poussiéreuses et aux portes closes, qui semble se fondre dans le paysage.</p><p>Pourtant, les habitants du quartier racontent parfois d’étranges histoires.</p><p>Une silhouette immobile aperçue derrière une fenêtre. Quelques notes de piano s’échappant d’une pièce abandonnée. Des cris lointains, étouffés par l’épaisseur des murs.</p><p>Certains affirment même que des lumières apparaissent encore, certaines nuits, aux fenêtres du pensionnat.</p><p>Personne ne sait ce qui s’est réellement produit le 18 février 1953.</p><p>Et depuis plus de soixante-dix ans, nul n’a osé franchir à nouveau ses portes.</p><p class=\"evenement__chute\">Jusqu’à aujourd’hui.</p>",
       "appelTitre": "Les portes se rouvrent",
       "appelTexte": "Ce soir, le Pensionnat de la Liberté vous attend. Pourrez-vous découvrir la vérité ?",
-      "appelBouton": "Réserver votre session"
+      "appelBouton": "Réserver votre session",
+      "legende9": "De nos jours"
     }
   },
   "formulaire": {

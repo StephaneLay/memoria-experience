@@ -1,0 +1,19 @@
+  <mj-font name="Metamorphous" href="https://fonts.googleapis.com/css2?family=Metamorphous&amp;display=swap" />
+  <mj-font name="Gemunu Libre" href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@400;600&amp;display=swap" />
+  <mj-attributes>
+    <mj-all font-family="'Gemunu Libre', 'Arial Narrow', Arial, sans-serif" />
+    <mj-section padding="0" />
+    <mj-column padding="0" />
+    <mj-text color="#d9d3c7" font-size="17px" line-height="1.55" padding="0 32px" />
+    <mj-button background-color="#8a1316" color="#ece6da" font-family="Metamorphous, Georgia, serif" font-size="17px" letter-spacing="1px" border-radius="4px" inner-padding="13px 26px" padding="8px 32px" />
+    <mj-class name="titre" font-family="Metamorphous, Georgia, serif" font-size="27px" line-height="1.25" color="#ece6da" letter-spacing="1.5px" align="center" padding="34px 32px 6px" />
+    <mj-class name="surtitre" font-size="13px" letter-spacing="4px" color="#f0c05e" align="center" padding="0 32px" />
+    <mj-class name="date" font-family="Metamorphous, Georgia, serif" font-size="23px" line-height="1.35" color="#ece6da" align="center" padding="6px 32px 18px" />
+    <mj-class name="petit" font-size="14px" line-height="1.5" color="#9d978d" />
+  </mj-attributes>
+  <mj-style>
+    a { color: #f0c05e; }
+    .encadre-rouge td { border-left: 3px solid #c31c20; }
+    strong { color: #ece6da; font-weight: 600; }
+    .libelle { color: #f0c05e; font-size: 13px; letter-spacing: 2px; text-transform: uppercase; }
+  </mj-style>

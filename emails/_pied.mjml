@@ -1,0 +1,7 @@
+<mj-section padding="34px 32px 10px">
+  <mj-column>
+    <mj-divider border-color="#3a2f22" border-width="1px" padding="0 0 22px" />
+    <mj-text align="center" font-size="14px" line-height="1.6" color="#9d978d" padding="0">MEMORIA EXPERIENCE · 45 cours de la Liberté, 69003 Lyon<br><a href="tel:+33665718707">06 65 71 87 07</a> · <a href="mailto:contact@memoria-experience.fr">contact@memoria-experience.fr</a></mj-text>
+    <mj-text align="center" font-size="14px" color="#9d978d" padding="10px 0 34px"><a href="https://memoria-experience.fr/">memoria-experience.fr</a> · <a href="https://memoria-experience.fr/cgv.html">Conditions générales de vente</a> · <a href="https://memoria-experience.fr/faq.html">FAQ</a></mj-text>
+  </mj-column>
+</mj-section>
