@@ -21,6 +21,12 @@
 <main id="contenu">
   <section class="page-hero" aria-labelledby="page-titre">
     <div class="hero__fond">
+      <div class="page-hero__media" data-hero-media>
+        <picture>
+          <source media="(orientation: portrait)" srcset="{{ROOT}}images/hero-pack-cadeau-portrait.webp">
+          <img src="{{ROOT}}images/hero-pack-cadeau.webp" alt="" width="886" height="498" fetchpriority="high">
+        </picture>
+      </div>
       <canvas class="hero__poussiere" aria-hidden="true" data-poussiere></canvas>
       <div class="hero__voile" aria-hidden="true"></div>
     </div>

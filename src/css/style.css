@@ -1633,8 +1633,7 @@ html .forescape .f-btn-primary {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 75%;
-  filter: sepia(.5) saturate(.55) contrast(1.12) brightness(.42);
+  filter: sepia(.5) saturate(.55) contrast(1.12) brightness(.47);
 }
 
 .page-hero__contenu {
@@ -2040,8 +2039,6 @@ html .forescape .f-btn-primary {
   .page-hero__sommaire { flex-direction: column; align-items: stretch; width: min(100%, 20rem); margin-inline: auto; }
 }
 
-.page-hero__media--plafond img { object-position: center 12%; }
-.page-hero__media--oeil img { object-position: center 48%; filter: saturate(.7) contrast(1.1) brightness(.38); }
 
 .cartes {
   display: grid;
@@ -3436,6 +3433,10 @@ html .forescape .f-btn-primary {
 @media (max-width: 640px) {
   .page-hero__titre:not(.page-hero__titre--long) { font-size: clamp(1.9rem, 1.2rem + 3.6vw, 2.6rem); }
   .page-hero__sommaire .bouton { white-space: normal; line-height: 1.15; padding-block: .6em; letter-spacing: .04em; }
+}
+
+@media (max-width: 340px) {
+  .page-hero__titre:not(.page-hero__titre--long) { font-size: 1.75rem; }
 }
 
 @media (max-width: 900px) {
