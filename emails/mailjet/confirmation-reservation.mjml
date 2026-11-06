@@ -43,7 +43,7 @@
       <mj-section padding="0 32px 22px">
         <mj-column background-color="#1a1515" padding="18px 22px">
           <mj-text padding="0" font-size="16px" line-height="1.7"><span class="libelle">Joueurs</span>&nbsp;&nbsp;{{var:booking.room_players:""}}<br><span class="libelle">Au nom de</span>&nbsp;&nbsp;{{var:booking.customer.user.name.full:""}}<br><span class="libelle">Commande</span>&nbsp;&nbsp;{{var:booking.order.reference:""}}<br><span class="libelle">Montant</span>&nbsp;&nbsp;{{var:bookingAmountChargedFormatted:""}}</mj-text>
-          <mj-button href='{{var:bookingResumeLink:"https://memoria-experience.fr/"}}' padding="16px 0 0" align="left">Voir ma réservation</mj-button>
+          <mj-button href="{{var:bookingResumeLink}}" padding="16px 0 0" align="left">Voir ma réservation</mj-button>
         </mj-column>
       </mj-section>
 <mj-section padding="0 32px 24px">

@@ -148,10 +148,10 @@
       "titre": "From an idea to the first doors",
       "titre1": "The spark",
       "texte1": "It all started around a table, after yet another escape game. One question kept coming back: what if you could live a real horror film, from the inside, face to face with real actors? The idea never left them.",
-      "visuel1": "First concept sketches",
+      "visuel1": "The group of friends behind Memoria, one evening",
       "titre2": "The story",
       "texte2": "For months, the story was written, rewritten and tested. A boarding school, an unexplained closure in 1953, clues hidden in every room: every detail serves the story, every puzzle serves the fear.",
-      "visuel2": "The script notebooks",
+      "visuel2": "Writing the Memoria project",
       "titre3": "The venue",
       "texte3": "It had to be the right place. After dozens of visits, they found nearly 200 m² spread over three levels in Lyon: big enough to get lost in, intimate enough to feel watched.",
       "visuel3": "The venue before the works",
@@ -179,14 +179,14 @@
     "atelier": {
       "titre": "Behind the scenes",
       "intro": "Building work, sets, sketches, rehearsals: a few images from the birth of Memoria.",
-      "legende2": "Sketches and plans",
-      "legende3": "The control room and rehearsals",
       "alt1": "On the building site, drill in hand, at the foot of a ladder",
       "alt2": "Fitting partition walls on the building site",
       "alt3": "Cutting a panel on the building site",
       "alt4": "Making props for the boarding school",
       "alt5": "Shelf of old books in the boarding school sets",
-      "alt6": "The basement in the middle of the works"
+      "alt6": "The basement in the middle of the works",
+      "legende1": "The whole team",
+      "alt7": "The technical crew on the set"
     },
     "bandeau": "What if it were all true?",
     "pensionnat": {

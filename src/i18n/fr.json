@@ -148,10 +148,10 @@
       "titre": "De l’idée aux premières portes",
       "titre1": "L’étincelle",
       "texte1": "Tout commence autour d’une table, après une énième partie d’escape game. Une question revient sans cesse : et si l’on pouvait vivre un véritable film d’horreur, de l’intérieur, face à de vrais comédiens ? L’idée ne les quittera plus.",
-      "visuel1": "Premiers croquis du concept",
+      "visuel1": "La bande d’amis à l’origine de Memoria, un soir",
       "titre2": "Le scénario",
       "texte2": "Pendant des mois, l’histoire s’écrit, se réécrit, se teste. Un pensionnat, une fermeture inexpliquée en 1953, des indices dissimulés dans chaque pièce : chaque détail sert le récit, chaque énigme sert la peur.",
-      "visuel2": "Les carnets du scénario",
+      "visuel2": "L’écriture du projet Memoria",
       "titre3": "Le lieu",
       "texte3": "Il fallait un lieu à la hauteur. Après des dizaines de visites, ils découvrent à Lyon près de 200 m² répartis sur trois niveaux : assez vastes pour s’y perdre, assez intimes pour s’y sentir observé.",
       "visuel3": "Le lieu avant les travaux",
@@ -179,14 +179,14 @@
     "atelier": {
       "titre": "Dans les coulisses",
       "intro": "Chantier, décors, croquis, répétitions : quelques images de la naissance de Memoria.",
-      "legende2": "Croquis et plans",
-      "legende3": "La régie technique et les répétitions",
       "alt1": "Sur le chantier, perceuse en main, au pied d’une échelle",
       "alt2": "Pose des cloisons sur le chantier",
       "alt3": "Découpe d’un panneau sur le chantier",
       "alt4": "Fabrication des accessoires du pensionnat",
       "alt5": "Rayonnage de livres anciens dans les décors du pensionnat",
-      "alt6": "Le sous-sol en plein chantier"
+      "alt6": "Le sous-sol en plein chantier",
+      "legende1": "L’équipe au complet",
+      "alt7": "L’équipe de la régie technique dans les décors"
     },
     "bandeau": "Et si tout était vrai ?",
     "pensionnat": {

@@ -74,9 +74,8 @@
       <h2 class="titre-orne" id="genese-titre" data-reveal><span>{{t:notreHistoire.genese.titre}}</span></h2>
       <ol class="chapitres">
         <li class="chapitre">
-          <figure class="photo-attente photo-attente--croquis" data-reveal>
-            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round" aria-hidden="true"><path d="m4 20 1.2-4.2L16 5l3 3L8.2 18.8 4 20Z"/><path d="m14 7 3 3"/></svg>
-            <figcaption>{{t:notreHistoire.genese.visuel1}}</figcaption>
+          <figure class="chapitre__photo" data-reveal>
+            <img src="{{ROOT}}images/genese-etincelle.webp" alt="{{t:notreHistoire.genese.visuel1}}" width="1040" height="780" loading="lazy">
           </figure>
           <div class="chapitre__texte" data-reveal>
             <p class="chapitre__numero" aria-hidden="true">01</p>
@@ -85,9 +84,8 @@
           </div>
         </li>
         <li class="chapitre">
-          <figure class="photo-attente photo-attente--croquis" data-reveal>
-            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round" aria-hidden="true"><path d="m4 20 1.2-4.2L16 5l3 3L8.2 18.8 4 20Z"/><path d="m14 7 3 3"/></svg>
-            <figcaption>{{t:notreHistoire.genese.visuel2}}</figcaption>
+          <figure class="chapitre__photo" data-reveal>
+            <img src="{{ROOT}}images/genese-scenario.webp" alt="{{t:notreHistoire.genese.visuel2}}" width="1040" height="780" loading="lazy">
           </figure>
           <div class="chapitre__texte" data-reveal>
             <p class="chapitre__numero" aria-hidden="true">02</p>
@@ -169,7 +167,10 @@
       <p class="texte-intro" data-reveal>{{t:notreHistoire.atelier.intro}}</p>
       <ul class="atelier__grille">
         <li class="atelier__case atelier__case--large" data-reveal>
-          <img class="atelier__photo" src="{{ROOT}}images/coulisses-sous-sol.webp" alt="{{t:notreHistoire.atelier.alt6}}" width="1200" height="800" loading="lazy">
+          <figure class="photo-attente">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M4 7h3l1.5-2h7L17 7h3a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1Z"/><circle cx="12" cy="13" r="3.6"/></svg>
+            <figcaption>{{t:notreHistoire.atelier.legende1}}<br>{{t:notreHistoire.attente.photo}}</figcaption>
+          </figure>
         </li>
         <li class="atelier__case" data-reveal>
           <img class="atelier__photo" src="{{ROOT}}images/coulisses-chantier-1.webp" alt="{{t:notreHistoire.atelier.alt1}}" width="800" height="1200" loading="lazy">
@@ -187,16 +188,10 @@
           <img class="atelier__photo" src="{{ROOT}}images/coulisses-bibliotheque.webp" alt="{{t:notreHistoire.atelier.alt5}}" width="1200" height="800" loading="lazy">
         </li>
         <li class="atelier__case atelier__case--large" data-reveal>
-          <figure class="photo-attente photo-attente--croquis">
-            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round" aria-hidden="true"><path d="m4 20 1.2-4.2L16 5l3 3L8.2 18.8 4 20Z"/><path d="m14 7 3 3"/></svg>
-            <figcaption>{{t:notreHistoire.atelier.legende2}}<br>{{t:notreHistoire.attente.photo}}</figcaption>
-          </figure>
+          <img class="atelier__photo" src="{{ROOT}}images/coulisses-sous-sol.webp" alt="{{t:notreHistoire.atelier.alt6}}" width="1200" height="800" loading="lazy">
         </li>
         <li class="atelier__case atelier__case--large" data-reveal>
-          <figure class="photo-attente">
-            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M4 7h3l1.5-2h7L17 7h3a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1Z"/><circle cx="12" cy="13" r="3.6"/></svg>
-            <figcaption>{{t:notreHistoire.atelier.legende3}}<br>{{t:notreHistoire.attente.photo}}</figcaption>
-          </figure>
+          <img class="atelier__photo" src="{{ROOT}}images/coulisses-regie.webp" alt="{{t:notreHistoire.atelier.alt7}}" width="1200" height="800" loading="lazy">
         </li>
       </ul>
     </div>
