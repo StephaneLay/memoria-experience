@@ -15,7 +15,8 @@ Rien de ce qui suit n’est bloquant pour avancer sur le design ; ce sont les co
 - [ ] **Photos encore attendues** : photo d’équipe ; croquis et plans ; régie technique et répétitions ; étapes 01 (l’étincelle), 02 (le scénario) et 06 (les comédiens) de la genèse ; photo « Aujourd’hui » de la chronologie (retirée en attendant la bonne) ; une photo pour le dernier emplacement de l’histoire de l’accueil (il reprend encore la photo de 1926)
 - [ ] **Vidéo du hero Team building**
 - [ ] **Liens des réseaux sociaux**
-- [ ] **Images provisoires dont les droits ne sont pas acquis**, encore en ligne en attendant les photos du client : photo du hall avec filigrane d’un photographe (plus que dans le bandeau « Pensionnat de la Liberté – 1953 » de l’accueil), œil (section bande-annonce de l’accueil), escalier (bandeau « Osez franchir le seuil ») et rideau (bandeau de Notre histoire). Les héros n’en utilisent plus depuis le 6 novembre. À remplacer **avant la mise en ligne**, ou à retirer comme l’image fantôme si les photos n’arrivent pas à temps
+- [x] **Images sans droits retirées** (6 novembre) : photo du hall avec filigrane, œil, escalier et rideau sont supprimés du site. Les bandeaux et la vignette de la bande-annonce utilisent des photos du client (sous-sol 1941, surveillant 1951, bibliothèque du décor, infirmières 1915, poupée 1904), en attendant les photos dédiées
+- [ ] **Plan d’accès** (accueil et Contact) : c’est une capture de Google Maps, sans attribution, ce que les conditions de Google interdisent ; elle affiche en plus le repère d’un concurrent (« Escape game Lyon - Enigmatic »). À remplacer par un plan libre de droits (OpenStreetMap avec mention « © OpenStreetMap ») ou par une carte intégrée
 - [ ] **Entrée et accès au bâtiment** (interphone, étage…) : la ligne « informations à venir » a été retirée de la page Contact faute d’information
 
 ## Décisions prises en intégrant la fiche (à valider)
