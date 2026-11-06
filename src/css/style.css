@@ -911,9 +911,8 @@ sup { font-size: .6em; line-height: 0; }
   content: '';
   position: absolute;
   inset: 0;
-  background: url('../images/embleme-or.webp') center 52% / auto 82% no-repeat;
-  opacity: .07;
-  filter: grayscale(1) brightness(3);
+  background: url('../images/embleme-filigrane.webp') center 52% / auto 82% no-repeat;
+  opacity: .08;
 }
 
 .reservation__contenu { position: relative; }

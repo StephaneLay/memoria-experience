@@ -1,10 +1,12 @@
 {
   "meta": {
-    "title": "Memoria — Immersive horror experience in Lyon",
-    "description": "Pensionnat de la Liberté, 1953. Step into Memoria, a 90-minute immersive horror experience with live actors, 200 m² to explore and 3 levels of intensity.",
+    "title": "Memoria — Immersive horror experience with live actors in Lyon",
+    "description": "Pensionnat de la Liberté, 1953. More than an escape room: 90 minutes of immersive horror with live actors in Lyon, for 3 to 6 players, 3 intensity levels.",
     "ogTitle": "Memoria — Dare you cross the boarding school’s gates?",
     "ogLocale": "en_GB",
-    "langName": "English"
+    "langName": "English",
+    "partageAlt": "Memoria, immersive horror experience in Lyon: the gold logo over the portrait of a girl from the Pensionnat de la Liberté",
+    "filAccueil": "Home"
   },
   "nav": {
     "skip": "Skip to content",
@@ -117,8 +119,8 @@
   },
   "notreHistoire": {
     "meta": {
-      "title": "Our story — Memoria, immersive horror experience in Lyon",
-      "description": "One passion, years of work and a forgotten boarding school: go behind the scenes of Memoria and discover the dark story of the Pensionnat de la Liberté."
+      "title": "Our story — The creators and the boarding school | Memoria Lyon",
+      "description": "Two passionate creators, months of building work and a boarding school closed in 1953: go behind the scenes of Memoria, an immersive horror experience in Lyon."
     },
     "hero": {
       "surtitre": "Memoria",
@@ -249,8 +251,8 @@
   },
   "packCadeau": {
     "meta": {
-      "title": "Give Memoria — Horror experience gift voucher in Lyon",
-      "description": "Give a Memoria session: a gift voucher for 3 to 6 players, a personal message, delivery by email and 12 months’ validity."
+      "title": "Memoria gift voucher — Give a horror experience in Lyon",
+      "description": "Give a Memoria session in Lyon: a gift voucher for 3 to 6 players, valid for 12 months, with a personal message. An original gift for thrill-seekers."
     },
     "hero": {
       "surtitre": "Our services · Gift pack",
@@ -331,8 +333,8 @@
   },
   "packPerso": {
     "meta": {
-      "title": "Tailor-made experience — birthdays, stag & hen parties, private hire | Memoria Lyon",
-      "description": "Birthday, stag or hen party, marriage proposal, private hire, corporate event: create a tailor-made Memoria experience in Lyon."
+      "title": "Horror birthdays, hen and stag parties in Lyon | Memoria",
+      "description": "Birthday, hen or stag party, marriage proposal or private hire: live a tailor-made immersive horror experience with live actors in Lyon. Quick quote."
     },
     "hero": {
       "surtitre": "Our services · Tailor-made pack",
@@ -404,8 +406,8 @@
   },
   "presse": {
     "meta": {
-      "title": "Press, filming & influencers — Memoria Lyon",
-      "description": "Journalists, productions, photographers and content creators: Memoria’s hosting, filming and partnership terms, press resources and dedicated contact."
+      "title": "Press, filming and content creators | Memoria Lyon",
+      "description": "Journalists, productions and content creators: filming, reports and partnerships around Memoria, the immersive horror experience in Lyon."
     },
     "hero": {
       "surtitre": "Our services · Press & filming",
@@ -488,8 +490,8 @@
   },
   "teamBuilding": {
     "meta": {
-      "title": "Immersive team building in Lyon — Memoria",
-      "description": "An original, premium team building in Lyon: 90 minutes of immersive adventure with professional actors, three intensity levels, private hire and cocktails. Tailor-made quotes."
+      "title": "Original immersive team building in Lyon | Memoria",
+      "description": "Original team building in Lyon: 90 minutes of immersive experience with live actors, putting cohesion and communication to the test of fear. Tailored quotes."
     },
     "hero": {
       "surtitre": "Team building · Companies",
@@ -663,8 +665,8 @@
   },
   "faq": {
     "meta": {
-      "title": "FAQ — Frequently asked questions | Memoria Lyon",
-      "description": "Duration, number of players, intensity levels, booking, minimum age, getting here: all the answers to your questions before living Memoria in Lyon."
+      "title": "Memoria FAQ — Everything to know before your session in Lyon",
+      "description": "Duration, minimum age, intensity levels, booking, access, health warnings: all the answers before living Memoria, the immersive horror experience in Lyon."
     },
     "hero": {
       "surtitre": "FAQ",
@@ -764,8 +766,8 @@
   },
   "contact": {
     "meta": {
-      "title": "Contact us — Memoria, immersive horror experience in Lyon",
-      "description": "Contact the Memoria team: phone, email, address, opening hours, map, public transport and parking. Reply within 48 hours."
+      "title": "Contact and access — Memoria, 45 cours de la Liberté, Lyon",
+      "description": "Contact Memoria on +33 6 65 71 87 07 or by email. 45 cours de la Liberté, Lyon 3rd: tram T1 Liberté, metro Guillotière. Open 7 days a week, 10 am to midnight."
     },
     "hero": {
       "surtitre": "Contact",

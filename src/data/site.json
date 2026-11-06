@@ -1,6 +1,6 @@
 {
   "name": "Memoria",
-  "siteUrl": "",
+  "siteUrl": "https://memoria-experience.fr",
   "defaultLanguage": "fr",
   "languages": [
     "fr",
@@ -11,5 +11,81 @@
     "4": 43,
     "5": 39,
     "6": 35
-  }
+  },
+  "partage": {
+    "fr": "images/partage-fr.jpg",
+    "en": "images/partage-en.jpg"
+  },
+  "etablissement": {
+    "types": [
+      "EntertainmentBusiness",
+      "TouristAttraction"
+    ],
+    "nom": "Memoria",
+    "autresNoms": [
+      "Memoria Experience",
+      "Memoria Lyon"
+    ],
+    "nomLegal": "MEMORIA EXPERIENCE",
+    "telephone": "+33 6 65 71 87 07",
+    "email": "contact@memoria-experience.fr",
+    "adresse": {
+      "rue": "45 cours de la Liberté",
+      "codePostal": "69003",
+      "ville": "Lyon",
+      "region": "Auvergne-Rhône-Alpes",
+      "pays": "FR"
+    },
+    "latitude": 45.758732,
+    "longitude": 4.8426666,
+    "plan": "https://www.google.com/maps/search/?api=1&query=45%20cours%20de%20la%20Libert%C3%A9%2C%2069003%20Lyon",
+    "ouverture": {
+      "jours": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "debut": "10:00",
+      "fin": "23:59"
+    },
+    "paiements": "Carte bancaire",
+    "siret": "10463353200015",
+    "tva": "FR72104633532",
+    "logo": "images/logo-memoria.png",
+    "images": [
+      "images/partage-fr.jpg",
+      "images/hero-accueil-poster.webp",
+      "images/genese-decors.webp",
+      "images/coulisses-bibliotheque.webp",
+      "images/genese-comediens.webp"
+    ],
+    "reseaux": []
+  },
+  "filAriane": {
+    "notre-histoire.html": "nav.histoire",
+    "pack-cadeau.html": "nav.servicesCadeau",
+    "pack-personnalise.html": "nav.servicesPerso",
+    "presse.html": "nav.servicesPresse",
+    "team-building.html": "nav.teamBuilding",
+    "faq.html": "nav.faq",
+    "contact.html": "nav.contact",
+    "mentions-legales.html": "legal.mentions.titre",
+    "cgv.html": "legal.cgv.titre",
+    "confidentialite.html": "legal.confidentialite.titre",
+    "cookies.html": "legal.cookies.titre"
+  },
+  "typesDePage": {
+    "notre-histoire.html": "AboutPage",
+    "contact.html": "ContactPage",
+    "faq.html": "FAQPage"
+  },
+  "services": [
+    "team-building.html",
+    "pack-personnalise.html",
+    "pack-cadeau.html"
+  ]
 }

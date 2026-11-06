@@ -30,8 +30,8 @@ Prérequis : Node.js 18 ou plus récent, aucune dépendance npm.
   - `{{ROOT}}` : chemin vers la racine du site, à utiliser pour les fichiers (`{{ROOT}}images/…`, `{{ROOT}}css/…`)
   - `{{LANG}}` : code de la langue
   - `{{HREF_FR}}` / `{{HREF_EN}}` : la même page dans l’autre langue (sélecteur de drapeaux)
-  - `{{HEAD_LINKS}}` : canonical, `og:url` et `hreflang`, générés seulement quand `siteUrl` est renseigné
-- Les liens entre pages d’une même langue restent relatifs (`index.html#tarifs`, `faq.html`).
+  - `{{HEAD_LINKS}}` : icônes (`apple-touch-icon`, manifeste), puis, pour les pages indexables et quand `siteUrl` est renseigné : `robots`, canonical, `og:url`, `og:image` de partage, `twitter:card`, balises géographiques, `hreflang` (+ `x-default`) et données structurées JSON-LD. Sur la 404, ajoute un `<base>` absolu pour qu’elle s’affiche correctement quelle que soit l’adresse demandée
+- Les liens entre pages d’une même langue restent relatifs (`index.html#tarifs`, `faq.html`). Au build, les liens vers `index.html` deviennent `./`, `../` ou `en/` : on lie directement l’adresse canonique (`/`, `/en/`).
 - Ajouter une langue : l’ajouter dans `src/data/site.json` (`languages`) et créer `src/i18n/<code>.json`.
 
 ## Structure
@@ -83,17 +83,31 @@ Ne jamais écrire un prix en dur dans une page ou un fichier de traduction.
 
 Le workflow GitHub Pages construit le site à chaque push sur `main` (préversion non indexée). Pour l’hébergement définitif (hébergement OVH du domaine `memoria-experience.fr`), publier le contenu de `dist/`.
 
+## Référencement
+
+Tout est généré par `build.js` à partir de `src/data/site.json` (`siteUrl`, `partage`, `etablissement`, `filAriane`, `typesDePage`, `services`) et des textes `meta.*` de chaque page :
+
+- **Titres et descriptions** réécrits pour chaque page en FR et en EN (50 à 63 caractères pour les titres, 137 à 160 pour les descriptions), avec les requêtes visées : expérience immersive d’horreur, comédiens, Lyon 3e, escape game, team building, EVJF / EVG, anniversaire, bon cadeau
+- **Données structurées JSON-LD** sur chaque page indexable : établissement (`EntertainmentBusiness` + `TouristAttraction` : adresse, GPS, téléphone, e-mail, horaires 7 j/7 10 h – minuit, tarifs par nombre de joueurs, action « Réserver », SIRET, TVA, logo, photos), `WebSite`, page typée (`AboutPage`, `ContactPage`, `FAQPage` avec les 33 questions-réponses), fil d’Ariane, `Service` pour Team building, Expérience sur mesure et Offrir. Les liens des réseaux sociaux s’ajouteront dans `etablissement.reseaux` (→ `sameAs`)
+- **Partage** : `og:image` 1200 × 630 par langue (`images/partage-fr.jpg`, `images/partage-en.jpg`) avec texte alternatif, `twitter:card` grand format
+- **Indexation** : `robots.txt` (tout autorisé sauf `/scripts/`, lien vers le sitemap), `sitemap.xml` avec les alternatives FR / EN / `x-default` et les photos (sitemap images), canonical sur chaque page, 404 en `noindex` (404 anglaise servie pour `/en/` grâce à `src/racine/en/.htaccess`)
+- **Icônes** : `apple-touch-icon` (180 px), `site.webmanifest` avec icônes 192 et 512 px, logo carré `images/logo-memoria.png` pour Google
+- **IA et moteurs de réponse** : `llms.txt` à la racine (résumé FR / EN, faits clés, liens vers les pages) ; la FAQ structurée sert aussi de source aux réponses générées
+- **Serveur** (`src/racine/.htaccess`) : HTTPS forcé, `www` → sans `www`, `/index.html` → `/` en 301, compression, cache navigateur (CSS et JS versionnés : 1 an ; images et vidéos : 1 mois ; HTML : jamais), type MIME du manifeste
+- **Préversion GitHub Pages** : `robots.txt` remplacé par un `Disallow: /` et canonical vers le site définitif, donc jamais indexée (sa page 404 n’a pas de style, le `<base>` visant la racine du domaine définitif)
+
 Check-list de mise en ligne et de référencement (la fiche Google Business Profile est faite par le client) :
 
-- [ ] Renseigner `siteUrl` (`https://memoria-experience.fr`) dans `src/data/site.json` : active canonical, `og:url`, `hreflang` et `sitemap.xml`
-- [ ] Vérifier que le `robots.txt` publié autorise l’indexation (celui de la préversion l’interdit) et pointe vers le sitemap
-- [ ] Ajouter une image de partage (`og:image` 1200 × 630, adresse absolue) et `twitter:card`
-- [ ] Ajouter les données structurées JSON-LD de l’établissement (nom, adresse, coordonnées GPS, téléphone, horaires, prix, réseaux sociaux) sur l’accueil et la page Contact
-- [ ] Relire titres et descriptions de chaque page avec les textes définitifs ; textes alternatifs des vraies photos
-- [ ] Ajouter un `apple-touch-icon`
+- [x] `siteUrl`, canonical, `hreflang`, `og:image`, `twitter:card`, JSON-LD, `apple-touch-icon`, manifeste, sitemap images, `llms.txt` (6 novembre)
+- [x] Titres et descriptions de chaque page réécrits avec les textes définitifs (6 novembre)
 - [x] HTTPS forcé et redirection 301 de `www.memoria-experience.fr` vers `memoria-experience.fr` (dans `src/racine/.htaccess` ; certificats Let’s Encrypt déjà actifs sur les deux adresses)
-- [ ] Déclarer le domaine dans Google Search Console (enregistrement TXT dans la zone DNS OVH) et y soumettre `sitemap.xml` ; Bing Webmaster Tools en option
-- [ ] Ajouter l’adresse du site dans les réglages de 4escape et dans la fiche Google Business (lien « Réserver » vers `https://memoria-experience.fr/#reservation`)
+- [ ] Après la mise en ligne : vérifier `https://memoria-experience.fr/robots.txt`, `/sitemap.xml`, `/site.webmanifest`, une 404 en FR et en `/en/`, la redirection de `/index.html`
+- [ ] Tester l’accueil, la FAQ et la page Contact dans le test des résultats enrichis de Google (search.google.com/test/rich-results) et le validateur schema.org
+- [ ] Déclarer le domaine dans Google Search Console (propriété de domaine, enregistrement TXT `google-site-verification` déjà présent dans la zone DNS OVH), soumettre `sitemap.xml`, demander l’indexation de l’accueil et des pages principales
+- [ ] Bing Webmaster Tools : importer depuis Search Console, soumettre le sitemap (Bing alimente aussi Copilot et ChatGPT Search)
+- [ ] Ajouter l’adresse du site dans la fiche Google Business (lien « Réserver » vers `https://memoria-experience.fr/#reservation`) ; même nom, adresse et téléphone partout
+- [ ] Liens des réseaux sociaux : `#` dans le site et `etablissement.reseaux` vide en attendant
+- [ ] Bande-annonce YouTube : à l’arrivée de l’identifiant, l’ajouter au site et aux données structurées (`VideoObject`)
 - [ ] Tester sur le serveur : réservation de bout en bout (paiement réel une fois 4escape Pay activé), formulaires, page 404, versions FR / EN
 
 Le code source ne contient volontairement aucun commentaire : le suivi du projet se fait dans ce fichier, `PROJECT_BRIEF.md` et `QUESTIONS_CLIENT.md`.

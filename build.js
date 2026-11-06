@@ -129,18 +129,204 @@ function publicUrl(config, relativePath) {
   return `${config.siteUrl}/${relativePath.replace(/(^|\/)index\.html$/, '$1')}`;
 }
 
-function headLinks(config, language, name) {
-  if (!config.siteUrl) return '';
-  const lines = [
-    `<link rel="canonical" href="${publicUrl(config, outputPath(language, config, name))}">`,
-    `<meta property="og:url" content="${publicUrl(config, outputPath(language, config, name))}">`,
+function attribute(text) {
+  return String(text).replace(/&/g, '&amp;').replace(/"/g, '&quot;');
+}
+
+function plainText(html, tokens = {}) {
+  let text = String(html);
+  for (const [token, value] of Object.entries(tokens)) text = text.replaceAll(token, value);
+  return text.replace(/<[^>]+>/g, ' ').replace(/&nbsp;|&#8239;|\u202f/g, ' ').replace(/&amp;/g, '&')
+    .replace(/\u00ad/g, '').replace(/\s+([.,;:!?»)])/g, (match, sign) => (/[;:!?»]/.test(sign) ? ` ${sign}` : sign))
+    .replace(/\s+/g, ' ').trim();
+}
+
+function templateKey(template, pattern) {
+  const match = template.match(pattern);
+  return match ? match[1] : null;
+}
+
+function structuredData(config, language, name, template, strings) {
+  const business = config.etablissement;
+  if (!business) return null;
+  const site = config.siteUrl;
+  const prices = priceTokens(config, language);
+  const home = publicUrl(config, outputPath(language, config, 'index.html'));
+  const url = publicUrl(config, outputPath(language, config, name));
+  const locale = strings['meta.ogLocale'].replace('_', '-');
+  const titleKey = templateKey(template, /<title>\{\{t:([\w.-]+)\}\}<\/title>/);
+  const descriptionKey = templateKey(template, /<meta name="description" content="\{\{t:([\w.-]+)\}\}">/);
+  const businessId = `${site}/#etablissement`;
+  const amounts = Object.values(config.tarifs);
+
+  const establishment = {
+    '@type': business.types,
+    '@id': businessId,
+    name: business.nom,
+    alternateName: business.autresNoms,
+    legalName: business.nomLegal,
+    description: plainText(strings['meta.description']),
+    slogan: plainText(strings['hero.accroche']),
+    url: home,
+    logo: `${site}/${business.logo}`,
+    image: business.images.map((image) => `${site}/${image}`),
+    telephone: business.telephone,
+    email: business.email,
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: business.adresse.rue,
+      postalCode: business.adresse.codePostal,
+      addressLocality: business.adresse.ville,
+      addressRegion: business.adresse.region,
+      addressCountry: business.adresse.pays,
+    },
+    geo: { '@type': 'GeoCoordinates', latitude: business.latitude, longitude: business.longitude },
+    hasMap: business.plan,
+    openingHoursSpecification: [{
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: business.ouverture.jours,
+      opens: business.ouverture.debut,
+      closes: business.ouverture.fin,
+    }],
+    priceRange: `${Math.min(...amounts)} € – ${Math.max(...amounts)} €`,
+    currenciesAccepted: 'EUR',
+    paymentAccepted: business.paiements,
+    areaServed: { '@type': 'City', name: business.adresse.ville },
+    knowsLanguage: config.languages,
+    isAccessibleForFree: false,
+    publicAccess: true,
+    vatID: business.tva,
+    identifier: { '@type': 'PropertyValue', propertyID: 'SIRET', value: business.siret },
+    makesOffer: Object.entries(config.tarifs).map(([players, price]) => ({
+      '@type': 'Offer',
+      name: plainText(strings[`packCadeau.formules.session${players}`] || `${players}`),
+      price: price * Number(players),
+      priceCurrency: 'EUR',
+      priceSpecification: {
+        '@type': 'UnitPriceSpecification',
+        price,
+        priceCurrency: 'EUR',
+        referenceQuantity: { '@type': 'QuantitativeValue', value: 1, unitCode: 'C62' },
+      },
+      availability: 'https://schema.org/InStock',
+      url: `${home}#reservation`,
+    })),
+    potentialAction: {
+      '@type': 'ReserveAction',
+      target: { '@type': 'EntryPoint', urlTemplate: `${home}#reservation`, inLanguage: locale },
+      result: { '@type': 'Reservation', name: plainText(strings['nav.reserverSession']) },
+    },
+  };
+  if (business.reseaux.length) establishment.sameAs = business.reseaux;
+
+  const graph = [
+    establishment,
+    {
+      '@type': 'WebSite',
+      '@id': `${site}/#site`,
+      url: `${site}/`,
+      name: config.name,
+      inLanguage: config.languages.map((code) => code === language ? locale : code),
+      publisher: { '@id': businessId },
+    },
   ];
+
+  const page = {
+    '@type': (config.typesDePage || {})[name] || 'WebPage',
+    '@id': `${url}#page`,
+    url,
+    name: titleKey ? plainText(strings[titleKey]) : config.name,
+    inLanguage: locale,
+    isPartOf: { '@id': `${site}/#site` },
+    about: { '@id': businessId },
+  };
+  if (descriptionKey) page.description = plainText(strings[descriptionKey]);
+
+  const crumbKey = (config.filAriane || {})[name];
+  if (crumbKey) {
+    page.breadcrumb = { '@id': `${url}#fil` };
+    graph.push({
+      '@type': 'BreadcrumbList',
+      '@id': `${url}#fil`,
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: plainText(strings['meta.filAccueil']), item: home },
+        { '@type': 'ListItem', position: 2, name: plainText(strings[crumbKey]), item: url },
+      ],
+    });
+  }
+
+  if (page['@type'] === 'FAQPage') {
+    const questions = [...template.matchAll(/\{\{t:(faq\.[\w]+)\.q(\d+)\}\}/g)];
+    page.mainEntity = questions.map(([, group, number]) => ({
+      '@type': 'Question',
+      name: plainText(strings[`${group}.q${number}`], prices),
+      acceptedAnswer: { '@type': 'Answer', text: plainText(strings[`${group}.r${number}`], prices) },
+    }));
+  }
+
+  if ((config.services || []).includes(name)) {
+    graph.push({
+      '@type': 'Service',
+      '@id': `${url}#service`,
+      name: plainText(strings[crumbKey]),
+      serviceType: plainText(strings[crumbKey]),
+      description: descriptionKey ? plainText(strings[descriptionKey]) : undefined,
+      provider: { '@id': businessId },
+      areaServed: { '@type': 'City', name: business.adresse.ville },
+      url,
+    });
+  }
+
+  graph.push(page);
+  return { '@context': 'https://schema.org', '@graph': graph };
+}
+
+function headLinks(config, language, name, root, template, translations) {
+  const strings = translations[language];
+  const lines = [
+    ...(name === '404.html' ? [`<base href="/${path.posix.dirname(outputPath(language, config, name)).replace(/^\.$/, '').replace(/(.)$/, '$1/')}">`] : []),
+    `<link rel="apple-touch-icon" href="${root}images/apple-touch-icon.png">`,
+    `<link rel="manifest" href="${root}site.webmanifest">`,
+  ];
+  const indexable = !/<meta name="robots"/i.test(template);
+  if (!indexable || !config.siteUrl) return lines.join('\n  ');
+  lines.push('<meta name="robots" content="index, follow, max-image-preview:large">');
+
+  const url = publicUrl(config, outputPath(language, config, name));
+  lines.push(
+    `<link rel="canonical" href="${url}">`,
+    `<meta property="og:url" content="${url}">`,
+    `<meta property="og:site_name" content="${attribute(config.name)}">`,
+  );
+  const place = config.etablissement;
+  if (place && place.latitude && place.longitude) {
+    lines.push(
+      `<meta name="geo.placename" content="${attribute(place.adresse.ville)}">`,
+      `<meta name="geo.position" content="${place.latitude};${place.longitude}">`,
+      `<meta name="ICBM" content="${place.latitude}, ${place.longitude}">`,
+    );
+  }
+  for (const alternate of config.languages) {
+    if (alternate !== language) lines.push(`<meta property="og:locale:alternate" content="${translations[alternate]['meta.ogLocale']}">`);
+  }
+  const share = (config.partage || {})[language];
+  if (share) {
+    lines.push(
+      `<meta property="og:image" content="${config.siteUrl}/${share}">`,
+      '<meta property="og:image:width" content="1200">',
+      '<meta property="og:image:height" content="630">',
+      `<meta property="og:image:alt" content="${attribute(strings['meta.partageAlt'])}">`,
+      '<meta name="twitter:card" content="summary_large_image">',
+    );
+  }
   if (config.languages.length > 1) {
     for (const alternate of config.languages) {
       lines.push(`<link rel="alternate" hreflang="${alternate}" href="${publicUrl(config, outputPath(alternate, config, name))}">`);
     }
     lines.push(`<link rel="alternate" hreflang="x-default" href="${publicUrl(config, outputPath(config.defaultLanguage, config, name))}">`);
   }
+  const data = structuredData(config, language, name, template, strings);
+  if (data) lines.push(`<script type="application/ld+json">${JSON.stringify(data).replace(/</g, '\\u003c')}</script>`);
   return lines.join('\n  ');
 }
 
@@ -155,7 +341,7 @@ function priceTokens(config, language) {
   return tokens;
 }
 
-function renderPage(template, { name, language, config, partials, strings }) {
+function renderPage(template, { name, language, config, partials, strings, translations }) {
   const root = language === config.defaultLanguage ? '' : '../';
   let html = template;
   for (const [token, partial] of Object.entries(partials)) {
@@ -170,7 +356,7 @@ function renderPage(template, { name, language, config, partials, strings }) {
   const systemTokens = {
     '{{ROOT}}': root,
     '{{LANG}}': language,
-    '{{HEAD_LINKS}}': headLinks(config, language, name),
+    '{{HEAD_LINKS}}': headLinks(config, language, name, root, template, translations),
     ...priceTokens(config, language),
   };
   for (const alternate of config.languages) {
@@ -179,6 +365,8 @@ function renderPage(template, { name, language, config, partials, strings }) {
   for (const [token, value] of Object.entries(systemTokens)) {
     html = html.replaceAll(token, () => value);
   }
+
+  html = html.replace(/href="((?:\.\.\/)*(?:[a-z]{2}\/)?)index\.html(?=[#"])/g, (match, prefix) => `href="${prefix || './'}`);
 
   const unresolved = html.match(/\{\{[^{}]+\}\}/);
   if (unresolved) throw new Error(`Jeton non remplacé (${unresolved[0]}) dans src/pages/${name} (${language}).`);
@@ -194,14 +382,23 @@ function buildSitemap(config, renderedPages) {
     for (const language of config.languages) {
       if (!indexable.some((page) => page.name === name && page.language === language)) continue;
       const alternates = multilingual
-        ? config.languages.map((alternate) => `\n    <xhtml:link rel="alternate" hreflang="${alternate}" href="${publicUrl(config, outputPath(alternate, config, name))}"/>`).join('')
+        ? [...config.languages, 'x-default'].map((alternate) => `\n    <xhtml:link rel="alternate" hreflang="${alternate}" href="${publicUrl(config, outputPath(alternate === 'x-default' ? config.defaultLanguage : alternate, config, name))}"/>`).join('')
         : '';
-      entries.push(`  <url>\n    <loc>${publicUrl(config, outputPath(language, config, name))}</loc>${alternates}\n  </url>`);
+      const url = publicUrl(config, outputPath(language, config, name));
+      const { html } = indexable.find((page) => page.name === name && page.language === language);
+      const images = [...new Set([...html.matchAll(/<img\b[^>]*>/g)]
+        .map(([tag]) => [tag.match(/\ssrc="([^"]+)"/), tag.match(/\salt="([^"]+)"/)])
+        .filter(([src, alt]) => src && alt && !src[1].endsWith('.svg'))
+        .map(([src]) => new URL(src[1], url).href))]
+        .map((image) => `\n    <image:image><image:loc>${image}</image:loc></image:image>`).join('');
+      entries.push(`  <url>\n    <loc>${url}</loc>${alternates}${images}\n  </url>`);
     }
   }
-  const namespaces = multilingual
-    ? 'xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"'
-    : 'xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"';
+  const namespaces = [
+    'xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"',
+    multilingual ? 'xmlns:xhtml="http://www.w3.org/1999/xhtml"' : '',
+    'xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"',
+  ].filter(Boolean).join(' ');
   return ['<?xml version="1.0" encoding="UTF-8"?>', `<urlset ${namespaces}>`, ...entries, '</urlset>', ''].join('\n');
 }
 
@@ -226,7 +423,7 @@ function build() {
   for (const name of pageNames) {
     const template = fs.readFileSync(path.join(pagesDirectory, name), 'utf8');
     for (const language of config.languages) {
-      const html = versionAssets(renderPage(template, { name, language, config, partials, strings: translations[language] }), versions);
+      const html = versionAssets(renderPage(template, { name, language, config, partials, strings: translations[language], translations }), versions);
       renderedPages.push({ name, language, file: outputPath(language, config, name), html });
     }
   }
@@ -249,7 +446,7 @@ function build() {
   const rootFiles = path.join(SRC, 'racine');
   if (fs.existsSync(rootFiles)) copyDirectory(rootFiles, DIST);
 
-  const robotsLines = ['User-agent: *', 'Allow: /'];
+  const robotsLines = ['User-agent: *', 'Allow: /', 'Disallow: /scripts/'];
   if (config.siteUrl) {
     fs.writeFileSync(path.join(DIST, 'sitemap.xml'), buildSitemap(config, renderedPages));
     robotsLines.push('', `Sitemap: ${config.siteUrl}/sitemap.xml`);

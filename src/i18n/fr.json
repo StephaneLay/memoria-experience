@@ -1,10 +1,12 @@
 {
   "meta": {
-    "title": "Memoria — Expérience immersive d’horreur à Lyon",
-    "description": "Pensionnat de la Liberté, 1953. Entrez dans Memoria, une expérience immersive d’horreur de 1h30 avec comédiens, sur 200 m² et 3 niveaux d’intensité.",
+    "title": "Memoria — Expérience immersive d’horreur avec comédiens à Lyon",
+    "description": "Pensionnat de la Liberté, 1953. Plus qu’un escape game : 1h30 d’horreur immersive avec comédiens à Lyon 3e, de 3 à 6 joueurs, 3 niveaux d’intensité.",
     "ogTitle": "Memoria — Oserez-vous franchir les portes du pensionnat ?",
     "ogLocale": "fr_FR",
-    "langName": "Français"
+    "langName": "Français",
+    "partageAlt": "Memoria, expérience immersive d’horreur à Lyon : le logotype doré sur le portrait d’une fillette du Pensionnat de la Liberté",
+    "filAccueil": "Accueil"
   },
   "nav": {
     "skip": "Aller au contenu",
@@ -117,8 +119,8 @@
   },
   "notreHistoire": {
     "meta": {
-      "title": "Notre histoire — Memoria, expérience immersive d’horreur à Lyon",
-      "description": "Une passion, des années de travail et un pensionnat oublié : découvrez les coulisses de Memoria et la sombre histoire du Pensionnat de la Liberté."
+      "title": "Notre histoire — Les créateurs et le pensionnat | Memoria Lyon",
+      "description": "Deux passionnés, des mois de chantier et un pensionnat fermé en 1953 : découvrez les coulisses de Memoria, expérience immersive d’horreur à Lyon."
     },
     "hero": {
       "surtitre": "Memoria",
@@ -249,8 +251,8 @@
   },
   "packCadeau": {
     "meta": {
-      "title": "Offrir Memoria — Bon cadeau expérience d’horreur à Lyon",
-      "description": "Offrez une session Memoria : bon cadeau de 3 à 6 joueurs, message personnalisé, envoi par e-mail et validité de 12 mois."
+      "title": "Bon cadeau Memoria — Offrir une expérience d’horreur à Lyon",
+      "description": "Offrez une session Memoria à Lyon : bon cadeau de 3 à 6 joueurs, valable 12 mois, avec message personnalisé. Un cadeau original pour les amateurs de frissons."
     },
     "hero": {
       "surtitre": "Nos services · Pack cadeau",
@@ -331,8 +333,8 @@
   },
   "packPerso": {
     "meta": {
-      "title": "Expérience sur mesure — anniversaire, EVJF, privatisation | Memoria Lyon",
-      "description": "Anniversaire, enterrement de vie de célibataire, demande en mariage, privatisation, entreprise : créez une expérience Memoria sur mesure à Lyon."
+      "title": "Anniversaire, EVJF, EVG d’horreur à Lyon | Memoria",
+      "description": "Anniversaire, EVJF, EVG, demande en mariage ou privatisation : vivez une expérience d’horreur immersive sur mesure à Lyon, avec comédiens. Devis rapide."
     },
     "hero": {
       "surtitre": "Nos services · Pack personnalisé",
@@ -404,8 +406,8 @@
   },
   "presse": {
     "meta": {
-      "title": "Presse, tournages & influenceurs — Memoria Lyon",
-      "description": "Journalistes, productions, photographes et créateurs de contenu : conditions d’accueil, de tournage et de partenariat de Memoria, ressources presse et contact dédié."
+      "title": "Presse, tournages et créateurs de contenu | Memoria Lyon",
+      "description": "Journalistes, productions et créateurs de contenu : tournages, reportages et partenariats autour de Memoria, l’expérience immersive d’horreur de Lyon."
     },
     "hero": {
       "surtitre": "Nos services · Presse & tournages",
@@ -488,8 +490,8 @@
   },
   "teamBuilding": {
     "meta": {
-      "title": "Team building immersif à Lyon — Memoria",
-      "description": "Un team building original et premium à Lyon : 1h30 d’aventure immersive avec comédiens professionnels, trois niveaux d’intensité, privatisation et cocktail. Devis sur mesure."
+      "title": "Team building immersif et original à Lyon | Memoria",
+      "description": "Team building original à Lyon : 1h30 d’expérience immersive avec comédiens, cohésion et communication à l’épreuve de la peur. Option cocktail, devis sur mesure."
     },
     "hero": {
       "surtitre": "Team building · Entreprises",
@@ -663,8 +665,8 @@
   },
   "faq": {
     "meta": {
-      "title": "FAQ — Questions fréquentes | Memoria Lyon",
-      "description": "Durée, nombre de joueurs, niveaux d’intensité, réservation, âge minimum, accès : toutes les réponses à vos questions avant de vivre Memoria à Lyon."
+      "title": "FAQ Memoria — Tout savoir avant votre session à Lyon",
+      "description": "Durée, âge minimum, niveaux d’intensité, réservation, accès, contre-indications : toutes les réponses avant de vivre Memoria, l’expérience d’horreur de Lyon."
     },
     "hero": {
       "surtitre": "FAQ",
@@ -764,8 +766,8 @@
   },
   "contact": {
     "meta": {
-      "title": "Nous contacter — Memoria, expérience immersive d’horreur à Lyon",
-      "description": "Contactez l’équipe Memoria : téléphone, e-mail, adresse, horaires, plan d’accès, transports et stationnement. Réponse sous 48 heures."
+      "title": "Contact et accès — Memoria, 45 cours de la Liberté à Lyon",
+      "description": "Contactez Memoria au 06 65 71 87 07 ou par e-mail. 45 cours de la Liberté, Lyon 3e : tram T1 Liberté, métro Guillotière. Ouvert 7 j/7 de 10 h à minuit."
     },
     "hero": {
       "surtitre": "Contact",
