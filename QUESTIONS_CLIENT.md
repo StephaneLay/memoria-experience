@@ -6,8 +6,8 @@ Rien de ce qui suit n’est bloquant pour avancer sur le design ; ce sont les co
 
 - [x] **Hero de l’accueil** : vidéo « HERO SECTION V1 » reçue le 6 novembre (4K, 288 Mo) et intégrée, réencodée sans le son (5 Mo sur ordinateur, 2,5 Mo sur mobile)
 - [x] **Hero des autres pages** (6 novembre) : en attendant les photos dédiées, chaque page reprend une photo différente de l’accueil (classe, poupées, piano, radio, bureau, sanglier, portrait de fillette, famille, portrait encadré, fillettes, poupée de 1926), avec un cadrage horizontal et un cadrage vertical pour mobile. Le client pourra fournir une photo dédiée par page plus tard
-- [ ] **Photo de fond du module de réservation** (accueil) : l’image sans droits a été retirée ; fond rouge uni en attendant
-- [ ] **Photos des bandeaux de transition en parallaxe** : 4 bandeaux (2 sur l’accueil, 1 sur Notre histoire, 1 sur Team building). Le bandeau Team building est **sans photo** en attendant (image sans droits retirée) ; idéalement 1920 px de large au minimum
+- [x] **Photo de fond du module de réservation** (contenu photo jugé complet le 7 novembre) (accueil) : l’image sans droits a été retirée ; fond rouge uni en attendant
+- [x] **Photos des bandeaux de transition en parallaxe** (contenu photo jugé complet le 7 novembre) : 4 bandeaux (2 sur l’accueil, 1 sur Notre histoire, 1 sur Team building). Le bandeau Team building est **sans photo** en attendant (image sans droits retirée) ; idéalement 1920 px de large au minimum
 - [ ] **Bande-annonce** : lien YouTube
 - [x] **Pictogrammes de Hugo** reçus le 6 novembre et intégrés (accueil et Team building), variante dorée des niveaux (la rouge, plus sombre, ressortait moins sur le fond noir)
 - [x] **Reçues le 6 novembre et intégrées** : portraits des fondateurs, étape 05 « La technique », quatre photos pour l’histoire de l’accueil
@@ -17,11 +17,11 @@ Rien de ce qui suit n’est bloquant pour avancer sur le design ; ce sont les co
 - [x] **Contenu photo complet** (6 novembre au soir) : la case « L’équipe au complet » est retirée, la galerie des coulisses est réorganisée sur 7 photos. Les photos dédiées des héros, des bandeaux et du fond de la réservation pourront remplacer plus tard les photos provisoires
 - [x] **Facebook retiré** (pas de page Facebook)
 - [ ] **Après le déploiement : liens des réseaux sociaux** (Instagram, YouTube, TikTok), toujours en `#` dans l’en-tête, la colonne Contact de l’accueil et la page Contact
-- [ ] **Vidéo du hero Team building**
+- [x] **Vidéo du hero Team building** (abandonnée le 7 novembre : la photo reste ; seule la bande-annonce est attendue)
 - [ ] **Liens des réseaux sociaux**
 - [x] **Images sans droits retirées** (6 novembre) : photo du hall avec filigrane, œil, escalier et rideau sont supprimés du site. Les bandeaux et la vignette de la bande-annonce utilisent des photos du client (sous-sol 1941, surveillant 1951, bibliothèque du décor, infirmières 1915, poupée 1904), en attendant les photos dédiées
 - [x] **Plan d’accès** (accueil et Contact) : la capture Google Maps (sans attribution, avec le repère d’un concurrent) est remplacée le 6 novembre par un plan OpenStreetMap au même rendu et au même cadrage. Mention « © OpenStreetMap · © OpenMapTiles » sur l’image et dans les crédits des mentions légales (section 4) ; le repère rouge pointe désormais exactement sur le 45 cours de la Liberté
-- [ ] **Entrée et accès au bâtiment** (interphone, étage…) : la ligne « informations à venir » a été retirée de la page Contact faute d’information
+- [x] **Entrée et accès au bâtiment** (pas d’information supplémentaire nécessaire, 7 novembre) (interphone, étage…) : la ligne « informations à venir » a été retirée de la page Contact faute d’information
 
 ## Décisions prises en intégrant la fiche (à valider)
 
@@ -69,23 +69,23 @@ Le widget est intégré sur l’accueil. Aide officielle : https://help.4escape.
 
 **Bloquant pour la mise en ligne (à lancer tout de suite, délais de validation)**
 
-- [ ] **4escape Pay** : sans lui, le bloc de paiement ne se charge pas (erreur « Invalid Payment Store Data »). Procédure (article « Mise en place 4escape Pay (onboarding) ») : demander l’activation au support → Admin → Paramétrage → 4escape Pay (intégration) → onglet « Mes informations » → « Créer mon compte » → onboarding (SIRET, n° de TVA, pièces d’identité, RIB, deux documents à signer) → prévenir l’équipe 4escape → **validation sous 48 à 96 h**
-- [ ] **Mailjet** : sans lui, aucun e-mail n’est envoyé (confirmations, bons cadeaux). Le client crée un compte Mailjet et transmet ses clés au support 4escape via `paste.4escape.io` ; nous ajouterons ensuite les enregistrements DNS de Mailjet chez OVH
+- [x] **4escape Pay** (actif, vérifié le 6 novembre) : sans lui, le bloc de paiement ne se charge pas (erreur « Invalid Payment Store Data »). Procédure (article « Mise en place 4escape Pay (onboarding) ») : demander l’activation au support → Admin → Paramétrage → 4escape Pay (intégration) → onglet « Mes informations » → « Créer mon compte » → onboarding (SIRET, n° de TVA, pièces d’identité, RIB, deux documents à signer) → prévenir l’équipe 4escape → **validation sous 48 à 96 h**
+- [x] **Mailjet** (relié le 6 novembre, 12 modèles et workflows) : sans lui, aucun e-mail n’est envoyé (confirmations, bons cadeaux). Le client crée un compte Mailjet et transmet ses clés au support 4escape via `paste.4escape.io` ; nous ajouterons ensuite les enregistrements DNS de Mailjet chez OVH
 
 **Fiche de la session « Session classique » (Menu → Rooms → la room → Modifier)**
 
 - [x] **Créneaux** (dont celui de minuit) : vérifiés et validés par le client le 6 novembre
-- [ ] **Créneau de minuit affiché deux fois** (en haut de la journée pour la nuit précédente, en bas pour la nuit suivante) : réglage par défaut de 4escape (journée affichée de 00 h 00 à 24 h 00). Correction dans Admin → Personnalisation → Calendrier : « Afficher une journée en ligne à partir de X minutes » = 540 (9 h) et « Une journée en ligne dure X minutes » = 1500 (fin à 1 h le lendemain). Le créneau de minuit n’apparaît alors qu’une fois, à la fin de la soirée à laquelle il appartient (article d’aide « Afficher mon planning après minuit »)
-- [ ] **Créneaux** : durée 90 min + pause 30 min = un créneau toutes les 2 h. Fixer la vraie pause entre deux groupes, puis générer le planning réel (onglet « Planning & Prix », jours et heures d’ouverture)
-- [ ] **Date d’ouverture des réservations** : à renseigner si Memoria ouvre à une date précise, pour qu’on ne puisse pas réserver avant
+- [x] **Créneau de minuit affiché deux fois** (corrigé et vérifié le 6 novembre) (en haut de la journée pour la nuit précédente, en bas pour la nuit suivante) : réglage par défaut de 4escape (journée affichée de 00 h 00 à 24 h 00). Correction dans Admin → Personnalisation → Calendrier : « Afficher une journée en ligne à partir de X minutes » = 540 (9 h) et « Une journée en ligne dure X minutes » = 1500 (fin à 1 h le lendemain). Le créneau de minuit n’apparaît alors qu’une fois, à la fin de la soirée à laquelle il appartient (article d’aide « Afficher mon planning après minuit »)
+- [x] **Créneaux** (validés par le client le 6 novembre) : durée 90 min + pause 30 min = un créneau toutes les 2 h. Fixer la vraie pause entre deux groupes, puis générer le planning réel (onglet « Planning & Prix », jours et heures d’ouverture)
+- [x] **Date d’ouverture des réservations** : 13 novembre 2026 (7 novembre, vérifiée dans le calendrier du widget : jours précédents hachurés) ; à renseigner si Memoria ouvre à une date précise, pour qu’on ne puisse pas réserver avant
 - [ ] **Arrivée des joueurs** : « Demander l’arrivée X min avant » → 5 (CGV art. 14 et page Contact)
 - [ ] **Adresse** de la salle (rue, code postal, ville) : vide → 45 cours de la Liberté, 69003 Lyon
-- [ ] **URL de la page vitrine** → `https://memoria-experience.fr/` ; **URL publique de réservation (widget)** → `https://memoria-experience.fr/#reservation` (toujours vides le 6 novembre)
-- [ ] **Nom affiché sur le web** (« Session classique ») et **image de la room** (format 16:9, remplace l’image de coffre-fort) ; vidéo YouTube quand elle existe
+- [x] **URL de la page vitrine** → `https://memoria-experience.fr/` ; **URL publique de réservation (widget)** → `https://memoria-experience.fr/#reservation` (toujours vides le 6 novembre)
+- [x] **Nom affiché sur le web** (« Pensionnat des damnés » / « Damned Academy » depuis le 6 novembre ; ancien : « Session classique ») et **image de la room** (format 16:9, remplace l’image de coffre-fort) ; vidéo YouTube quand elle existe
 - [x] **Groupes de 2 et jusqu’à 8 joueurs** : règles de la description de la room désormais sur le site (FAQ, CGV art. 4, Team building) ; la description de la room peut être réécrite
 - [ ] **Paiement partagé** : la FAQ annonce que chaque participant peut régler sa part → cocher « Autoriser le paiement partagé » sur la room
-- [ ] **Conditions de paiement** (total en ligne / sur place / acompte) et options **paiement partagé** et **empreinte bancaire** : à trancher, puis compléter l’article 3 des CGV
-- [ ] **Niveau d’intensité** : onglet « Variations » de la room → variation « Niveau d’intensité », type Personnalisé, champ radio, « à choisir » + « choix obligatoire », valeurs Demi-pensionnaire / Pensionnaire / Jusqu’en enfer ! (Pensionnaire par défaut). L’affichage dans le widget demande ensuite une intervention de 4escape
+- [x] **Conditions de paiement** (règlement en ligne du montant total retenu ; total en ligne / sur place / acompte) et options **paiement partagé** et **empreinte bancaire** : à trancher, puis compléter l’article 3 des CGV
+- [x] **Niveau d’intensité** (variation créée et traduite ; affichage dans le widget attendu lundi) : onglet « Variations » de la room → variation « Niveau d’intensité », type Personnalisé, champ radio, « à choisir » + « choix obligatoire », valeurs Demi-pensionnaire / Pensionnaire / Jusqu’en enfer ! (Pensionnaire par défaut). L’affichage dans le widget demande ensuite une intervention de 4escape
 - [ ] Idée : une variation obligatoire « Je confirme que tous les participants ont au moins 12 ans et ont lu les contre-indications » (l’aide présente cet usage)
 
 **Ailleurs dans l’admin**
@@ -93,9 +93,9 @@ Le widget est intégré sur l’accueil. Aide officielle : https://help.4escape.
 - [x] **Profil → Société → Site internet** : `https://memoria-experience.fr/` (vérifié le 6 novembre)
 - [ ] **Bon cadeau, test du 6 novembre : pas encore achetable**. « Choisissez un modèle » est vide (aucun modèle PDF chargé), donc « Réserver » reste grisé. Le produit n’a qu’un prix (3 joueurs, 147 €) : ajouter 4, 5 et 6 joueurs (172 / 195 / 210 €), une image et les textes anglais. La page Offrir du site reste en « bientôt disponible » pour la mise en ligne ; il faudra la brancher sur le produit une fois prêt
 - [ ] **Bon cadeau** (test du 2 novembre) : produit « Bon cadeau memoria » créé (ID `6ae8a098aa0dcf48cd98d57c`, envoi par e-mail, 147 € pour 3 joueurs). **Aucun widget spécial n’est nécessaire** : le widget de réservation l’ouvre directement (`data-redirect-route="/product/6ae8a098aa0dcf48cd98d57c"`), avec quantité, mode d’envoi (j’imprime / envoi au destinataire), « Offert par », « Pour », message (80 caractères) et e-mail du destinataire. Il manque le **modèle PDF** du bon (Admin → Paramétrages → PDF - Gestion des PDF → « Bon cadeau ») : sans lui, « Ajouter au panier » reste bloqué. Modèle retenu par le client : `maquette/bon-cadeau-memoria.pdf` (A5 ; source `maquette/bon-cadeau-memoria.html`). **Revu le 5 novembre** : bon **par nombre de joueurs** (une déclinaison par formule : 3, 4, 5 et 6 joueurs à 147 / 172 / 195 / 210 €, sans montant libre), **validité 12 mois**, **envoi par e-mail** uniquement. Le modèle PDF porte désormais un champ « Nombre de joueurs » au lieu de « Valeur » (760 Ko). L’envoi du bon par e-mail passe par Mailjet et deux workflows « gift-voucher:booked »
-- [ ] **Annulation** : modification réglée à 48 h dans 4escape, comme sur le site ; aligner le délai d’annulation (72 h sur le site)
-- [ ] **Templates** facture, avoir, devis, reçu : informations légales
-- [ ] **CGV et confidentialité au paiement** : le widget affiche déjà une case « Je confirme avoir pris connaissance et accepté les CGV et la Politique de confidentialité » ; renseigner les textes ou liens (`/cgv.html`, `/confidentialite.html`) dans Admin → Société → Confidentialité (RGPD), une fois les pages légales finalisées
+- [x] **Annulation** (7 novembre) : pas de réglage d’annulation en libre-service dans 4escape ; selon les CGV (art. 13) l’annulation est une demande traitée par l’équipe, qui applique les 72 h. Modification réglée à 48 h dans 4escape, comme sur le site ; aligner le délai d’annulation (72 h sur le site)
+- [x] **Templates** facture, avoir, devis, reçu (6 novembre, pied de page avec le siège du registre) : informations légales
+- [x] **CGV et confidentialité au paiement** (liens FR / EN renseignés le 6 novembre) : le widget affiche déjà une case « Je confirme avoir pris connaissance et accepté les CGV et la Politique de confidentialité » ; renseigner les textes ou liens (`/cgv.html`, `/confidentialite.html`) dans Admin → Société → Confidentialité (RGPD), une fois les pages légales finalisées
 - [ ] **Logo** de la billetterie 4escape (il ne s’affiche pas sur memoria-experience.4escape.io)
 - [x] **Prix** vérifiés le 2 novembre : 147 / 172 / 195 / 210 € pour 3 à 6 joueurs, TVA 20 % incluse
 - Retour après paiement : pas de redirection possible vers une page du site (choix de 4escape, voir l’article « Tracking Widget ») ; le widget affiche sa propre confirmation. Le suivi des ventes passe par Google Tag Manager si besoin
@@ -106,11 +106,11 @@ C’est le client qui écrit à 4escape (décidé le 2 novembre). Aucun nouveau 
 
 - [x] **4escape Pay** actif (vérifié le 6 novembre) : paiement **Adyen en mode réel** (carte, Google Pay, Apple Pay). Le domaine `https://memoria-experience.fr` est autorisé par Adyen ; `www` et `http` ne le sont pas, mais le `.htaccess` les redirige déjà vers `https://memoria-experience.fr`. La préversion GitHub Pages et le poste local ne sont **pas** autorisés : le formulaire de carte ne s’y charge pas, c’est normal
 - [ ] **Test de bout en bout** (paiement réel, e-mail de confirmation Mailjet) : une vraie réservation payée par carte puis remboursée depuis l’admin, sur `https://memoria-experience.4escape.io` dès maintenant ou sur le site une fois en ligne
-- [ ] **Mailjet** : configuration annoncée pour le 6 novembre ; à vérifier lors du premier test de réservation (e-mail de confirmation reçu ?)
+- [x] **Mailjet** : configuration annoncée pour le 6 novembre (faite ; premier envoi réel au test du client) ; à vérifier lors du premier test de réservation (e-mail de confirmation reçu ?)
 - [ ] **Apple Pay** (demande de 4escape, 6 novembre) : fichier de vérification Adyen ajouté au site (`/.well-known/apple-developer-merchantid-domain-association`, servi en text/plain). Après le déploiement : vérifier qu’il s’affiche sur `https://memoria-experience.fr/.well-known/apple-developer-merchantid-domain-association`, puis prévenir 4escape pour qu’il ajoute le domaine dans les moyens de paiement
 - [ ] **Mise en ligne du 6 novembre sans choix du niveau d’intensité** : 4escape ne corrigera le widget que lundi. En attendant, les e-mails de confirmation, de rappel, de commande et de déplacement précisent que la session se joue au niveau Pensionnaire par défaut, et qu’il suffit d’appeler ou d’écrire pour en changer. Lundi, une fois le widget corrigé : remplacer l’encart par `emails/_intensite-choisie.mjml` (niveau choisi) dans ces 4 modèles
 - [x] **Mot de passe d’arrivée** (demande du client, 6 novembre) : encart « Le mot de passe : Memento Mori » dans les e-mails de confirmation, de commande, de rappel et de déplacement (se présenter 5 minutes avant le créneau et le donner au démonologue)
-- [ ] **Filigrane du module de réservation un peu flou** (remarque du 6 novembre, mis de côté) : l’emblème doré n’existe qu’en 400 px de large. Demander à Hugo une version vectorielle (SVG) ou en haute définition pour le rendre net
+- [x] **Filigrane du module de réservation un peu flou** (corrigé le 6 novembre : filigrane refait à partir de l’emblème HD de la maquette, `embleme-filigrane.webp`) (remarque du 6 novembre, mis de côté) : l’emblème doré n’existe qu’en 400 px de large. Demander à Hugo une version vectorielle (SVG) ou en haute définition pour le rendre net
 - [x] **E-mails Mailjet importés** (6 novembre) : 12 modèles publiés. ID : confirmation de réservation 8505227 · confirmation de commande 8505234 · rappel 8505237 · merci 8505240 · annulation 8505181 · déplacement 8505242 · interne nouvelle réservation 8505245 · bon cadeau 8505250 · relance panier 8505251 · facture 8505253 · devis 8505255 · demande de paiement 8505257
 - [x] **Workflows 4escape** pointés vers ces ID (6 novembre, + 2 workflows créés pour l’annulation et le déplacement ; rappel 1 jour avant) (Admin → Paramétrage → Workflows) : booking:booked → 8505227 · order:booked → 8505234 · booking:reminder → 8505237 · booking:thanks → 8505240 · booking:cancelled → 8505181 · booking:moved → 8505242 · booking:booked interne (contact@) → 8505245 · gift-voucher:booked → 8505250 (plus tard) · order:public-timeout → 8505251 · invoice:sended → 8505253 · order:sended → 8505255 · payment:link → 8505257
 - [ ] **Variation « Niveau d’intensité »** : créée sur la room le 6 novembre (référence `intensity`, id `6aeddd870cfd0f17b9a0cd39`, choix obligatoire), **mais toujours invisible** : le bloc « attributes » du widget « Room Session classique » (uuid `1c42f479-5ed5-49ed-85a4-3a156636b1ee`, inchangé depuis le 20 octobre) pointe vers l’attribut `658d4875b311715c1eb3e746`, qui n’existe pas sur la room → demander à 4escape de le remplacer par `6aeddd870cfd0f17b9a0cd39`. Dans l’admin : mettre **Pensionnaire par défaut** (actuellement Demi-pensionnaire, contraire à l’art. 8.4 des CGV) et saisir les noms anglais de la variation et des valeurs (vides). Historique : Créer ou renommer la variation dans l’admin ne suffit pas : avec les widgets, c’est l’équipe 4escape qui l’ajoute au widget (article d’aide « Afficher une variation sur un widget »). Test du 6 novembre : aucun choix d’intensité n’apparaît encore après la sélection du créneau Les widgets ne sont pas modifiables depuis l’admin (article d’aide « Mise en place des widgets ») : seule l’équipe 4escape peut corriger ce bloc. Niveau par défaut laissé tel quel pour la mise en ligne (décision du 6 novembre).
@@ -126,6 +126,9 @@ C’est le client qui écrit à 4escape (décidé le 2 novembre). Aucun nouveau 
   - widget « Room Session classique » : le bloc « attributes » pointe vers l’attribut `658d4875b311715c1eb3e746`, à remplacer par `6aeddd870cfd0f17b9a0cd39` (variation « intensity ») ; correction annoncée pour lundi
   - widget en anglais : le titre « CHOOSE A NUMBER OF PLAYER » est à corriger en « CHOOSE THE NUMBER OF PLAYERS » (traduction de 4escape, non modifiable dans l’admin)
   - logo de la billetterie : où l’ajouter pour qu’il s’affiche sur `memoria-experience.4escape.io` (pages ouvertes depuis le lien « Voir ma réservation » des e-mails) ? Introuvable dans Paramétrage et Personnalisation
+  - (7 novembre) **bons cadeaux à mettre en place par 4escape** : modèle PDF `maquette/4escape/bon-cadeau-memoria.pdf`, prix 3 à 6 joueurs (147 / 172 / 195 / 210 €), image, textes anglais, workflow `gift-voucher:booked` (modèle Mailjet 8505250), et indication de l’intégration sur la page Offrir
+  - (7 novembre) **paiement partagé** à activer (la FAQ l’annonce)
+  - (7 novembre) **réservations de dernière minute** : marge de sécurité « jour même » à régler selon le délai choisi par le client (60 min conseillées)
 - Historique du navigateur : deux entrées ajoutées à l’ouverture du widget (le bouton « Retour » demande trois clics pour quitter la page) ; gêne mineure, retirée du message du client le 2 novembre
 - Pages légales : plus de question à poser. `forescapeAnalytics` mémorise utm_source / utm_medium / gclid (lu dans le code du widget) ; plateforme et widgets hébergés chez OVHcloud à Gravelines (adresses IP) ; traceurs du paiement à relever nous-mêmes lors du premier paiement test
 - [ ] Optionnel : check-in en ligne (décharge signée) et « Manage your booking » : réservés à l’abonnement WEB PREMIUM d’après l’aide ; quel abonnement a le client ?
@@ -134,7 +137,7 @@ C’est le client qui écrit à 4escape (décidé le 2 novembre). Aucun nouveau 
 
 Les formulaires (contact, devis team building, pack personnalisé, presse) sont branchés sur un script PHP du site, hébergé chez OVH. Ils seront actifs dès la mise en ligne.
 
-- [ ] **Adresse de réception** : tout arrive sur contact@memoria-experience.fr. Faut-il une autre adresse pour la presse (presse@ est affichée sur la page Presse) ou pour les devis ?
+- [x] **Adresse de réception** (presse@ existe a priori côté client, 7 novembre ; urgent depuis la mise en ligne : `presse@memoria-experience.fr` est affichée sur la page Presse ; si elle n’existe pas dans Google Workspace, les messages reviennent en erreur → la créer comme alias de contact@, ou la remplacer par contact@ sur le site) : tout arrive sur contact@memoria-experience.fr. Faut-il une autre adresse pour la presse (presse@ est affichée sur la page Presse) ou pour les devis ?
 
 ## Authentification des e-mails du domaine (zone DNS OVH)
 
@@ -158,8 +161,8 @@ Dans l’espace OVH : Web Cloud → Noms de domaine → memoria-experience.fr �
 
 ## Hébergement et domaine OVH
 
-- [ ] **Accès FTP** (onglet « FTP - SSH » de l’hébergement) : noter serveur et identifiant, réinitialiser le mot de passe si besoin ; le conserver hors du dépôt
-- [ ] Onglet « Multisite » : `memoria-experience.fr` et `www.memoria-experience.fr` → dossier `www`, SSL actif (déjà le cas vu de l’extérieur)
+- [x] **Accès FTP** (site envoyé le 6 novembre) (onglet « FTP - SSH » de l’hébergement) : noter serveur et identifiant, réinitialiser le mot de passe si besoin ; le conserver hors du dépôt
+- [x] Onglet « Multisite » : `memoria-experience.fr` et `www.memoria-experience.fr` → dossier `www`, SSL actif (déjà le cas vu de l’extérieur)
 - [ ] Onglet « Scripts e-mail » : statut « Actif »
 - [ ] Nom de domaine : renouvellement automatique activé, date d’expiration vérifiée
 - [ ] **Après la mise en ligne** : un message de test depuis chaque formulaire, reçu dans Gmail

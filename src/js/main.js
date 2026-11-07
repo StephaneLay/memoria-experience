@@ -427,6 +427,13 @@
     majFormule();
   }
 
+  document.querySelectorAll('a[href*="#"]').forEach(function (lien) {
+    if (lien.pathname === window.location.pathname) return;
+    lien.addEventListener('click', function (evenement) {
+      evenement.stopPropagation();
+    });
+  });
+
   var modules4escape = document.querySelectorAll('.forescape-catalog, .forescape-cart');
   if (modules4escape.length) {
     var charger4escape = function () {
