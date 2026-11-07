@@ -2587,7 +2587,7 @@ html .forescape .f-btn-primary {
   .champ--large { grid-column: auto; }
 }
 
-.page-hero__video {
+.page-hero__media .page-hero__video {
   display: block;
   width: 100%;
   height: 100%;

@@ -380,12 +380,22 @@
     });
   });
 
-  if (reduireAnimations) {
-    document.querySelectorAll('[data-video-fond]').forEach(function (video) {
-      video.removeAttribute('autoplay');
-      video.pause();
-    });
-  }
+  document.querySelectorAll('[data-video-fond]').forEach(function (video) {
+    var afficherImage = function () {
+      var image = document.createElement('img');
+      image.className = video.className;
+      image.src = video.getAttribute('poster');
+      image.alt = '';
+      image.setAttribute('aria-hidden', 'true');
+      video.replaceWith(image);
+    };
+    if (reduireAnimations || !video.querySelector('source')) {
+      afficherImage();
+      return;
+    }
+    var lecture = video.play();
+    if (lecture && lecture.catch) lecture.catch(afficherImage);
+  });
 
   var bonCadeau = document.querySelector('[data-bon-cadeau]');
   if (bonCadeau) {
