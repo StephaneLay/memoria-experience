@@ -101,7 +101,7 @@ Check-list de mise en ligne et de référencement (la fiche Google Business Prof
 - [x] `siteUrl`, canonical, `hreflang`, `og:image`, `twitter:card`, JSON-LD, `apple-touch-icon`, manifeste, sitemap images, `llms.txt` (6 novembre)
 - [x] Titres et descriptions de chaque page réécrits avec les textes définitifs (6 novembre)
 - [x] HTTPS forcé et redirection 301 de `www.memoria-experience.fr` vers `memoria-experience.fr` (dans `src/racine/.htaccess` ; certificats Let’s Encrypt déjà actifs sur les deux adresses)
-- [ ] Après la mise en ligne : vérifier `https://memoria-experience.fr/robots.txt`, `/sitemap.xml`, `/site.webmanifest`, une 404 en FR et en `/en/`, la redirection de `/index.html`
+- [x] Mise en ligne le 6 novembre au soir, contrôlée le jour même : redirections (http, www, `/index.html`), 24 pages et 124 ressources en 200, JSON-LD valides, 404 FR / EN, Apple Pay, `robots.txt`, `sitemap.xml`, `llms.txt`, manifeste, compression et cache, aucune erreur dans le navigateur, widget chargé (IPv6 non testé)
 - [ ] Tester l’accueil, la FAQ et la page Contact dans le test des résultats enrichis de Google (search.google.com/test/rich-results) et le validateur schema.org
 - [ ] Déclarer le domaine dans Google Search Console (propriété de domaine, enregistrement TXT `google-site-verification` déjà présent dans la zone DNS OVH), soumettre `sitemap.xml`, demander l’indexation de l’accueil et des pages principales
 - [ ] Bing Webmaster Tools : importer depuis Search Console, soumettre le sitemap (Bing alimente aussi Copilot et ChatGPT Search)

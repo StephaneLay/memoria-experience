@@ -339,7 +339,7 @@
     "hero": {
       "surtitre": "Our services · Tailor-made pack",
       "titre": "An experience made for you",
-      "intro": "An unforgettable birthday, a marriage proposal that gives you chills, a corporate evening like no other: we adapt the Pensionnat de la Liberté to your event.",
+      "intro": "An unforgettable birthday, an unusual night out with friends, a marriage proposal that gives you chills, a corporate evening like no other: we adapt the Pensionnat de la Liberté to your event.",
       "bouton": "Create my experience",
       "lien": "See the occasions"
     },
@@ -682,7 +682,7 @@
     "experience": {
       "titre": "The experience",
       "q1": "What is Memoria?",
-      "r1": "<p>Memoria is an immersive horror experience in Lyon. For 90 minutes, you and your group enter the Pensionnat de la Liberté, abandoned since 1953, and live a disturbing story from the inside, surrounded by professional actors and sets recreated down to the smallest detail.</p>",
+      "r1": "<p>Memoria is an immersive horror experience in Lyon. For 90 minutes, you and your group enter the Pensionnat de la Liberté, abandoned since 1953, and live a disturbing story from the inside, surrounded by professional actors and sets recreated down to the smallest detail.</p><p>A night out with friends, a birthday or a team building like no other.</p>",
       "q2": "Is it an escape game?",
       "r2": "<p>No, Memoria is not a traditional escape game, although it borrows some of its codes, such as searching, observing and working together.</p><p>It is above all an immersive experience in which the story, the interactions with the actors and the events unfolding around you take centre stage.</p><p>Here, you are not simply trying to solve puzzles or get out of a room: you are plunged into a terrifying investigation, in the corridors of the Pensionnat de la Liberté.</p>",
       "q3": "How long does the experience last?",
@@ -745,7 +745,7 @@
       "q3": "Where is Memoria?",
       "r3": "<p>At 45 cours de la Liberté, Lyon. Find the map and our contact details in the <a href=\"index.html#infos\">practical information</a>.</p>",
       "q4": "How do I get there?",
-      "r4": "<p>Memoria is easy to reach by public transport and Vélo’v bike.</p><ul><li>Metro D: Guillotière</li><li>Metro B: Place Guichard</li><li>Tram T1: Liberté</li><li>Bus C9: Liberté</li><li>Vélo’v: 32 cours de la Liberté</li></ul><p>We recommend using public transport to get here.</p>",
+      "r4": "<p>Memoria is 10 minutes from Part-Dieu and easy to reach by public transport and Vélo’v bike.</p><ul><li>Metro D: Guillotière</li><li>Metro B: Place Guichard</li><li>Tram T1: Liberté</li><li>Bus C9: Liberté</li><li>Vélo’v: 32 cours de la Liberté</li></ul><p>We recommend using public transport to get here.</p>",
       "q5": "Where can I park?",
       "r5": "<p>There are several public car parks nearby. We still recommend public transport, which is more convenient in the city centre.</p>",
       "q6": "Is the venue accessible to people with disabilities?",
@@ -767,7 +767,7 @@
   "contact": {
     "meta": {
       "title": "Contact and access — Memoria, 45 cours de la Liberté, Lyon",
-      "description": "Contact Memoria on +33 6 65 71 87 07 or by email. 45 cours de la Liberté, Lyon 3rd: tram T1 Liberté, metro Guillotière. Open 7 days a week, 10 am to midnight."
+      "description": "Contact Memoria on +33 6 65 71 87 07 or by email. 45 cours de la Liberté, Lyon 3rd, 10 min from Part-Dieu (tram T1 Liberté). Open daily, 10 am to midnight."
     },
     "hero": {
       "surtitre": "Contact",
@@ -805,7 +805,7 @@
     },
     "venir": {
       "titre": "Getting to Memoria",
-      "intro": "The Pensionnat de la Liberté awaits you in the heart of Lyon.",
+      "intro": "The Pensionnat de la Liberté awaits you in the heart of Lyon, 10 minutes from Part-Dieu.",
       "itineraire": "Directions",
       "transportsTitre": "Public transport",
       "stationnementTitre": "Parking",

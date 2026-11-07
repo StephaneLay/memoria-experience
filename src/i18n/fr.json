@@ -339,7 +339,7 @@
     "hero": {
       "surtitre": "Nos services · Pack personnalisé",
       "titre": "Une expérience à votre mesure",
-      "intro": "Un anniversaire inoubliable, une demande en mariage qui donne des frissons, une soirée d’entreprise hors du commun : nous adaptons le Pensionnat de la Liberté à votre événement.",
+      "intro": "Un anniversaire inoubliable, une sortie entre amis pas comme les autres, une demande en mariage qui donne des frissons, une soirée d’entreprise hors du commun : nous adaptons le Pensionnat de la Liberté à votre événement.",
       "bouton": "Créer mon expérience",
       "lien": "Voir les occasions"
     },
@@ -682,7 +682,7 @@
     "experience": {
       "titre": "L’expérience",
       "q1": "Qu’est-ce que Memoria ?",
-      "r1": "<p>Memoria est une expérience immersive d’horreur à Lyon. Pendant 1h30, vous pénétrez avec votre groupe dans le Pensionnat de la Liberté, abandonné depuis 1953, et vivez de l’intérieur une histoire inquiétante, entourés de comédiens professionnels et de décors reconstitués dans leurs moindres détails.</p>",
+      "r1": "<p>Memoria est une expérience immersive d’horreur à Lyon. Pendant 1h30, vous pénétrez avec votre groupe dans le Pensionnat de la Liberté, abandonné depuis 1953, et vivez de l’intérieur une histoire inquiétante, entourés de comédiens professionnels et de décors reconstitués dans leurs moindres détails.</p><p>Une sortie entre amis, un anniversaire ou un team building qui ne ressemble à aucun autre.</p>",
       "q2": "Est-ce un escape game ?",
       "r2": "<p>Non, Memoria n’est pas un escape game traditionnel, bien qu’il en reprenne certains codes, comme la fouille, l’observation et la coopération.</p><p>Il s’agit avant tout d’une expérience immersive où l’histoire, les interactions avec les comédiens et les événements qui se déroulent autour de vous occupent une place centrale.</p><p>Ici, vous ne cherchez pas simplement à résoudre des énigmes ou à sortir d’une pièce : vous êtes plongés au cœur d’une enquête terrifiante, dans les couloirs du Pensionnat de la Liberté.</p>",
       "q3": "Combien de temps dure l’expérience ?",
@@ -745,7 +745,7 @@
       "q3": "Où se trouve Memoria ?",
       "r3": "<p>Au 45 cours de la Liberté, à Lyon. Retrouvez le plan et nos coordonnées dans les <a href=\"index.html#infos\">informations pratiques</a>.</p>",
       "q4": "Quels transports utiliser ?",
-      "r4": "<p>Memoria est accessible en transports en commun et en Vélo’v.</p><ul><li>Métro D : Guillotière</li><li>Métro B : Place Guichard</li><li>Tramway T1 : Liberté</li><li>Bus C9 : Liberté</li><li>Vélo’v : 32 cours de la Liberté</li></ul><p>Nous vous recommandons de privilégier les transports en commun pour rejoindre notre établissement.</p>",
+      "r4": "<p>Memoria se trouve à 10 minutes de la Part-Dieu, et est accessible en transports en commun et en Vélo’v.</p><ul><li>Métro D : Guillotière</li><li>Métro B : Place Guichard</li><li>Tramway T1 : Liberté</li><li>Bus C9 : Liberté</li><li>Vélo’v : 32 cours de la Liberté</li></ul><p>Nous vous recommandons de privilégier les transports en commun pour rejoindre notre établissement.</p>",
       "q5": "Où se garer ?",
       "r5": "<p>Plusieurs parkings publics se trouvent à proximité. Nous vous recommandons toutefois de privilégier les transports en commun, plus pratiques en centre-ville.</p>",
       "q6": "Le lieu est-il accessible aux personnes en situation de handicap ?",
@@ -767,7 +767,7 @@
   "contact": {
     "meta": {
       "title": "Contact et accès — Memoria, 45 cours de la Liberté à Lyon",
-      "description": "Contactez Memoria au 06 65 71 87 07 ou par e-mail. 45 cours de la Liberté, Lyon 3e : tram T1 Liberté, métro Guillotière. Ouvert 7 j/7 de 10 h à minuit."
+      "description": "Contactez Memoria au 06 65 71 87 07 ou par e-mail. 45 cours de la Liberté, Lyon 3e, à 10 min de la Part-Dieu (tram T1 Liberté). Ouvert 7 j/7, 10 h – minuit."
     },
     "hero": {
       "surtitre": "Contact",
@@ -805,7 +805,7 @@
     },
     "venir": {
       "titre": "Venir à Memoria",
-      "intro": "Le Pensionnat de la Liberté vous attend au cœur de Lyon.",
+      "intro": "Le Pensionnat de la Liberté vous attend au cœur de Lyon, à 10 minutes de la Part-Dieu.",
       "itineraire": "Itinéraire",
       "transportsTitre": "Transports en commun",
       "stationnementTitre": "Stationnement",
